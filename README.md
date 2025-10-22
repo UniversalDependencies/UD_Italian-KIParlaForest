@@ -1,16 +1,16 @@
 # Summary
 
-... 1-2 sentences (see [release checklist](http://universaldependencies.org/release_checklist.html#the-readme-file) for README guidelines) ...
+The KIParla Forest treebank is a treebank of spoken Italian based on the [KIParla Corpus](https://kiparla.it/)
+
+# Content
+
+The treebank (release 2.16) contains the conversations:
+
+* BOD2018: semistructured interview from the [KIP](https://github.com/KIParla/KIP) module. Two speakers discuss their homes and living situations. They compare life in Bologna to life in the countryside and smaller towns, and discuss student life compared to a more adult lifestyle.
+* BOA3017: free conversation from the [KIP](https://github.com/KIParla/KIP) module.
+Four friends chat over food. A core thread is one member’s internship, for which he is recording and will have to transcribe the same conversation. Around that, they make casual plans, discuss Easter chocolate eggs, tomorrow’s schedule, and swap gossip.
 
 
-# Introduction
-
-...
-
-
-# Acknowledgments
-
-...
 
 ## References
 
@@ -41,12 +41,10 @@ You are encouraged to cite this paper if you use the KIParla Forest treebank in 
 }
 ```
 
-
 # Changelog
 
 * 2025-11-15 v2.16
   * Initial release in Universal Dependencies.
-
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
