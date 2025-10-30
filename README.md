@@ -4,7 +4,7 @@ The KIParla Forest treebank is a treebank of spoken Italian based on the [KIParl
 
 # Content
 
-The treebank (release 2.16) contains the conversations:
+The treebank (release 2.17) contains the conversations:
 
 * BOD2018: semistructured interview from the [KIP](https://github.com/KIParla/KIP) module. Two speakers discuss their homes and living situations. They compare life in Bologna to life in the countryside and smaller towns, and discuss student life compared to a more adult lifestyle.
 * BOA3017: free conversation from the [KIP](https://github.com/KIParla/KIP) module.
@@ -43,12 +43,12 @@ You are encouraged to cite this paper if you use the KIParla Forest treebank in 
 
 # Changelog
 
-* 2025-11-15 v2.16
+* 2025-11-15 v2.17
   * Initial release in Universal Dependencies.
 
 <pre>
 === Machine-readable metadata (DO NOT REMOVE!) ================================
-Data available since: UD v2.16
+Data available since: UD v2.17
 License: CC BY-SA 4.0
 Includes text: yes
 Parallel: no
