@@ -72,7 +72,7 @@
 2	viviamo	vivere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=6-1|Prolonged=Yes
 3	in	in	ADP	_	_	5	case	_	KID=6-2|Prolonged=Yes
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=6-3
-5	po'	po'	ADJ	_	Number=Sing|PronType=Ind	2	obl	_	KID=6-4
+5	po'	po'	NOUN	_	Number=Sing|PronType=Ind	2	obl	_	KID=6-4
 6	di	di	ADP	_	_	7	case	_	KID=6-5
 7	famiglie	famiglia	NOUN	_	Gender=Fem|Number=Plur	5	nmod	_	Intonation=weakly_rising|KID=6-6
 8	che	che	PRON	_	PronType=Rel	13	nsubj	_	KID=6-7
@@ -944,23 +944,23 @@
 # jefferson_text = <oka:y> | e::hm quindi stai vicina al ce:ntro:: e: vai spesso in centro: o:: o resti più nella zona dove: dove abiti?
 # speaker_id = BO118
 # conversation_id = BOD2018
-1	okay	ok	INTJ	_	_	5	discourse	_	Begin=255.745|End=256.7|KID=65-0|PaceSlow=Yes|Prolonged=Yes
-2	ehm	ehm	INTJ	_	_	5	discourse	_	Begin=258.505|KID=66-0|Prolonged=Yes
-3	quindi	quindi	ADV	_	_	5	advmod	_	KID=66-1
-4	stai	stare	AUX	_	_	5	cop	_	KID=66-2
-5	vicina	vicino	ADV	_	Gender=Fem|Number=Sing	0	root	_	KID=66-3
+1	okay	ok	INTJ	_	_	4	discourse	_	Begin=255.745|End=256.7|KID=65-0|PaceSlow=Yes|Prolonged=Yes
+2	ehm	ehm	INTJ	_	_	4	discourse	_	Begin=258.505|KID=66-0|Prolonged=Yes
+3	quindi	quindi	ADV	_	_	4	advmod	_	KID=66-1
+4	stai	stare	AUX	_	_	0	root	_	KID=66-2
+5	vicina	vicino	ADV	_	Gender=Fem|Number=Sing	4	xcomp	_	KID=66-3
 6-7	al	_	_	_	_	_	_	_	KID=66-4
 6	a	a	ADP	_	_	8	case	_	KID=66-4a
 7	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	KID=66-4b
 8	centro	centro	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	KID=66-5|Prolonged=Yes
 9	e	e	CCONJ	_	_	10	cc	_	KID=66-6|Prolonged=Yes
-10	vai	andare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	5	conj	_	KID=66-7
+10	vai	andare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	4	conj	_	KID=66-7
 11	spesso	spesso	ADV	_	_	10	advmod	_	KID=66-8
 12	in	in	ADP	_	_	13	case	_	KID=66-9
 13	centro	centro	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	KID=66-10|Prolonged=Yes
 14	o	o	CCONJ	_	_	15	reparandum	_	KID=66-11|Prolonged=Yes
 15	o	o	CCONJ	_	_	16	cc	_	KID=66-12
-16	resti	restare	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	5	conj	_	KID=66-13
+16	resti	restare	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	KID=66-13
 17	più	più	ADV	_	_	20	advmod	_	KID=66-14
 18-19	nella	_	_	_	_	_	_	_	KID=66-15
 18	in	in	ADP	_	_	20	case	_	KID=66-15a
@@ -994,7 +994,7 @@
 17	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	18	expl	_	Clitic=Yes|KID=69-2
 18	sposti	spostare	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	advcl	_	KID=69-3
 19	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	20	det	_	KID=69-4
-20	po'	po'	ADJ	_	_	18	obl	_	KID=69-5
+20	po'	po'	NOUN	_	_	18	obl	_	KID=69-5
 21-22	dal	_	_	_	_	_	_	_	KID=69-6
 21	da	da	ADP	_	_	23	case	_	KID=69-6a
 22	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	23	det	_	KID=69-6b
@@ -1208,7 +1208,7 @@
 18	realtà	realtà	NOUN	_	Gender=Fem	22	obl	_	KID=81-17
 19	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	cop	_	KID=81-18
 20	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	21	det	_	KID=81-19
-21	po'	po'	ADJ	_	_	22	advmod	_	KID=81-20
+21	po'	po'	NOUN	_	_	22	obl	_	KID=81-20
 22	scomodo	scomodo	ADJ	_	Gender=Masc|Number=Sing	7	advcl	_	KID=81-21
 23-24	spostarsi	_	_	_	_	_	_	_	KID=81-22
 23	spostar	spostare	VERB	_	VerbForm=Inf	22	csubj	_	KID=81-22a
@@ -1320,7 +1320,7 @@
 6	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	7	nsubj	_	KID=86-2
 7	sto	stare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=86-3
 8	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	KID=86-4
-9	po'	po'	ADJ	_	_	10	advmod	_	KID=86-5
+9	po'	po'	NOUN	_	_	10	nmod	_	KID=86-5
 10	fuori	fuori	ADV	_	_	7	advmod	_	KID=86-6
 11-12	dal	_	_	_	_	_	_	_	KID=86-7
 11	da	da	ADP	_	_	13	case	_	KID=86-7a
@@ -2626,7 +2626,7 @@
 12	si	si	PRON	_	Person=3|PronType=Prs	13	expl:impers	_	Clitic=Yes|KID=172-11
 13	ha	avere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	KID=172-12|Prolonged=Yes
 14	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	15	det	_	KID=172-13
-15	po'	po'	ADJ	_	_	13	advmod	_	KID=172-14
+15	po'	po'	NOUN	_	_	13	obl	_	KID=172-14
 16	con	con	ADP	_	_	18	case	_	KID=172-15
 17	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	18	det	_	KID=172-16
 18	crescita	crescita	NOUN	_	Gender=Fem|Number=Sing	13	obl	_	KID=172-17|Prolonged=Yes
@@ -2668,12 +2668,12 @@
 3	poi	poi	ADV	_	_	6	advmod	_	KID=174-2
 4	sarà	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Fut|VerbForm=Fin	6	cop	_	KID=174-3
 5	di	di	ADP	_	_	6	case	_	KID=174-4
-6	fa~	fa~	X	_	_	11	reparandum	_	Interrupted=Yes|KID=174-5
+6	fa~	fa~	X	_	_	8	reparandum	_	Interrupted=Yes|KID=174-5
 7	cioè	cioè	CCONJ	_	_	11	discourse	_	KID=174-6|Prolonged=Yes
-8	sta	stare	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	KID=174-7
-9	anche	anche	ADV	_	_	11	advmod	_	KID=174-8
+8	sta	stare	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=174-7
+9	anche	anche	ADV	_	_	8	advmod	_	KID=174-8
 10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=174-9
-11	fatto	fatto	NOUN	_	Gender=Masc|Number=Sing	0	root	_	KID=174-10
+11	fatto	fatto	NOUN	_	Gender=Masc|Number=Sing	8	nsubj	_	KID=174-10
 12	che	che	SCONJ	_	_	25	mark	_	KID=174-11
 13	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	KID=174-12
 14	mia	mio	ADJ	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	15	reparandum	_	KID=174-13|Prolonged=Yes
@@ -3212,7 +3212,7 @@
 2	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	9	nsubj	_	KID=207-6
 3	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	KID=207-7
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=207-8
-5	po'	po'	ADJ	_	_	9	advmod	_	KID=207-9|Prolonged=Yes
+5	po'	po'	NOUN	_	_	9	obl	_	KID=207-9|Prolonged=Yes
 6	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	KID=207-10
 7	centro	centro	NOUN	_	Gender=Masc|Number=Sing	9	reparandum	_	KID=207-11|Prolonged=Yes
 8	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	KID=207-12
@@ -3957,7 +3957,7 @@
 9	se	se	SCONJ	_	_	10	mark	_	KID=258-8
 10	vuole	volere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	27	advcl	_	KID=258-9
 11	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=258-10
-12	po'	po'	ADJ	_	_	10	advmod	_	KID=258-11|Prolonged=Yes
+12	po'	po'	NOUN	_	_	10	obl	_	KID=258-11|Prolonged=Yes
 13	cioè	cioè	CCONJ	_	_	19	cc	_	KID=258-12
 14	se	se	SCONJ	_	_	19	mark	_	KID=258-13|Prolonged=Yes
 15	mh	mh	INTJ	_	_	19	discourse	_	KID=258-14|Prolonged=Yes
@@ -4028,7 +4028,7 @@
 10	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=262-9
 11	centro	centro	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	KID=262-10
 12	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=262-11
-13	po'	po'	ADJ	_	_	14	advmod	_	KID=262-12
+13	po'	po'	NOUN	_	_	14	nmod	_	KID=262-12
 14	più	più	ADV	_	_	15	advmod	_	KID=262-13
 15	grande	grande	ADJ	_	_	11	amod	_	End=1021.01|KID=262-14
 16	però	però	CCONJ	_	_	19	cc	_	Begin=1021.408|KID=263-0
@@ -4904,7 +4904,7 @@
 8	a	a	ADP	_	_	9	mark	_	KID=312-7
 9	fa'	fare	VERB	_	_	7	xcomp	_	KID=312-8|Truncated=Yes
 10	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=312-9
-11	po'	po'	ADV	_	_	9	advmod	_	KID=312-10
+11	po'	po'	NOUN	_	_	9	obl	_	KID=312-10
 12	'sto	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	13	det	_	KID=312-11|Truncated=Yes
 13	lavoro	lavoro	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	End=1249.39|Intonation=falling|KID=312-12
 
@@ -5048,7 +5048,7 @@
 3	ti	ti	PRON	_	Number=Sing|Person=2|PronType=Prs	4	iobj	_	Clitic=Yes|KID=319-2
 4	passa	passare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=319-3
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=319-4
-6	po'	po'	ADJ	_	_	4	advmod	_	KID=319-5
+6	po'	po'	NOUN	_	_	4	obl	_	KID=319-5
 7	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	KID=319-6
 8	voglia	volere	NOUN	_	Gender=Fem|Number=Sing	4	obj	_	KID=319-7
 9	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	discourse	_	KID=319-8
@@ -5444,7 +5444,7 @@
 4	che	che	SCONJ	_	_	14	mark	_	KID=351-3
 5	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	KID=351-4
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	KID=351-5
-7	po'	po'	ADJ	_	_	14	advmod	_	KID=351-6
+7	po'	po'	NOUN	_	_	14	obl	_	KID=351-6
 8	la	la	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	reparandum	_	KID=351-7|OverlappingGroup=67|Prolonged=Yes
 9	la	la	DET	_	Gender=Fem|Number=Sing|PronType=Art	8	parataxis	_	Clitic=Yes|KID=351-8|OverlappingGroup=67
 10	cioè	cioè	CCONJ	_	_	11	cc	_	KID=351-9|OverlappingGroup=67
@@ -6412,7 +6412,7 @@
 11	là	là	ADV	_	_	7	dislocated	_	KID=414-10
 12	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	cop	_	KID=414-11
 13	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	14	det	_	KID=414-12
-14	po'	poco	ADV	_	_	16	advmod	_	KID=414-13|Prolonged=Yes
+14	po'	poco	NOUN	_	_	16	obl	_	KID=414-13|Prolonged=Yes
 15	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=414-14
 16	mortorio	mortorio	NOUN	_	Gender=Masc|Number=Sing	4	parataxis	_	End=1581.82|Intonation=falling|KID=414-15
 
@@ -6730,7 +6730,7 @@
 3	quella	quello	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	8	nsubj	_	KID=433-2
 4	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	KID=433-3
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=433-4
-6	po'	poco	ADV	_	_	8	advmod	_	KID=433-5
+6	po'	po'	NOUN	_	_	8	obl	_	KID=433-5
 7	più	più	ADV	_	_	8	advmod	_	KID=433-6
 8	particolare	particolare	ADJ	_	Number=Sing	0	root	_	KID=433-7
 9	rispetto	rispetto	ADV	_	ExtPos=ADP	14	case	_	KID=433-8
