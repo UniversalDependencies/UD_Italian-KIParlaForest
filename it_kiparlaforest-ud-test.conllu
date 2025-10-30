@@ -8640,6 +8640,7 @@
 2	c'	ci	PRON	_	Number=Plur|Person=1|PronType=Prs	3	expl	_	Clitic=Yes|KID=1172-1|OverlappingGroup=204|SpaceAfter=No
 3	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=1172-2|OverlappingGroup=204
 4	materiale	materiale	NOUN	_	Gender=Masc|Number=Sing	3	nsubj	_	End=1822.003|KID=1172-3|OverlappingGroup=204
+
 # sent_id = BOD2018_0_1
 # text = dovresti parlarmi della tua casa attuale
 # jefferson_text = dovresti parlarmi della tua casa. | attuale.
