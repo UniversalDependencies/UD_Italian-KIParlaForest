@@ -1,0 +1,51 @@
+Running the following version of UD tools:
+commit 26e6c87a2f518322d15901a351199b6be6569062
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Fri Nov 7 15:39:58 2025 +0100
+Evaluating the following revision of UD_Italian-KIParlaForest:
+commit 78ae730aa94bcce2e014bbf68459602e2ee88ada
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 15:08:59 2025 +0100
+CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
+Language-treebank code (from CoNLL-U file name) = 'it_kiparlaforest'
+Language code (from CoNLL-U file name) = 'it'
+Found the following data files: it_kiparlaforest-ud-test.conllu
+Size: counted 9348 of 9348 words (nodes).
+Size: min(0, log((N/1000)**2)) = 4.47032483335322.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Did not find at least 10000 development words.
+Split: Did not find at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 15 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 5589 out of 9348 total words have one or more features.
+Features: source of annotation (from README) factor is 0.5.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-KIParlaForest/it_kiparlaforest-ud-test.conllu
+[Line 290 Sent BOA3017_41_43]: [L3 Warning pron-det-without-prontype] The word 'ce' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 291 Sent BOA3017_41_43]: [L3 Warning pron-det-without-prontype] The word 'l'' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 335 Sent BOA3017_46]: [L3 Warning fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
+[Line 1104 Sent BOA3017_139_140_141]: [L3 Warning fixed-without-extpos] Fixed expression 'in il senso che' does not have the 'ExtPos' feature
+[Line 2174 Sent BOA3017_276]: [L3 Warning fixed-without-extpos] Fixed expression 'a parte che' does not have the 'ExtPos' feature
+[Line 3025 Sent BOA3017_405]: [L3 Warning pron-det-without-prontype] The word 'u' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3609 Sent BOA3017_488]: [L3 Warning fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
+[Line 3669 Sent BOA3017_496_498]: [L3 Warning pron-det-without-prontype] The word 'quanto' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4532 Sent BOA3017_620_622]: [L2 Warning empty-misc] Empty attribute in MISC; possible misinterpreted vertical bar?
+[Line 5235 Sent BOA3017_691]: [L3 Warning fixed-without-extpos] Fixed expression 'solo che' does not have the 'ExtPos' feature
+...suppressing further errors regarding Warning
+Warnings: 20
+*** PASSED ***
+Validity: 1
+(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
+(weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
+(weight=0.37037037037037) * (score{size}=0.323572901240063) = 0.119841815274097
+(weight=0.0740740740740741) * (score{split}=0.01) = 0.000740740740740741
+(weight=0.111111111111111) * (score{tags}=0.882352941176471) = 0.0980392156862745
+(weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
+(TOTAL score=0.490560376973051) * (availability=1) * (validity=1) = 0.490560376973051
+STARS = 2.5
+UD_Italian-KIParlaForest	0.490560376973051	2.5
