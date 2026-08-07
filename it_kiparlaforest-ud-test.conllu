@@ -17562,10 +17562,10 @@
 14	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	16	reparandum	_	Clitic=Yes|KID=39-11
 15	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	reparandum	_	KID=39-12|Prolonged=Yes
 16	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	17	iobj	_	Clitic=Yes|KID=39-13
-17	occupo	occupo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	KID=39-14
+17	occupo	occupare	VERB	_	Gender=Masc|Number=Sing	0	root	_	KID=39-14
 18-19	della	_	_	_	_	_	_	_	End=95.961|Intonation=WeaklyRising|KID=39-15|OverlappingGroup=22
-18	di	di	ADP	_	_	19	case	_	KID=39-15a
-19	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	nmod	_	KID=39-15b|Promotion=det|Scrap=yes
+18	di	di	ADP	_	_	19	case	_	Head=Position|KID=39-15a
+19	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	obl	_	KID=39-15b|Promotion=det|Scrap=yes
 
 # sent_id = BOA1009_40
 # text = certo
@@ -17604,7 +17604,7 @@
 # jefferson_text = [le lingue:]
 # speaker_id = BO026
 1	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	Begin=96.938|KID=42-0|OverlappingGroup=19
-2	lingue	lingua	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Coconstruct=nmod::BOA1009_39::19|End=97.961|KID=42-1|OverlappingGroup=19|Prolonged=Yes
+2	lingue	lingua	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Coconstruct=obl::BOA1009_39::17|End=97.961|KID=42-1|OverlappingGroup=19|Prolonged=Yes
 
 # sent_id = BOA1009_43_44
 # text = mh eh mh
@@ -18384,7 +18384,7 @@
 1-2	sulla	_	_	_	_	_	_	_	Begin=254.131|KID=106-0|Volume=low
 1	su	su	ADP	_	_	3	case	_	KID=106-0a
 2	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	KID=106-0b
-3	sordità	sordità	NOUN	_	Gender=Fem	0	root	_	Coconstruct=obl::BOA1009_101_104_105::41|End=254.904|Intonation=WeaklyRising|KID=106-1|Volume=low
+3	sordità	sordità	NOUN	_	Gender=Fem	0	root	_	Coconstruct=obl::BOA1009_101_104_105::31|End=254.904|Intonation=WeaklyRising|KID=106-1|Volume=low
 
 # sent_id = BOA1009_107
 # text = sulla verifica delle competenze linguistiche per gli studenti con delle disabilità
