@@ -19028,8 +19028,8 @@
 18	segni	segno	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	KID=154-15|OverlappingGroup=81
 19	da	da	ADP	_	_	20	case	_	KID=154-16
 20	x	x	SYM	_	_	18	dep	_	KID=154-17|OverlappingGroup=82
-21	e	e	CCONJ	_	_	23	cc	_	KID=154-18|OverlappingGroup=82
-22	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	End=389.531|KID=154-19|OverlappingGroup=82|Prolonged=Yes
+21	e	e	CCONJ	_	_	22	cc	_	KID=154-18|OverlappingGroup=82
+22	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	16	conj	_	End=389.531|KID=154-19|OverlappingGroup=82|Prolonged=Yes
 
 # sent_id = BOA1009_155
 # text = sì
@@ -19098,11 +19098,11 @@
 # text = sì
 # jefferson_text = [sì].
 # speaker_id = BO037
-1	sì	sì	ADV	_	_	4	advmod	_	Backchannel=BOA1009_159::4|Begin=401.938|End=402.408|Intonation=Falling|KID=160-0|OverlappingGroup=84
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_159::4|Begin=401.938|End=402.408|Intonation=Falling|KID=160-0|OverlappingGroup=84
 
 # sent_id = BOA1009_161
-# text = sì sì sì rossi
-# jefferson_text = [sì]. | °sì sì rossi.°
+# text = sì sì rossi
+# jefferson_text =  °sì sì rossi.°
 # speaker_id = BO037
 1	sì	sì	ADV	_	_	0	root	_	Begin=402.881|KID=161-0|Volume=low
 2	sì	sì	ADV	_	_	1	conj	_	KID=161-1|Volume=low
