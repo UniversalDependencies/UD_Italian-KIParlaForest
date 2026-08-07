@@ -7219,7 +7219,7 @@
 # speaker_id = BO146
 # conversation_id = BOA3017
 1	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	2	det	_	Begin=51.927|KID=39-0|OverlappingGroup=4
-2	lasagne	lasagna	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Coconstruct=conj::BOA3017_38::12|End=52.887|KID=39-1|OverlappingGroup=4
+2	lasagne	lasagna	NOUN	_	Gender=Fem|Number=Plur	0	root	_	Coconstruct=conj::BOA3017_38::15|End=52.887|KID=39-1|OverlappingGroup=4
 
 # sent_id = BOA3017_40
 # text = ah
@@ -7351,7 +7351,7 @@
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	2	expl	_	Begin=73.328|Clitic=Yes|KID=54-0
-2	sa	sapere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=conj::BOA3017_53::7|KID=54-1
+2	sa	sapere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=54-1
 3	che	che	SCONJ	_	_	4	mark	_	KID=54-2
 4	costa	costare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	ccomp	_	End=74.108|KID=54-3
 
@@ -7416,7 +7416,7 @@
 # conversation_id = BOA3017
 1	sì	sì	INTJ	_	_	3	discourse	_	Backchannel=BOA3017_60::4|Begin=84.404|KID=61-0
 2	ma	ma	CCONJ	_	_	3	discourse	_	KID=61-1
-3	roba	roba	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Coconstruct=conj::BOA3017_57_59::10|KID=61-2
+3	roba	roba	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Coconstruct=conj::BOA3017_57_59::18|KID=61-2
 4	da	da	ADP	_	_	5	case	_	KID=61-3
 5	banco	banco	NOUN	_	Gender=Masc|Number=Sing	3	nmod	_	End=85.704|KID=61-4
 
@@ -7599,7 +7599,7 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	mh	mh	INTJ	_	_	2	discourse	_	Begin=129.497|End=130.017|KID=86-0
-2	quel	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Begin=130.472|Coconstruct=conj:reform::BOA3017_85::5|KID=87-0
+2	quel	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	0	root	_	Begin=130.472|Coconstruct=conj:reform::BOA3017_85::2|KID=87-0
 3	che	che	PRON	_	PronType=Rel	4	nsubj	_	KID=87-1
 4	capita	capitare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	End=131.512|KID=87-2
 
@@ -7773,7 +7773,7 @@
 13	audio	audio	NOUN	_	Gender=Fem	10	obj	_	KID=109-4
 14	poi	poi	ADV	_	_	15	advmod	_	KID=109-5
 15	vede	vedere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	conj	_	KID=109-6
-16	se	se	SCONJ	_	_	15	advcl	_	End=166.752|KID=109-7
+16	se	se	SCONJ	_	_	15	advcl	_	End=166.752|KID=109-7|Scrap=Yes
 
 # sent_id = BOA3017_108
 # text = sì
@@ -7789,7 +7789,7 @@
 # conversation_id = BOA3017
 1	sì	sì	ADV	_	_	3	discourse	_	Begin=167.12|KID=110-0
 2	cioè	cioè	CCONJ	_	_	3	discourse	_	KID=110-1|PaceFast=Yes
-3	guarda	guardare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=conj:reform::BOA3017_107_109::16|KID=110-2
+3	guarda	guardare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=conj:reform::BOA3017_107_109::15|KID=110-2
 4	in	in	ADP	_	_	6	case	_	KID=110-3
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=110-4
 6	software	software	NOUN	_	Gender=Masc	3	obl	_	End=168.68|KID=110-5
@@ -8479,7 +8479,7 @@
 # conversation_id = BOA3017
 1	teorica~	teorica~	X	_	_	2	dep	_	Begin=313.485|Interrupted=Yes|KID=188-0
 2	maggio	maggio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Intonation=Rising|KID=188-1
-3	penso	pensare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	Coconstruct=conj:reform::BOA3017_187::5|KID=188-2
+3	penso	pensare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	Coconstruct=conj:reform::BOA3017_187::2|KID=188-2
 4	fine	fine	NOUN	_	Gender=Fem|Number=Sing	7	reparandum	_	Begin=316.767|KID=190-0
 5	fine	fine	NOUN	_	Gender=Fem|Number=Sing	7	reparandum	_	End=317.277|KID=190-1
 6	insomma	insomma	ADV	_	_	8	advmod	_	Begin=317.497|KID=191-0|PaceFast=Yes|Volume=Low
@@ -8584,7 +8584,7 @@
 # speaker_id = BO147
 # conversation_id = BOA3017
 1	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	2	obj	_	Begin=338.277|Clitic=Yes|KID=206-0
-2	dico	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=conj:reform::BOA3017_202::4|KID=206-1
+2	dico	dire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=206-1
 3	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	2	nsubj	_	End=339.117|KID=206-2
 
 # sent_id = BOA3017_207
@@ -8605,7 +8605,7 @@
 # conversation_id = BOA3017
 1	non	non	ADV	_	PronType=Neg	3	advmod	_	Begin=343.952|KID=208-0
 2	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	KID=208-1
-3	detto	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Coconstruct=conj:reform::BOA3017_207::5|KID=208-2
+3	detto	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=208-2
 4	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	obj	_	End=344.942|KID=208-3
 
 # sent_id = BOA3017_210
@@ -8746,7 +8746,7 @@
 # jefferson_text = sedia
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Begin=369.297|Coconstruct=conj:reform::BOA3017_225::8|End=369.847|KID=226-0
+1	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Begin=369.297|Coconstruct=conj:reform::BOA3017_225::3|End=369.847|KID=226-0
 
 # sent_id = BOA3017_227_230
 # text = la sedia la sedia gi~ mh girevole quindi
@@ -8754,9 +8754,9 @@
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Begin=370.027|KID=227-0|Modality=Laughing
-2	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	4	reparandum	_	Coconstruct=conj:reform::BOA3017_225::8|End=371.477|KID=227-1|Modality=Laughing
+2	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	4	reparandum	_	End=371.477|KID=227-1|Modality=Laughing
 3	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	Begin=371.517|KID=230-0
-4	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=230-1
+4	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Coconstruct=conj:reform::BOA3017_225::8|KID=230-1
 5	gi~	gi~	X	_	_	7	reparandum	_	Interrupted=Yes|KID=230-2
 6	mh	mh	INTJ	_	_	7	discourse	_	KID=230-3|PauseAfter=Yes
 7	girevole	girevole	ADJ	_	Number=Sing	4	amod	_	KID=230-5|OverlappingGroup=33
@@ -8771,7 +8771,7 @@
 2	no	no	INTJ	_	_	5	discourse	_	KID=231-1|OverlappingGroup=33
 3	eh	eh	INTJ	_	_	5	discourse	_	KID=231-2|OverlappingGroup=33
 4	sì	sì	INTJ	_	_	5	discourse	_	KID=231-3|OverlappingGroup=33
-5	quella	quello	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	Coconstruct=parataxis::BOA3017_227_230::4|KID=231-4|OverlappingGroup=33
+5	quella	quello	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	0	root	_	Coconstruct=conj:reform::BOA3017_227_230::4|KID=231-4|OverlappingGroup=33
 6	da	da	ADP	_	_	7	case	_	KID=231-5|OverlappingGroup=33
 7	studio	studio	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	End=374.727|KID=231-6|OverlappingGroup=33
 
@@ -8875,7 +8875,7 @@
 # jefferson_text = [xxen]to
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	xento	xento	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Begin=399.186|Coconstruct=conj::BOA3017_250_253_254::16|End=399.796|KID=252-0|OverlappingGroup=35|Unintelligible=Yes
+1	xento	xento	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Begin=399.186|Coconstruct=conj::BOA3017_250_253_254::17|End=399.796|KID=252-0|OverlappingGroup=35|Unintelligible=Yes
 
 # sent_id = BOA3017_255
 # text = ah ma non per quello
@@ -9284,7 +9284,7 @@
 # jefferson_text = eh?
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	eh	eh	INTJ	_	_	0	root	_	Begin=458.179|Coconstruct=conj::BOA3017_297_298::9|End=458.729|Intonation=Rising|KID=299-0
+1	eh	eh	INTJ	_	_	0	root	_	Begin=458.179|End=458.729|Intonation=Rising|KID=299-0
 
 # sent_id = BOA3017_305
 # text = facciamo pubblicità occulta antichi sapori fa la carne buonissima
@@ -10919,7 +10919,7 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	non	non	ADV	_	PronType=Neg	2	advmod	_	Begin=775.948|KID=533-0|OverlappingGroup=93
-2	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=repair::BOA3017_532::19|KID=533::1|OverlappingGroup=93
+2	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=repair::BOA3017_532::11|KID=533::1|OverlappingGroup=93
 3	che	che	SCONJ	_	_	2	ccomp	_	End=776.788|KID=533-2
 
 # sent_id = BOA3017_535
@@ -11069,7 +11069,7 @@
 # jefferson_text = tedesca @nomeluogo ((ride))
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	tedesca	tedesca	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Begin=833.873|Coconstruct=conj:reform::BOA3017_572::6|KID=573-0
+1	tedesca	tedesca	ADJ	_	Gender=Fem|Number=Sing	0	root	_	Begin=833.873|Coconstruct=conj:reform::BOA3017_572::4|KID=573-0
 2	[PLACE_NAME]	@nomeluogo	PROPN	_	_	1	nsubj	_	Anonymized=Yes|End=834.63|KID=573-1
 
 # sent_id = BOA3017_574
@@ -11195,7 +11195,7 @@
 # conversation_id = BOA3017
 1	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	cop	_	Begin=868.63|KID=594-0
 2	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	3	det	_	KID=594-1
-3	brano	brano	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Coconstruct=conj:reform::BOA3017_592::1|KID=594-2
+3	brano	brano	NOUN	_	Gender=Masc|Number=Sing	0	root	_	KID=594-2
 4	che	che	PRON	_	PronType=Rel	7	obj	_	KID=594-3
 5	non	non	ADV	_	PronType=Neg	7	advmod	_	KID=594-4
 6	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	expl	_	Clitic=Yes|KID=594-5
@@ -11309,7 +11309,7 @@
 4	gli	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	KID=605-1
 5	anni	anno	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	End=897.3|KID=605-2
 6	mi	mi	PRON	_	Number=Sing|Person=1|PronType=Prs	7	iobj	_	Begin=897.445|Clitic=Yes|KID=606-0
-7	fa	fare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=conj:reform::BOA3017_603::3|KID=606-1
+7	fa	fare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Coconstruct=conj:reform::BOA3017_603::1|KID=606-1
 8	almeno	almeno	ADV	_	_	10	advmod	_	KID=606-2
 9	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=606-3
 10	uovo	uovo	NOUN	_	Gender=Masc|Number=Sing	7	obj	_	KID=606-4
