@@ -16540,8 +16540,8 @@
 1	e	e	CCONJ	_	_	4	discourse	_	Begin=28.758|KID=19-0|OverlappingGroup=9|Prolonged=Yes
 2	a	a	ADP	_	Gender=Fem|Number=Sing	4	case	_	KID=19-1a
 3	la	il	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	KID=19-1a
-4	ca'	Ca'	PROPN	_	_	0	root	_	KID=19-1
-5	foscari	Foscari	PROPN	_	_	4	flat:name	_	Coconstruct=conj:reform::BOA1003_17::1|Intonation=WeaklyRising|KID=19-2
+4	ca'	Ca'	PROPN	_	_	0	root	_	Coconstruct=conj:reform::BOA1003_17::1|KID=19-1
+5	foscari	Foscari	PROPN	_	_	4	flat:name	_	Intonation=WeaklyRising|KID=19-2
 6	c'	ci	PRON	_	PronType=Prs	7	expl	_	Clitic=Yes|KID=19-3|SpaceAfter=No
 7	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	KID=19-4
 8	anche	anche	ADV	_	_	11	advmod	_	KID=19-5
