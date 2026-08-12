@@ -10455,7 +10455,7 @@
 # jefferson_text = xxxxx mh?
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	x	x	X	_	_	1	dep	_	Begin=700.917|KID=477-0|Syllables=5|Unintelligible=Yes
+1	x	x	X	_	_	2	dep	_	Begin=700.917|KID=477-0|Syllables=5|Unintelligible=Yes
 2	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_471_473_475_478::11|End=702.157|Intonation=Rising|KID=477-1
 
 # sent_id = BOA3017_479
