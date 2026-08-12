@@ -15084,7 +15084,7 @@
 # jefferson_text = xx sì
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	x	x	X	_	_	1	dep	_	Begin=1730.252|KID=1109-0|Syllables=2|Unintelligible=Yes
+1	x	x	X	_	_	2	dep	_	Begin=1730.252|KID=1109-0|Syllables=2|Unintelligible=Yes
 2	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA3017_1106_1108_1110::16|End=1730.91|KID=1109-1
 
 # sent_id = BOA3017_1111_1112_1113
