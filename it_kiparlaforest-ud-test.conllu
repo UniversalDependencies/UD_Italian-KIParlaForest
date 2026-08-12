@@ -19,8 +19,8 @@
 # jefferson_text = mh sì
 # speaker_id = BO140
 # conversation_id = BOD2018
-1	mh	mh	INTJ	_	_	0	root	_	Begin=4.9|KID=2-0
-2	sì	sì	ADV	_	_	1	parataxis	_	Backchannel=BOD2018_0_1::6|End=5.94|KID=2-1
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOD2018_0_1::6|Begin=4.9|KID=2-0
+2	sì	sì	ADV	_	_	1	conj	_	End=5.94|KID=2-1
 
 # sent_id = BOD2018_3a
 # text = com'è fatta la tua casa
@@ -2075,8 +2075,8 @@
 # jefferson_text = [sì] (.) penso di sì.
 # speaker_id = BO118
 # conversation_id = BOD2018
-1	sì	sì	ADV	_	_	2	discourse	_	Backchannel=BOD2018_138_139::25|Begin=539.63|KID=140-0|OverlappingGroup=23|PauseAfter=Yes
-2	penso	pensare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=140-2
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOD2018_138_139::25|Begin=539.63|KID=140-0|OverlappingGroup=23|PauseAfter=Yes
+2	penso	pensare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	KID=140-2
 3	di	di	ADP	_	_	4	case	_	KID=140-3
 4	sì	sì	ADV	_	_	2	advmod	_	End=540.78|Intonation=Falling|KID=140-4
 
@@ -2789,7 +2789,7 @@
 # jefferson_text = [sì che be:]lla l'univer[sità] tutti insie[me]
 # speaker_id = BO118
 # conversation_id = BOD2018
-1	sì	sì	ADV	_	_	3	discourse	_	Backchannel=BOD2018_180::3|Begin=740.18|KID=181-0|OverlappingGroup=26
+1	sì	sì	ADV	_	_	3	discourse	_	Begin=740.18|KID=181-0|OverlappingGroup=26
 2	che	che	DET	_	PronType=Exc	3	det	_	KID=181-1|OverlappingGroup=26
 3	bella	bello	ADJ	_	Gender=Fem|Number=Sing	0	root	_	KID=181-2|OverlappingGroup=26|Prolonged=Yes
 4	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	5	det	_	KID=181-3|SpaceAfter=No
@@ -3191,11 +3191,11 @@
 # speaker_id = BO140
 # conversation_id = BOD2018
 1	certo	certo	ADJ	_	_	0	root	_	Backchannel=BOD2018_205::4|Begin=818.89|End=819.654|KID=206-0|OverlappingGroup=34|Prolonged=Yes
-2	sì	sì	ADV	_	_	1	parataxis	_	Backchannel=BOD2018_205::16|Begin=821.49|KID=207-0|ProsodicLink=Yes
-3	sì	sì	ADV	_	_	1	parataxis	_	KID=207-1|ProsodicLink=Yes
-4	sì	sì	ADV	_	_	1	parataxis	_	KID=207-2|ProsodicLink=Yes
-5	sì	sì	ADV	_	_	1	parataxis	_	KID=207-3
-6	assolutamente	assolutamente	ADV	_	_	1	parataxis	_	KID=207-4
+2	sì	sì	ADV	_	_	1	conj	_	Begin=821.49|KID=207-0|ProsodicLink=Yes
+3	sì	sì	ADV	_	_	1	conj	_	KID=207-1|ProsodicLink=Yes
+4	sì	sì	ADV	_	_	1	conj	_	KID=207-2|ProsodicLink=Yes
+5	sì	sì	ADV	_	_	1	conj	_	KID=207-3
+6	assolutamente	assolutamente	ADV	_	_	1	conj	_	KID=207-4
 
 # sent_id = BOD2018_207b
 # text = vabbè quello è un po' il centro il centro di tutte le città
@@ -3567,8 +3567,8 @@
 # jefferson_text = [sì esatto].
 # speaker_id = BO118
 # conversation_id = BOD2018
-1	sì	sì	ADV	_	_	2	discourse	_	Backchannel=BOD2018_233::1|Begin=903.06|KID=234-0|OverlappingGroup=44
-2	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	End=903.9|Intonation=Falling|KID=234-1|OverlappingGroup=44
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOD2018_233::1|Begin=903.06|KID=234-0|OverlappingGroup=44
+2	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	End=903.9|Intonation=Falling|KID=234-1|OverlappingGroup=44
 
 # sent_id = BOD2018_235
 # text = sì
@@ -3740,11 +3740,11 @@
 # jefferson_text = no io in realtà no.
 # speaker_id = BO140
 # conversation_id = BOD2018
-1	no	no	ADV	_	_	2	discourse	_	Backchannel=BOD2018_245_246::1|Begin=944.9|KID=247-0
-2	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	KID=247-1
-3	in	in	ADP	_	_	4	case	_	KID=247-2
-4	realtà	realtà	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	KID=247-3
-5	no	no	ADV	_	_	2	discourse	_	End=945.9|Intonation=Falling|KID=247-4
+1	no	no	ADV	_	_	0	root	_	Backchannel=BOD2018_245_246::1|Begin=944.9|KID=247-0
+2	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	1	conj	_	KID=247-1
+3	in	in	ADP	_	_	3	case	_	KID=247-2
+4	realtà	realtà	NOUN	_	Gender=Fem|Number=Sing	2	advmod	_	KID=247-3
+5	no	no	ADV	_	_	2	advmod	_	End=945.9|Intonation=Falling|KID=247-4
 
 # sent_id = BOD2018_248_249_250a
 # text = cioè nel senso per quanto mi piaccia la tranquillità e la serenità non mi piacerebbe abitare lontano da tutto perché son sempre stata una persona molto socievole cioè mi piace stare con le persone
@@ -4042,9 +4042,9 @@
 # speaker_id = BO140
 # conversation_id = BOD2018
 1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOD2018_262_263::20|Begin=1022.44|KID=264-0|OverlappingGroup=49
-2	sì	sì	ADV	_	_	1	parataxis	_	KID=264-1|OverlappingGroup=49
-3	sì	sì	ADV	_	_	1	parataxis	_	End=1023.18|KID=264-2|OverlappingGroup=49
-4	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	1	parataxis	_	Backchannel=BOD2018_262_263::25|Begin=1024.146|End=1024.7|Intonation=Falling|KID=265-0|OverlappingGroup=50
+2	sì	sì	ADV	_	_	1	conj	_	KID=264-1|OverlappingGroup=49
+3	sì	sì	ADV	_	_	1	conj	_	End=1023.18|KID=264-2|OverlappingGroup=49
+4	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Begin=1024.146|End=1024.7|Intonation=Falling|KID=265-0|OverlappingGroup=50
 
 # sent_id = BOD2018_266
 # text = cioè non so se io quando avrò una famiglia vorrò sta a bologna
@@ -4291,7 +4291,7 @@
 # speaker_id = BO140
 # conversation_id = BOD2018
 1	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Backchannel=BOD2018_275_278_279a::12|Begin=1076.82|End=1077.42|KID=276-0|OverlappingGroup=53
-2	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	1	parataxis	_	Backchannel=BOD2018_275_278_279a::20|Begin=1079.195|End=1079.87|KID=277-0|OverlappingGroup=54
+2	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Begin=1079.195|End=1079.87|KID=277-0|OverlappingGroup=54
 
 # sent_id = BOD2018_279b
 # text = cioè comunque ci stanno un sacco de famiglie cioè a bologna non ci stanno cioè in via zamboni non ce l'ho mai vista una famiglia
@@ -7041,8 +7041,8 @@
 # jefferson_text = sì | sì
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	sì	sì	ADV	_	_	2	reparandum	_	Backchannel=BOA3017_8::7|Begin=13.01|End=13.17|KID=9-0
-2	sì	sì	ADV	_	_	0	root	_	Begin=13.355|End=13.525|KID=11-0
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA3017_8::7|Begin=13.01|End=13.17|KID=9-0
+2	sì	sì	ADV	_	_	1	conj	_	Begin=13.355|End=13.525|KID=11-0
 
 # sent_id = BOA3017_12
 # text = mi sto inculando in questo momento non è che sto facendo il tirocinio
@@ -8916,7 +8916,7 @@
 # jefferson_text = [vabbè scusa]
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	vabbè	vabbè	INTJ	_	_	2	discourse	_	Backchannel=BOA3017_255::5|Begin=405.143|KID=259-0|OverlappingGroup=206
+1	vabbè	vabbè	INTJ	_	_	2	discourse	_	Begin=405.143|KID=259-0|OverlappingGroup=206
 2	scusa	scusare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	End=406.143|KID=259-1|OverlappingGroup=206
 
 # sent_id = BOA3017_260
@@ -10455,8 +10455,8 @@
 # jefferson_text = xxxxx mh?
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	x	x	X	_	_	0	root	_	Begin=700.917|KID=477-0|Syllables=5|Unintelligible=Yes
-2	mh	mh	INTJ	_	_	1	discourse	_	Backchannel=BOA3017_471_473_475_478::11|End=702.157|Intonation=Rising|KID=477-1
+1	x	x	X	_	_	1	dep	_	Begin=700.917|KID=477-0|Syllables=5|Unintelligible=Yes
+2	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_471_473_475_478::11|End=702.157|Intonation=Rising|KID=477-1
 
 # sent_id = BOA3017_479
 # text = mh
@@ -11026,7 +11026,7 @@
 # jefferson_text = eh che sarebbe?
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	eh	eh	INTJ	_	_	3	discourse	_	Backchannel=BOA3017_547_551_558_559::19|Begin=818.963|KID=562-0
+1	eh	eh	INTJ	_	_	3	discourse	_	Begin=818.963|KID=562-0
 2	che	che	PRON	_	PronType=Rel	3	nsubj	_	KID=562-1|Position=Head
 3	sarebbe	essere	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=819.673|Intonation=Rising|KID=562-2|Promotion=cop|Scrap=Yes
 
@@ -13055,9 +13055,9 @@
 # jefferson_text = mh | lo so
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	3	discourse	_	Backchannel=BOA3017_822::9|Begin=1287.034|End=1287.151|KID=823-0
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_822::9|Begin=1287.034|End=1287.151|KID=823-0
 2	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	Begin=1287.855|Clitic=Yes|KID=824-0
-3	so	sapere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	End=1288.305|KID=824-1
+3	so	sapere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=1288.305|KID=824-1
 
 # sent_id = BOA3017_825
 # text = mh
@@ -14224,8 +14224,8 @@
 # jefferson_text = ah beh
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	ah	ah	INTJ	_	_	0	root	_	Begin=1580.27|KID=996-0
-2	beh	beh	INTJ	_	_	1	discourse	_	Backchannel=BOA3017_993_995::23|End=1581.387|KID=996-1
+1	ah	ah	INTJ	_	_	0	root	_	Backchannel=BOA3017_993_995::23|Begin=1580.27|KID=996-0
+2	beh	beh	INTJ	_	_	1	conj	_	End=1581.387|KID=996-1
 
 # sent_id = BOA3017_997_1000
 # text = potrebbe essere un incentivo a mettere le date giusto per sapere
@@ -15084,8 +15084,8 @@
 # jefferson_text = xx sì
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	x	x	X	_	_	0	root	_	Begin=1730.252|KID=1109-0|Syllables=2|Unintelligible=Yes
-2	sì	sì	ADV	_	_	1	discourse	_	Backchannel=BOA3017_1106_1108_1110::16|End=1730.91|KID=1109-1
+1	x	x	X	_	_	1	dep	_	Begin=1730.252|KID=1109-0|Syllables=2|Unintelligible=Yes
+2	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA3017_1106_1108_1110::16|End=1730.91|KID=1109-1
 
 # sent_id = BOA3017_1111_1112_1113
 # text = mh ho un'amica di santa maria nuova non mi ricordo come si chiama
@@ -16453,8 +16453,8 @@
 # text = okay certo
 # jefferson_text = [°okay.°] | °c[erto.°]
 # speaker_id = BO032
-1	okay	okay	INTJ	_	_	2	discourse	_	Backchannel=BOA1003_7_8::14|Begin=15.425|End=15.811|Intonation=Falling|KID=9-0|OverlappingGroup=1|Volume=low
-2	certo	certo	ADV	_	_	0	root	_	Begin=18.515|End=18.937|Intonation=Falling|KID=10-0|OverlappingGroup=2|Volume=low
+1	okay	okay	INTJ	_	_	0	root	_	Backchannel=BOA1003_7_8::14|Begin=15.425|End=15.811|Intonation=Falling|KID=9-0|OverlappingGroup=1|Volume=low
+2	certo	certo	ADV	_	_	1	conj	_	Begin=18.515|End=18.937|Intonation=Falling|KID=10-0|OverlappingGroup=2|Volume=low
 
 # sent_id = BOA1003_11
 # text = un approfondimento dell' italiano per lo studio
@@ -16728,9 +16728,9 @@
 # text = certo la ringrazio
 # jefferson_text = [certo. (.) l]a rin[grazio].
 # speaker_id = BO032
-1	certo	certo	ADV	_	_	3	advmod	_	Backchannel=BOA1003_32::10|Begin=64.872|Intonation=Falling|KID=33-0|OverlappingGroup=16|PauseAfter=Yes
+1	certo	certo	ADV	_	_	0	root	_	Backchannel=BOA1003_32::10|Begin=64.872|Intonation=Falling|KID=33-0|OverlappingGroup=16|PauseAfter=Yes
 2	la	la	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	Clitic=Yes|KID=33-2|OverlappingGroup=16
-3	ringrazio	ringraziare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	End=66.215|Intonation=Falling|KID=33-3|OverlappingGroup=17
+3	ringrazio	ringraziare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=66.215|Intonation=Falling|KID=33-3|OverlappingGroup=17
 
 # sent_id = BOA1003_34
 # text = va bene
@@ -18074,13 +18074,13 @@
 # text = sì sì avevo letto un articolo sì
 # jefferson_text = [sì sì avevo letto un articolo sì].
 # speaker_id = BO037
-1	sì	sì	ADV	_	_	4	advmod	_	Backchannel=BOA1009_79::15|Begin=185.041|KID=81-0|OverlappingGroup=43
-2	sì	sì	ADV	_	_	1	flat	_	KID=81-1|OverlappingGroup=43
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_79::15|Begin=185.041|KID=81-0|OverlappingGroup=43
+2	sì	sì	ADV	_	_	1	conj	_	KID=81-1|OverlappingGroup=43
 3	avevo	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	KID=81-2|OverlappingGroup=43
-4	letto	leggere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=81-3|OverlappingGroup=43
+4	letto	leggere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	KID=81-3|OverlappingGroup=43
 5	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=81-4|OverlappingGroup=43
 6	articolo	articolo	NOUN	_	Gender=Masc|Number=Sing	4	obj	_	KID=81-5|OverlappingGroup=43
-7	sì	sì	ADV	_	_	4	advmod	_	End=187.108|Intonation=Falling|KID=81-6|OverlappingGroup=43
+7	sì	sì	ADV	_	_	1	conj	_	End=187.108|Intonation=Falling|KID=81-6|OverlappingGroup=43
 
 # sent_id = BOA1009_82_84
 # text = una mosca bianca diciamo nel panorama però molto bella
@@ -18764,11 +18764,11 @@
 # text = sì no è interessante xx
 # jefferson_text = [sì]. | [no è interessante xx].
 # speaker_id = BO026
-1	sì	sì	ADV	_	_	4	advmod	_	Backchannel=BOA1009_134_136::33|Begin=332.155|End=332.48|Intonation=Falling|KID=137-0|OverlappingGroup=67
-2	no	no	ADV	_	PronType=Neg	4	advmod	_	Begin=332.971|KID=138-0|OverlappingGroup=68
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_134_136::33|Begin=332.155|End=332.48|Intonation=Falling|KID=137-0|OverlappingGroup=67
+2	no	no	ADV	_	PronType=Neg	1	conj	_	Begin=332.971|KID=138-0|OverlappingGroup=68
 3	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	KID=138-1|OverlappingGroup=68
-4	interessante	interessante	ADJ	_	Number=Sing	0	root	_	KID=138-2|OverlappingGroup=68
-5	xx	x	X	_	_	4	dep	_	End=334.375|Intonation=Falling|KID=138-3|OverlappingGroup=68
+4	interessante	interessante	ADJ	_	Number=Sing	1	conj	_	KID=138-2|OverlappingGroup=68
+5	xx	x	X	_	_	1	dep	_	End=334.375|Intonation=Falling|KID=138-3|OverlappingGroup=68
 
 # sent_id = BOA1009_139
 # text = ci sono dei paralleli con l' altra esperienza soltanto per per l' età no
