@@ -4518,13 +4518,6 @@
 52	delle	del	DET	_	Gender=Fem|Number=Plur|PronType=Ind	53	det	_	KID=288-19
 53	famiglie	famiglia	NOUN	_	Gender=Fem|Number=Plur	48	conj	_	End=1145.65|KID=288-20
 
-# sent_id = BOD2018_290
-# text = no
-# jefferson_text = n[o:]?
-# speaker_id = BO118
-# conversation_id = BOD2018
-1	no	no	ADV	_	_	0	root	_	Backchannel=BOD2018_289_291::18|Begin=1153.116|End=1153.49|Intonation=Rising|KID=290-0|OverlappingGroup=56|Prolonged=Yes
-
 # sent_id = BOD2018_289_291
 # text = cioè io non ho ricordi di quando son piccola che uscivo con i miei in centro a [TOWN_NAME] perché non ma pochissimi perché non
 # jefferson_text = cioè io non ho ricordi di quando son piccola::: che uscivo con i miei in centro a @nomepaese | [pe]rché non: ma pochissimi perché [non:]
@@ -4551,9 +4544,16 @@
 19	perché	perché	SCONJ	_	_	4	advcl	_	Begin=1153.345|KID=291-0|OverlappingGroup=56
 20	non	non	ADV	_	PronType=Neg	19	advmod	_	KID=291-1|Prolonged=Yes
 21	ma	ma	CCONJ	_	_	22	cc	_	KID=291-2
-22	pochissimi	pochissimare	ADJ	_	Gender=Masc|Number=Plur|PronType=Ind	5	conj	_	KID=291-3
+22	pochissimi	poco	ADJ	_	Gender=Masc|Number=Plur|PronType=Ind	5	conj	_	KID=291-3
 23	perché	perché	ADV	_	_	4	advcl	_	KID=291-4
 24	non	non	ADV	_	PronType=Neg	23	advmod	_	End=1156.7|KID=291-5|OverlappingGroup=57|Prolonged=Yes
+
+# sent_id = BOD2018_290
+# text = no
+# jefferson_text = n[o:]?
+# speaker_id = BO118
+# conversation_id = BOD2018
+1	no	no	ADV	_	_	0	root	_	Backchannel=BOD2018_289_291::18|Begin=1153.116|End=1153.49|Intonation=Rising|KID=290-0|OverlappingGroup=56|Prolonged=Yes
 
 # sent_id = BOD2018_292_293_294
 # text = ma in realtà anch'io a [TOWN_NAME] cioè non ho ricordi che uscissi a [TOWN_NAME] o a [TOWN_NAME] con i miei forse x più nel paesino nostro ma sempre solite cose
