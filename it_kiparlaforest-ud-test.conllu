@@ -15119,15 +15119,6 @@
 5	conosce	conoscere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	KID=1114-4
 6	lia	Lia	PROPN	_	_	5	nsubj	_	Anonymized=Yes|End=1738.668|KID=1114-5
 
-# sent_id = BOA3017_1116
-# text = mara cosa lì
-# jefferson_text = [mara]: cosa lì
-# speaker_id = BO145
-# conversation_id = BOA3017
-1	mara	Mara	PROPN	_	_	0	root	_	Anonymized=Yes|Begin=1738.873|Coconstruct=conj:reform::BOA3017_1115::2|KID=1116-0|OverlappingGroup=196|Prolonged=Yes
-2	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	KID=1116-1|Relation=conj:reform
-3	lì	lì	ADV	_	_	1	advmod	_	End=1740.031|KID=1116-2
-
 # sent_id = BOA3017_1115
 # text = ma chi è
 # jefferson_text = ma [chi è]?
@@ -15136,6 +15127,15 @@
 1	ma	ma	CCONJ	_	_	3	discourse	_	Begin=1738.681|KID=1115-0
 2	chi	chi	PRON	_	PronType=Rel	3	nsubj	_	KID=1115-1|OverlappingGroup=196
 3	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=1739.339|Intonation=Rising|KID=1115-2|OverlappingGroup=196
+
+# sent_id = BOA3017_1116
+# text = mara cosa lì
+# jefferson_text = [mara]: cosa lì
+# speaker_id = BO145
+# conversation_id = BOA3017
+1	mara	Mara	PROPN	_	_	0	root	_	Anonymized=Yes|Begin=1738.873|Coconstruct=conj:reform::BOA3017_1115::2|KID=1116-0|OverlappingGroup=196|Prolonged=Yes
+2	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	KID=1116-1|Relation=conj:reform
+3	lì	lì	ADV	_	_	1	advmod	_	End=1740.031|KID=1116-2
 
 # sent_id = BOA3017_1117
 # text = sì qualcosa
