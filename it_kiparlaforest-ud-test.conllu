@@ -4680,7 +4680,7 @@
 # conversation_id = BOD2018
 1	eh	eh	INTJ	_	_	5	discourse	_	Begin=1191.7|KID=298-0
 2	ma	ma	CCONJ	_	_	5	discourse	_	KID=298-1
-3	infatti	infatti	CCONJ	_	_	5	advmod	_	Backchannel=BOD2018_297::14|KID=298-2
+3	infatti	infatti	CCONJ	_	_	5	advmod	_	KID=298-2
 4	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	KID=298-3
 5	strano	strano	ADJ	_	Gender=Masc|Number=Sing	0	root	_	KID=298-4|Prolonged=Yes
 6	cioè	cioè	CCONJ	_	_	10	cc	_	KID=298-5
@@ -7241,7 +7241,7 @@
 6	brioche	brioche	NOUN	_	Gender=Fem|Number=Sing	4	dislocated	_	KID=41-3
 7	x	x	X	_	_	4	dep	_	End=55.213|KID=41-4|OverlappingGroup=6|Syllables=4|Unintelligible=Yes
 8	x	x	X	_	_	12	dep	_	Begin=55.493|KID=43-0|PauseAfter=Yes|Syllables=1|Unintelligible=Yes
-9	mh	mh	INTJ	_	_	12	discourse	_	Backchannel=BOA3017_44::2|KID=43-2|OverlappingGroup=7|Prolonged=Yes
+9	mh	mh	INTJ	_	_	12	discourse	_	KID=43-2|OverlappingGroup=7|Prolonged=Yes
 10	ce	ce	PRON	_	Number=Plur|Person=1|PronType=Prs	12	expl	_	Clitic=Yes|KID=43-3
 11	n'	ne	PRON	_	PronType=Prs	12	iobj	_	Clitic=Yes|KID=43-4|SpaceAfter=No
 12	ha	avere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	conj	_	KID=43-5
@@ -7337,13 +7337,13 @@
 # jefferson_text = °sì non so come lo fa. cioè°
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	sì	sì	INTJ	_	_	3	discourse	_	Backchannel=BOA3017_49_51_52::14|Begin=71.058|KID=53-0|Volume=Low
+1	sì	sì	INTJ	_	_	0	root	_	Backchannel=BOA3017_49_51_52::14|Begin=71.058|KID=53-0|Volume=Low
 2	non	non	ADV	_	PronType=Neg	3	advmod	_	KID=53-1|Volume=Low
-3	so	sapere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=53-2|Volume=Low
+3	so	sapere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	KID=53-2|Volume=Low
 4	come	come	ADV	_	_	6	advmod	_	KID=53-3|Volume=Low
 5	lo	lo	PRON	_	Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	Clitic=Yes|KID=53-4|Volume=Low
 6	fa	fare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	advcl	_	Intonation=Falling|KID=53-5|Volume=Low
-7	cioè	cioè	CCONJ	_	_	3	discourse	_	End=72.988|KID=53-6|Volume=Low
+7	cioè	cioè	CCONJ	_	_	1	discourse	_	End=72.988|KID=53-6|Volume=Low
 
 # sent_id = BOA3017_54
 # text = mi sa che costa
@@ -7414,7 +7414,7 @@
 # jefferson_text = sì ma roba (da banco)
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	sì	sì	INTJ	_	_	3	discourse	_	Backchannel=BOA3017_60::4|Begin=84.404|KID=61-0
+1	sì	sì	INTJ	_	_	3	discourse	_	Begin=84.404|KID=61-0
 2	ma	ma	CCONJ	_	_	3	discourse	_	KID=61-1
 3	roba	roba	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Coconstruct=conj::BOA3017_57_59::18|KID=61-2
 4	da	da	ADP	_	_	5	case	_	KID=61-3
@@ -8038,7 +8038,7 @@
 # jefferson_text = mh | no infatti il software è lo stesso | >cioè< nel senso che eh questo che uso io è usato anche per i sottotitoli
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	8	discourse	_	Backchannel=BOA3017_135_137_138::12|Begin=209.178|End=209.668|KID=139-0
+1	mh	mh	INTJ	_	_	8	discourse	_	Begin=209.178|End=209.668|KID=139-0
 2	no	no	INTJ	_	_	8	discourse	_	Begin=210.598|KID=140-0
 3	infatti	infatti	ADV	_	_	8	advmod	_	KID=140-1
 4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=140-2
@@ -8296,7 +8296,7 @@
 # jefferson_text = [mh in]fatti tra le lin[gue se]condo me c'è un problema | >cioè< non lo puoi (rendere) certi con[cetti xx col tedesco non li puoi (ren]dere) in italiano e viceversa >cioè<
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	9	discourse	_	Backchannel=BOA3017_166_167_169::11|Begin=260.636|KID=168-0|OverlappingGroup=27
+1	mh	mh	INTJ	_	_	9	discourse	_	Begin=260.636|KID=168-0|OverlappingGroup=27
 2	infatti	infatti	ADV	_	_	9	advmod	_	KID=168-1|OverlappingGroup=27
 3	tra	tra	ADP	_	_	5	case	_	KID=168-2
 4	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	5	det	_	KID=168-3
@@ -8334,7 +8334,7 @@
 # jefferson_text = [no ma >infatti< n:on sarà]
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	no	no	INTJ	_	_	5	discourse	_	Backchannel=BOA3017_168_170::11|Begin=264.706|KID=171-0|OverlappingGroup=29
+1	no	no	INTJ	_	_	5	discourse	_	Begin=264.706|KID=171-0|OverlappingGroup=29
 2	ma	ma	CCONJ	_	_	5	discourse	_	KID=171-1|OverlappingGroup=29
 3	infatti	infatti	ADV	_	_	5	advmod	_	KID=171-2|OverlappingGroup=29|PaceFast=Yes
 4	non	non	ADV	_	PronType=Neg	5	advmod	_	KID=171-3|OverlappingGroup=29|Prolonged=Yes
@@ -8882,7 +8882,7 @@
 # jefferson_text = ah ma non per [quello]
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	ah	ah	INTJ	_	_	5	discourse	_	Backchannel=BOA3017_250_253_254::23|Begin=402.373|KID=255-0
+1	ah	ah	INTJ	_	_	5	discourse	_	Begin=402.373|KID=255-0
 2	ma	ma	CCONJ	_	_	5	discourse	_	KID=255-1
 3	non	non	ADV	_	PronType=Neg	5	advmod	_	KID=255-2
 4	per	per	ADP	_	_	5	case	_	KID=255-3
@@ -8939,7 +8939,7 @@
 # speaker_id = BO146
 # conversation_id = BOA3017
 1	ma	ma	CCONJ	_	_	2	discourse	_	Begin=407.098|KID=261-0
-2	no	no	ADV	_	_	6	discourse	_	Backchannel=BOA3017_260::8|KID=261-1
+2	no	no	ADV	_	_	6	discourse	_	KID=261-1
 3	ma	ma	CCONJ	_	_	6	discourse	_	KID=261-2
 4	non	non	ADV	_	PronType=Neg	6	advmod	_	KID=261-3
 5	perché	perché	SCONJ	_	_	6	mark	_	KID=261-4
@@ -9035,7 +9035,7 @@
 # jefferson_text = sì °no° no però capito xx magari | non così platealmente neanch' io [xxxxx]
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	sì	sì	INTJ	_	_	10	discourse	_	Backchannel=BOA3017_262c_267::15|Begin=417.013|KID=268-0
+1	sì	sì	INTJ	_	_	10	discourse	_	Begin=417.013|KID=268-0
 2	no	no	INTJ	_	_	10	discourse	_	KID=268-1|Volume=Low
 3	no	no	INTJ	_	_	10	discourse	_	KID=268-2
 4	però	però	CCONJ	_	_	5	advmod	_	KID=268-3
