@@ -8478,13 +8478,13 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	teorica~	teorica~	X	_	_	2	dep	_	Begin=313.485|Interrupted=Yes|KID=188-0
-2	maggio	maggio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Intonation=Rising|KID=188-1
-3	penso	pensare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	Coconstruct=conj:reform::BOA3017_187::2|KID=188-2
+2	maggio	maggio	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Coconstruct=conj:reform::BOA3017_187::2|KID=188-2|Intonation=Rising|KID=188-1
+3	penso	pensare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	parataxis	_	_
 4	fine	fine	NOUN	_	Gender=Fem|Number=Sing	7	reparandum	_	Begin=316.767|KID=190-0
 5	fine	fine	NOUN	_	Gender=Fem|Number=Sing	7	reparandum	_	End=317.277|KID=190-1
 6	insomma	insomma	ADV	_	_	8	advmod	_	Begin=317.497|KID=191-0|PaceFast=Yes|Volume=Low
 7	fine	fine	NOUN	_	Gender=Fem|Number=Sing	8	nmod	_	KID=191-1|OverlappingGroup=30
-8	maggio	maggio	NOUN	_	Gender=Masc|Number=Sing	2	parataxis	_	End=318.827|KID=191-2|OverlappingGroup=30
+8	maggio	maggio	NOUN	_	Gender=Masc|Number=Sing	2	conj	_	End=318.827|KID=191-2|OverlappingGroup=30
 
 # sent_id = BOA3017_189
 # text = maggio
@@ -9315,9 +9315,9 @@
 # jefferson_text = antichi sapori via? frassinago?
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	antichi	Antichi	PROPN	_	_	3	nsubj	_	Begin=480.674|Coconstruct=conj:reform::BOA3017_308::2|KID=309-0
+1	antichi	Antichi	PROPN	_	_	0	root	_	Begin=480.674|Coconstruct=conj:reform::BOA3017_308::2|KID=309-0
 2	sapori	Sapori	PROPN	_	_	1	flat:name	_	KID=309-1
-3	via	via	ADP	_	_	0	root	_	Intonation=Rising|KID=309-2
+3	via	via	ADP	_	_	1	nmod	_	Intonation=Rising|KID=309-2
 4	frassinago	Frassinago	PROPN	_	_	3	nmod	_	Intonation=Rising|KID=309-3
 
 # sent_id = BOA3017_309b_311
@@ -10803,9 +10803,9 @@
 # speaker_id = BO147
 # conversation_id = BOA3017
 1	no	no	ADV	_	_	2	advmod	_	Begin=754.57|KID=520-0|OverlappingGroup=88|Prolonged=Yes
-2	vanga	vanga	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=520-1|OverlappingGroup=88
+2	vanga	vanga	NOUN	_	Gender=Fem|Number=Sing	4	conj	_	KID=520-1|OverlappingGroup=88
 3	x	x	X	_	_	2	dep	_	End=756.148|KID=520-2|OverlappingGroup=88|Syllables=3|Unintelligible=Yes
-4	pala	pala	NOUN	_	Gender=Fem|Number=Sing	2	conj	_	Begin=758.823|Coconstruct=conj:reform::BOA3017_522::2|End=759.433|KID=523-0|OverlappingGroup=90
+4	pala	pala	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Begin=758.823|Coconstruct=conj:reform::BOA3017_522::2|End=759.433|KID=523-0|OverlappingGroup=90
 
 # sent_id = BOA3017_522
 # text = una pala
@@ -11027,8 +11027,8 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	eh	eh	INTJ	_	_	3	discourse	_	Backchannel=BOA3017_547_551_558_559::19|Begin=818.963|KID=562-0
-2	che	che	PRON	_	PronType=Rel	3	nsubj	_	KID=562-1
-3	sarebbe	essere	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=819.673|Intonation=Rising|KID=562-2
+2	che	che	PRON	_	PronType=Rel	3	nsubj	_	KID=562-1|Position=Head
+3	sarebbe	essere	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=819.673|Intonation=Rising|KID=562-2|Promotion=cop|Scrap=Yes
 
 # sent_id = BOA3017_565
 # text = fa' vedere
@@ -11058,9 +11058,9 @@
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	che	che	PRON	_	PronType=Rel	4	nsubj	_	Begin=831.293|KID=572-0
-2	sarebbe	essere	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	Coconstruct=conj:reform::BOA3017_562::3|KID=572-1
+2	sarebbe	essere	AUX	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	KID=572-1
 3	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	KID=572-2
-4	tedesca	tedesca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=572-3
+4	tedesca	tedesca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Coconstruct=root::BOA3017_562::3|KID=572-3
 5	di	di	ADP	_	_	6	case	_	KID=572-4
 6	[PLACE_NAME]	@nomeluogo	PROPN	_	_	4	nmod	_	Anonymized=Yes|End=832.823|KID=572-5
 
@@ -11592,8 +11592,8 @@
 # jefferson_text = uno simile
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	uno	uno	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Begin=941.075|KID=632-0
-2	simile	simile	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	Coconstruct=conj:reform::BOA3017_629_631::9|End=941.865|KID=632-1
+1	uno	uno	PRON	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	0	root	_	Begin=941.075|Coconstruct=conj:reform::BOA3017_629_631::9|KID=632-0
+2	simile	simile	ADJ	_	Gender=Masc|Number=Sing	1	amod	_	End=941.865|KID=632-1
 
 # sent_id = BOA3017_634
 # text = no è che che non lo mangio
@@ -16537,13 +16537,13 @@
 # text = e a la ca' foscari c'era anche appunto pao~ pallotti vagoni e infatti alcuni e x
 # jefferson_text = [e: alla] ca' foscari, c'era anche appunto (pao~) pallotti, ([va]goni), >e: infatti alcuni< e xxxx
 # speaker_id = BO032
-1	e	e	CCONJ	_	_	7	discourse	_	Begin=28.758|KID=19-0|OverlappingGroup=9|Prolonged=Yes
-2	a	a	ADP	_	Gender=Fem|Number=Sing	3	case	_	KID=19-1a
-3	la	il	DET	_	Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=19-1a
-4	ca'	Ca'	PROPN	_	_	7	obl	_	KID=19-1
+1	e	e	CCONJ	_	_	4	discourse	_	Begin=28.758|KID=19-0|OverlappingGroup=9|Prolonged=Yes
+2	a	a	ADP	_	Gender=Fem|Number=Sing	4	case	_	KID=19-1a
+3	la	il	DET	_	Gender=Fem|Number=Sing|PronType=Art	4	det	_	KID=19-1a
+4	ca'	Ca'	PROPN	_	_	0	root	_	KID=19-1
 5	foscari	Foscari	PROPN	_	_	4	flat:name	_	Coconstruct=conj:reform::BOA1003_17::1|Intonation=WeaklyRising|KID=19-2
 6	c'	ci	PRON	_	PronType=Prs	7	expl	_	Clitic=Yes|KID=19-3|SpaceAfter=No
-7	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	KID=19-4
+7	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	advcl	_	KID=19-4
 8	anche	anche	ADV	_	_	11	advmod	_	KID=19-5
 9	appunto	appunto	ADV	_	_	11	discourse	_	KID=19-6
 10	pao~	pao~	X	_	_	11	reparandum	_	Interrupted=Yes|KID=19-7
@@ -16623,8 +16623,8 @@
 # jefferson_text = la se[ssione questa che f]inisce a luglio,
 # speaker_id = BO032
 1	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Begin=47.22|KID=24-0
-2	sessione	sessione	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=24-1|OverlappingGroup=12
-3	questa	questo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	Coconstruct=conj:reform::BOA1003_23::2|KID=24-2|OverlappingGroup=12
+2	sessione	sessione	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Coconstruct=conj:reform::BOA1003_23::3|KID=24-1|OverlappingGroup=12
+3	questa	questo	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	2	nmod	_	KID=24-2|OverlappingGroup=12
 4	che	che	PRON	_	PronType=Rel	5	nsubj	_	KID=24-3|OverlappingGroup=12
 5	finisce	finire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	KID=24-4|OverlappingGroup=12
 6	a	a	ADP	_	_	7	case	_	KID=24-5
