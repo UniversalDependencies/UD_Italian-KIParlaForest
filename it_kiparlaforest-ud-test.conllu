@@ -9237,7 +9237,7 @@
 4	ma	ma	CCONJ	_	_	6	cc	_	KID=290-3
 5	che	che	SCONJ	_	_	6	mark	_	KID=290-4|OverlappingGroup=48
 6	dopo	dopo	ADP	_	_	1	conj	_	End=450.009|KID=290-5|OverlappingGroup=48
-7	sì	sì	INTJ	_	_	1	discourse	_	Backchannel=BOA3017_289_291::5|Begin=450.904|KID=292-0
+7	sì	sì	INTJ	_	_	1	discourse	_	Begin=450.904|KID=292-0
 8	ma	ma	CCONJ	_	_	10	cc	_	KID=292-1
 9	che	che	SCONJ	_	_	10	mark	_	KID=292-2
 10	s~	s~	X	_	Gender=Fem	1	conj	_	KID=292-3|OverlappingGroup=49
@@ -14436,9 +14436,9 @@
 # jefferson_text = [ah] | [da registrare]?
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	ah	ah	INTJ	_	_	0	root	_	Backchannel=BOA3017_1022::6|Begin=1615.163|End=1615.888|KID=1023-0|OverlappingGroup=178
+1	ah	ah	INTJ	_	_	3	discourse	_	Begin=1615.163|End=1615.888|KID=1023-0|OverlappingGroup=178
 2	da	da	ADP	_	_	3	mark	_	Begin=1616.166|KID=1025-0|OverlappingGroup=179
-3	registrare	registrare	VERB	_	VerbForm=Inf	1	conj	_	Coconstruct=acl::BOA3017_1022::6|End=1617.113|Intonation=Rising|KID=1025-1|OverlappingGroup=179
+3	registrare	registrare	VERB	_	VerbForm=Inf	0	root	_	Coconstruct=acl::BOA3017_1022::6|End=1617.113|Intonation=Rising|KID=1025-1|OverlappingGroup=179
 
 # sent_id = BOA3017_1024
 # text = cioè cioè nel senso le persone
