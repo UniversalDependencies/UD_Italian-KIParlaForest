@@ -4,7 +4,7 @@ The KIParla Forest treebank is a treebank of spoken Italian based on the [KIParl
 
 # Content
 
-The treebank (release 2.17) contains the conversations:
+The treebank (release 2.19) contains the conversations:
 
 * BOD2018: semistructured interview from the [KIP](https://github.com/KIParla/KIP) module. Two speakers discuss their homes and living situations. They compare life in Bologna to life in the countryside and smaller towns, and discuss student life compared to a more adult lifestyle.
 * BOA3017: free conversation from the [KIP](https://github.com/KIParla/KIP) module. Four friends chat over food. A core thread is one member’s internship, for which he is recording and will have to transcribe the same conversation. Around that, they make casual plans, discuss Easter chocolate eggs, tomorrow’s schedule, and swap gossip.
@@ -12,8 +12,22 @@ The treebank (release 2.17) contains the conversations:
 * BOA1008: office-hours conversation from the [KIP](https://github.com/KIParla/KIP) module. A student visits a professor’s office to confirm the professor is still available as co-supervisor for their thesis. They discuss the submission deadline around the July graduation session.
 * BOA1009: office-hours conversation from the [KIP](https://github.com/KIParla/KIP) module. A student visits a professor to ask her to become co-supervisor for a thesis on child language brokering, specifically focused on CODA children (hearing children of deaf adults) who act as interpreters between Italian and Italian Sign Language.
 * TOD1005bis: lecture from the [KIP](https://github.com/KIParla/KIP) module. A professor delivers a university lecture on Arabic dialectology. The lecture covers comparative features of Arabic dialects, the relationship between Arabic and the Semitic language family, and the writing systems used for dialects.
+* PBB004: semistructured interview from the [ParlaBO](https://github.com/KIParla/ParlaBO) module. An interviewer talks with two interviewees about the city of Bologna and how it has changed (its walls, porticoes and the San Luca basilica), commuting and daily life, their jobs, music and free-time activities.
 
 # Structure of data
+
+## Documents
+
+Each file contains one conversation and starts with document-level metadata, following the [spoken language guidelines](https://grew.fr/spoken-language-guidelines/workgroups/spoken-data/metadata.html), after `# newdoc`:
+
+* `document_id`: identifier of the conversation (also the file name)
+* `genre`: `conversation`, `interview` or `lecture`
+* `degree_of_spontaneity`: `unplanned`, `planned` or `elicited`
+* `number_of_participants`: `monologic`, `dialogic` or `multi-party`, depending on the number of speakers who speak in the file
+* `context`: `public`, `private` or `professional`
+* `setting`: `face-to-face`, `telephone`, `broadcast` or `online`
+* `channels`: `phonic-auditory`, `gestural-visual` or `graphic-visual`
+* `symmetry`: `symmetric` or `asymmetric`, from the relationship between participants
 
 ## Sentences
 
@@ -31,8 +45,10 @@ As sentence boundaries can sometimes occurr within a TU, in this case TU ids are
 All sentences also have as metadata:
 
 * `conversation_id`: identifier of the conversation
-* `jefferson_text`: original transcription, following conventions described in [description of Jeffersonian notation](https://github.com/KIParla/KIP/blob/main/jefferson-notation.md). If a syntactic unit results from the joining of multiple TUs, these are separated by a pipe (`|`) in the `jefferson_text` field
+* `text_conversationanalysis`: original transcription, following conventions described in [description of Jeffersonian notation](https://github.com/KIParla/KIP/blob/main/jefferson-notation.md). If a syntactic unit results from the joining of multiple TUs, these are separated by a pipe (`|`) in the `text_conversationanalysis` field
 * `speaker_id`: identifier of the speaker that uttered the units
+
+The `text` field is rebuilt from the token forms and the `SpaceAfter=No` attribute in MISC; multiword tokens appear in their surface form.
 
 Note that not all transcription units were included in the treebank
 
@@ -51,8 +67,11 @@ Other attributes that can be found in MISC:
 * `PaceFast=Yes` and `PaceSlow=Yes` are used if the token appears within a portion of speech pronounced with increased/decreased pace
 * `Truncated=Yes`
 * `Unintelligible=Yes` is used for tokens that were marked by transcribers as non intelligible. These are linked by a generic `dep` relation to others tokens in the sentence. Their form is always `x`.
-* `Interrupted=Yes` is used for tokens whose uttering is unfinished. These are also marked by a `~` in the form.
-* `Variation=Yes` is used for forms that have been syntactically analyzed as Italian in this treebank but show morphosyntactic traits of dialectal variation. This choice will be better refined in future releases when more instances will be available.
+* `Interrupted=Yes` is used for tokens whose uttering is unfinished. These are also marked by a `~` in the form. They are annotated as UPOS `X`, their lemma is their form and they have no morphological features; the original UPOS and lemma are kept in `ExtUPOS` and `ExtLemma` (the latter only when the lemma differs from the form).
+* `Lang` is used for forms in a language or variety other than standard Italian. Its value is the language code when the language is identified, `dia` for dialect, `NO_ISO_CODE` when the language was marked by the transcribers but not identified. These forms are analyzed as Italian (including their morphological features); `Foreign=Yes` is not used.
+* `Italian` gives the Italian equivalent of a dialectal form, when it is available.
+* `Variety` comes from the transcription of variation: `Unsure` appears on all tokens of a transcription unit in which the transcribers marked that another variety is present without saying on which words; `Unassignable` marks forms whose variety could not be assigned (probably Italian). The specific forms in another language or variety are marked by `Lang`.
+* `Nonce=Yes` marks nonce or non-standard forms.
 * `OverlappingGroup` is valorized with a list of ids, zero-based, that indicate the progressive number of the overlapping group within the TU.
 
 ### Cross-sentence references (interactional relations)
@@ -60,6 +79,21 @@ Other attributes that can be found in MISC:
 * `Backchannel` appears on tokens that function (along with their dependents) as backchannel. It assumes the value of a specific token id (`[sent_id]::[tok_id]`) which is the token that the backchannel is targeting.
 
 * `Coconstruct` appears on tokens that attach with a specific syntactic relations to other tokens in the treebank. The value is composed by the syntactic relation, followed by double colons (`::`), followed by the token identifier (again in `[sent_id]::[tok_id]` format) that should act as head for the current token.
+
+## Morphology
+
+Lemmas and UPOS are manually annotated. Morphological features are assigned automatically by looking up form, lemma and UPOS in a morphological lexicon built from Morph-it! and from the Italian UD treebanks (ISDT, ParlaMint, PoSTWITA); when the lexicon allows more than one analysis, the choice is made with rules based on the syntactic context. Tokens with UPOS `PUNCT`, `INTJ` or `X`, and interrupted words, have no features. `Foreign=Yes` is not used. Following the other Italian treebanks, the lemma of all articles is `il` and the lemma of clitic pronouns is their form (`l'` is `lo`).
+
+## Relations
+
+Besides the Italian relations already documented in UD, the treebank uses the following language-specific subtypes, which are documented in the UD guidelines for Italian:
+
+* [`conj:reform`](https://universaldependencies.org/it/dep/conj-reform.html): reformulation of an expression
+* [`discourse:filler`](https://universaldependencies.org/it/dep/discourse-filler.html): filled pauses and function words used as fillers
+* [`discourse:tag`](https://universaldependencies.org/it/dep/discourse-tag.html): tags that ask the interlocutor for confirmation
+* [`parataxis:insert`](https://universaldependencies.org/it/dep/parataxis-insert.html): inserted reporting or comment clauses (e.g. *dicono*, *sai*)
+* [`parataxis:parenth`](https://universaldependencies.org/it/dep/parataxis-parenth.html): parenthetical clauses
+* [`parataxis:restart`](https://universaldependencies.org/it/dep/parataxis-restart.html): restart after an abandoned construction
 
 ## Metadata
 
@@ -127,6 +161,15 @@ This work was supported by COST Action CA21167 —Universality, diversity and id
 
 # Changelog
 
+* 2026-11-15 v2.19
+  * Add conversation PBB004 (ParlaBO module)
+  * Morphological features re-assigned from a morphological lexicon
+  * Interrupted words are annotated as `X` with the form as lemma; the original values are kept in `ExtUPOS` and `ExtLemma`
+  * Lemmas of articles (`il`) and clitic pronouns (form) aligned to the other Italian treebanks
+  * Language and variation in MISC: `Language` renamed `Lang`, `Variation=Yes` replaced by `Lang`, `Variety` and `Nonce`
+  * New language-specific relations documented in UD: `conj:reform`, `discourse:filler`, `discourse:tag`, `parataxis:parenth`, `parataxis:restart` (and extended `parataxis:insert`)
+  * Metadata updated with the new conversation and its speakers
+  * Each file starts with `# newdoc`, `# document_id` and document-level metadata (genre and description of the speech event)
 * 2025-04-30 v2.18
   * Add conversations BOA1003 and BOA1008
   * Better handling of metadata and Coconstruct/Backchannels field in MISC
