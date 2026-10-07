@@ -1291,7 +1291,7 @@
 8	non	non	ADV	_	PronType=Neg	7	advmod	_	KID=143-9
 9	mh	mh	INTJ	_	_	7	discourse:filler	_	End=254.46|KID=143-10|Prolonged=Yes
 
-# sent_id = PBB004_144_PBB004_146_147_PBB004_148
+# sent_id = PBB004_144_146_147_148
 # text = cioè vai sa~ vai sotto il sottopassaggio della all'autostazione che che trovi sempre spacciatori che ti ve~ che ti danno della
 # text_conversationanalysis = >[cioè] vai sa~< vai:: sotto il sottopassaggio della:: all' autostazione, | [che]:: | che trovi sempre spacciatori >che ti ve~< | che ti danno della
 # speaker_id = BOI013
