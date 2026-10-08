@@ -18,8 +18,8 @@
 # text = i~ sugn tamarra
 # text_conversationanalysis = [i~ su]gn tamarra
 # speaker_id = BOI013
-1	i~	i~	X	_	_	3	nsubj	_	Begin=0.96|ExtLemma=X|ExtUPOS=PRON|Interrupted=Yes|KID=1-0|OverlappingGroup=0
-2	sugn	sugn	X	Foreign=Yes	_	3	cop	_	KID=1-1|ExtLemma=esse|ExtUPOS=AUX|OverlappingGroup=0
+1	i~	i~	X	_	Foreign=Yes	3	dep	_	Begin=0.96|ExtLemma=X|ExtUPOS=PRON|Interrupted=Yes|KID=1-0|OverlappingGroup=0
+2	sugn	sugn	X	_	Foreign=Yes	1	flat:foreign	_	KID=1-1|ExtLemma=esse|ExtUPOS=AUX|OverlappingGroup=0
 3	tamarra	tamarra	NOUN	_	_	0	root	_	End=2.383|KID=1-2
 
 # sent_id = PBB004_3_4
@@ -4865,7 +4865,7 @@
 1	però	però	ADV	_	_	2	advmod	_	Begin=1010.947|KID=538-0
 2	piove	piovere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=538-1
 3	lo	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	KID=538-2
-4	st~	st~	X	_	_	2	advmod	_	ExtLemma=X|Interrupted=Yes|KID=538-3
+4	st~	st~	X	_	_	2	dep	_	ExtLemma=stesso|ExtUPOS=ADV|Interrupted=Yes|KID=538-3
 5	davvero	davvero	ADV	_	_	6	advmod	_	KID=538-4
 6	piove	piovere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj:reform	_	End=1012.543|KID=538-5
 
@@ -6695,7 +6695,7 @@
 6	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	KID=759-4|PaceFast=Yes|Prolonged=Yes
 7	in	in	ADP	_	_	8	case	_	KID=759-5
 8	stasi	stasi	NOUN	_	Gender=Fem	2	xcomp	_	KID=759-6a
-9	ultimamen~	ultimamen~	X	_	_	2	advmod	_	ExtLemma=ultimamente|ExtUPOS=ADV|Interrupted=Yes|KID=759-7
+9	ultimamen~	ultimamen~	X	_	_	2	dep	_	ExtLemma=ultimamente|ExtUPOS=ADV|Interrupted=Yes|KID=759-7
 
 # sent_id = PBB004_759b_760_761_762_763_764
 # text = non lo so non non non ho non ho un mh idea e~ esattamente di come sia messa come sia messo il lavoro
@@ -9005,7 +9005,7 @@
 16	li	li	PRON	_	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	17	obj	_	KID=1026-7|OverlappingGroup=197|Variety=Unsure
 17	conosco	conoscere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj:reform	_	KID=1026-8|OverlappingGroup=197|PauseAfter=Yes|Variety=Unsure
 18	tutti	tutti	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	17	obl	_	End=1954.751|KID=1026-10|Variety=Unsure
-19	praticamen~	praticamen~	X	_	_	17	advmod	_	Begin=1955.183|End=1955.705|ExtLemma=praticamente|ExtUPOS=ADV|Interrupted=Yes|KID=1028-0|Volume=low
+19	praticamen~	praticamen~	X	_	_	17	dep	_	Begin=1955.183|End=1955.705|ExtLemma=praticamente|ExtUPOS=ADV|Interrupted=Yes|KID=1028-0|Volume=low
 
 # sent_id = PBB004_1027
 # text = mhmh
@@ -9298,7 +9298,7 @@
 7	canzoni	canzone	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	KID=1059-6|PaceSlow=Yes
 8	gina	Gina	PROPN	_	_	2	vocative	_	KID=1059-7|OverlappingGroup=205|Prolonged=Yes
 9	eh	eh	INTJ	_	_	2	discourse	_	KID=1059-8|OverlappingGroup=205
-10	ades~	ades~	X	_	_	2	advmod	_	End=2016.957|ExtLemma=adesso|ExtUPOS=ADV|Interrupted=Yes|KID=1059-9|OverlappingGroup=205
+10	ades~	ades~	X	_	_	2	dep	_	End=2016.957|ExtLemma=adesso|ExtUPOS=ADV|Interrupted=Yes|KID=1059-9|OverlappingGroup=205
 
 # sent_id = PBB004_1060
 # text = qual è lui sta ca~ che generi hai detto
