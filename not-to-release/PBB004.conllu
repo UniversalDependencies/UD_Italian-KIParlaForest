@@ -1352,8 +1352,8 @@
 # speaker_id = BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	KID=150-2|PaceFast=Yes|Variety=Unsure
 2	ma	ma	CCONJ	_	_	4	cc	_	KID=150-3|PaceFast=Yes|Variety=Unsure
-3	sa	sa	X	_	Foreign=Yes	4	obj	_	KID=150-4|Lang=dia|Variety=Unsure
-4	vut	vlair	X	_	Foreign=Yes	0	root	_	KID=150-5|Lang=dia|PauseAfter=Yes|Variety=Unsure
+3	sa	sa	X	_	Foreign=Yes	4	obj	_	ExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=dia|Variety=Unsure
+4	vut	vut	X	_	Foreign=Yes	0	root	_	ExtLemma=vlair|ExtUPOS=VERB|KID=150-5|Lang=dia|PauseAfter=Yes|Variety=Unsure
 5-6	dalla	_	_	_	_	_	_	_	KID=150-7|Variety=Unsure
 5	da	da	ADP	_	_	7	case	_	KID=150-7a|Variety=Unsure
 6	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	KID=150-7b|Variety=Unsure
@@ -2392,7 +2392,7 @@
 26	da	da	ADP	_	_	28	mark	_	KID=264-16
 27	quando	quando	SCONJ	_	_	28	mark	_	End=486.705|KID=264-17|Prolonged=Yes
 28	stiamo	stare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	24	advcl	_	Begin=487.085|KID=266-0
-29	assieme	assieme	ADV	_	_	28	advmod	_	ExtUPOS=ADV|Interrupted=Yes|KID=266-1
+29	assieme	assieme	ADV	_	_	28	advmod	_	Interrupted=Yes|KID=266-1
 30	stiamo	stare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	reparandum	_	KID=266-2
 31	assieme	assieme	ADV	_	_	30	advmod	_	KID=266-3|OverlappingGroup=58|PauseAfter=Yes
 32	perché	perché	SCONJ	_	_	36	mark	_	KID=266-5|OverlappingGroup=58|PaceFast=Yes
@@ -6695,7 +6695,7 @@
 6	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	KID=759-4|PaceFast=Yes|Prolonged=Yes
 7	in	in	ADP	_	_	8	case	_	KID=759-5
 8	stasi	stasi	NOUN	_	Gender=Fem	2	xcomp	_	KID=759-6a
-9	ultimamen~	ultimamen~	X	_	_	2	advmod	_	Interrupted=Yes|KID=759-7
+9	ultimamen~	ultimamen~	X	_	_	2	advmod	_	ExtLemma=ultimamente|ExtUPOS=ADV|Interrupted=Yes|KID=759-7
 
 # sent_id = PBB004_759b_760_761_762_763_764
 # text = non lo so non non non ho non ho un mh idea e~ esattamente di come sia messa come sia messo il lavoro
@@ -9298,7 +9298,7 @@
 7	canzoni	canzone	NOUN	_	Gender=Fem|Number=Plur	4	conj	_	KID=1059-6|PaceSlow=Yes
 8	gina	Gina	PROPN	_	_	2	vocative	_	KID=1059-7|OverlappingGroup=205|Prolonged=Yes
 9	eh	eh	INTJ	_	_	2	discourse	_	KID=1059-8|OverlappingGroup=205
-10	ades~	ades~	X	_	_	2	advmod	_	End=2016.957|ExtLemma=adesso|Interrupted=Yes|KID=1059-9|OverlappingGroup=205
+10	ades~	ades~	X	_	_	2	advmod	_	End=2016.957|ExtLemma=adesso|ExtUPOS=ADV|Interrupted=Yes|KID=1059-9|OverlappingGroup=205
 
 # sent_id = PBB004_1060
 # text = qual è lui sta ca~ che generi hai detto
