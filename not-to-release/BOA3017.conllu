@@ -3306,7 +3306,7 @@
 # text_conversationanalysis = trascrivi [l' audio che t' (ha] mandato lei oggi pomeriggio
 # speaker_id = BO146
 # conversation_id = BOA3017
-1	trascrivi	trascrivere	VERB	_	Mood=Imp<DUBBIO>Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=660.853|KID=448-0
+1	trascrivi	trascrivere	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=660.853|KID=448-0
 2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=448-1|OverlappingGroup=75|SpaceAfter=No
 3	audio	audio	NOUN	_	Gender=Masc	1	obj	_	KID=448-2|OverlappingGroup=75
 4	che	che	PRON	_	PronType=Rel	7	obj	_	KID=448-3|OverlappingGroup=75
@@ -4775,7 +4775,7 @@
 5	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	KID=640-4
 6	cioccolato	cioccolato	NOUN	_	Gender=Masc|Number=Sing	4	conj	_	KID=640-5
 7	e	e	CCONJ	_	_	10	cc	_	KID=640-6
-8	tutto	tutto	DET	_	Gender=Masc<DUBBIO>_|Number=Sing<DUBBIO>_|PronType=Tot	10	det:predet	_	KID=640-7
+8	tutto	tutto	DET	_	Gender=Masc|Number=Sing|PronType=Tot	10	det:predet	_	KID=640-7
 9	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=640-8
 10	resto	resto	NOUN	_	Gender=Masc|Number=Sing	6	conj	_	KID=640-9
 11	però	però	CCONJ	_	_	18	cc	_	KID=640-10
