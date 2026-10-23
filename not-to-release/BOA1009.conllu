@@ -328,7 +328,7 @@
 25	rossi	Rossi	PROPN	_	_	24	nmod	_	End=72.498|Intonation=Falling|KID=27-3
 26	che	che	PRON	_	PronType=Rel	31	nsubj	_	Begin=72.965|KID=29-0
 27	comunque	comunque	ADV	_	_	31	advmod	_	KID=29-1
-28	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	31	dislocated	_	KID=29-2
+28	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	31	dislocated	_	KID=29-2
 29	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	KID=29-3
 30	già	già	ADV	_	_	31	advmod	_	KID=29-4
 31	seguito	seguere	VERB	_	_	24	acl:relcl	_	KID=29-5
@@ -410,7 +410,7 @@
 # text_conversationanalysis = [e lei quando pensava di]::
 # speaker_id = BO026
 1	e	e	CCONJ	_	_	4	cc	_	Begin=80.775|KID=32-0|OverlappingGroup=15
-2	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	4	nsubj	_	KID=32-1|OverlappingGroup=15
+2	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	KID=32-1|OverlappingGroup=15
 3	quando	quando	SCONJ	_	_	4	mark	_	KID=32-2|OverlappingGroup=15
 4	pensava	pensare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	KID=32-3|OverlappingGroup=15
 5	di	di	ADP	_	_	4	xcomp	_	End=82.625|KID=32-4|OverlappingGroup=15|Prolonged=Yes
@@ -468,7 +468,7 @@
 # text = lei lo sa mi sono mi occupo della
 # text_conversationanalysis = lei lo sa mi sono: mi occupo d[ella],
 # speaker_id = BO026
-1	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	3	nsubj	_	KID=39-8
+1	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	3	nsubj	_	KID=39-8
 2	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	KID=39-9
 3	sa	sapere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=39-10
 4	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	5	iobj	_	KID=39-11
@@ -613,9 +613,9 @@
 # text = lei è lei è ha imparato la lis
 # text_conversationanalysis = [lei è: (.) l]ei [è:] | [ha imparato la lis],
 # speaker_id = BO026
-1	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	2	nsubj	_	Begin=118.878|KID=51-0|OverlappingGroup=25
+1	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Begin=118.878|KID=51-0|OverlappingGroup=25
 2	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	reparandum	_	KID=51-1|OverlappingGroup=25|PauseAfter=Yes|Prolonged=Yes
-3	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	6	nsubj	_	KID=51-3|OverlappingGroup=25
+3	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	6	nsubj	_	KID=51-3|OverlappingGroup=25
 4	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	End=120.711|KID=51-4|OverlappingGroup=26|Prolonged=Yes
 5	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	Begin=120.971|KID=53-0|OverlappingGroup=27
 6	imparato	imparare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=53-1|OverlappingGroup=27
@@ -837,7 +837,7 @@
 14	gallaudet	gallaudet	NOUN	_	_	9	appos	_	KID=70-8
 15	per	per	ADP	_	_	16	case	_	KID=70-9
 16	cui	cui	PRON	_	PronType=Rel	17	obl	_	KID=70-10
-17	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	KID=70-11
+17	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	KID=70-11
 18	che	che	SCONJ	_	_	25	mark	_	End=163.375|Intonation=WeaklyRising|KID=70-12
 19	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Begin=163.433|KID=71-0
 20	panorama	panorama	NOUN	_	Gender=Masc|Number=Sing	25	nsubj	_	KID=71-1
@@ -884,9 +884,9 @@
 # text = lei conosce lei co conosce questa scuola torine~ del piemonte dove hanno fatto un esperimento però è una cosa diversa sì
 # text_conversationanalysis = [lei con]osce lei co conosce questa scuola torine~ del piemonte dove hanno fatto un esperimento p[erò è una cosa diversa sì]
 # speaker_id = BO026
-1	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	2	nsubj	_	Begin=172.616|KID=76-0|OverlappingGroup=39
+1	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	Begin=172.616|KID=76-0|OverlappingGroup=39
 2	conosce	conoscere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	KID=76-1|OverlappingGroup=39
-3	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	5	nsubj	_	KID=76-2
+3	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	5	nsubj	_	KID=76-2
 4	co	co	X	_	_	5	reparandum	_	KID=76-3
 5	conosce	conore	VERB	_	_	0	root	_	KID=76-4
 6	questa	questo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	7	det	_	KID=76-5
@@ -972,7 +972,7 @@
 1	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Begin=187.976|KID=82-0
 2	mosca	mosca	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=82-1
 3	bianca	bianco	ADJ	_	Gender=Fem|Number=Sing	2	amod	_	KID=82-2
-4	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	KID=82-3|OverlappingGroup=44
+4	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	KID=82-3|OverlappingGroup=44
 5-6	nel	_	_	_	_	_	_	_	KID=82-4|OverlappingGroup=44
 5	in	in	ADP	_	_	7	case	_	KID=82-4a
 6	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	KID=82-4b
@@ -1077,7 +1077,7 @@
 # speaker_id = BO026
 1	eh	eh	INTJ	_	_	4	discourse:filler	_	Begin=208.029|KID=92-0|Prolonged=Yes
 2	se	se	SCONJ	_	_	4	mark	_	KID=92-1
-3	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	4	nsubj	_	KID=92-2
+3	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	KID=92-2
 4	dice	dire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=92-3
 5	che	che	SCONJ	_	_	10	mark	_	KID=92-4
 6	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	KID=92-5
@@ -1123,7 +1123,7 @@
 # text = lei la seguirebbe in quanto della stessa scuola la x della scuola interpreti
 # text_conversationanalysis = lei la seguirebbe in quanto della stessa scuola la [xxx] della scuola in[terpreti].
 # speaker_id = BO026
-1	lei	lei	PRON	_	Gender=Fem<OR>_|Number=Sing|Person=3<OR>_|PronType=Prs	3	nsubj	_	KID=94-7
+1	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	KID=94-7
 2	la	la	PRON	_	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	obj	_	KID=94-8
 3	seguirebbe	seguire	VERB	_	Mood=Cnd|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=94-9
 4	in	in	ADP	_	_	9	case	_	KID=94-10
@@ -1710,7 +1710,7 @@
 6	di	di	ADP	_	_	7	mark	_	KID=142-5|OverlappingGroup=70
 7	fare	fare	VERB	_	VerbForm=Inf	5	xcomp	_	KID=142-6|OverlappingGroup=70
 8	comunque	comunque	ADV	_	_	7	advmod	_	KID=142-7|OverlappingGroup=71
-9	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	KID=142-8|OverlappingGroup=71
+9	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	7	discourse	_	KID=142-8|OverlappingGroup=71
 10	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=142-9|OverlappingGroup=71
 11	excursus	excursus	NOUN	_	Gender=Masc	7	obj	_	End=347.033|Intonation=WeaklyRising|KID=142-10|OverlappingGroup=71
 
@@ -1810,7 +1810,7 @@
 # speaker_id = BO037
 1	cioè	cioè	CCONJ	_	_	18	cc	_	KID=148-9
 2	tutto	tutto	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	5	det	_	KID=148-10
-3	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	KID=148-11
+3	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	discourse	_	KID=148-11
 4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=148-12
 5	particolarità	particolarità	NOUN	_	Gender=Fem	18	nsubj	_	KID=148-13
 6	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	dep	_	KID=148-14
