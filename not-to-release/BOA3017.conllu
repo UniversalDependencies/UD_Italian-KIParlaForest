@@ -3687,7 +3687,7 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	quasi	quasi	ADV	_	_	2	advmod	_	Begin=732.652|KID=496-0
-2	quanto	quanto	PRON	_	Gender=Masc<DUBBIO>_|Number=Sing<DUBBIO>_|PronType=Int<DUBBIO>Rel	0	root	_	End=734.092|KID=496-1
+2	quanto	quanto	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	End=734.092|KID=496-1
 3	x	x	X	_	_	2	dep	_	Begin=735.932|End=736.732|KID=498-0|Syllables=3|Unintelligible=Yes
 
 # sent_id = BOA3017_499
