@@ -559,7 +559,7 @@
 9	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=46-6b
 10	segni	segno	NOUN	_	Gender=Masc|Number=Plur	7	nmod	_	KID=46-7
 11	eccetera	eccetera	ADV	_	_	4	conj	_	KID=46-8|PauseAfter=Yes
-12	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	13	aux	_	KID=46-10
+12	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	KID=46-10
 13	coperta	coprire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	ccomp	_	End=109.643|Intonation=Falling|KID=46-11
 14	perché	perché	SCONJ	_	_	39	mark	_	Begin=109.891|KID=48-0|OverlappingGroup=23
 15	comunque	comunque	ADV	_	_	39	discourse	_	KID=48-1
@@ -676,7 +676,7 @@
 48	punto	punto	NOUN	_	Gender=Masc|Number=Sing	50	nmod	_	KID=57-2
 49	di	di	ADP	_	_	50	case	_	KID=57-3
 50	vista	vista	NOUN	_	Gender=Fem|Number=Sing	51	obl	_	KID=57-4
-51	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	29	conj	_	KID=57-5
+51	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	conj	_	KID=57-5
 52	a	a	ADP	_	_	53	case	_	KID=57-6
 53	posto	posto	NOUN	_	Gender=Masc|Number=Sing	51	obl	_	End=134.356|Intonation=Falling|KID=57-7
 
@@ -1100,7 +1100,7 @@
 8	messe	mettere	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	1	conj	_	KID=93-8
 9	d'	d'	ADP	_	_	10	case	_	KID=93-9|SpaceAfter=No
 10	accordo	accordo	NOUN	_	Gender=Masc|Number=Sing	8	obl	_	KID=93-10
-11	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	13	aux	_	KID=93-11
+11	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	KID=93-11
 12	già	già	ADV	_	_	13	advmod	_	KID=93-12
 13	andata	andare	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	KID=93-13|OverlappingGroup=51
 14	ricevimento	ricevimento	NOUN	_	Gender=Masc|Number=Sing	13	xcomp	_	End=214.885|Intonation=WeaklyRising|KID=93-14|OverlappingGroup=51
@@ -1177,7 +1177,7 @@
 28	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	29	det	_	KID=97-18b
 29	coda	coda	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	KID=97-19
 30	che	che	PRON	_	PronType=Rel	35	nsubj	_	KID=97-20
-31	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	35	aux	_	KID=97-21
+31	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	35	aux	_	KID=97-21
 32	appunto	appunto	ADV	_	_	35	advmod	_	KID=97-22
 33	questi	questo	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	35	det	_	End=228.146|KID=97-23|Prolonged=Yes
 34	eh	eh	INTJ	_	_	35	discourse:filler	_	Begin=228.786|KID=99-0
@@ -1498,11 +1498,11 @@
 5	punto	punto	NOUN	_	Gender=Masc|Number=Sing	13	obl	_	KID=121-4|OverlappingGroup=62
 6	di	di	ADP	_	_	7	case	_	KID=121-5|OverlappingGroup=62
 7	vista	vista	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	KID=121-6|OverlappingGroup=62
-8	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	12	reparandum	_	End=298.668|KID=121-7|OverlappingGroup=62|Prolonged=Yes
+8	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	12	reparandum	_	End=298.668|KID=121-7|OverlappingGroup=62|Prolonged=Yes
 9	sì	sì	ADV	_	_	13	parataxis:parenth	_	Backchannel=BOA1009_119::5|Begin=298.93|KID=122-0
 10	sì	sì	ADV	_	_	9	conj	_	KID=122-1
 11	sì	sì	ADV	_	_	9	conj	_	KID=122-2
-12	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	13	aux	_	KID=122-3|OverlappingGroup=63
+12	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	KID=122-3|OverlappingGroup=63
 13	coperta	coprire	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	1	conj	_	End=300.382|Intonation=Falling|KID=122-4|OverlappingGroup=63
 
 # sent_id = BOA1009_123
