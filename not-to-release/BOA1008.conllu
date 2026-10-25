@@ -21,10 +21,10 @@
 2	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	0	root	_	End=7.756|Intonation=WeaklyRising|KID=1-1
 
 # sent_id = BOA1008_2a
-# text = c' è solo lei vero
-# text_conversationanalysis = c' è solo lei vero
+# text = c'è solo lei vero
+# text_conversationanalysis = c'è solo lei vero
 # speaker_id = BO026
-1	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	Begin=7.84|KID=2-0|Truncated=Yes
+1	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	Begin=7.84|KID=2-0|SpaceAfter=No
 2	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=2-1
 3	solo	solo	ADV	_	_	4	advmod	_	KID=2-2
 4	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	2	nsubj	_	KID=2-3
@@ -241,7 +241,7 @@
 7	tesi	tesi	NOUN	_	Gender=Fem	5	obj	_	KID=24-6|OverlappingGroup=8
 
 # sent_id = BOA1008_24b_26_28
-# text = lei mi aveva mandato anche eh mh qualcosa dell' indice
+# text = lei mi aveva mandato anche eh mh qualcosa dell'indice
 # text_conversationanalysis = lei mi aveva manda]to anche:: | e:h mh | [(qualcosa) dell' indice],
 # speaker_id = BO026
 1	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	KID=24-7|OverlappingGroup=8
@@ -252,7 +252,7 @@
 6	eh	eh	INTJ	_	_	8	discourse:filler	_	Begin=46.806|KID=26-0|Prolonged=Yes|ProsodicLink=Yes
 7	mh	mh	INTJ	_	_	8	discourse:filler	_	End=47.771|KID=26-1
 8	qualcosa	qualcosa	PRON	_	PronType=Ind	4	obj	_	Begin=47.88|KID=28-0|OverlappingGroup=10
-9-10	dell'	_	_	_	_	_	_	_	KID=28-1|OverlappingGroup=10|Truncated=Yes
+9-10	dell'	_	_	_	_	_	_	_	KID=28-1|OverlappingGroup=10|SpaceAfter=No
 9	di	di	ADP	_	_	11	case	_	KID=28-1a
 10	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	KID=28-1b
 11	indice	indice	NOUN	_	Gender=Masc|Number=Sing	8	nmod	_	End=49.763|Intonation=WeaklyRising|KID=28-2|OverlappingGroup=10
@@ -270,22 +270,22 @@
 7	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	3	dislocated	_	End=45.08|Intonation=WeaklyRising|KID=25-6|OverlappingGroup=8
 
 # sent_id = BOA1008_27
-# text = sì l' argomento sì sì sì
-# text_conversationanalysis = sì [l' argomento (.) sì sì sì].
+# text = sì l'argomento sì sì sì
+# text_conversationanalysis = sì [l'argomento (.) sì sì sì].
 # speaker_id = BO036
 1	sì	sì	ADV	_	_	3	advmod	_	Begin=47.756|KID=27-0
-2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=27-1|OverlappingGroup=9|Truncated=Yes
+2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=27-1|OverlappingGroup=9|SpaceAfter=No
 3	argomento	argomento	NOUN	_	Gender=Masc|Number=Sing	0	root	_	KID=27-2|OverlappingGroup=9|PauseAfter=Yes
 4	sì	sì	ADV	_	_	3	advmod	_	KID=27-4|OverlappingGroup=9
 5	sì	sì	ADV	_	_	4	flat	_	KID=27-5|OverlappingGroup=9
 6	sì	sì	ADV	_	_	4	flat	_	End=49.771|Intonation=Falling|KID=27-6|OverlappingGroup=9
 
 # sent_id = BOA1008_29
-# text = no l' indice in realtà no però
+# text = no l'indice in realtà no però
 # text_conversationanalysis = no l' indice in realt[à no]. però:
 # speaker_id = BO036
 1	no	no	ADV	_	PronType=Neg	0	root	_	Backchannel=BOA1008_28::1|Begin=50.686|KID=29-0
-2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=29-1|Truncated=Yes
+2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=29-1|SpaceAfter=No
 3	indice	indice	NOUN	_	Gender=Masc|Number=Sing	1	conj:reform	_	KID=29-2
 4	in	in	ADP	_	_	5	case	_	KID=29-3
 5	realtà	realtà	NOUN	_	Gender=Fem	3	advmod	_	KID=29-4|OverlappingGroup=11
@@ -386,10 +386,10 @@
 5	adesso	adesso	ADV	_	_	4	advmod	_	KID=41-4
 
 # sent_id = BOA1008_41b
-# text = l' ha concluso quasi concluso
+# text = l'ha concluso quasi concluso
 # text_conversationanalysis = l' ha concluso, quasi con[cluso]?
 # speaker_id = BO026
-1	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	KID=41-5|Truncated=Yes
+1	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	3	obj	_	KID=41-5|SpaceAfter=No
 2	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	KID=41-6
 3	concluso	concludere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Intonation=WeaklyRising|KID=41-7
 4	quasi	quasi	ADV	_	_	5	advmod	_	KID=41-8
@@ -437,7 +437,7 @@
 1	okay	okay	INTJ	_	_	0	root	_	Begin=75.385|End=75.913|Intonation=Falling|KID=45-0
 
 # sent_id = BOA1008_46_47_48
-# text = consideri che poi il sette l' otto e il nove mh anche la arancioni insieme saremo molto impegnate quindi o prima del sette o subito dopo il nove stesso
+# text = consideri che poi il sette l'otto e il nove mh anche la arancioni insieme saremo molto impegnate quindi o prima del sette o subito dopo il nove stesso
 # text_conversationanalysis = consideri che poi: il sette l' otto e il nove: | m::h anche la arancioni insieme saremo molto impegnate quindi, | o prima del sette o subito:: dopo il nove stesso.
 # speaker_id = BO026
 1	consideri	considerare	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Begin=76.2|Coconstruct=reparandum::BOA1008_43::2|KID=46-0
@@ -445,7 +445,7 @@
 3	poi	poi	ADV	_	_	16	advmod	_	KID=46-2|Prolonged=Yes
 4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=46-3
 5	sette	sette	NUM	_	NumType=Card	16	obl	_	KID=46-4
-6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	KID=46-5|Truncated=Yes
+6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	KID=46-5|SpaceAfter=No
 7	otto	otto	NUM	_	NumType=Card	5	conj	_	KID=46-6
 8	e	e	CCONJ	_	_	10	cc	_	KID=46-7
 9	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=46-8
@@ -482,7 +482,7 @@
 4	perfetto	perfetto	ADJ	_	Gender=Masc|Number=Sing	1	discourse	_	End=90.52|Intonation=Falling|KID=49-3|OverlappingGroup=18
 
 # sent_id = BOA1008_50
-# text = e quindi è per questa sessione di laurea va bene me lo scrivo sì sì no stia tranquillo l' avevo già detto alla collega per cui
+# text = e quindi è per questa sessione di laurea va bene me lo scrivo sì sì no stia tranquillo l'avevo già detto alla collega per cui
 # text_conversationanalysis = [e qui]ndi è per questa sessione di [lau]rea. va bene me lo scrivo. sì sì no stia tranquillo l' avevo già detto alla: collega per cui,
 # speaker_id = BO026
 1	e	e	CCONJ	_	_	3	cc	_	Begin=90.153|KID=50-0|OverlappingGroup=19
@@ -503,7 +503,7 @@
 16	no	no	ADV	_	PronType=Neg	14	flat	_	KID=50-15
 17	stia	stare	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	parataxis	_	KID=50-16
 18	tranquillo	tranquillare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	17	xcomp	_	KID=50-17
-19	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	22	obj	_	KID=50-18|Truncated=Yes
+19	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	22	obj	_	KID=50-18|SpaceAfter=No
 20	avevo	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	22	aux	_	KID=50-19
 21	già	già	ADV	_	_	22	advmod	_	KID=50-20
 22	detto	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	parataxis	_	KID=50-21

@@ -8,14 +8,14 @@
 # channels = phonic-auditory
 # symmetry = asymmetric
 # sent_id = BOA1009_0
-# text = ha dimentica~ ah non l' ho neanche visto meno male
+# text = ha dimentica~ ah non l'ho neanche visto meno male
 # text_conversationanalysis = ha dimentica~ ah non l' ho neanche visto meno male.
 # speaker_id = BO026
 1	ha	avere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	Begin=3.17|KID=0-0
 2	dimentica~	dimentica~	X	_	_	0	root	_	ExtUPOS=PROPN|Interrupted=Yes|KID=0-1
 3	ah	ah	INTJ	_	_	8	discourse	_	KID=0-2
 4	non	non	ADV	_	PronType=Neg	8	advmod	_	KID=0-3
-5	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	KID=0-4|Truncated=Yes
+5	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	8	obj	_	KID=0-4|SpaceAfter=No
 6	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	KID=0-5
 7	neanche	neanche	ADV	_	PronType=Neg	8	advmod	_	KID=0-6
 8	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	parataxis:restart	_	KID=0-7
@@ -486,7 +486,7 @@
 1	certo	certo	ADV	_	_	0	root	_	Begin=91.3|End=91.848|Intonation=Falling|KID=40-0|OverlappingGroup=18
 
 # sent_id = BOA1009_41
-# text = sì sì infatti comunque un po' di materiale usato quello del corso di didattica dell' italiano L2
+# text = sì sì infatti comunque un po' di materiale usato quello del corso di didattica dell'italiano L2
 # text_conversationanalysis = [>sì sì< i]nfatti comunque un po' di m[ateriale usato] quello [del] corso di didattica dell' italiano [elle
 # speaker_id = BO037
 1	sì	sì	ADV	_	_	0	root	_	Begin=95.581|KID=41-0|OverlappingGroup=22|PaceFast=Yes
@@ -505,7 +505,7 @@
 13	corso	corso	NOUN	_	Gender=Masc|Number=Sing	10	nmod	_	KID=41-11
 14	di	di	ADP	_	_	15	case	_	KID=41-12
 15	didattica	didattica	NOUN	_	Gender=Fem|Number=Sing	13	nmod	_	KID=41-13
-16-17	dell'	_	_	_	_	_	_	_	KID=41-14|Truncated=Yes
+16-17	dell'	_	_	_	_	_	_	_	KID=41-14|SpaceAfter=No
 16	di	di	ADP	_	_	18	case	_	KID=41-14a
 17	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	KID=41-14b
 18	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	15	nmod	_	KID=41-15
@@ -720,12 +720,12 @@
 18	bambini	bambino	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	End=138.975|Intonation=Rising|KID=60-3|OverlappingGroup=30
 
 # sent_id = BOA1009_59_61
-# text = eh qualcosa c' è molto molto poco tendenzialmente tutti i lav~
+# text = eh qualcosa c'è molto molto poco tendenzialmente tutti i lav~
 # text_conversationanalysis = [e:h] | [qualcosa]:: c' è molto molto poco tend[enzialmente tutti i lav~]
 # speaker_id = BO037
 1	eh	eh	INTJ	_	_	4	discourse	_	Begin=137.686|End=138.229|KID=59-0|OverlappingGroup=29|Prolonged=Yes
 2	qualcosa	qualcosa	PRON	_	PronType=Ind	4	nsubj	_	Begin=138.295|KID=61-0|OverlappingGroup=30|Prolonged=Yes
-3	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	KID=61-1|Truncated=Yes
+3	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	KID=61-1|SpaceAfter=No
 4	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=61-2
 5	molto	molto	ADV	_	_	7	advmod	_	KID=61-3
 6	molto	molto	ADV	_	_	7	advmod	_	KID=61-4
@@ -747,7 +747,7 @@
 6	genitori	genitore	NOUN	_	Gender=Masc|Number=Plur	3	obl	_	End=143.038|Intonation=WeaklyRising|KID=62-5|OverlappingGroup=31
 
 # sent_id = BOA1009_63
-# text = eh mh no lo fanno comunque su persone che l' hanno fatto da da bambine ma intervistandoli da adulti
+# text = eh mh no lo fanno comunque su persone che l'hanno fatto da da bambine ma intervistandoli da adulti
 # text_conversationanalysis = e::h mh no lo fanno comunque su persone che l' hanno fatto da da bambine ma intervistandoli da adulti.
 # speaker_id = BO037
 1	eh	eh	INTJ	_	_	5	discourse:filler	_	Begin=143.03|KID=63-0|Prolonged=Yes
@@ -759,7 +759,7 @@
 7	su	su	ADP	_	_	8	case	_	KID=63-6
 8	persone	persona	NOUN	_	Gender=Fem|Number=Plur	5	obl	_	KID=63-7
 9	che	che	PRON	_	PronType=Rel	12	nsubj	_	KID=63-8
-10	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	12	obj	_	KID=63-9|Truncated=Yes
+10	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	12	obj	_	KID=63-9|SpaceAfter=No
 11	hanno	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	KID=63-10
 12	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	acl:relcl	_	KID=63-11
 13	da	da	ADP	_	_	14	reparandum	_	KID=63-12
@@ -817,7 +817,7 @@
 2	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	End=156.242|Intonation=Falling|KID=68-1
 
 # sent_id = BOA1009_69_70_71
-# text = tendezialmente sono lavori americani perché c' è l' università dei sordi la gallaudet per cui diciamo che il panorama americano è molto più attivo in italia c' è veramente molto poco
+# text = tendezialmente sono lavori americani perché c'è l'università dei sordi la gallaudet per cui diciamo che il panorama americano è molto più attivo in italia c'è veramente molto poco
 # text_conversationanalysis = tendezialmente sono lavori americani. | perché c' è l' università dei sordi la gallaudet per cui diciamo che, | il panorama americano è molto p[iù at]tivo in italia c' è veramente molto poco.
 # speaker_id = BO037
 1	tendezialmente	tendezialmente	ADV	_	_	2	advmod	_	Begin=156.291|KID=69-0
@@ -825,9 +825,9 @@
 3	lavori	lavoro	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	KID=69-2
 4	americani	americano	ADJ	_	Gender=Masc|Number=Plur	3	amod	_	End=158.848|Intonation=Falling|KID=69-3
 5	perché	perché	SCONJ	_	_	7	mark	_	Begin=159.205|KID=70-0
-6	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	KID=70-1|Truncated=Yes
+6	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	KID=70-1|SpaceAfter=No
 7	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	KID=70-2
-8	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	KID=70-3|Truncated=Yes
+8	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	9	det	_	KID=70-3|SpaceAfter=No
 9	università	università	NOUN	_	Gender=Fem	7	nsubj	_	KID=70-4
 10-11	dei	_	_	_	_	_	_	_	KID=70-5
 10	di	di	ADP	_	_	12	case	_	KID=70-5a
@@ -848,7 +848,7 @@
 25	attivo	attivo	ADJ	_	Gender=Masc|Number=Sing	17	ccomp	_	KID=71-6|OverlappingGroup=36
 26	in	in	ADP	_	_	27	case	_	KID=71-7
 27	italia	Italia	PROPN	_	_	29	obl	_	KID=71-8
-28	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	29	expl	_	KID=71-9|Truncated=Yes
+28	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	29	expl	_	KID=71-9|SpaceAfter=No
 29	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	conj	_	KID=71-10
 30	veramente	veramente	ADV	_	_	32	advmod	_	KID=71-11
 31	molto	molto	ADV	_	_	32	advmod	_	KID=71-12
@@ -863,12 +863,12 @@
 3	poco	poco	ADV	_	_	1	conj	_	End=167.465|Intonation=Falling|KID=73-1|OverlappingGroup=37
 
 # sent_id = BOA1009_74_75
-# text = però qualcosa c' è una associazione di appunto questi ex mh brokers così
+# text = però qualcosa c'è una associazione di appunto questi ex mh brokers così
 # text_conversationanalysis = [pe]rò qualcosa c' è una associazione di appunto questi: ex m:h | brokers c[osì],
 # speaker_id = BO037
 1	però	però	ADV	_	_	4	cc	_	Begin=167.24|KID=74-0|OverlappingGroup=38
 2	qualcosa	qualcosa	PRON	_	PronType=Ind	4	nsubj	_	KID=74-1
-3	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	KID=74-2|Truncated=Yes
+3	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	expl	_	KID=74-2|SpaceAfter=No
 4	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=74-3
 5	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	KID=74-4
 6	associazione	associazione	NOUN	_	Gender=Fem|Number=Sing	2	conj:reform	_	KID=74-5
@@ -1035,14 +1035,14 @@
 1	okay	okay	INTJ	_	_	0	root	_	Begin=197.106|End=197.5|Intonation=Falling|KID=87-0|OverlappingGroup=47
 
 # sent_id = BOA1009_88
-# text = per quello n~ non c' è problema perché sono
+# text = per quello n~ non c'è problema perché sono
 # text_conversationanalysis = [per quello n~ non c' è proble]ma pe[rché sono:]
 # speaker_id = BO037
 1	per	per	ADP	_	_	2	case	_	Begin=199.29|KID=88-0|OverlappingGroup=46
 2	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	obl	_	KID=88-1|OverlappingGroup=46
 3	n~	n~	X	_	_	6	dep	_	Interrupted=Yes|KID=88-2|OverlappingGroup=46
 4	non	non	ADV	_	PronType=Neg	6	advmod	_	KID=88-3|OverlappingGroup=46
-5	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	KID=88-4|OverlappingGroup=46|Truncated=Yes
+5	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	KID=88-4|OverlappingGroup=46|SpaceAfter=No
 6	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=88-5|OverlappingGroup=46
 7	problema	problema	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	KID=88-6|OverlappingGroup=46
 8	perché	poiperché	SCONJ	_	_	9	mark	_	KID=88-7|OverlappingGroup=48
@@ -1215,7 +1215,7 @@
 1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_95_96_97_99::50|Begin=233.546|End=233.883|Intonation=Falling|KID=100-0|OverlappingGroup=54|Volume=low
 
 # sent_id = BOA1009_101_104_105
-# text = il servizio dis~ studenti disabili e la professoressa che adesso è in pensione più un gruppo di assegnisti av~ avevano inizialmente c' ero anche io nella gruppo di ricerca lavorato sul però è un po' diverso insomma sulla
+# text = il servizio dis~ studenti disabili e la professoressa che adesso è in pensione più un gruppo di assegnisti av~ avevano inizialmente c'ero anche io nella gruppo di ricerca lavorato sul però è un po' diverso insomma sulla
 # text_conversationanalysis = [i:l servi]zio dis~ studenti disabili e:: la: professoressa che adesso è in pensione | più un gruppo di assegnisti av~ avevano inizialmente c' ero anche io nella gruppo di ricerca lavorato, | su:l però è un po' diverso insomma sulla::
 # speaker_id = BO026
 1	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	2	det	_	Begin=234.616|KID=101-0|OverlappingGroup=55|Prolonged=Yes
@@ -1239,7 +1239,7 @@
 19	av~	av~	X	_	_	20	reparandum	_	Interrupted=Yes|KID=104-5
 20	avevano	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	31	aux	_	KID=104-6
 21	inizialmente	inizialmente	ADV	_	_	23	advmod	_	KID=104-7
-22	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	expl	_	KID=104-8|Truncated=Yes
+22	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	23	expl	_	KID=104-8|SpaceAfter=No
 23	ero	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	31	parataxis:parenth	_	KID=104-9
 24	anche	anche	ADV	_	_	25	advmod	_	KID=104-10
 25	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	23	nsubj	_	KID=104-11
@@ -1314,7 +1314,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	Begin=257.475|End=257.755|KID=108-0|OverlappingGroup=56
 
 # sent_id = BOA1009_109
-# text = eh mh ma siamo stati a contatto abbastanza con il l' ufficio eh il servizio studenti disabili
+# text = eh mh ma siamo stati a contatto abbastanza con il l'ufficio eh il servizio studenti disabili
 # text_conversationanalysis = e:h mh ma siamo stati a contatto abbastanza con il l' ufficio eh il servizio studenti disa[bili].
 # speaker_id = BO026
 1	eh	eh	INTJ	_	_	5	discourse:filler	_	Begin=259.861|KID=109-0|Prolonged=Yes|ProsodicLink=Yes
@@ -1327,7 +1327,7 @@
 8	abbastanza	abbastanza	ADV	_	_	5	advmod	_	KID=109-7
 9	con	con	ADP	_	_	12	case	_	KID=109-8
 10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=109-9
-11	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	KID=109-10|Truncated=Yes
+11	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	12	det	_	KID=109-10|SpaceAfter=No
 12	ufficio	ufficio	NOUN	_	Gender=Masc|Number=Sing	7	nmod	_	KID=109-11
 13	eh	eh	INTJ	_	_	15	discourse:filler	_	KID=109-12
 14	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	KID=109-13
@@ -1386,7 +1386,7 @@
 2	mh	mh	NOUN	_	_	1	discourse	_	End=275.188|KID=115-1|OverlappingGroup=59
 
 # sent_id = BOA1009_116a
-# text = io poi avevo già contattato la mia insegnante di lingua dei segni qua che è un' interprete per cui comunque mi fa
+# text = io poi avevo già contattato la mia insegnante di lingua dei segni qua che è un'interprete per cui comunque mi fa
 # text_conversationanalysis = [io poi] avevo già contattato la mia insegnante di lingua dei segni qua che è un' interprete per cui comunque mi fa
 # speaker_id = BO037
 1	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	Begin=276.671|KID=116-0|OverlappingGroup=60
@@ -1406,7 +1406,7 @@
 14	qua	qua	ADV	_	_	8	advmod	_	KID=116-12
 15	che	che	PRON	_	PronType=Rel	18	mark	_	KID=116-13
 16	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	KID=116-14
-17	un'	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	KID=116-15|Truncated=Yes
+17	un'	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	KID=116-15|SpaceAfter=No
 18	interprete	interprete	NOUN	_	Number=Sing	8	acl:relcl	_	KID=116-16
 19	per	per	ADP	_	_	20	case	_	KID=116-17
 20	cui	cui	PRON	_	PronType=Rel	23	cc	_	KID=116-18
@@ -1658,7 +1658,7 @@
 5	xx	x	X	_	_	4	dep	_	End=334.375|Intonation=Falling|KID=138-3|OverlappingGroup=68
 
 # sent_id = BOA1009_139
-# text = ci sono dei paralleli con l' altra esperienza soltanto per per l' età no
+# text = ci sono dei paralleli con l'altra esperienza soltanto per per l'età no
 # text_conversationanalysis = [ci sono dei paralleli] con l' altra esperienza soltanto per per l' età (.) no,
 # speaker_id = BO026
 1	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	Begin=335.11|KID=139-0|OverlappingGroup=69
@@ -1666,13 +1666,13 @@
 3	dei	del	DET	_	Gender=Masc|Number=Plur|PronType=Ind	4	det	_	KID=139-2b
 4	paralleli	parallelo	NOUN	_	Gender=Masc|Number=Plur	2	nsubj	_	KID=139-3|OverlappingGroup=69
 5	con	con	ADP	_	_	8	case	_	KID=139-4
-6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	KID=139-5|Truncated=Yes
+6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	8	det	_	KID=139-5|SpaceAfter=No
 7	altra	altro	ADJ	_	Gender=Fem|Number=Sing	8	amod	_	KID=139-6
 8	esperienza	esperienza	NOUN	_	Gender=Fem|Number=Sing	2	obl	_	KID=139-7
 9	soltanto	soltanto	ADV	_	_	13	advmod	_	KID=139-8
 10	per	per	ADP	_	_	11	reparandum	_	KID=139-9
 11	per	per	ADP	_	_	13	case	_	KID=139-10
-12	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	KID=139-11|Truncated=Yes
+12	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	13	det	_	KID=139-11|SpaceAfter=No
 13	età	età	NOUN	_	_	2	obl	_	KID=139-12|PauseAfter=Yes
 14	no	no	ADV	_	PronType=Neg	2	discourse:tag	_	End=341.367|Intonation=WeaklyRising|KID=139-14
 
@@ -1776,7 +1776,7 @@
 1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_144_147a::13|Begin=357.975|End=358.26|Intonation=Falling|KID=146-0
 
 # sent_id = BOA1009_147b_148a
-# text = ho visto che ci sono sono stati scritti dei libri proprio quasi romanzi dove si riporta l' esperienza di questi bambini della
+# text = ho visto che ci sono sono stati scritti dei libri proprio quasi romanzi dove si riporta l'esperienza di questi bambini della
 # text_conversationanalysis = ho visto che ci sono sono stati scritti dei libri proprio quasi romanzi, | dove si riporta l' esperienza di questi bambini della:
 # speaker_id = BO037
 1	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	KID=147-3
@@ -1795,7 +1795,7 @@
 14	dove	dove	ADV	_	_	16	advmod	_	Begin=363.271|KID=148-0
 15	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	KID=148-1
 16	riporta	riportare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	acl:relcl	_	KID=148-2
-17	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	KID=148-3|Truncated=Yes
+17	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	18	det	_	KID=148-3|SpaceAfter=No
 18	esperienza	esperienza	NOUN	_	Gender=Fem|Number=Sing	16	nsubj	_	KID=148-4
 19	di	di	ADP	_	_	21	case	_	KID=148-5
 20	questi	questo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	21	det	_	KID=148-6
@@ -2022,7 +2022,7 @@
 1	sì	sì	ADV	_	_	0	root	_	Begin=408.536|End=409.011|Intonation=Falling|KID=163-0|OverlappingGroup=86
 
 # sent_id = BOA1009_164_167_168
-# text = adesso comunque sto lavorando ho degli esami per cui si parte anche perché comunque l' estate è difficile scuole chiuse tutto per cui comunque cioè il lavoro grosso sarà da settembre in poi
+# text = adesso comunque sto lavorando ho degli esami per cui si parte anche perché comunque l'estate è difficile scuole chiuse tutto per cui comunque cioè il lavoro grosso sarà da settembre in poi
 # text_conversationanalysis = [adesso co]munque [sto] lavorando ho degli esami per cui si parte anche perché comunque l' estate è diffi[cile], | scuole chiuse tutto per cui comunque, | cioè il lavoro grosso sarà da settembre in poi,
 # speaker_id = BO037
 1	adesso	adesso	ADV	_	_	4	advmod	_	Begin=409.395|KID=164-0|OverlappingGroup=87
@@ -2039,7 +2039,7 @@
 12	anche	anche	ADV	_	_	18	advmod	_	KID=164-11
 13	perché	perché	SCONJ	_	_	18	mark	_	KID=164-12
 14	comunque	comunque	ADV	_	_	18	advmod	_	KID=164-13
-15	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	KID=164-14|Truncated=Yes
+15	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	16	det	_	KID=164-14|SpaceAfter=No
 16	estate	estate	NOUN	_	Gender=Fem|Number=Sing	18	nsubj	_	KID=164-15
 17	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	KID=164-16
 18	difficile	difficile	ADJ	_	Number=Sing	11	parataxis:parenth	_	End=414.591|Intonation=WeaklyRising|KID=164-17|OverlappingGroup=89

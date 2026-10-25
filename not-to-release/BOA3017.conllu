@@ -2000,7 +2000,7 @@
 # conversation_id = BOA3017
 1	se	se	SCONJ	_	_	5	mark	_	Begin=405.148|KID=260-0|OverlappingGroup=
 2	non	non	ADV	_	PronType=Neg	5	advmod	_	KID=260-1|OverlappingGroup=
-3	doveva	dovere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	aux	_	KID=260-2|OverlappingGroup=
+3	dovevo	dovere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	5	aux	_	KID=260-2|OverlappingGroup=
 4	essere	essere	AUX	_	VerbForm=Inf	5	aux:pass	_	KID=260-3|OverlappingGroup=
 5	sputtanata	sputtanare	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	KID=260-4|OverlappingGroup=
 6	ormai	ormai	ADV	_	_	7	advmod	_	KID=260-5

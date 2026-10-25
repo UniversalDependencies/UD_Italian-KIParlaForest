@@ -3762,13 +3762,13 @@
 13	citate	citare	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	End=1119.774|KID=432-12
 
 # sent_id = TOD1005bis_433_434
-# text = ehm poi abbiamo dell' altro materiale che possiamo usare
+# text = ehm poi abbiamo dell'altro materiale che possiamo usare
 # text_conversationanalysis = e:h | poi abbiamo dell' altro materiale che possiamo usare,
 # speaker_id = TO017
 1	ehm	ehm	INTJ	_	_	3	discourse:filler	_	Begin=1119.861|End=1121.176|KID=433-0|Prolonged=Yes|ProsodicLink=Yes
 2	poi	poi	ADV	_	_	3	advmod	_	Begin=1121.334|KID=434-0
 3	abbiamo	avere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=434-1
-4	dell'	del	DET	_	_	6	det	_	KID=434-2
+4	dell'	del	DET	_	_	6	det	_	KID=434-2|SpaceAfter=No
 5	altro	altro	DET	_	PronType=Ind	6	amod	_	KID=434-3
 6	materiale	materiale	NOUN	_	Gender=Masc|Number=Sing	3	obj	_	KID=434-4
 7	che	che	PRON	_	PronType=Rel	9	obj	_	KID=434-5
@@ -4330,11 +4330,11 @@
 30	terzo	terzo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	29	nmod	_	End=1317.587|Intonation=Falling|KID=498-2
 
 # sent_id = TOD1005bis_499_500
-# text = gindibu l' arabo o gindibu della terra di arab arbâi non si sa bene la la traduzione è un po' problematica
+# text = gindibu l'arabo o gindibu della terra di arab arbâi non si sa bene la la traduzione è un po' problematica
 # text_conversationanalysis = xxx o xxx della terra di arab | xxx non si sa bene. l~ la traduzione (.) è (.) un po' problematica.
 # speaker_id = TO017
 1	gindibu	Gindibu	PROPN	_	_	0	root	_	Begin=1318.431|KID=499-0
-2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=499-6
+2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=499-6|SpaceAfter=No
 3	arabo	arabo	ADJ	_	Gender=Masc|Number=Sing	1	appos	_	KID=499-7
 4	o	o	CCONJ	_	_	5	cc	_	KID=499-1
 5	gindibu	Gindibu	PROPN	_	_	1	conj	_	KID=499-2
@@ -8766,15 +8766,15 @@
 9	articoli	articolo	NOUN	_	Gender=Masc|Number=Plur	7	obj	_	End=2703.296|Intonation=Falling|KID=1046-8
 
 # sent_id = TOD1005bis_1047_1048_1049a
-# text = queste lingue qua il safaitico l' ismaico avevano aq avevano n non avevano l'articolo x
-# text_conversationanalysis = queste lingue qua il safaitico ((l_ismaico)) avevano aq | avevano (n) | non avevano l' articolo xxx
+# text = queste lingue qua il safaitico l'ismaico avevano aq avevano n non avevano l'articolo x
+# text_conversationanalysis = queste lingue qua il safaitico l'ismaico avevano aq | avevano (n) | non avevano l' articolo xxx
 # speaker_id = TO017
 1	queste	questo	DET	_	Gender=Fem|Number=Plur|PronType=Dem	2	det	_	Begin=2703.412|KID=1047-0
 2	lingue	lingua	NOUN	_	Gender=Fem|Number=Plur	8	nsubj	_	KID=1047-1
 3	qua	qua	ADV	_	_	2	advmod	_	KID=1047-2
 4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=1047-3
 5	safaitico	safaitico	NOUN	_	_	2	conj:reform	_	KID=1047-4|Relation=conj:reform
-6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	KID=1047-5
+6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	KID=1047-5|SpaceAfter=No
 7	ismaico	ismaico	NOUN	_	_	5	conj	_	KID=1047-6|Relation=conj:reform
 8	avevano	avere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	KID=1047-7
 9	aq	aq	NOUN	_	_	8	obj	_	End=2706.109|KID=1047-8

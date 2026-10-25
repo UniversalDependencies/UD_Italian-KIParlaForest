@@ -379,7 +379,7 @@
 14	giardino	giardino	NOUN	_	Gender=Masc|Number=Sing	12	obj	_	End=94.64|Intonation=WeaklyRising|KID=27-12|Prolonged=Yes
 
 # sent_id = BOD2018_28_29_30_31_32_34a
-# text = abbiamo sì me un prato c' è un grande prato e in realtà ce ne son due e sono divisi dalla strada che che porta a casa mia e sotto casa abbiamo un un orto molto grande che è gestito da una parte da mia nonna e dai miei genitori un'altra parte da un'altra famiglia e intorno comunque c'è campagna quindi ehm per questo è immer~ cioè è immersa nella natura
+# text = abbiamo sì me un prato c'è un grande prato e in realtà ce ne son due e sono divisi dalla strada che che porta a casa mia e sotto casa abbiamo un un orto molto grande che è gestito da una parte da mia nonna e dai miei genitori un'altra parte da un'altra famiglia e intorno comunque c'è campagna quindi ehm per questo è immer~ cioè è immersa nella natura
 # text_conversationanalysis = abbia:mo: sì (me:) un prato: c' è un grande prato, | e in realtà ce ne son due:, | e::: sono divisi dalla strada che: che porta a casa mia, | e: sotto casa abbiamo un: un orto molto grande:: che è gestito da u:na parte da mia nonna e dai miei genito:ri un' altra parte da: un' altra famiglia, | e:::: intorno comunque c' è campagna. | [qui]ndi: e::hm per questo è immer~ cioè è immersa nella natura
 # speaker_id = BO140
 # conversation_id = BOD2018
@@ -388,7 +388,7 @@
 3	me	me	X	_	_	1	dep	_	KID=28-2|Prolonged=Yes
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=28-3
 5	prato	prato	NOUN	_	Gender=Masc|Number=Sing	1	obj	_	KID=28-4|Prolonged=Yes
-6	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	KID=28-5|Truncated=Yes
+6	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	KID=28-5|SpaceAfter=No
 7	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=28-6
 8	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=28-7
 9	grande	grande	ADJ	_	_	10	amod	_	KID=28-8
@@ -583,14 +583,14 @@
 20	piccoli	piccolo	ADJ	_	Gender=Masc|Number=Plur	16	obl	_	End=155.5|KID=38-16
 
 # sent_id = BOD2018_39_40
-# text = anche se non c' è un rapporto proprio mh stretto di parentela ma più di convenevoli e
+# text = anche se non c'è un rapporto proprio mh stretto di parentela ma più di convenevoli e
 # text_conversationanalysis = anche se non c' è: u:::n rapporto proprio:, | mh stre:tto di parentela ma:: più di: convenevoli: e::,
 # speaker_id = BO140
 # conversation_id = BOD2018
 1	anche	anche	ADV	_	ExtPos=SCONJ	5	discourse	_	Begin=155.92|KID=39-0
 2	se	se	SCONJ	_	_	1	fixed	_	KID=39-1
 3	non	non	ADV	_	PronType=Neg	5	advmod	_	KID=39-2
-4	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	KID=39-3|Truncated=Yes
+4	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	KID=39-3|SpaceAfter=No
 5	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=39-4|Prolonged=Yes
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	KID=39-5|Prolonged=Yes
 7	rapporto	rapporto	NOUN	_	Gender=Masc|Number=Sing	5	nsubj	_	KID=39-6

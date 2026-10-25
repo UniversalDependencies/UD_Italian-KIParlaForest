@@ -27,7 +27,7 @@
 2	sì	sì	ADV	_	_	0	root	_	Intonation=Falling|KID=1-1
 
 # sent_id = BOA1003_1b_2_5_7_8_11
-# text = allora io le posso mandare facciamo prima se le mando per email lei però m~ me la manda oggi stesso la mail e i titoli del dei due testi e lei ne sceglie uno in sostituzione che riguarda l' italiano per lo studio un approfondimento dell' italiano per lo studio
+# text = allora io le posso mandare facciamo prima se le mando per email lei però m~ me la manda oggi stesso la mail e i titoli del dei due testi e lei ne sceglie uno in sostituzione che riguarda l'italiano per lo studio un approfondimento dell'italiano per lo studio
 # text_conversationanalysis = allora, io le posso mandare: | facciamo prima se le mando per email lei però m~ me la manda oggi ste[sso la m]ail, | e i: titoli del dei due testi, | e lei ne sceglie uno, | in s[ostitu]zione che riguarda l' italiano per lo studio. | [un appro]fondimento dell' italiano per lo stu[dio].
 # speaker_id = BO026
 1	allora	allora	ADV	_	_	5	discourse	_	Intonation=WeaklyRising|KID=1-2
@@ -72,14 +72,14 @@
 38	sostituzione	sostituzione	NOUN	_	Gender=Fem|Number=Sing	35	obl	_	KID=8-1|OverlappingGroup=1
 39	che	che	PRON	_	PronType=Rel	40	nsubj	_	KID=8-2
 40	riguarda	riguardare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	acl:relcl	_	KID=8-3
-41	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	42	det	_	KID=8-4|Truncated=Yes
+41	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	42	det	_	KID=8-4|SpaceAfter=No
 42	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	40	obj	_	KID=8-5
 43	per	per	ADP	_	_	45	case	_	KID=8-6
 44	lo	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	45	det	_	KID=8-7
 45	studio	studio	NOUN	_	Gender=Masc|Number=Sing	42	nmod	_	End=18.57|Intonation=Falling|KID=8-8
 46	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	47	det	_	Begin=18.625|KID=11-0|OverlappingGroup=3
 47	approfondimento	approfondimento	NOUN	_	Gender=Masc|Number=Sing	42	conj:reform	_	KID=11-1|OverlappingGroup=3
-48-49	dell'	_	_	_	_	_	_	_	KID=11-2|Truncated=Yes
+48-49	dell'	_	_	_	_	_	_	_	KID=11-2|SpaceAfter=No
 48	di	di	ADP	_	_	50	case	_	KID=11-2a
 49	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	50	det	_	KID=11-2b
 50	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	47	nmod	_	KID=11-3
@@ -428,12 +428,12 @@
 8	sostituisco	sostituire	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	End=74.812|Intonation=WeaklyRising|KID=37-6|OverlappingGroup=20
 
 # sent_id = BOA1003_38
-# text = entrambi riguardano l' italiano per lo studio elledue per lo studio delle discipline
+# text = entrambi riguardano l'italiano per lo studio elledue per lo studio delle discipline
 # text_conversationanalysis = [entram]bi riguardano l' italiano per lo studio elle due per lo studio delle
 # speaker_id = BO026
 1	entrambi	entrambi	PRON	_	Gender=Masc|Number=Plur|PronType=Ind	2	nsubj	_	Begin=74.496|KID=38-0|OverlappingGroup=20
 2	riguardano	riguardare	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=38-1
-3	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	KID=38-2|Truncated=Yes
+3	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	4	det	_	KID=38-2|SpaceAfter=No
 4	italiano	italiano	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	KID=38-3
 5	per	per	ADP	_	_	7	case	_	KID=38-4
 6	lo	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	KID=38-5
@@ -502,8 +502,8 @@
 9	corso	corso	NOUN	_	Gender=Masc|Number=Sing	6	nmod	_	End=85.166|Intonation=Falling|KID=44-6|OverlappingGroup=24
 
 # sent_id = BOA1003_45
-# text = la seconda invece comprende invece i saggi della seconda parte e in più ci sarebbe il testo quello per l' approfondimento metodologico
-# text_conversationanalysis = [la seconda invece compre]nde invece i saggi dell[a se]conda parte e in più ci sarebbe il testo quello per [l' appr]ofondim[ento]: metodologico.
+# text = la seconda invece comprende invece i saggi della seconda parte e in più ci sarebbe il testo quello per l'approfondimento metodologico
+# text_conversationanalysis = [la seconda invece compre]nde invece i saggi dell[a se]conda parte e in più ci sarebbe il testo quello per [l'appr]ofondim[ento]: metodologico.
 # speaker_id = BO032
 1	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	2	det	_	Begin=84.185|KID=45-0|OverlappingGroup=24
 2	seconda	secondo	ADJ	_	Gender=Fem|Number=Sing|NumType=Ord	4	nsubj	_	KID=45-1|OverlappingGroup=24
@@ -526,7 +526,7 @@
 18	testo	testo	NOUN	_	Gender=Masc|Number=Sing	16	nsubj	_	KID=45-16
 19	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	18	nmod	_	KID=45-17
 20	per	per	ADP	_	_	22	case	_	KID=45-18
-21	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	KID=45-19|OverlappingGroup=26|Truncated=Yes
+21	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	KID=45-19|OverlappingGroup=26|SpaceAfter=No
 22	approfondimento	approfondimento	NOUN	_	Gender=Masc|Number=Sing	19	nmod	_	KID=45-20|OverlappingGroup=26,23|Prolonged=Yes
 23	metodologico	metodologico	ADJ	_	Gender=Masc|Number=Sing	22	amod	_	End=90.085|Intonation=Falling|KID=45-21
 
@@ -592,8 +592,8 @@
 1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1003_51_54::11|Begin=95.051|End=95.251|Intonation=WeaklyRising|KID=52-0|OverlappingGroup=28|Volume=low
 
 # sent_id = BOA1003_53
-# text = okay perfetto quindi a questo punto io verrei per l' orale portando questo
-# text_conversationanalysis = okay. p[erfetto. >q]uindi a questo punto io verrei per l' orale port[ando] questo<.
+# text = okay perfetto quindi a questo punto io verrei per l'orale portando questo
+# text_conversationanalysis = okay. p[erfetto. >q]uindi a questo punto io verrei per l'orale port[ando] questo<.
 # speaker_id = BO032
 1	okay	ok	INTJ	_	_	0	root	_	Begin=98.245|Intonation=Falling|KID=53-0
 2	perfetto	perfetto	ADJ	_	Gender=Masc|Number=Sing	1	conj	_	Intonation=Falling|KID=53-1|OverlappingGroup=29
@@ -604,7 +604,7 @@
 7	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	8	nsubj	_	KID=53-6|PaceFast=Yes
 8	verrei	venire	VERB	_	Mood=Cnd|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	KID=53-7|PaceFast=Yes
 9	per	per	ADP	_	_	11	case	_	KID=53-8|PaceFast=Yes
-10	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	KID=53-9|PaceFast=Yes|Truncated=Yes
+10	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	11	det	_	KID=53-9|PaceFast=Yes|SpaceAfter=No
 11	orale	orale	NOUN	_	_	8	obl	_	KID=53-10|PaceFast=Yes
 12	portando	portare	VERB	_	VerbForm=Ger	8	advcl	_	KID=53-11|OverlappingGroup=30|PaceFast=Yes
 13	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	12	obj	_	End=101.501|Intonation=Falling|KID=53-12|PaceFast=Yes
@@ -634,7 +634,7 @@
 3	ringrazio	ringraziare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=102.9|Intonation=Falling|KID=59-1|OverlappingGroup=32
 
 # sent_id = BOA1003_60
-# text = sì sì no io x mi iscrivo regolarmente e oggi le mando l' email oggi stesso va bene
+# text = sì sì no io x mi iscrivo regolarmente e oggi le mando l'email oggi stesso va bene
 # text_conversationanalysis = >sì. sì. no io xx mi iscrivo regolarmente e oggi le mando le mail ogg[i stesso] va bene,
 # speaker_id = BO032
 1	sì	sì	ADV	_	_	0	root	_	Begin=103.779|Intonation=Falling|KID=60-0
@@ -649,7 +649,7 @@
 10	oggi	oggi	ADV	_	_	12	advmod	_	KID=60-9
 11	le	le	PRON	_	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	12	iobj	_	KID=60-10
 12	mando	mandare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	conj	_	KID=60-11
-13	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	KID=60-12
+13	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	14	det	_	KID=60-12|SpaceAfter=No
 14	email	email	NOUN	_	_	12	obj	_	KID=60-13
 15	oggi	oggi	ADV	_	_	12	advmod	_	KID=60-14|OverlappingGroup=33
 16	stesso	stesso	ADJ	_	Gender=Masc|Number=Sing	15	amod	_	KID=60-15|OverlappingGroup=33
@@ -664,14 +664,14 @@
 2	bene	bene	ADV	_	_	1	advmod	_	End=107.15|Intonation=Falling|KID=61-1|OverlappingGroup=34
 
 # sent_id = BOA1003_62
-# text = questo non so se l' ho preso
-# text_conversationanalysis = questo, non so se [(l' ho preso)].
+# text = questo non so se l'ho preso
+# text_conversationanalysis = questo, non so se [(l'ho preso)].
 # speaker_id = BO032
 1	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	7	dislocated	_	Begin=107.63|Intonation=WeaklyRising|KID=62-0
 2	non	non	ADV	_	PronType=Neg	3	advmod	_	KID=62-1
 3	so	sapere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=62-2
 4	se	se	SCONJ	_	_	7	mark	_	KID=62-3
-5	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	KID=62-4|OverlappingGroup=35|Truncated=Yes
+5	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	7	obj	_	KID=62-4|OverlappingGroup=35|SpaceAfter=No
 6	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	KID=62-5|OverlappingGroup=35
 7	preso	prendere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	advcl	_	End=109.094|Intonation=Falling|KID=62-6|OverlappingGroup=35
 

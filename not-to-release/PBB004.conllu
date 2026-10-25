@@ -6065,7 +6065,7 @@
 11	inglese	inglese	NOUN	_	Number=Sing	8	obl	_	End=1281.235|KID=675-10|OverlappingGroup=135
 
 # sent_id = PBB004_676_678
-# text = ma ma il mio lavoro dopo dopo i cinquant' anni non è più possibile farlo
+# text = ma ma il mio lavoro dopo dopo i cinquant'anni non è più possibile farlo
 # text_conversationanalysis = [ma (.) ma i]l mio lav[oro dopo:] | dopo i cinquantanni non è più possibile farlo
 # speaker_id = BOI013 BOI012 BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	Begin=1280.522|KID=676-0|OverlappingGroup=135|PauseAfter=Yes
@@ -6076,7 +6076,7 @@
 6	dopo	dopo	ADP	_	_	7	reparandum	_	End=1282.479|KID=676-6|OverlappingGroup=136|Prolonged=Yes
 7	dopo	dopo	ADP	_	_	10	case	_	Begin=1283.224|KID=678-0
 8	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=678-1
-9	cinquant'	cinquanta	NOUN	_	_	10	nummod	_	KID=678-2
+9	cinquant'	cinquanta	NOUN	_	_	10	nummod	_	KID=678-2|SpaceAfter=No
 10	anni	anno	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	KID=678-2
 11	non	non	ADV	_	PronType=Neg	14	advmod	_	KID=678-3
 12	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	KID=678-4
