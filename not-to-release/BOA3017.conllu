@@ -4121,7 +4121,7 @@
 # text_conversationanalysis = fa' (vedere)
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	fa'	fare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=565-0a|Truncated=Yes
+1	fa'	fare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=565-0|Truncated=Yes
 2	vedere	vedere	VERB	_	VerbForm=Inf	1	xcomp	_	End=823.408|KID=565-1
 
 # sent_id = BOA3017_569
@@ -6717,7 +6717,7 @@
 41	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	KID=930-5
 42	stava	stare	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	KID=930-6
 43	studiando	studiare	VERB	_	VerbForm=Ger	40	parataxis:restart	_	KID=930-7
-44	delle	del	DET	_	Gender=Fem|Number=Plur|PronType=Ind	45	det	_	KID=930-8b
+44	delle	del	DET	_	Gender=Fem|Number=Plur|PronType=Ind	45	det	_	KID=930-8
 45	cose	cosa	NOUN	_	Gender=Fem|Number=Plur	43	obl	_	KID=930-9
 46	di	di	ADP	_	_	47	case	_	KID=930-10
 47	magia	magia	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	KID=930-11
@@ -6795,7 +6795,7 @@
 16	perché	perché	SCONJ	_	_	18	mark	_	KID=936-13
 17	han	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	KID=936-14|Truncated=Yes
 18	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	KID=936-15
-19	'sti	questo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	KID=936-16b|Truncated=Yes
+19	'sti	questo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	KID=936-16|Truncated=Yes
 20	libri	libro	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	KID=936-17
 21	che	che	SCONJ	_	_	24	obj	_	KID=936-18
 22	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	KID=936-19
@@ -6938,7 +6938,7 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	poi	poi	ADV	_	_	5	cc	_	Begin=1476.456|KID=947-0
-2	'ste	questo	PRON	_	_	5	nsubj	_	KID=947-1b|Truncated=Yes
+2	'ste	questo	PRON	_	_	5	nsubj	_	KID=947-1|Truncated=Yes
 3	qua	qua	ADV	_	_	2	amod	_	KID=947-2
 4	hanno	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	KID=947-3
 5	chiamato	chiamare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=947-4
@@ -7255,7 +7255,7 @@
 4	gialli	Gialli	PROPN	_	_	6	nsubj	_	Anonymized=Yes|KID=983-3
 5	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	KID=983-4
 6	sente	sentire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=983-5
-7	'sto	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	KID=983-6b|Truncated=Yes
+7	'sto	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	KID=983-6|Truncated=Yes
 8	pezzo	pezzo	NOUN	_	Gender=Masc|Number=Sing	6	dislocated	_	End=1565.535|Intonation=Rising|KID=983-7
 
 # sent_id = BOA3017_984
@@ -7796,7 +7796,7 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	no	no	ADV	_	PronType=Neg	_	_	_	Begin=1653.229|End=1653.28|KID=1056-0|OverlappingGroup=213|PauseAfter=Yes
-2	era	essere	INTJ	_	_	_	_	_	Begin=1653.229|End=1654.471|KID=1056-1|OverlappingGroup=213
+2	era	essere	INTJ	_	_	_	_	_	Begin=1653.229|End=1654.471|KID=1056-2|OverlappingGroup=213
 
 # sent_id = BOA3017_1057
 # text = una cagata la deve spara' sempre e comunque x

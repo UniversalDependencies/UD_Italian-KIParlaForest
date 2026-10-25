@@ -3440,7 +3440,7 @@
 13	uno	uno	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	End=1021.983|Intonation=WeaklyRising|KID=404-12
 14	che	che	PRON	_	PronType=Rel	16	nsubj	_	Begin=1023.418|KID=406-0
 15	la	la	PRON	_	Clitic=Yes|Gender=Fem|Number=Sing|Person=3|PronType=Prs	16	obj	_	KID=406-1
-16	parli	parlare	VERB	_	Mood=Ind<OR>Sub|Number=Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	KID=406-2a
+16	parli	parlare	VERB	_	Mood=Ind<OR>Sub|Number=Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	13	acl:relcl	_	KID=406-2
 
 # sent_id = TOD1005bis_405
 # text = una ricerca quindi
@@ -4827,7 +4827,7 @@
 32	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	33	det	_	KID=554-6b
 33	iscrizione	iscrizione	NOUN	_	Gender=Fem|Number=Sing	29	nmod	_	KID=554-7
 34	di	di	ADP	_	_	35	case	_	KID=554-8
-35	namar	Namar	PROPN	_	_	33	nmod	_	KID=554-10|PauseAfter=Yes
+35	namar	Namar	PROPN	_	_	33	nmod	_	KID=554-9|PauseAfter=Yes
 36	quella	quello	PRON	_	Gender=Fem|Number=Sing|PronType=Dem	33	conj:reform	_	KID=554-11
 37	che	che	PRON	_	PronType=Rel	40	obj	_	KID=554-12
 38	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	40	iobj	_	KID=554-13
@@ -5063,8 +5063,8 @@
 2	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	reparandum	_	KID=587-1
 3	di	di	ADP	_	_	6	advmod	_	KID=587-2
 4	nuovo	nuovo	ADV	_	_	3	fixed	_	KID=587-3|PauseAfter=Yes
-5	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	KID=587-5
-6	scritto	scrivere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=587-8
+5	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	KID=587-8
+6	scritto	scrivere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=587-5
 7	in	in	ADP	_	_	8	case	_	KID=587-6
 8	cuneiforme	cuneiforme	NOUN	_	_	6	obl	_	End=1536.012|Intonation=Falling|KID=587-7
 9	quindi	quindi	CCONJ	_	_	11	cc	_	Begin=1536.655|KID=588-0
@@ -8205,17 +8205,19 @@
 7	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	KID=975-6
 8	sappiamo	sapere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	KID=975-7
 9	potrebbero	potere	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	KID=975-8
-10	esser	essere	VERB	_	VerbForm=Inf	8	conj	_	KID=975-9a|Relation=conj:reform
-11	ce	ce	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	KID=975-9b|Relation=conj:reform
-12	ne	ne	PRON	_	Clitic=Yes|PronType=Prs	10	obl	_	KID=975-9c|Relation=conj:reform
+10-12	essercene	_	_	_	_	_	_	_	KID=975-9
+10	esser	essere	VERB	_	VerbForm=Inf	8	conj	_	KID=975-9a
+11	ce	ce	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	10	expl	_	KID=975-9b
+12	ne	ne	PRON	_	Clitic=Yes|PronType=Prs	10	obl	_	KID=975-9c
 13	alcune	alcuno	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	10	nsubj	_	KID=975-10
 14	molto	molto	ADV	_	_	16	advmod	_	KID=975-11
 15	più	più	ADV	_	_	16	advmod	_	KID=975-12
 16	vecchie	vecchio	ADJ	_	Gender=Fem|Number=Plur	13	amod	_	KID=975-13
 17	potrebbero	potere	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	KID=975-14
-18	esser	essere	VERB	_	VerbForm=Inf	8	conj	_	KID=975-15a|Relation=conj:reform
-19	ce	ce	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	18	expl	_	KID=975-15b|Relation=conj:reform
-20	ne	ne	PRON	_	Clitic=Yes|PronType=Prs	18	obl	_	KID=975-15c|Relation=conj:reform
+18-20	essercene	_	_	_	_	_	_	_	KID=975-15
+18	esser	essere	VERB	_	VerbForm=Inf	8	conj	_	KID=975-15a
+19	ce	ce	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	18	expl	_	KID=975-15b
+20	ne	ne	PRON	_	Clitic=Yes|PronType=Prs	18	obl	_	KID=975-15c
 21	alcune	alcuno	PRON	_	Gender=Fem|Number=Plur|PronType=Ind	18	nsubj	_	KID=975-16
 22	molto	molto	ADV	_	_	23	advmod	_	KID=975-17
 23	più	più	ADV	_	_	24	advmod	_	KID=975-18
@@ -9303,8 +9305,8 @@
 6	tutta	tutto	DET	_	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	KID=1114-5
 7	questa	questo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	KID=1114-6
 8	storia	storia	NOUN	_	Gender=Fem|Number=Sing	3	conj:reform	_	KID=1114-7
-9	meganoiosa	meganoioso	ADJ	_	_	8	amod	_	KID=1114-9
-10	per	per	ADP	_	_	11	mark	_	KID=1114-10
+9	meganoiosa	meganoioso	ADJ	_	_	8	amod	_	KID=1114-10
+10	per	per	ADP	_	_	11	mark	_	KID=1114-8
 11	dire	dire	VERB	_	VerbForm=Inf	8	advcl	_	KID=1114-11
 12	che	che	SCONJ	_	_	28	mark	_	KID=1114-12
 13	a	a	ADP	_	_	14	case	_	KID=1114-13

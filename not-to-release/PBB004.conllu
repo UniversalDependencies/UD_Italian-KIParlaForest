@@ -2579,8 +2579,8 @@
 16	portici	portico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	End=533.195|KID=281-14
 
 # sent_id = PBB004_282_283_284_285
-# text = e voi avete in mente un qualche aneddoto particolare di un qualcosa un'esperienza che vi ricordate che vi è accaduta legata a i portici
-# text_conversationanalysis = e | voi avete in mente un qualche aneddoto particolare: di un | qualcosa un' esperienza:: | che vi ricordate, che vi è accaduta legata i portici::
+# text = e voi avete in mente un qualche aneddoto particolare di un qualcosa un'esperienza che vi ricordate che vi è accaduta legata ai portici
+# text_conversationanalysis = e | voi avete in mente un qualche aneddoto particolare: di un | qualcosa un' esperienza:: | che vi ricordate, che vi è accaduta legata ai portici::
 # speaker_id = BOR005
 1	e	e	CCONJ	_	_	3	discourse:filler	_	Begin=533.825|End=534.155|KID=282-0
 2	voi	voi	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Begin=534.76|KID=283-0
@@ -2604,6 +2604,7 @@
 20	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	KID=285-5
 21	accaduta	accadere	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	KID=285-6
 22	legata	legare	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	KID=285-7
+23-24	ai	_	_	_	_	_	_	_	KID=285-8
 23	a	a	ADP	_	_	25	case	_	KID=285-8a
 24	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	KID=285-8b
 25	portici	portico	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	End=544.15|KID=285-9|Prolonged=Yes
@@ -7950,7 +7951,7 @@
 4	tutti	tutto	DET	_	Gender=Masc|Number=Plur|PronType=Tot	7	det	_	KID=900-3
 5	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	reparandum	_	KID=900-4|Prolonged=Yes
 6	gli	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	KID=900-5
-7	urli	urlo	NOUN	_	_	3	obj	_	KID=900-6a
+7	urli	urlo	NOUN	_	_	3	obj	_	KID=900-6
 8-9	degli	_	_	_	_	_	_	_	KID=900-7
 8	di	di	ADP	_	_	10	case	_	KID=900-7a
 9	gli	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=900-7b
@@ -8684,7 +8685,7 @@
 2	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	KID=984-1
 3	telefonato	telefonare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=984-2
 4	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	KID=984-3|Volume=high
-5	vieni	venire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	KID=984-5a|Reported=Yes
+5	vieni	venire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	KID=984-5|Reported=Yes
 6	che	che	PRON	_	PronType=Rel	8	nsubj	_	KID=984-6
 7	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	KID=984-7|SpaceAfter=No
 8	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	KID=984-8
@@ -8895,7 +8896,7 @@
 # speaker_id = BOI013
 1	poi	poi	ADV	_	_	2	advmod	_	Begin=1928.131|KID=1012-0
 2	lucio	Lucio	PROPN	_	_	0	root	_	KID=1012-1
-3	dalla	Dalla	PROPN	_	_	2	flat:name	_	KID=1012-2a
+3	dalla	Dalla	PROPN	_	_	2	flat:name	_	KID=1012-2
 4	gianni	Gianni	PROPN	_	_	2	conj	_	Begin=1930.307|KID=1014-0
 5	morandi	Morandi	PROPN	_	_	4	flat:name	_	End=1931.435|Intonation=WeaklyRising|KID=1014-1
 6	questi	questo	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	2	conj:reform	_	Begin=1934.597|KID=1016-0
