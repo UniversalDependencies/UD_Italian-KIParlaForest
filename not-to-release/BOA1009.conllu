@@ -1046,7 +1046,7 @@
 6	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=88-5|OverlappingGroup=46
 7	problema	problema	NOUN	_	Gender=Masc|Number=Sing	6	nsubj	_	KID=88-6|OverlappingGroup=46
 8	perché	poiperché	SCONJ	_	_	9	mark	_	KID=88-7|OverlappingGroup=48
-9	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	6	advcl	_	End=202.267|KID=88-8|OverlappingGroup=48|Prolonged=Yes
+9	sono	essere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	advcl	_	End=202.267|KID=88-8|OverlappingGroup=48|Prolonged=Yes
 
 # sent_id = BOA1009_89b_91
 # text = sulla sul lavoro insieme io stessa potrò imparare
@@ -1731,7 +1731,7 @@
 10	che	che	PRON	_	PronType=Rel	13	obj	_	KID=143-8
 11	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-9|ProsodicLink=Yes
 12	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-10|ProsodicLink=Yes
-13	presi	prendere	VERB	_	Gender=Masc<OR>_|Mood=Ind<OR>_|Number=Plur<OR>Sing|Person=1<OR>_|Tense=Past|VerbForm=Fin<OR>Part	9	acl:relcl	_	KID=143-11
+13	presi	prendere	VERB	_	_ |Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin<OR>Part	9	acl:relcl	_	KID=143-11
 14	erroneamente	erroneamente	ADV	_	_	13	advmod	_	KID=143-12
 15	perché	perché	SCONJ	_	_	17	mark	_	KID=143-13
 16	avevo	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	KID=143-14
@@ -1823,7 +1823,7 @@
 13	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	KID=148-21|OverlappingGroup=75
 14	cultura	cultura	NOUN	_	Gender=Fem|Number=Sing	8	conj	_	KID=148-22|OverlappingGroup=75
 15	udente	udente	ADJ	_	_	14	amod	_	KID=148-23
-16	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	18	cop	_	KID=148-24
+16	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	KID=148-24
 17	comunque	comunque	ADV	_	_	18	advmod	_	KID=148-25|OverlappingGroup=76
 18	cose	cosa	NOUN	_	Gender=Fem|Number=Plur	0	root	_	KID=148-26
 19	che	che	PRON	_	PronType=Rel	26	nsubj	_	KID=148-27
@@ -1961,7 +1961,7 @@
 24	breve	breve	ADJ	_	Number=Sing	22	obl	_	KID=156-24
 25	perché	perché	SCONJ	_	_	30	mark	_	KID=156-25
 26	purtroppo	purtroppo	ADV	_	_	30	advmod	_	KID=156-26
-27	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	30	cop	_	KID=156-27
+27	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	30	cop	_	KID=156-27
 28	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	29	det	_	KID=156-28
 29	po'	po'	ADV	_	_	30	advmod	_	End=397.055|Intonation=WeaklyRising|KID=156-29
 30	così	così	ADV	_	_	22	advcl	_	Begin=397.235|KID=158-0
