@@ -984,7 +984,7 @@
 4	anche	anche	ADV	_	_	5	advmod	_	Begin=267.47|KID=68-0
 5	perché	perché	SCONJ	_	_	6	mark	_	KID=68-1|Prolonged=Yes
 6	abito	abito	VERB	_	_	0	root	_	KID=68-2|Prolonged=Yes
-7	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	discourse	_	KID=68-3|Prolonged=Yes
+7	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	6	discourse	_	KID=68-3|Prolonged=Yes
 8	in	in	ADP	_	_	10	case	_	KID=68-4
 9	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	10	det	_	KID=68-5
 10	periferia	periferia	NOUN	_	Gender=Fem|Number=Sing	6	obl	_	KID=68-6
@@ -1569,7 +1569,7 @@
 21	delle	del	DET	_	Gender=Fem|Number=Plur|PronType=Ind	22	det	_	KID=101-8
 22	pendenze	pendenza	NOUN	_	Gender=Fem|Number=Plur	10	conj	_	KID=101-9
 23	normali	normale	ADJ	_	Number=Plur	22	amod	_	KID=101-10|Prolonged=Yes
-24	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	discourse	_	End=408.62|Intonation=Falling|KID=101-11
+24	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	discourse	_	End=408.62|Intonation=Falling|KID=101-11
 
 # sent_id = BOD2018_102
 # text = okay
@@ -2046,7 +2046,7 @@
 3	che	che	PRON	_	PronType=Rel	4	nsubj	_	KID=138-2
 4	sta	stare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	acl:relcl	_	KID=138-3
 5	fuori	fuori	ADV	_	ExtPos=ADP	12	case	_	KID=138-4
-6	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	KID=138-5
+6	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	KID=138-5
 7	da	da	ADP	_	_	5	fixed	_	KID=138-6|Prolonged=Yes
 8	cioè	cioè	CCONJ	_	_	9	cc	_	KID=138-7
 9	fuori	fuori	ADV	_	_	5	parataxis:parenth	_	KID=138-8
@@ -2620,7 +2620,7 @@
 27	primi	primo	NUM	_	_	28	nummod	_	KID=172-26
 28	tre	tre	NUM	_	NumType=Card	29	nummod	_	KID=172-27
 29	anni	anno	NOUN	_	Gender=Masc|Number=Plur	39	obl	_	KID=172-28
-30	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	discourse	_	End=701.81|Intonation=WeaklyRising|KID=172-29
+30	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	29	discourse	_	End=701.81|Intonation=WeaklyRising|KID=172-29
 31	non	non	ADV	_	PronType=Neg	35	advmod	_	Begin=702.297|KID=173-0
 32	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	35	obj	_	KID=173-1|SpaceAfter=No
 33	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	35	aux	_	KID=173-2
@@ -4959,7 +4959,7 @@
 21	più	più	ADV	_	_	22	advmod	_	KID=316-20
 22	grande	grande	ADJ	_	_	18	amod	_	KID=316-21
 23	x	x	X	_	_	18	dep	_	KID=316-22|Syllables=3|Unintelligible=Yes
-24	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	discourse	_	KID=316-23
+24	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	26	discourse	_	KID=316-23
 25	più	più	ADV	_	_	26	advmod	_	KID=316-24
 26	vicina	vicino	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	KID=316-25
 27	che	che	SCONJ	_	_	31	nsubj	_	KID=316-26
@@ -5006,7 +5006,7 @@
 6	po'	po'	NOUN	_	_	4	obl	_	KID=319-5
 7	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	8	det	_	KID=319-6
 8	voglia	volere	NOUN	_	_	4	obj	_	KID=319-7
-9	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	discourse	_	KID=319-8
+9	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	discourse	_	KID=319-8
 10	a	a	ADP	_	_	11	mark	_	KID=319-9
 11	fare	fare	VERB	_	VerbForm=Inf	8	acl	_	KID=319-10
 12	avanti	avanti	ADV	_	_	11	advmod	_	KID=319-11

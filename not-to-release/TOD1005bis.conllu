@@ -2904,7 +2904,7 @@
 # speaker_id = TO017
 1	noi	noi	PRON	_	Number=Plur|Person=1|PronType=Prs	2	nsubj	_	Begin=855.001|KID=350-0
 2	prendiamo	prendere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	_	_	_	KID=350-1|PauseAfter=Yes
-3	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	KID=350-3
+3	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	discourse	_	KID=350-3
 4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=350-4|Prolonged=Yes
 5	periodo	periodo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	End=857.587|KID=350-5
 6-7	del	_	_	_	_	_	_	_	Begin=858.172|KID=351-0
@@ -5291,7 +5291,7 @@
 8	da	da	ADP	_	_	10	case	_	KID=618-2a
 9	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	10	det	_	KID=618-2b
 10	area	area	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	KID=618-3|PaceSlow=Yes
-11	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	discourse	_	End=1618.53|KID=618-4|PaceSlow=Yes
+11	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	discourse	_	End=1618.53|KID=618-4|PaceSlow=Yes
 12	penisola	penisola	NOUN	_	Gender=Fem|Number=Sing	10	nmod	_	Begin=1619.062|End=1620.174|Intonation=WeaklyRising|KID=619-0|Prolonged=Yes
 13	eh	eh	INTJ	_	_	14	discourse	_	Begin=1620.443|KID=620-0|Prolonged=Yes
 14	mesopotamia	Mesopotamia	PROPN	_	_	12	nmod	_	KID=620-1
@@ -7859,7 +7859,7 @@
 17	quell'	quello	DET	_	Number=Sing<OR>_|PronType=Dem	18	det	_	Begin=2385.554|KID=930-0|SpaceAfter=No
 18	area	area	NOUN	_	Gender=Fem|Number=Sing	7	conj:reform	_	KID=930-1
 19	lì	lì	ADV	_	_	18	advmod	_	End=2386.142|Intonation=Falling|KID=930-2
-20	diciamo	dire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	discourse	_	Begin=2386.662|End=2387.421|KID=931-0
+20	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	discourse	_	Begin=2386.662|End=2387.421|KID=931-0
 21	sud	sud	NOUN	_	_	7	conj:reform	_	Begin=2387.591|KID=932-0
 22-23	della	_	_	_	_	_	_	_	KID=932-1
 22	di	di	ADP	_	_	24	case	_	KID=932-1a
