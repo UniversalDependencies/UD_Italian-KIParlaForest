@@ -18,9 +18,9 @@
 # text = i~ sugn tamarra
 # text_conversationanalysis = [i~ su]gn tamarra
 # speaker_id = BOI013
-1	i~	i~	X	_	Foreign=Yes	3	dep	_	Begin=0.96|ExtLemma=X|ExtUPOS=PRON|Interrupted=Yes|KID=1-0|OverlappingGroup=0
-2	sugn	sugn	X	_	Foreign=Yes	1	flat:foreign	_	KID=1-1|ExtLemma=esse|ExtUPOS=AUX|OverlappingGroup=0
-3	tamarra	tamarra	NOUN	_	_	0	root	_	End=2.383|KID=1-2
+1	i~	i~	X	_	Foreign=Yes	3	dep	_	Begin=0.96|Dialect=Yes|ExtLemma=io|ExtUPOS=PRON|Interrupted=Yes|KID=1-0|Lang=und|OverlappingGroup=0
+2	sugn	esse	AUX	_	Foreign=Yes	1	cop	_	Dialect=Yes|KID=1-1|Lang=und|OverlappingGroup=0
+3	tamarra	tamarra	NOUN	_	Foreign=Yes	0	root	_	Dialect=Yes|End=2.383|KID=1-2|Lang=und
 
 # sent_id = PBB004_3_4
 # text = alo~ in che zona di bologna vivete
@@ -1352,8 +1352,8 @@
 # speaker_id = BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	KID=150-2|PaceFast=Yes|Variety=Unsure
 2	ma	ma	CCONJ	_	_	4	cc	_	KID=150-3|PaceFast=Yes|Variety=Unsure
-3	sa	sa	X	_	Foreign=Yes	4	obj	_	ExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=dia|Variety=Unsure
-4	vut	vut	X	_	Foreign=Yes	0	root	_	ExtLemma=vlair|ExtUPOS=VERB|KID=150-5|Lang=dia|PauseAfter=Yes|Variety=Unsure
+3	sa	sa	PRON	_	Foreign=Yes	4	obj	_	Dialect=YesExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=und|Variety=Unsure
+4	vut	vlair	VERB	_	Foreign=Yes	0	root	_	Dialect=Yes|KID=150-5|Lang=und|PauseAfter=Yes|Variety=Unsure
 5-6	dalla	_	_	_	_	_	_	_	KID=150-7|Variety=Unsure
 5	da	da	ADP	_	_	7	case	_	KID=150-7a|Variety=Unsure
 6	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	7	det	_	KID=150-7b|Variety=Unsure

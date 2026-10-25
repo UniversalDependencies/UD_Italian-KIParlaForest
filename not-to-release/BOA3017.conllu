@@ -1441,8 +1441,8 @@
 25	parola	parola	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	KID=176-1
 26	inglese	inglese	ADJ	_	Number=Sing	25	amod	_	KID=176-2
 27	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	KID=176-3
-28	fuck	fuck	X	_	_	18	advcl	_	KID=176-4
-29	you	you	X	_	_	28	flat:foreign	_	KID=176-5
+28	fuck	fuck	VERB	_	Foreign=Yes	18	advcl	_	KID=176-4|Lang=en
+29	you	you	PRON	_	Foreign=Yes	28	flat:foreign	_	KID=176-5|Lang=en
 30	e	e	CCONJ	_	_	37	cc	_	KID=176-6
 31	quindi	quindi	CCONJ	_	_	37	cc	_	KID=176-7|PaceFast=Yes
 32	se	se	SCONJ	_	_	34	mark	_	KID=176-8|PaceFast=Yes
