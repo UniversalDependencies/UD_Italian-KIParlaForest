@@ -765,7 +765,7 @@
 # text = sì cioè per me sì
 # text_conversationanalysis = >cioè< per me sì
 # speaker_id = BOI013
-1	sì	sì	ADV	_	_	0	root	_	Begin=161.92|KID=87-0|PaceFast=Yes
+1	sì	sì	ADV	_	_	0	root	_	Begin=161.92|KID=4|PaceFast=Yes
 2	cioè	cioè	CCONJ	_	_	4	cc	_	Begin=161.92|KID=87-0|PaceFast=Yes
 3	per	per	ADP	_	_	4	case	_	KID=87-1
 4	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	conj:reform	_	KID=87-2
@@ -4778,13 +4778,13 @@
 
 # sent_id = PBB004_528
 # text = sì sì sì eh eh
-# text_conversationanalysis = [sì:: sì sì °vabbè°] ((borbotta))
+# text_conversationanalysis = [sì:: sì sì °eh eh°] ((borbotta))
 # speaker_id = BOI012
 1	sì	sì	ADV	_	_	0	root	_	Begin=989.268|KID=528-0|OverlappingGroup=|Prolonged=Yes
 2	sì	sì	ADV	_	_	1	conj	_	KID=528-1|OverlappingGroup=
 3	sì	sì	ADV	_	_	1	conj	_	KID=528-2|OverlappingGroup=
 4	eh	eh	INTJ	_	_	1	discourse	_	End=990.809|KID=528-3|Volume=low
-5	eh	eh	INTJ	_	_	1	discourse	_	End=990.809|KID=528-3|Volume=low
+5	eh	eh	INTJ	_	_	1	discourse	_	End=990.809|KID=528-5|Volume=low
 
 # sent_id = PBB004_529
 # text = perché la madonna viene da ma~ quando a maggio
@@ -6078,7 +6078,7 @@
 7	dopo	dopo	ADP	_	_	10	case	_	Begin=1283.224|KID=678-0
 8	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=678-1
 9	cinquant'	cinquanta	NOUN	_	_	10	nummod	_	KID=678-2|SpaceAfter=No
-10	anni	anno	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	KID=678-2
+10	anni	anno	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	KID=678-8
 11	non	non	ADV	_	PronType=Neg	14	advmod	_	KID=678-3
 12	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	KID=678-4
 13	più	più	ADV	_	_	14	advmod	_	KID=678-5
@@ -6395,7 +6395,7 @@
 # text = eh vabbè ma i privati non sono lì per quello
 # text_conversationanalysis = beh ma i privati non sono lì per quello
 # speaker_id = BOI012
-1	eh	eh	INTJ	_	_	7	discourse	_	Begin=1362.28|KID=722-0
+1	eh	eh	INTJ	_	_	7	discourse	_	Begin=1362.28|KID=722-9
 2	vabbè	vabbè	INTJ	_	_	7	discourse	_	Begin=1362.28|KID=722-0
 3	ma	ma	CCONJ	_	_	7	cc	_	KID=722-1
 4	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	KID=722-2
@@ -8730,7 +8730,7 @@
 11	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	KID=988-10|PaceFast=Yes|Prolonged=Yes
 12	non	non	ADV	_	PronType=Neg	15	advmod	_	KID=988-11
 13	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	KID=988-12
-14	han	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	KID=988-12
+14	han	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	KID=988-15
 15	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis:restart	_	KID=988-13
 16	neanche	neanche	ADV	_	PronType=Neg	15	advmod	_	End=1890.443|KID=988-14
 17-18	sul	_	_	_	_	_	_	_	Begin=1890.593|KID=989-0
