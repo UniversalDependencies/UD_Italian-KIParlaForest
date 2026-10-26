@@ -765,7 +765,7 @@
 # text = sì cioè per me sì
 # text_conversationanalysis = >cioè< per me sì
 # speaker_id = BOI013
-1	sì	sì	ADV	_	_	0	root	_	Begin=161.92|KID=4|PaceFast=Yes
+1	sì	sì	ADV	_	_	0	root	_	Begin=161.92|KID=87-4|PaceFast=Yes
 2	cioè	cioè	CCONJ	_	_	4	cc	_	Begin=161.92|KID=87-0|PaceFast=Yes
 3	per	per	ADP	_	_	4	case	_	KID=87-1
 4	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	conj:reform	_	KID=87-2
