@@ -9315,11 +9315,11 @@
 16	se	se	SCONJ	_	_	19	mark	_	Begin=2871.929|KID=1115-0
 17	noi	noi	PRON	_	Number=Plur|Person=1|PronType=Prs	19	nsubj	_	KID=1115-1
 18	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	19	expl	_	KID=1115-2
-19	basiamo	basare	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	KID=1115-3
+19	basiamo	basare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	28	advcl	_	KID=1115-3
 20	su	su	ADP	_	_	21	case	_	End=2872.987|KID=1115-4
 21	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	19	obl	_	Begin=2873.141|KID=1116-0
 22	che	che	PRON	_	PronType=Rel	23	obj	_	KID=1116-1|PauseAfter=Yes
-23	troviamo	trovare	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	KID=1116-3
+23	troviamo	trovare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	21	acl:relcl	_	KID=1116-3
 24-25	sui	_	_	_	_	_	_	_	KID=1116-4
 24	su	su	ADP	_	_	26	case	_	KID=1116-4a
 25	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	26	det	_	KID=1116-4b
@@ -9380,7 +9380,7 @@
 1	quelle	quello	PRON	_	Gender=Fem|Number=Plur|PronType=Dem	0	root	_	Begin=2896.534|KID=1128-0
 2	che	che	PRON	_	PronType=Rel	5	nsubj	_	KID=1128-1
 3	oggi	oggi	ADV	_	_	5	advmod	_	KID=1128-2
-4	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	5	cop	_	KID=1128-3
+4	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	KID=1128-3
 5	siria	Siria	PROPN	_	_	1	acl:relcl	_	Intonation=WeaklyRising|KID=1128-4
 6	giordania	Giordania	PROPN	_	_	5	conj	_	End=2899.07|Intonation=WeaklyRising|KID=1128-5
 7	sinai	Sinai	PROPN	_	_	5	conj	_	Begin=2899.817|KID=1129-0|PaceSlow=Yes
@@ -9432,7 +9432,7 @@
 # text = abbiamo finito il tempo
 # text_conversationanalysis = abbiamo finito il tempo?
 # speaker_id = TO017
-1	abbiamo	avere	AUX	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	KID=1133-5
+1	abbiamo	avere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	2	aux	_	KID=1133-5
 2	finito	finire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=1133-6
 3	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	KID=1133-7
 4	tempo	tempo	NOUN	_	Gender=Masc|Number=Sing	2	obj	_	End=2915.517|Intonation=Rising|KID=1133-8
@@ -9448,7 +9448,7 @@
 5	fermare	fermare	VERB	_	VerbForm=Inf	0	root	_	KID=1135-2
 6	qui	qui	ADV	_	_	5	advmod	_	KID=1135-3
 7	se	se	SCONJ	_	_	9	mark	_	KID=1135-5
-8	abbiamo	avere	AUX	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	KID=1135-6
+8	abbiamo	avere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	9	aux	_	KID=1135-6
 9	raggiunto	raggiungere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	advcl	_	KID=1135-7
 10	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	11	det	_	KID=1135-8
 11	punto	punto	NOUN	_	Gender=Masc|Number=Sing	9	obj	_	KID=1135-9
@@ -9507,7 +9507,7 @@
 28	secolo	secolo	NOUN	_	_	31	obl	_	KID=1141-4
 29	questi	questo	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	31	dislocated	_	KID=1141-5
 30	li	li	PRON	_	Clitic=Yes|Gender=Masc|Number=Plur|Person=3|PronType=Prs	31	obj	_	KID=1141-6
-31	troviamo	trovare	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	End=2943.618|Intonation=WeaklyRising|KID=1141-7
+31	troviamo	trovare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	End=2943.618|Intonation=WeaklyRising|KID=1141-7
 32-33	alla	_	_	_	_	_	_	_	Begin=2944.346|KID=1142-0
 32	a	a	ADP	_	_	34	case	_	KID=1142-0a
 33	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	34	det	_	KID=1142-0b
@@ -9552,7 +9552,7 @@
 8	cui	cui	PRON	_	PronType=Rel	9	obl	_	KID=1146-7
 9	scrivere	scrivere	VERB	_	VerbForm=Inf	6	acl:relcl	_	KID=1146-8
 10	e	e	CCONJ	_	_	12	cc	_	KID=1146-9
-11	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	12	aux	_	KID=1146-10
+11	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	12	aux	_	KID=1146-10
 12	andati	andare	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	4	conj	_	KID=1146-11
 13-14	al	_	_	_	_	_	_	_	KID=1146-12
 13	a	a	ADP	_	_	15	case	_	KID=1146-12a
@@ -9575,7 +9575,7 @@
 # speaker_id = TO017
 1	eh	eh	INTJ	_	_	3	discourse:filler	_	Begin=2962.682|End=2963.182|KID=1148-0|Prolonged=Yes
 2	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	Begin=2963.258|KID=1149-0
-3	vediamo	vedere	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1149-1
+3	vediamo	vedere	VERB	_	Mood=Imp<OR>Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1149-1
 4	domani	domani	ADV	_	_	3	advmod	_	KID=1149-2
 5-6	alle	_	_	_	_	_	_	_	KID=1149-3|PaceSlow=Yes|Prolonged=Yes
 5	a	a	ADP	_	_	7	case	_	KID=1149-3a
