@@ -7815,7 +7815,7 @@
 13	tante	tanto	ADJ	_	Gender=Fem|Number=Plur	11	xcomp	_	KID=921-12
 14	che	che	SCONJ	_	_	20	mark	_	KID=921-13
 15	non	non	ADV	_	PronType=Neg	20	advmod	_	KID=921-14
-16	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	20	aux	_	KID=921-15
+16	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	KID=921-15
 17	mai	mai	ADV	_	_	20	advmod	_	KID=921-16
 18	state	stare	AUX	_	_	20	aux:pass	_	KID=921-17
 19	nemmeno	nemmeno	ADV	_	PronType=Neg	20	advmod	_	KID=921-18
@@ -7897,7 +7897,7 @@
 # text = sono state chiamate
 # text_conversationanalysis = °sono state chiamate°,
 # speaker_id = TO017
-1	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	3	aux	_	Begin=2402.211|KID=940-0|Volume=low
+1	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	Begin=2402.211|KID=940-0|Volume=low
 2	state	essere	AUX	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	3	aux:pass	_	KID=940-1|Volume=low
 3	chiamate	chiamare	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	End=2403.57|Intonation=WeaklyRising|KID=940-2|Volume=low
 
@@ -7928,13 +7928,13 @@
 1	cioè	cioè	CCONJ	_	_	4	cc	_	Begin=2410.063|KID=943-0
 2	noi	noi	PRON	_	Number=Plur|Person=1|PronType=Prs	4	nsubj	_	KID=943-1
 3	non	non	ADV	_	PronType=Neg	4	advmod	_	KID=943-2
-4	sappiamo	sapere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=943-3
+4	sappiamo	sapere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=943-3
 5	niente	niente	PRON	_	PronType=Ind	4	obj	_	KID=943-4
 6	di	di	ADP	_	_	8	case	_	KID=943-5
 7	queste	questo	DET	_	Gender=Fem|Number=Plur|PronType=Dem	8	det	_	KID=943-6
 8	lingue	lingua	NOUN	_	Gender=Fem|Number=Plur	4	obl	_	KID=943-7
 9	naturalmente	naturalmente	ADV	_	_	13	advmod	_	KID=943-8
-10	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	13	cop	_	KID=943-9
+10	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	KID=943-9
 11	iscrizioni	iscrizione	ADJ	_	_	13	nsubj	_	KID=943-10
 12	molto	molto	ADV	_	_	13	advmod	_	KID=943-11
 13	povere	povero	ADJ	_	Gender=Fem|Number=Plur	4	conj	_	KID=943-12
@@ -7995,8 +7995,8 @@
 9	se	se	SCONJ	_	_	12	mark	_	KID=950-9
 10	voi	voi	PRON	_	Number=Plur|Person=2|PronType=Prs	12	nsubj	_	KID=950-10
 11	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	12	obj	_	KID=950-11
-12	analizzate	analizzare	VERB	_	Gender=Fem<OR>_|Mood=Ind<OR>_|Number=Plur|Person=2<OR>_|Tense=Past<OR>Pres|VerbForm=Fin<OR>Part	34	advcl	_	Intonation=WeaklyRising|KID=950-12
-13	andate	andare	VERB	_	Gender=Fem<OR>_|Mood=Imp<OR>Ind<OR>_|Number=Plur|Person=2<OR>_|Tense=Past<OR>Pres|VerbForm=Fin<OR>Part	12	conj	_	KID=950-13
+12	analizzate	analizzare	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	34	advcl	_	Intonation=WeaklyRising|KID=950-12
+13	andate	andare	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	12	conj	_	KID=950-13
 14	a	a	ADP	_	_	15	mark	_	KID=950-14
 15	studiare	studiare	VERB	_	VerbForm=Inf	13	xcomp	_	KID=950-15
 16	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	KID=950-16
@@ -8022,7 +8022,7 @@
 36	arabo	arabo	NOUN	_	Gender=Masc|Number=Sing	34	nmod	_	KID=953-10
 37	che	che	PRON	_	PronType=Rel	39	obj	_	KID=953-11
 38	noi	noi	PRON	_	Number=Plur|Person=1|PronType=Prs	39	nsubj	_	KID=953-12
-39	abbiamo	avere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	End=2442.952|Intonation=Falling|KID=953-13
+39	abbiamo	avere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	34	acl:relcl	_	End=2442.952|Intonation=Falling|KID=953-13
 
 # sent_id = TOD1005bis_954_955_956_957_958
 # text = queste lingue qua dicono loro è già è già arabo questa lingua perché eh mh perché ha tutta una serie di caratteristiche che l'arabo ha e le altre lingue non hanno okay
@@ -8147,7 +8147,7 @@
 29	okay	okay	NOUN	_	_	23	discourse:tag	_	End=2479.694|Intonation=WeaklyRising|KID=968-3
 30	e	e	CCONJ	_	_	32	cc	_	Begin=2479.774|KID=969-0
 31	quindi	quindi	CCONJ	_	_	32	cc	_	KID=969-1
-32	riusciamo	riuscire	VERB	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	KID=969-2
+32	riusciamo	riuscire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	10	conj	_	KID=969-2
 33	a	a	ADP	_	_	34	mark	_	KID=969-3
 34-35	farci	_	_	_	_	_	_	_	KID=969-4
 34	far	fare	VERB	_	VerbForm=Inf	32	xcomp	_	KID=969-4a
@@ -8203,7 +8203,7 @@
 5	che	che	SCONJ	_	_	8	mark	_	KID=975-4
 6	non	non	ADV	_	PronType=Neg	8	advmod	_	KID=975-5
 7	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	8	obj	_	KID=975-6
-8	sappiamo	sapere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	KID=975-7
+8	sappiamo	sapere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	ccomp	_	KID=975-7
 9	potrebbero	potere	AUX	_	Mood=Cnd|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	KID=975-8
 10-12	essercene	_	_	_	_	_	_	_	KID=975-9
 10	esser	essere	VERB	_	VerbForm=Inf	8	conj	_	KID=975-9a
@@ -8329,7 +8329,7 @@
 # text = vedete che assomiglia a quell'alfabeto è diversa ma assomiglia a quell'alfabeto che abbiamo visto prima l'alfabeto sudarabico
 # text_conversationanalysis = vedete che assomiglia a quell' alfabe~ è diversa. ma assomiglia a quell' alfabeto che abbiamo visto prima (.) l' alfabeto sudarabico,
 # speaker_id = TO017
-1	vedete	vedere	VERB	_	Mood=Imp<OR>Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=2531.83|KID=992-0
+1	vedete	vedere	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=2531.83|KID=992-0
 2	che	che	SCONJ	_	_	3	mark	_	KID=992-1
 3	assomiglia	assomigliare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	KID=992-2
 4	a	a	ADP	_	_	6	case	_	KID=992-3
@@ -8338,12 +8338,12 @@
 7	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	KID=992-6
 8	diversa	diverso	ADJ	_	Gender=Fem|Number=Sing	1	conj	_	Intonation=Falling|KID=992-7
 9	ma	ma	CCONJ	_	_	10	cc	_	KID=992-8
-10	assomiglia	assomigliare	VERB	_	Mood=Imp<OR>Ind|Number=Sing|Person=2<OR>3|Tense=Pres|VerbForm=Fin	8	conj	_	KID=992-9
+10	assomiglia	assomigliare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	KID=992-9
 11	a	a	ADP	_	_	13	case	_	KID=992-10
 12	quell'	quello	DET	_	Number=Sing|PronType=Dem	13	det	_	KID=992-11|SpaceAfter=No
 13	alfabeto	alfabeto	NOUN	_	Gender=Masc|Number=Sing	10	obl	_	KID=992-12
 14	che	che	PRON	_	PronType=Rel	16	obj	_	KID=992-13
-15	abbiamo	avere	AUX	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	KID=992-14
+15	abbiamo	avere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	16	aux	_	KID=992-14
 16	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	13	acl:relcl	_	KID=992-15
 17	prima	prima	ADV	_	_	16	advmod	_	KID=992-16|PauseAfter=Yes
 18	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	KID=992-18|SpaceAfter=No
@@ -8405,7 +8405,7 @@
 48	varietà	varietà	NOUN	_	_	45	nmod	_	KID=999-9
 49	di	di	ADP	_	_	50	case	_	KID=999-10
 50	cui	cui	PRON	_	PronType=Rel	52	obl	_	KID=999-11
-51	abbiamo	avere	AUX	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	52	aux	_	KID=999-12
+51	abbiamo	avere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	52	aux	_	KID=999-12
 52	detto	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	48	acl:relcl	_	End=2562.97|Intonation=WeaklyRising|KID=999-13
 53	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	acl:relcl	_	Begin=2564.15|KID=1000-0|PaceSlow=Yes
 54	che	che	SCONJ	_	_	57	mark	_	KID=1000-1
@@ -8428,7 +8428,7 @@
 # speaker_id = TO017
 1	perché	perché	ADV	_	_	3	mark	_	Begin=2575.222|KID=1004-0
 2	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	obj	_	KID=1004-1
-3	sappiamo	sapere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1004-2
+3	sappiamo	sapere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1004-2
 
 # sent_id = TOD1005bis_1004b_1005_1006_1007_1008_1009
 # text = perché nelle iscrizioni si parla di alcuni regni il regno di edom regno di moab eh che esistevano all'epoca e quindi più o meno dovrebbe essere eh contemporanea
@@ -8732,7 +8732,7 @@
 3	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	advcl	_	KID=1042-3
 4	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	nsubj	_	KID=1042-4
 5	che	che	PRON	_	PronType=Rel	6	obj	_	KID=1042-5
-6	pensiamo	pensare	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	KID=1042-6
+6	pensiamo	pensare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	acl:relcl	_	KID=1042-6
 7	noi	noi	PRON	_	Number=Plur|Person=1|PronType=Prs	6	nsubj	_	KID=1042-7
 8	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	KID=1042-8
 9	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	KID=1042-9
@@ -8910,7 +8910,7 @@
 2	a	a	ADP	_	_	3	case	_	KID=1065-1
 3	qua~	qua~	X	_	_	7	reparandum	_	ExtLemma=X|ExtUPOS=ADV|Interrupted=Yes|KID=1065-2
 4	ah	ah	INTJ	_	_	7	discourse	_	KID=1065-3
-5	scusate	scusare	VERB	_	Mood=Imp<OR>Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	discourse	_	KID=1065-4
+5	scusate	scusare	VERB	_	Mood=Imp|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	7	discourse	_	KID=1065-4
 6	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	KID=1065-5
 7	dimenticato	dimenticare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=1065-6
 8	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	End=2747.147|Intonation=WeaklyRising|KID=1065-7
@@ -8935,7 +8935,7 @@
 
 # sent_id = TOD1005bis_1070b_1071_1072_1073_1074
 # text = quindi erodoto sembra confermare quest'idea che nella zona all'epoca eh ci fossero eh mh arabi che poi parlavano arabo anche perché lo troviamo come abbiamo visto negli scritti assiri negli scritti greci e più tardi romani
-# text_conversationanalysis = quindi erodoto sembra confermare quest' idea che nella zona all' epoca eh ci fossero, | e::::h mh | arabi (.) che poi >parlavano< arabo anche perché lo troviamo come abbiao visto negli scritti ass:iri, | negli scritti, | greci e più tardi romani
+# text_conversationanalysis = quindi erodoto sembra confermare quest' idea che nella zona all' epoca eh ci fossero, | e::::h mh | arabi (.) che poi >parlavano< arabo anche perché lo troviamo come abbiamo visto negli scritti ass:iri, | negli scritti, | greci e più tardi romani
 # speaker_id = TO017
 1	quindi	quindi	CCONJ	_	_	3	cc	_	KID=1070-4
 2	erodoto	Erodoto	PROPN	_	_	3	nsubj	_	KID=1070-5
@@ -8965,9 +8965,9 @@
 24	anche	anche	ADV	_	_	27	advmod	_	KID=1072-6
 25	perché	perché	SCONJ	_	_	27	mark	_	KID=1072-7
 26	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	27	obj	_	KID=1072-8
-27	troviamo	trovare	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	KID=1072-9
+27	troviamo	trovare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	conj	_	KID=1072-9
 28	come	come	ADP	_	_	30	case	_	KID=1072-10
-29	abbiamo	avere	AUX	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	KID=1072-11
+29	abbiamo	avere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	30	aux	_	KID=1072-11
 30	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	27	parataxis:parenth	_	KID=1072-12
 31-32	negli	_	_	_	_	_	_	_	KID=1072-13
 31	in	in	ADP	_	_	33	case	_	KID=1072-13a
@@ -9087,7 +9087,7 @@
 16	spostavano	spostare	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	11	acl:relcl	_	KID=1088-9
 17	e	e	CCONJ	_	_	21	cc	_	KID=1088-10
 18	come	come	ADV	_	_	20	mark	_	KID=1088-11
-19	abbiamo	avere	AUX	_	Mood=Imp<OR>Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	KID=1088-12
+19	abbiamo	avere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	KID=1088-12
 20	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	21	parataxis:parenth	_	KID=1088-13
 21	scrivevano	scrivere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	16	conj	_	KID=1088-14
 22-23	sui	_	_	_	_	_	_	_	KID=1088-15
@@ -9165,7 +9165,7 @@
 18	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	19	det	_	KID=1097-4b
 19	antichità	antichità	NOUN	_	Gender=Fem	15	nmod	_	End=2827.505|Intonation=WeaklyRising|KID=1097-5
 20	noi	noi	PRON	_	Number=Plur|Person=1|PronType=Prs	21	nsubj	_	Begin=2827.664|KID=1098-0
-21	troviamo	trovare	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1098-1
+21	troviamo	trovare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1098-1
 22	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	23	det	_	KID=1098-2
 23	iscrizioni	iscrizione	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	KID=1098-3
 24	scritte	scrivere	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	23	acl	_	KID=1098-4
@@ -9261,7 +9261,7 @@
 21	pochissimo	poco	ADJ	_	Degree=Abs|Gender=Masc|Number=Sing	22	amod	_	KID=1109-3
 22	materiale	materiale	NOUN	_	Gender=Masc|Number=Sing	25	obl	_	End=2855.97|KID=1109-4
 23	che	che	PRON	_	PronType=Rel	24	obj	_	Begin=2856.211|KID=1110-0
-24	abbiamo	avere	VERB	_	Mood=Ind<OR>Sub|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	KID=1110-1
+24	abbiamo	avere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	acl:relcl	_	KID=1110-1
 25	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	conj	_	KID=1110-2
 26	che	che	SCONJ	_	_	27	mark	_	KID=1110-3
 27	parlassero	parlare	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	25	ccomp	_	KID=1110-4
