@@ -935,8 +935,8 @@
 14	di	di	ADP	_	_	16	case	_	KID=114-0a
 15	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=114-0b
 16	verbo	verbo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Intonation=WeaklyRising|KID=114-1|Prolonged=Yes
-17	'aarada	x	X	_	_	16	nmod	_	KID=114-2|Lang=ara
-18	yurid	yurid	X	_	_	17	conj:reform	_	End=248.97|KID=114-3|Lang=ara
+17	'aarada	x	X	_	_	16	nmod	_	KID=114-2|Lang=ar
+18	yurid	yurid	X	_	_	17	conj:reform	_	End=248.97|KID=114-3|Lang=ar
 19	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Begin=249.246|KID=115-0
 20	volere	volere	VERB	_	VerbForm=Inf	16	conj:reform	_	KID=115-1|PauseAfter=Yes
 21-22	del	_	_	_	_	_	_	_	KID=115-3
@@ -4343,7 +4343,7 @@
 8	terra	terra	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	KID=499-4
 9	di	di	ADP	_	_	10	case	_	KID=499-5
 10	arab	Arab	PROPN	_	_	8	nmod	_	End=1321.705|KID=499-6
-11	arbâi	arbâi	X	_	_	10	conj:reform	_	Begin=1321.993|KID=500-0|Lang=ara
+11	arbâi	arbâi	X	_	_	10	conj:reform	_	Begin=1321.993|KID=500-0|Lang=ar
 12	non	non	ADV	_	PronType=Neg	14	advmod	_	KID=500-1
 13	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	KID=500-2
 14	sa	sapere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:parenth	_	KID=500-3
@@ -5025,9 +5025,9 @@
 # text_conversationanalysis = ora | xxx | e xxx | sono due parole che avete ancora oggi in arabo | okay,
 # speaker_id = TO017
 1	ora	ora	ADV	_	_	7	discourse	_	Begin=1523.262|End=1523.818|KID=577-0
-2	nāqat	nāqat	X	_	_	7	nsubj	_	Begin=1524.168|End=1525.006|KID=578-0|Lang=ara
+2	nāqat	nāqat	X	_	_	7	nsubj	_	Begin=1524.168|End=1525.006|KID=578-0|Lang=ar
 3	e	e	CCONJ	_	_	4	cc	_	Begin=1525.218|KID=579-0
-4	bakr	bakr	X	_	_	2	conj	_	End=1525.837|KID=579-1|Lang=ara
+4	bakr	bakr	X	_	_	2	conj	_	End=1525.837|KID=579-1|Lang=ar
 5	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	7	cop	_	Begin=1525.993|KID=580-0
 6	due	due	NUM	_	NumType=Card	7	nummod	_	KID=580-1
 7	parole	parola	NOUN	_	Gender=Fem|Number=Plur	0	root	_	KID=580-2
@@ -5043,10 +5043,10 @@
 # text = nāqat cammello femmina bakr vitello di cammello giovane cammello okay
 # text_conversationanalysis = xxx | cammello femmina | xxx | vitello di cammello giovane cammello. | okay,
 # speaker_id = TO017
-1	nāqat	nāqat	X	_	_	0	root	_	Begin=1528.356|End=1529.024|KID=582-0|Lang=ara
+1	nāqat	nāqat	X	_	_	0	root	_	Begin=1528.356|End=1529.024|KID=582-0|Lang=ar
 2	cammello	cammello	NOUN	_	Gender=Masc|Number=Sing	1	xcomp	_	Begin=1529.181|KID=583-0
 3	femmina	femmina	ADJ	_	_	2	amod	_	End=1530.043|KID=583-1
-4	bakr	bakr	X	_	_	1	conj	_	Begin=1530.312|End=1530.887|KID=584-0|Lang=ara
+4	bakr	bakr	X	_	_	1	conj	_	Begin=1530.312|End=1530.887|KID=584-0|Lang=ar
 5	vitello	vitello	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	Begin=1531.187|KID=585-0
 6	di	di	ADP	_	_	7	case	_	KID=585-1
 7	cammello	cammello	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	KID=585-2
@@ -5943,7 +5943,7 @@
 4	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	KID=718-2
 5	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	KID=718-3
 6	chiama	chiamare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=718-4
-7	luban	luban	NOUN	_	_	6	xcomp	_	End=1834.336|Intonation=Falling|KID=718-5|Lang=ara
+7	luban	luban	NOUN	_	_	6	xcomp	_	End=1834.336|Intonation=Falling|KID=718-5|Lang=ar
 8	in	in	ADP	_	_	9	case	_	Begin=1834.521|KID=719-0
 9	arabo	arabo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	End=1835.176|KID=719-1
 10	che	che	PRON	_	PronType=Rel	13	nsubj	_	Begin=1836.782|KID=720-0
@@ -8378,7 +8378,7 @@
 22	sirhan	Sirhan	PROPN	_	_	21	flat:name	_	End=2544.425|KID=994-20
 23	credo	credere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	parataxis:parenth	_	Begin=2549.793|KID=995-0|PauseAfter=Yes
 24	con	con	ADP	_	_	25	case	_	KID=995-2
-25	ḥā	ḥā	X	_	_	23	obl	_	End=2551.828|KID=995-3|Lang=ara
+25	ḥā	ḥā	X	_	_	23	obl	_	End=2551.828|KID=995-3|Lang=ar
 26	in	in	ADP	_	_	27	case	_	Begin=2552.324|KID=996-0
 27	giordania	Giordania	PROPN	_	_	21	nmod	_	End=2553.407|Intonation=WeaklyRising|KID=996-1
 28-29	al	_	_	_	_	_	_	_	Begin=2554.209|KID=997-0
@@ -8751,7 +8751,7 @@
 21	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	KID=1043-3b
 22	arabo	arabo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	End=2697.779|Intonation=WeaklyRising|KID=1043-4
 23	mh	mh	INTJ	_	_	14	discourse:tag	_	Begin=2698.047|End=2698.426|Intonation=WeaklyRising|KID=1044-0|Prolonged=Yes
-24	al	al	DET	_	_	18	appos	_	KID=1045-0|Lang=ara
+24	al	al	DET	_	_	18	appos	_	KID=1045-0|Lang=ar
 
 # sent_id = TOD1005bis_1046
 # text = le altre lingue che venivano scritte avevano altri articoli

@@ -3043,10 +3043,10 @@
 # text_conversationanalysis = u x d mammt
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	u	u	DET	_	_	2	det	_	Begin=609.86|KID=405-0|Lang=dia|Variation=Yes
-2	picc'	picc'	NOUN	_	_	0	root	_	KID=405-1|Lang=dia|Variation=Yes
-3	d	d	ADP	_	_	4	case	_	KID=405-2|Lang=dia|Variation=Yes
-4	mammt	mammt	NOUN	_	_	2	nmod	_	End=612.09|KID=405-3|Lang=dia|Variation=Yes
+1	u	u	DET	_	_	2	det	_	Begin=609.86|Dialect=Yes|KID=405-0|Lang=und|Variation=Yes
+2	picc'	picc'	NOUN	_	_	0	root	_	Dialect=Yes|KID=405-1|Lang=und|Variation=Yes
+3	d	d	ADP	_	_	4	case	_	Dialect=Yes|KID=405-2|Lang=und|Variation=Yes
+4	mammt	mammt	NOUN	_	_	2	nmod	_	Dialect=Yes|End=612.09|KID=405-3|Lang=und|Variation=Yes
 
 # sent_id = BOA3017_408
 # text = x
@@ -7763,7 +7763,7 @@
 3	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	KID=1048-2
 4	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=1048-3
 5	polipo	polipo	NOUN	_	Gender=Masc|Number=Sing	0	root	_	KID=1048-4
-6	'nte	'nte	ADP	_	_	8	case	_	KID=1048-5|Lang=dia|Truncated=Yes
+6	'nte	'nte	ADP	_	_	8	case	_	Dialect=Yes|KID=1048-5|Lang=und|Truncated=Yes
 7	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	KID=1048-6
 8	naso	naso	NOUN	_	Gender=Masc|Number=Sing	5	obl	_	End=1646.579|Intonation=Rising|KID=1048-7
 

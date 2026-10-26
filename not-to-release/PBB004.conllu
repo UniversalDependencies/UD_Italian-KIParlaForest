@@ -1352,7 +1352,7 @@
 # speaker_id = BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	KID=150-2|PaceFast=Yes|Variety=Unsure
 2	ma	ma	CCONJ	_	_	4	cc	_	KID=150-3|PaceFast=Yes|Variety=Unsure
-3	sa	sa	PRON	_	Foreign=Yes	4	obj	_	Dialect=YesExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=und|Variety=Unsure
+3	sa	sa	PRON	_	Foreign=Yes	4	obj	_	Dialect=Yes|ExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=und|Variety=Unsure
 4	vut	vlair	VERB	_	Foreign=Yes	0	root	_	Dialect=Yes|KID=150-5|Lang=und|PauseAfter=Yes|Variety=Unsure
 5-6	dalla	_	_	_	_	_	_	_	KID=150-7|Variety=Unsure
 5	da	da	ADP	_	_	7	case	_	KID=150-7a|Variety=Unsure
@@ -3809,7 +3809,7 @@
 1	eh	eh	INTJ	_	_	2	discourse	_	Begin=796.205|KID=428-0|Variety=Unsure
 2	beh	beh	INTJ	_	_	0	root	_	KID=428-1|Variety=Unsure
 3	che	che	SCONJ	_	_	4	mark	_	KID=428-2|Variety=Unsure
-4	bo'	bo'	VERB	_	_	2	conj	_	End=796.905|Italian=volere|KID=428-3|Lang=dia|Truncated=Yes|Variety=Unsure
+4	bo'	bo'	VERB	_	_	2	conj	_	Dialect=Yes|End=796.905|Italian=volere|KID=428-3|Lang=und|Truncated=Yes|Variety=Unsure
 
 # sent_id = PBB004_429
 # text = tu hai visto
@@ -3825,7 +3825,7 @@
 # speaker_id = BOR005
 # tags = chiedere Eleonora
 1	che	che	SCONJ	_	_	2	mark	_	Begin=798.61|KID=430-0|Variety=Unsure
-2	bo'	bo'	VERB	_	_	0	root	_	End=799.06|Italian=volere|KID=430-1|Lang=dia|Truncated=Yes|Variety=Unsure
+2	bo'	bo'	VERB	_	_	0	root	_	Dialect=Yes|End=799.06|Italian=volere|KID=430-1|Lang=und|Truncated=Yes|Variety=Unsure
 
 # sent_id = PBB004_431
 # text = che bo'
@@ -3833,7 +3833,7 @@
 # speaker_id = BOI013
 # tags = chiedere Eleonora
 1	che	che	SCONJ	_	_	2	mark	_	Begin=799.185|KID=431-0|OverlappingGroup=91|PaceFast=Yes|Variety=Unsure
-2	bo'	bo'	VERB	_	_	0	root	_	End=799.625|Italian=volere|KID=431-1|Lang=dia|OverlappingGroup=91|PaceFast=Yes|Truncated=Yes|Variety=Unsure
+2	bo'	bo'	VERB	_	_	0	root	_	Dialect=Yes|End=799.625|Italian=volere|KID=431-1|Lang=und|OverlappingGroup=91|PaceFast=Yes|Truncated=Yes|Variety=Unsure
 
 # sent_id = PBB004_432
 # text = sto sto ridendo
