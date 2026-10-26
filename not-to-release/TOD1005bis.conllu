@@ -212,7 +212,7 @@
 # text = cosa vuoi adesso
 # text_conversationanalysis = cosa vuoi adesso?
 # speaker_id = ???
-1	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	2	obj	_	Begin=61.06|KID=26-0
+1	cosa	cosa	PRON	_	Number=Sing|PronType=Int	2	obj	_	Begin=61.06|KID=26-0
 2	vuoi	volere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=26-1
 3	adesso	adesso	ADV	_	_	2	advmod	_	End=62.055|Intonation=Rising|KID=26-2
 
@@ -220,7 +220,7 @@
 # text = cosa vuoi adesso
 # text_conversationanalysis = cosa vuoi adesso?
 # speaker_id = TO017
-1	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<DUBBIO>_|PronType=Int	2	obj	_	Begin=62.175|KID=27-0
+1	cosa	cosa	PRON	_	Number=Sing|PronType=Int	2	obj	_	Begin=62.175|KID=27-0
 2	vuoi	volere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=27-1
 3	adesso	adesso	ADV	_	_	2	advmod	_	End=63.222|Intonation=Rising|KID=27-2
 
@@ -3276,7 +3276,7 @@
 17	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	18	det	_	KID=394-2b
 18	piemonte	Piemonte	PROPN	_	_	15	nmod	_	KID=394-3
 19	occidentale	occidentale	ADJ	_	Number=Sing	18	amod	_	Intonation=WeaklyRising|KID=394-4
-20	cosa	cosa	PRON	_	Gender=Fem<DUBBIO>_|Number=Sing<COSA>_|PronType=Int	21	obj	_	KID=394-5
+20	cosa	cosa	PRON	_	Number=Sing|PronType=Int	21	obj	_	KID=394-5
 21	faccio	fare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	End=978.179|Intonation=WeaklyRising|KID=394-6
 
 # sent_id = TOD1005bis_395
@@ -3290,7 +3290,7 @@
 5	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	KID=395-5
 6	parlano	parlare	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	Intonation=Falling|KID=395-6
 7	e	e	CCONJ	_	_	9	cc	_	KID=395-7
-8	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	9	obj	_	KID=395-8
+8	cosa	cosa	PRON	_	Number=Sing|PronType=Int	9	obj	_	KID=395-8
 9	faccio	fare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=987.201|Intonation=Rising|KID=395-9
 
 # sent_id = TOD1005bis_396a
@@ -3497,7 +3497,7 @@
 # speaker_id = TO017
 1	quindi	quindi	CCONJ	_	_	2	cc	_	KID=409-6
 2	abbiamo	avere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	End=1037.019|Intonation=WeaklyRising|KID=409-7
-3	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	5	obj	_	Begin=1037.537|KID=410-0
+3	cosa	cosa	PRON	_	Number=Sing|PronType=Int	5	obj	_	Begin=1037.537|KID=410-0
 4	possiamo	potere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	5	aux	_	KID=410-1
 5	usare	usare	VERB	_	VerbForm=Inf	2	parataxis:reform	_	End=1038.458|Intonation=Rising|KID=410-2
 
@@ -3614,7 +3614,7 @@
 6	epigrafico	epigrafico	ADJ	_	_	5	amod	_	Intonation=Falling|KID=420-5
 7	poi	poi	ADV	_	_	10	advmod	_	KID=420-6
 8	che	che	DET	_	PronType=Int	9	det	_	KID=420-7
-9	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	10	obj	_	KID=420-8
+9	cosa	cosa	PRON	_	Number=Sing|PronType=Int	10	obj	_	KID=420-8
 10	abbiamo	avere	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	End=1078.188|Intonation=Rising|KID=420-9
 11	come	come	ADP	_	_	12	case	_	Begin=1078.389|KID=421-0
 12	documenti	documento	NOUN	_	Gender=Masc|Number=Plur	10	obl	_	KID=421-1|Prolonged=Yes
@@ -3680,7 +3680,7 @@
 # text_conversationanalysis = tu, cos' è che hai detto (.) scusa,
 # speaker_id = TO017
 1	tu	tu	PRON	_	Number=Sing|Person=2|PronType=Prs	3	vocative	_	Begin=1100.665|Intonation=WeaklyRising|KID=428-0
-2	cos'	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	3	obj	_	KID=428-1|SpaceAfter=No
+2	cos'	cosa	PRON	_	Number=Sing|PronType=Int	3	obj	_	KID=428-1|SpaceAfter=No
 3	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=428-2
 4	che	che	SCONJ	_	_	6	mark	_	KID=428-3
 5	hai	avere	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	KID=428-4
@@ -4152,7 +4152,7 @@
 # text_conversationanalysis = (qualunque) cosa abbiano scritto a noi ci interessa | okay,
 # speaker_id = TO017
 1	qualunque	qualunque	DET	_	PronType=Ind	2	det	_	Begin=1255.636|KID=474-0
-2	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	8	nsubj	_	KID=474-1
+2	cosa	cosa	PRON	_	Number=Sing|PronType=Int	8	nsubj	_	KID=474-1
 3	abbiano	avere	AUX	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	aux	_	KID=474-2
 4	scritto	scrivere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	2	acl	_	KID=474-3
 5	a	a	ADP	_	_	6	case	_	KID=474-4
@@ -5279,7 +5279,7 @@
 # text = cosa possiamo trovare di scritto che provenga dall'area diciamo penisola eh mesopotamia levante eh mh nella prima metà del primo millennio avanti cristo
 # text_conversationanalysis = cosa possiamo trovare di <scritto>, | che <provenga dall' area diciamo> | penisola::, | e:::h mesopotamia levan:te | e::h mh | nell:a prima metà del primo millennio avanti cristo,
 # speaker_id = TO017
-1	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	3	obj	_	KID=617-3
+1	cosa	cosa	PRON	_	Number=Sing|PronType=Int	3	obj	_	KID=617-3
 2	possiamo	potere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	3	aux	_	KID=617-4
 3	trovare	trovare	VERB	_	VerbForm=Inf	0	root	_	KID=617-5
 4	di	di	ADP	_	_	5	case	_	KID=617-6
@@ -5692,7 +5692,7 @@
 # text_conversationanalysis = che cosa avevano
 # speaker_id = TO017
 1	che	che	DET	_	PronType=Int	2	det	_	KID=688-10
-2	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	3	obj	_	KID=688-11
+2	cosa	cosa	PRON	_	Number=Sing|PronType=Int	3	obj	_	KID=688-11
 3	avevano	avere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	End=1750.188|KID=688-12
 
 # sent_id = TOD1005bis_689_690_691_692a
@@ -5701,7 +5701,7 @@
 # speaker_id = TO017
 1	questi	questo	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	4	nsubj	_	Begin=1750.188|KID=689-0
 2	che	che	DET	_	PronType=Int	3	det	_	KID=689-1
-3	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	4	obj	_	KID=689-2
+3	cosa	cosa	PRON	_	Number=Sing|PronType=Int	4	obj	_	KID=689-2
 4	avevano	avere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	End=1750.189|Intonation=WeaklyRising|KID=689-3
 5	che	che	PRON	_	PronType=Rel	6	obj	_	Begin=1750.433|KID=690-0
 6	vendevano	vendere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	3	acl:relcl	_	KID=690-1|PaceSlow=Yes
@@ -6909,7 +6909,7 @@
 9	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	KID=830-4
 10	ancora	ancora	ADV	_	_	11	advmod	_	KID=830-5
 11	capito	capire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj:reform	_	KID=830-6
-12	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	15	nsubj:pass	_	KID=830-7
+12	cosa	cosa	PRON	_	Number=Sing|PronType=Int	15	nsubj:pass	_	KID=830-7
 13	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	15	expl	_	KID=830-8|SpaceAfter=No
 14	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	aux:pass	_	KID=830-9
 15	scritto	scrivere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	ccomp	_	End=2118.373|KID=830-10
@@ -7205,7 +7205,7 @@
 # text = cosa scrivevano
 # text_conversationanalysis = cosa scrivevano?
 # speaker_id = TO017
-1	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	2	obj	_	Begin=2205.369|KID=865-0
+1	cosa	cosa	PRON	_	Number=Sing|PronType=Int	2	obj	_	Begin=2205.369|KID=865-0
 2	scrivevano	scrivere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	Intonation=Rising|KID=865-1
 
 # sent_id = TOD1005bis_865b_866a
@@ -8583,7 +8583,7 @@
 # text_conversationanalysis = che cosa ci dicono le altre fonti dell' epoca?
 # speaker_id = TO017
 1	che	che	DET	_	PronType=Int	2	det	_	Begin=2632.558|KID=1019-0
-2	cosa	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	4	obj	_	KID=1019-1
+2	cosa	cosa	PRON	_	Number=Sing|PronType=Int	4	obj	_	KID=1019-1
 3	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	4	iobj	_	KID=1019-2
 4	dicono	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=1019-3
 5	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	7	det	_	KID=1019-4
@@ -8674,7 +8674,7 @@
 # text_conversationanalysis = che cos' è questo alilat secondo voi?
 # speaker_id = TO017
 1	che	che	DET	_	PronType=Int	2	mark	_	Begin=2667.082|KID=1033-0
-2	cos'	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	0	root	_	KID=1033-1|SpaceAfter=No
+2	cos'	cosa	PRON	_	Number=Sing|PronType=Int	0	root	_	KID=1033-1|SpaceAfter=No
 3	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	KID=1033-2
 4	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	5	det	_	KID=1033-3
 5	alilat	Alilat	PROPN	_	_	2	nsubj	_	KID=1033-4
@@ -8711,7 +8711,7 @@
 # text_conversationanalysis = che cos' è,
 # speaker_id = TO017
 1	che	che	DET	_	PronType=Int	2	det	_	Begin=2685.567|KID=1040-0
-2	cos'	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	0	root	_	KID=1040-1|SpaceAfter=No
+2	cos'	cosa	PRON	_	Number=Sing|PronType=Int	0	root	_	KID=1040-1|SpaceAfter=No
 3	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	cop	_	End=2686.132|Intonation=WeaklyRising|KID=1040-2
 
 # sent_id = TOD1005bis_1041
@@ -8815,7 +8815,7 @@
 1	e	e	CCONJ	_	_	4	cc	_	KID=1050-5
 2	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	nsubj	_	KID=1050-6
 3	che	che	DET	_	PronType=Int	4	det	_	KID=1050-7
-4	cos'	cosa	PRON	_	Gender=Fem<COSA>_|Number=Sing<COSA>_|PronType=Int	0	root	_	KID=1050-8|SpaceAfter=No
+4	cos'	cosa	PRON	_	Number=Sing|PronType=Int	0	root	_	KID=1050-8|SpaceAfter=No
 5	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	End=2714.053|Intonation=Rising|KID=1050-9
 
 # sent_id = TOD1005bis_1051
@@ -9584,6 +9584,7 @@
 
 # sent_id = TOD1005bis_1150
 # text = di chi era questa di alessandro
+<ANONIMIZZAZIONE?>
 # text_conversationanalysis = (di) chi era questa, di alessandro.
 # speaker_id = TO017
 1	di	di	ADP	_	_	2	case	_	Begin=2992.947|KID=1150-0
