@@ -3352,7 +3352,7 @@
 # sent_id = BOA3017_455
 # text = no quello quello del gatto quando gli ho raccontato della morte del gatto trascrivi quello
 # text_conversationanalysis = [no quello] quello del gatto quando (gli) ho raccontato della morte del gatto trascrivi quello ((ride))
-# speaker_id = BO139 BO147
+# speaker_id = BO147
 # conversation_id = BOA3017
 1	no	no	INTJ	_	_	3	discourse	_	Begin=665.043|KID=455-0|OverlappingGroup=
 2	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	reparandum	_	KID=455-1|OverlappingGroup=
@@ -3379,14 +3379,14 @@
 # sent_id = BOA3017_456
 # text = ah
 # text_conversationanalysis = a::h ((ride))
-# speaker_id = BO139 BO146
+# speaker_id = BO139
 # conversation_id = BOA3017
 1	ah	ah	INTJ	_	_	0	root	_	Begin=669.453|End=670.933|KID=456-0|Prolonged=Yes
 
 # sent_id = BOA3017_457
 # text = ah
 # text_conversationanalysis = a:::::h ((ride))
-# speaker_id = BO139 BO146
+# speaker_id = BO146
 # conversation_id = BOA3017
 1	ah	ah	INTJ	_	_	0	root	_	Begin=670.11|End=673.28|KID=457-0|Prolonged=Yes
 
@@ -8646,9 +8646,9 @@
 4	mangio	mangiare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=1806.518|KID=1160-3
 
 # sent_id = BOA3017_1163_1164_1165_1166_1167_1168
-# text = visto che mi sta per si s~ eh ah ho visto che mi si sta per scaricare il telefono quindi interrompo qua ah mh le comunicazioni
-# text_conversationanalysis = >visto che mi sta per si s~ eh< | AH | ho visto che mi si sta per scaricare il telefono quindi in[terrom]po qua | [ah] | mh | le comunicazion[i]
-# speaker_id = BO139 BO145 BO145 BO139
+# text = visto che mi sta per si s~ eh ah ho visto che mi si sta per scaricare il telefono quindi interrompo qua le comunicazioni
+# text_conversationanalysis = >visto che mi sta per si s~ eh< | AH | ho visto che mi si sta per scaricare il telefono quindi in[terrom]po qua | le comunicazion[i]
+# speaker_id = BO139
 # conversation_id = BOA3017
 1	visto	vedere	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	2	flat	_	Begin=1809.18|KID=1163-0|PaceFast=Yes
 2	che	che	SCONJ	_	_	4	mark	_	KID=1163-1|PaceFast=Yes
@@ -8672,10 +8672,8 @@
 20	quindi	quindi	CCONJ	_	_	21	cc	_	KID=1165-10
 21	interrompo	interrompere	NOUN	_	_	11	conj	_	KID=1165-11|OverlappingGroup=202
 22	qua	qua	ADV	_	_	21	advmod	_	End=1815.021|KID=1165-12
-23	ah	ah	INTJ	_	_	21	discourse	_	Begin=1814.296|End=1814.646|KID=1166-0|OverlappingGroup=202
-24	mh	mh	INTJ	_	_	21	discourse:filler	_	Begin=1815.404|End=1815.621|KID=1167-0
-25	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	Begin=1815.8|KID=1168-0
-26	comunicazioni	comunicazione	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	End=1816.758|KID=1168-1|OverlappingGroup=203
+23	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	Begin=1815.8|KID=1168-0
+24	comunicazioni	comunicazione	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	End=1816.758|KID=1168-1|OverlappingGroup=203
 
 # sent_id = BOA3017_1169
 # text = a quanti minuti siamo

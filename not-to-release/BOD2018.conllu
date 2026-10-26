@@ -3104,7 +3104,7 @@
 # sent_id = BOD2018_201
 # text = mh in che senso dici
 # text_conversationanalysis = mh in che senso dici?
-# speaker_id = BO140 BO118 BO140
+# speaker_id = BO140
 # conversation_id = BOD2018
 1	mh	mh	INTJ	_	_	4	discourse:filler	_	Begin=813.289|KID=201-0
 2	in	in	ADP	_	_	4	case	_	KID=201-1
@@ -4016,7 +4016,7 @@
 # sent_id = BOD2018_266
 # text = cioè non so se io quando avrò una famiglia vorrò sta a bologna
 # text_conversationanalysis = cioè non so se i:o quando avrò una famiglia vorrò sta a bologna
-# speaker_id = BO140 BO118
+# speaker_id = BO140
 # conversation_id = BOD2018
 1	cioè	cioè	CCONJ	_	_	3	cc	_	Begin=1024.988|KID=266-0
 2	non	non	ADV	_	PronType=Neg	3	advmod	_	KID=266-1
@@ -4495,7 +4495,7 @@
 # sent_id = BOD2018_289_291
 # text = cioè io non ho ricordi di quando son piccola che uscivo con i miei in centro a [TOWN_NAME] perché non ma pochissimi perché non
 # text_conversationanalysis = cioè io non ho ricordi di quando son piccola::: che uscivo con i miei in centro a @nomepaese | [pe]rché non: ma pochissimi perché [non:]
-# speaker_id = BO140 BO118 BO118
+# speaker_id = BO140
 # conversation_id = BOD2018
 1	cioè	cioè	CCONJ	_	_	4	cc	_	Begin=1146.255|KID=289-0
 2	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	4	nsubj	_	KID=289-1
@@ -4525,7 +4525,7 @@
 # sent_id = BOD2018_292_293_294
 # text = ma in realtà anch'io a [TOWN_NAME] cioè non ho ricordi che uscissi a [TOWN_NAME] o a [TOWN_NAME] con i miei forse x più nel paesino nostro ma sempre solite cose
 # text_conversationanalysis = [ma] in realtà anch' io a @nomepaese. | cioè non ho ricordi che uscissi a @nomepaese o a @nomepaese con i miei | forse xx più nel paesi:no nostro::, [ma sem]pre solite co::se:,
-# speaker_id = BO140 BO118 BO118 BO118
+# speaker_id = BO118
 # conversation_id = BOD2018
 1	ma	ma	CCONJ	_	_	11	cc	_	Begin=1156.447|KID=292-0|OverlappingGroup=57
 2	in	in	ADP	_	_	3	case	_	KID=292-1

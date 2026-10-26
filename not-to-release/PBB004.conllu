@@ -6068,7 +6068,7 @@
 # sent_id = PBB004_676_678
 # text = ma ma il mio lavoro dopo dopo i cinquant'anni non è più possibile farlo
 # text_conversationanalysis = [ma (.) ma i]l mio lav[oro dopo:] | dopo i cinquantanni non è più possibile farlo
-# speaker_id = BOI013 BOI012 BOI013
+# speaker_id = BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	Begin=1280.522|KID=676-0|OverlappingGroup=135|PauseAfter=Yes
 2	ma	ma	CCONJ	_	_	14	cc	_	KID=676-2|OverlappingGroup=135
 3	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=676-3|OverlappingGroup=135
@@ -6090,7 +6090,7 @@
 # sent_id = PBB004_677
 # text = ci vuol del ricambio
 # text_conversationanalysis = [<ci vuol del ri]cambio:>
-# speaker_id = BOI013 BOI012
+# speaker_id = BOI013
 1	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	Begin=1281.689|KID=677-0|OverlappingGroup=136|PaceSlow=Yes
 2	vuol	volere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=677-1|OverlappingGroup=136|PaceSlow=Yes
 3	del	del	DET	_	Definite=Ind|PronType=Art	4	det	_	KID=677-2|OverlappingGroup=136|PaceSlow=Yes
@@ -6114,28 +6114,27 @@
 6	testa	testa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	End=1288.357|KID=680-5
 
 # sent_id = PBB004_681_682
-# text = mh quindi rispetto al passato provi tanta fatica in più nel fare il tuo lavoro
-# text_conversationanalysis = m::h | quindi rispetto al >passato< provi tanta fatica in più n[el fa]re il tuo lavo[ro]
-# speaker_id = BOI013 BOR005
-1	mh	mh	INTJ	_	_	7	discourse	_	Begin=1288.995|End=1289.814|KID=681-0|Prolonged=Yes
-2	quindi	quindi	ADV	_	_	7	cc	_	Begin=1290.46|KID=682-0
-3	rispetto	rispetto	ADV	_	ExtPos=ADP	6	case	_	KID=682-1
-4-5	al	_	_	_	_	_	_	_	KID=682-2
-4	a	a	ADP	_	_	3	fixed	_	KID=682-2a
-5	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=682-2b
-6	passato	passato	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	KID=682-3|PaceFast=Yes
-7	provi	provare	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=682-4
-8	tanta	tanto	DET	_	PronType=Ind	9	det	_	KID=682-5
-9	fatica	fatica	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	KID=682-6
-10	in	in	ADP	_	_	11	case	_	KID=682-7
-11	più	più	ADV	_	_	9	advmod	_	KID=682-8
-12-13	nel	_	_	_	_	_	_	_	KID=682-9|OverlappingGroup=138
-12	in	in	ADP	_	_	14	case	_	KID=682-9a
-13	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	KID=682-9b
-14	fare	fare	VERB	_	VerbForm=Inf	7	advcl	_	KID=682-10|OverlappingGroup=138
-15	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	KID=682-11
-16	tuo	tuo	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	KID=682-12
-17	lavoro	lavoro	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	End=1294.293|KID=682-13|OverlappingGroup=236
+# text = quindi rispetto al passato provi tanta fatica in più nel fare il tuo lavoro
+# text_conversationanalysis = quindi rispetto al >passato< provi tanta fatica in più n[el fa]re il tuo lavo[ro]
+# speaker_id = BOR005
+1	quindi	quindi	ADV	_	_	6	cc	_	Begin=1290.46|KID=682-0
+2	rispetto	rispetto	ADV	_	ExtPos=ADP	5	case	_	KID=682-1
+3-4	al	_	_	_	_	_	_	_	KID=682-2
+3	a	a	ADP	_	_	2	fixed	_	KID=682-2a
+4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=682-2b
+5	passato	passato	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	KID=682-3|PaceFast=Yes
+6	provi	provare	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=682-4
+7	tanta	tanto	DET	_	PronType=Ind	8	det	_	KID=682-5
+8	fatica	fatica	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	KID=682-6
+9	in	in	ADP	_	_	10	case	_	KID=682-7
+10	più	più	ADV	_	_	8	advmod	_	KID=682-8
+11-12	nel	_	_	_	_	_	_	_	KID=682-9|OverlappingGroup=138
+11	in	in	ADP	_	_	13	case	_	KID=682-9a
+12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=682-9b
+13	fare	fare	VERB	_	VerbForm=Inf	6	advcl	_	KID=682-10|OverlappingGroup=138
+14	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=682-11
+15	tuo	tuo	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	KID=682-12
+16	lavoro	lavoro	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	End=1294.293|KID=682-13|OverlappingGroup=236
 
 # sent_id = PBB004_683
 # text = sì

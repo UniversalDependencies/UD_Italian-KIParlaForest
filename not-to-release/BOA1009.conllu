@@ -209,15 +209,14 @@
 9	udenti	udente	NOUN	_	_	8	amod	_	Begin=50.598|End=51.377|Intonation=WeaklyRising|KID=16-0|OverlappingGroup=4
 
 # sent_id = BOA1009_15_18
-# text = dei bambini udenti per
-# text_conversationanalysis = [dei bam]bini ud[enti], | [pe:r],
-# speaker_id = BO037 BO026
+# text = dei bambini udenti
+# text_conversationanalysis = [dei bam]bini ud[enti],
+# speaker_id = BO037
 1-2	dei	_	_	_	_	_	_	_	Begin=49.55|KID=15-0|OverlappingGroup=3
 1	di	di	ADP	_	_	3	case	_	KID=15-0a
 2	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	KID=15-0b
 3	bambini	bambino	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Coconstruct=conj:reform:14-6|KID=15-1|OverlappingGroup=3
 4	udenti	udente	ADJ	_	_	3	amod	_	End=50.984|Intonation=WeaklyRising|KID=15-2|OverlappingGroup=4
-5	per	per	ADP	_	_	3	obl	_	Begin=51.92|End=52.366|Intonation=WeaklyRising|KID=18-0|OverlappingGroup=6|Prolonged=Yes
 
 # sent_id = BOA1009_17
 # text = però bilingui italiano lingua dei segni
