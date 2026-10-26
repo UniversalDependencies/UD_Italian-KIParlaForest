@@ -1596,16 +1596,16 @@
 # conversation_id = BOA3017
 1	x	x	X	_	_	2	dep	_	Begin=325.807|End=326.087|KID=194-0|OverlappingGroup=31|Syllables=2|Unintelligible=Yes
 2-3	preparati	_	_	_	_	_	_	_	KID=196-0
-2	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Begin=326.762|KID=196-0
-3	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	Begin=326.762|KID=196-0
+2	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Begin=326.762|KID=196-0a
+3	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	Begin=326.762|KID=196-0b
 4	a	a	ADP	_	_	6	case	_	KID=196-1
 5	tante	tanto	DET	_	PronType=Ind	6	det	_	KID=196-2
 6	sere	sera	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	KID=196-3
 7	di	di	ADP	_	_	8	case	_	KID=196-4
 8	solitudine	solitudine	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	End=328.422|KID=196-5
 9-10	preparati	_	_	_	_	_	_	_	KID=197-0
-9	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Begin=329.327|KID=197-0
-10	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	expl	_	Begin=329.327|KID=197-0
+9	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Begin=329.327|KID=197-0a
+10	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	expl	_	Begin=329.327|KID=197-0b
 11	a	a	ADP	_	_	13	case	_	KID=197-1
 12	tante	tanto	DET	_	PronType=Ind	13	det	_	KID=197-2
 13	sere	sera	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	KID=197-3
@@ -1810,7 +1810,7 @@
 2	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	KID=225-1
 3	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	_	_	_	KID=225-2
 4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=225-3
-5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	KID=225-4|Relation=conj:reform
+5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	KID=225-4
 6	come	come	ADV	_	_	8	advmod	_	KID=225-5
 7	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	KID=225-6
 8	chiama	chiamare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	End=369.17|Intonation=Rising|KID=225-7
@@ -2345,7 +2345,7 @@
 8	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	End=456.959|KID=297-8
 9	eh	eh	INTJ	_	_	8	ccomp:reported	_	Begin=457.089|Intonation=Rising|KID=298-0
 10	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	KID=298-1
-11	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	End=458.44|KID=298-2|Relation=conj:reform
+11	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	End=458.44|KID=298-2
 
 # sent_id = BOA3017_299
 # text = eh
@@ -2757,8 +2757,8 @@
 24	così	così	ADV	_	_	26	advmod	_	KID=360-2
 25	volevo	volere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	aux	_	KID=360-3
 26-27	rivolgermi	_	_	_	_	_	_	_	KID=360-4
-26	rivolger	rivolgere	VERB	_	VerbForm=Inf	19	advcl	_	KID=360-4
-27	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	KID=360-4
+26	rivolger	rivolgere	VERB	_	VerbForm=Inf	19	advcl	_	KID=360-4a
+27	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	KID=360-4b
 28	a	a	ADP	_	_	30	case	_	KID=360-5
 29	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	KID=360-6
 30	professore	professore	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	KID=360-7
@@ -4533,7 +4533,7 @@
 
 # sent_id = BOA3017_619_621
 # text = cioè mi regali l'uovo non me ne faccio niente cioè ma quanto sei presuntuoso x sei prepotente proprio
-# text_conversationanalysis = cioè mi regali l' uovo non me ne faccio niente >cioè< ma quanto sei presuntuoso | [x (.) sei prep]otente >proprio<
+# text_conversationanalysis = cioè mi regali l' uovo non me ne faccio niente >cioè< ma quanto sei presuntuoso | [x (.) sei prep]otente >proprio<]
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	cioè	cioè	CCONJ	_	_	3	discourse	_	Begin=923.22|KID=619-0
@@ -4558,14 +4558,14 @@
 
 # sent_id = BOA3017_620
 # text = io ti ho detto che
-# text_conversationanalysis = xxx]
+# text_conversationanalysis = [io ti ho detto che]
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	io	io	X	_	_	4	nsubj	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-2	ti	ti	X	_	_	4	obl	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-3	ho	avere	X	_	_	4	aux	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-4	detto	dire	X	_	_	0	root	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-5	che	che	X	_	_	4	ccomp	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
+1	io	io	X	_	_	4	nsubj	_	KID=620-0|OverlappingGroup=104
+2	ti	ti	X	_	_	4	obl	_	KID=620-1|OverlappingGroup=104
+3	ho	avere	X	_	_	4	aux	_	KID=620-2|OverlappingGroup=104
+4	detto	dire	X	_	_	0	root	_	KID=620-3|OverlappingGroup=104
+5	che	che	X	_	_	4	ccomp	_	End=928.04|KID=620-4|OverlappingGroup=104
 
 # sent_id = BOA3017_622
 # text = nel sens~ no xxxx ti ringrazio del pensiero però
@@ -4799,8 +4799,8 @@
 # speaker_id = BO147
 # conversation_id = BOA3017
 1-2	portali	_	_	_	_	_	_	_	KID=641-0
-1	porta	portare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=951.585|KID=641-0|OverlappingGroup=117
-2	li	li	VERB	_	_	1	obj	_	Begin=951.585|KID=641-0|OverlappingGroup=117
+1	porta	portare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=951.585|KID=641-0a|OverlappingGroup=117
+2	li	li	VERB	_	_	1	obj	_	Begin=951.585|KID=641-0b|OverlappingGroup=117
 3	a	a	ADP	_	_	4	case	_	KID=641-1|OverlappingGroup=117
 4	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	obl	_	End=953.145|KID=641-2|OverlappingGroup=117
 
@@ -6748,8 +6748,8 @@
 68	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	69	det	_	KID=933-11
 69	roba	roba	NOUN	_	Gender=Fem|Number=Sing	67	obj	_	KID=933-12
 70-71	del	_	_	_	_	_	_	_	KID=933-13
-70	di	di	ADP	_	_	72	case	_	KID=933-13
-71	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	KID=933-13
+70	di	di	ADP	_	_	72	case	_	KID=933-13a
+71	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	KID=933-13b
 72	genere	genere	NOUN	_	Gender=Masc|Number=Sing	69	nmod	_	End=1447.628|KID=933-14
 
 # sent_id = BOA3017_931
@@ -7792,7 +7792,7 @@
 
 # sent_id = BOA3017_1056
 # text = no era
-# text_conversationanalysis = [no (.)
+# text_conversationanalysis = [no (.) era]
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	no	no	ADV	_	PronType=Neg	_	_	_	Begin=1653.229|End=1653.28|KID=1056-0|OverlappingGroup=213|PauseAfter=Yes
@@ -8250,7 +8250,7 @@
 5	conosce	conoscere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	KID=1114-4
 6	lia	Lia	PROPN	_	_	5	nsubj	_	Anonymized=Yes|End=1738.668|KID=1114-5
 7	mara	Mara	PROPN	_	_	3	conj:reform	_	Anonymized=Yes|Begin=1738.873|KID=1116-0|OverlappingGroup=196|Prolonged=Yes
-8	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	7	conj:reform	_	KID=1116-1|Relation=conj:reform
+8	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	7	conj:reform	_	KID=1116-1
 9	lì	lì	ADV	_	_	8	advmod	_	End=1740.031|KID=1116-2
 
 # sent_id = BOA3017_1115

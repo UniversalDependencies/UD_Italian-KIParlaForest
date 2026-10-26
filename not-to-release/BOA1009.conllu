@@ -449,7 +449,7 @@
 2	sì	sì	ADV	_	_	0	root	_	End=86.41|Intonation=Falling|KID=37-1|OverlappingGroup=17
 
 # sent_id = BOA1009_38_39a
-# text = io non credo di poterla aiutare in maniera specifica
+# text = io non credo di poterla aiutare in maniera specifica sul brokering e sulla mediazione
 # text_conversationanalysis = io non credo di poterla aiutare: | in maniera [specifica]
 # speaker_id = BO026
 1	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	3	nsubj	_	Begin=87.946|KID=38-0
@@ -463,6 +463,15 @@
 8	in	in	ADP	_	_	9	case	_	Begin=90.716|KID=39-0
 9	maniera	maniera	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	KID=39-1
 10	specifica	specifico	ADJ	_	Gender=Fem|Number=Sing	9	amod	_	KID=39-2|OverlappingGroup=18
+11-12	sul	_	_	_	_	_	_	_	KID=39-3
+11	su	su	ADP	_	_	13	case	_	KID=39-3a
+12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=39-3b
+13	brokering	brokering	NOUN	_	_	7	obl	_	KID=39-4
+14	e	e	CCONJ	_	_	17	cc	_	KID=39-5
+15-16	sulla	_	_	_	_	_	_	_	KID=39-6
+15	su	su	ADP	_	_	17	case	_	KID=39-6a
+16	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	17	det	_	KID=39-6b
+17	mediazione	mediazione	NOUN	_	Gender=Fem|Number=Sing	13	conj	_	KID=39-7
 
 # sent_id = BOA1009_39b
 # text = lei lo sa mi sono mi occupo della

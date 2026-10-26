@@ -2233,10 +2233,10 @@
 
 # sent_id = PBB004_247_248_PBB004_249_PBB004_250
 # text = ma a mh un'idea in generale che potreste avere che potrebbe venirvi in mente pensando un po' in generale ai giovani
-# text_conversationanalysis = ma | al mh | un' idea in generale che potreste ave:re che potrebbe venirvi in mente? | pensando un po' in generale ai giovani
+# text_conversationanalysis = ma | a mh | un' idea in generale che potreste ave:re che potrebbe venirvi in mente? | pensando un po' in generale ai giovani
 # speaker_id = BOR005
 1	ma	ma	CCONJ	_	_	5	cc	_	Begin=443.365|End=443.725|KID=247-0
-2	a	a	INTJ	_	_	5	discourse:filler	_	KID=248-0a
+2	a	a	INTJ	_	_	5	discourse:filler	_	KID=248-0
 3	mh	mh	INTJ	_	_	2	conj	_	End=444.555|KID=248-1
 4	un'	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Begin=445.055|KID=249-0|SpaceAfter=No
 5	idea	idea	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=249-1
@@ -6695,7 +6695,7 @@
 5	secondo	secondo	ADP	_	_	6	case	_	KID=759-3|PaceFast=Yes
 6	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	KID=759-4|PaceFast=Yes|Prolonged=Yes
 7	in	in	ADP	_	_	8	case	_	KID=759-5
-8	stasi	stasi	NOUN	_	Gender=Fem	2	xcomp	_	KID=759-6a
+8	stasi	stasi	NOUN	_	Gender=Fem	2	xcomp	_	KID=759-6
 9	ultimamen~	ultimamen~	X	_	_	2	dep	_	ExtLemma=ultimamente|ExtUPOS=ADV|Interrupted=Yes|KID=759-7
 
 # sent_id = PBB004_759b_760_761_762_763_764
@@ -8678,23 +8678,27 @@
 17	andare	andare	VERB	_	VerbForm=Inf	10	advcl	_	End=1879.08|KID=983-1
 
 # sent_id = PBB004_984
-# text = mi ha telefonato lei vieni che c'era il compleanno di michela mi sembra
+# text = mi ha telefonato lei a dirmi vieni che c'era il compleanno di michela mi sembra
 # text_conversationanalysis = mi ha telefonato LEI (a dirmi) che c' era il compleanno di:: michela (.) mi [sembra]
 # speaker_id = BOI012
 1	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	Begin=1879.386|KID=984-0
 2	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	KID=984-1
 3	telefonato	telefonare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=984-2
 4	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	KID=984-3|Volume=high
-5	vieni	venire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	KID=984-5|Reported=Yes
-6	che	che	PRON	_	PronType=Rel	8	nsubj	_	KID=984-6
-7	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	KID=984-7|SpaceAfter=No
-8	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	KID=984-8
-9	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=984-9
-10	compleanno	compleanno	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	KID=984-10
-11	di	di	ADP	_	_	12	case	_	KID=984-11|Prolonged=Yes
-12	michela	Michela	PROPN	_	_	10	nmod	_	KID=984-12|PauseAfter=Yes
-13	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	expl	_	KID=984-14
-14	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:parenth	_	End=1884.333|KID=984-15|OverlappingGroup=190
+5	a	a	ADP	_	_	6	case	_	KID=984-4
+6-7	dirmi	_	_	_	_	_	_	_	KID=984-5
+6	dir	dire	VERB	_	VerbForm=Inf	3	advcl	_	KID=984-5a
+7	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	KID=984-5b
+8	vieni	venire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	KID=984-16|Reported=Yes
+9	che	che	PRON	_	PronType=Rel	11	nsubj	_	KID=984-6
+10	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	KID=984-7|SpaceAfter=No
+11	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	KID=984-8
+12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=984-9
+13	compleanno	compleanno	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	KID=984-10
+14	di	di	ADP	_	_	15	case	_	KID=984-11|Prolonged=Yes
+15	michela	Michela	PROPN	_	_	13	nmod	_	KID=984-12|PauseAfter=Yes
+16	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	KID=984-14
+17	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis:parenth	_	End=1884.333|KID=984-15|OverlappingGroup=190
 
 # sent_id = PBB004_986
 # text = veronica
