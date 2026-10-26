@@ -759,7 +759,5 @@
 # text = arrivederci
 # text_conversationanalysis = [arriveder]ci.
 # speaker_id = BO026
-1-2	arrivederci	_	_	_	_	_	_	_	Begin=147.118|End=147.888|Intonation=Falling|KID=75-0|OverlappingGroup=28
-1	arriveder	arrivedere	VERB	_	_	0	root	_	KID=75-0a
-2	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	1	obj	_	KID=75-0b
+1	arrivederci	arrivederci	INTJ	_	_	0	root	_	Begin=147.118|End=147.888|Intonation=Falling|KID=75-0|OverlappingGroup=28
 

@@ -1596,16 +1596,16 @@
 # conversation_id = BOA3017
 1	x	x	X	_	_	2	dep	_	Begin=325.807|End=326.087|KID=194-0|OverlappingGroup=31|Syllables=2|Unintelligible=Yes
 2-3	preparati	_	_	_	_	_	_	_	KID=196-0
-2	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Begin=326.762|KID=196-0
-3	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	Begin=326.762|KID=196-0
+2	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	Begin=326.762|KID=196-0a
+3	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	2	expl	_	Begin=326.762|KID=196-0b
 4	a	a	ADP	_	_	6	case	_	KID=196-1
 5	tante	tanto	DET	_	PronType=Ind	6	det	_	KID=196-2
 6	sere	sera	NOUN	_	Gender=Fem|Number=Plur	2	obl	_	KID=196-3
 7	di	di	ADP	_	_	8	case	_	KID=196-4
 8	solitudine	solitudine	NOUN	_	Gender=Fem|Number=Sing	6	nmod	_	End=328.422|KID=196-5
 9-10	preparati	_	_	_	_	_	_	_	KID=197-0
-9	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Begin=329.327|KID=197-0
-10	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	expl	_	Begin=329.327|KID=197-0
+9	prepara	preparare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	Begin=329.327|KID=197-0a
+10	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	9	expl	_	Begin=329.327|KID=197-0b
 11	a	a	ADP	_	_	13	case	_	KID=197-1
 12	tante	tanto	DET	_	PronType=Ind	13	det	_	KID=197-2
 13	sere	sera	NOUN	_	Gender=Fem|Number=Plur	9	obl	_	KID=197-3
@@ -1810,7 +1810,7 @@
 2	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	KID=225-1
 3	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	_	_	_	KID=225-2
 4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=225-3
-5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	KID=225-4|Relation=conj:reform
+5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	KID=225-4
 6	come	come	ADV	_	_	8	advmod	_	KID=225-5
 7	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	KID=225-6
 8	chiama	chiamare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	End=369.17|Intonation=Rising|KID=225-7
@@ -2345,7 +2345,7 @@
 8	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	5	ccomp	_	End=456.959|KID=297-8
 9	eh	eh	INTJ	_	_	8	ccomp:reported	_	Begin=457.089|Intonation=Rising|KID=298-0
 10	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	KID=298-1
-11	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	End=458.44|KID=298-2|Relation=conj:reform
+11	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	8	conj	_	End=458.44|KID=298-2
 
 # sent_id = BOA3017_299
 # text = eh
@@ -2757,8 +2757,8 @@
 24	così	così	ADV	_	_	26	advmod	_	KID=360-2
 25	volevo	volere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	26	aux	_	KID=360-3
 26-27	rivolgermi	_	_	_	_	_	_	_	KID=360-4
-26	rivolger	rivolgere	VERB	_	VerbForm=Inf	19	advcl	_	KID=360-4
-27	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	KID=360-4
+26	rivolger	rivolgere	VERB	_	VerbForm=Inf	19	advcl	_	KID=360-4a
+27	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	26	expl	_	KID=360-4b
 28	a	a	ADP	_	_	30	case	_	KID=360-5
 29	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	30	det	_	KID=360-6
 30	professore	professore	NOUN	_	Gender=Masc|Number=Sing	26	obl	_	KID=360-7
@@ -3352,7 +3352,7 @@
 # sent_id = BOA3017_455
 # text = no quello quello del gatto quando gli ho raccontato della morte del gatto trascrivi quello
 # text_conversationanalysis = [no quello] quello del gatto quando (gli) ho raccontato della morte del gatto trascrivi quello ((ride))
-# speaker_id = BO139 BO147
+# speaker_id = BO147
 # conversation_id = BOA3017
 1	no	no	INTJ	_	_	3	discourse	_	Begin=665.043|KID=455-0|OverlappingGroup=
 2	quello	quello	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	3	reparandum	_	KID=455-1|OverlappingGroup=
@@ -3379,14 +3379,14 @@
 # sent_id = BOA3017_456
 # text = ah
 # text_conversationanalysis = a::h ((ride))
-# speaker_id = BO139 BO146
+# speaker_id = BO139
 # conversation_id = BOA3017
 1	ah	ah	INTJ	_	_	0	root	_	Begin=669.453|End=670.933|KID=456-0|Prolonged=Yes
 
 # sent_id = BOA3017_457
 # text = ah
 # text_conversationanalysis = a:::::h ((ride))
-# speaker_id = BO139 BO146
+# speaker_id = BO146
 # conversation_id = BOA3017
 1	ah	ah	INTJ	_	_	0	root	_	Begin=670.11|End=673.28|KID=457-0|Prolonged=Yes
 
@@ -4121,7 +4121,7 @@
 # text_conversationanalysis = fa' (vedere)
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	fa'	fare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=565-0a|Truncated=Yes
+1	fa'	fare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=565-0|Truncated=Yes
 2	vedere	vedere	VERB	_	VerbForm=Inf	1	xcomp	_	End=823.408|KID=565-1
 
 # sent_id = BOA3017_569
@@ -4533,7 +4533,7 @@
 
 # sent_id = BOA3017_619_621
 # text = cioè mi regali l'uovo non me ne faccio niente cioè ma quanto sei presuntuoso x sei prepotente proprio
-# text_conversationanalysis = cioè mi regali l' uovo non me ne faccio niente >cioè< ma quanto sei presuntuoso | [x (.) sei prep]otente >proprio<
+# text_conversationanalysis = cioè mi regali l' uovo non me ne faccio niente >cioè< ma quanto sei presuntuoso | [x (.) sei prep]otente >proprio<]
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	cioè	cioè	CCONJ	_	_	3	discourse	_	Begin=923.22|KID=619-0
@@ -4558,14 +4558,14 @@
 
 # sent_id = BOA3017_620
 # text = io ti ho detto che
-# text_conversationanalysis = xxx]
+# text_conversationanalysis = [io ti ho detto che]
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	io	io	X	_	_	4	nsubj	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-2	ti	ti	X	_	_	4	obl	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-3	ho	avere	X	_	_	4	aux	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-4	detto	dire	X	_	_	0	root	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
-5	che	che	X	_	_	4	ccomp	_	End=928.04|KID=620-1|OverlappingGroup=104|Syllables=3|Unintelligible=Yes
+1	io	io	X	_	_	4	nsubj	_	KID=620-0|OverlappingGroup=104
+2	ti	ti	X	_	_	4	obl	_	KID=620-1|OverlappingGroup=104
+3	ho	avere	X	_	_	4	aux	_	KID=620-2|OverlappingGroup=104
+4	detto	dire	X	_	_	0	root	_	KID=620-3|OverlappingGroup=104
+5	che	che	X	_	_	4	ccomp	_	End=928.04|KID=620-4|OverlappingGroup=104
 
 # sent_id = BOA3017_622
 # text = nel sens~ no xxxx ti ringrazio del pensiero però
@@ -4799,8 +4799,8 @@
 # speaker_id = BO147
 # conversation_id = BOA3017
 1-2	portali	_	_	_	_	_	_	_	KID=641-0
-1	porta	portare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=951.585|KID=641-0|OverlappingGroup=117
-2	li	li	VERB	_	_	1	obj	_	Begin=951.585|KID=641-0|OverlappingGroup=117
+1	porta	portare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=951.585|KID=641-0a|OverlappingGroup=117
+2	li	li	VERB	_	_	1	obj	_	Begin=951.585|KID=641-0b|OverlappingGroup=117
 3	a	a	ADP	_	_	4	case	_	KID=641-1|OverlappingGroup=117
 4	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	obl	_	End=953.145|KID=641-2|OverlappingGroup=117
 
@@ -6717,7 +6717,7 @@
 41	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	43	nsubj	_	KID=930-5
 42	stava	stare	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	43	aux	_	KID=930-6
 43	studiando	studiare	VERB	_	VerbForm=Ger	40	parataxis:restart	_	KID=930-7
-44	delle	del	DET	_	Gender=Fem|Number=Plur|PronType=Ind	45	det	_	KID=930-8b
+44	delle	del	DET	_	Gender=Fem|Number=Plur|PronType=Ind	45	det	_	KID=930-8
 45	cose	cosa	NOUN	_	Gender=Fem|Number=Plur	43	obl	_	KID=930-9
 46	di	di	ADP	_	_	47	case	_	KID=930-10
 47	magia	magia	NOUN	_	Gender=Fem|Number=Sing	45	nmod	_	KID=930-11
@@ -6748,8 +6748,8 @@
 68	una	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	69	det	_	KID=933-11
 69	roba	roba	NOUN	_	Gender=Fem|Number=Sing	67	obj	_	KID=933-12
 70-71	del	_	_	_	_	_	_	_	KID=933-13
-70	di	di	ADP	_	_	72	case	_	KID=933-13
-71	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	KID=933-13
+70	di	di	ADP	_	_	72	case	_	KID=933-13a
+71	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	72	det	_	KID=933-13b
 72	genere	genere	NOUN	_	Gender=Masc|Number=Sing	69	nmod	_	End=1447.628|KID=933-14
 
 # sent_id = BOA3017_931
@@ -6795,7 +6795,7 @@
 16	perché	perché	SCONJ	_	_	18	mark	_	KID=936-13
 17	han	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	KID=936-14|Truncated=Yes
 18	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	KID=936-15
-19	'sti	questo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	KID=936-16b|Truncated=Yes
+19	'sti	questo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	20	det	_	KID=936-16|Truncated=Yes
 20	libri	libro	NOUN	_	Gender=Masc|Number=Plur	18	obj	_	KID=936-17
 21	che	che	SCONJ	_	_	24	obj	_	KID=936-18
 22	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	24	nsubj	_	KID=936-19
@@ -6938,7 +6938,7 @@
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	poi	poi	ADV	_	_	5	cc	_	Begin=1476.456|KID=947-0
-2	'ste	questo	PRON	_	_	5	nsubj	_	KID=947-1b|Truncated=Yes
+2	'ste	questo	PRON	_	_	5	nsubj	_	KID=947-1|Truncated=Yes
 3	qua	qua	ADV	_	_	2	amod	_	KID=947-2
 4	hanno	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	KID=947-3
 5	chiamato	chiamare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=947-4
@@ -7255,7 +7255,7 @@
 4	gialli	Gialli	PROPN	_	_	6	nsubj	_	Anonymized=Yes|KID=983-3
 5	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	6	obj	_	KID=983-4
 6	sente	sentire	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=983-5
-7	'sto	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	KID=983-6b|Truncated=Yes
+7	'sto	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	8	det	_	KID=983-6|Truncated=Yes
 8	pezzo	pezzo	NOUN	_	Gender=Masc|Number=Sing	6	dislocated	_	End=1565.535|Intonation=Rising|KID=983-7
 
 # sent_id = BOA3017_984
@@ -7792,11 +7792,11 @@
 
 # sent_id = BOA3017_1056
 # text = no era
-# text_conversationanalysis = [no (.)
+# text_conversationanalysis = [no (.) era]
 # speaker_id = BO139
 # conversation_id = BOA3017
 1	no	no	ADV	_	PronType=Neg	_	_	_	Begin=1653.229|End=1653.28|KID=1056-0|OverlappingGroup=213|PauseAfter=Yes
-2	era	essere	INTJ	_	_	_	_	_	Begin=1653.229|End=1654.471|KID=1056-1|OverlappingGroup=213
+2	era	essere	INTJ	_	_	_	_	_	Begin=1653.229|End=1654.471|KID=1056-2|OverlappingGroup=213
 
 # sent_id = BOA3017_1057
 # text = una cagata la deve spara' sempre e comunque x
@@ -8250,7 +8250,7 @@
 5	conosce	conoscere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	acl:relcl	_	KID=1114-4
 6	lia	Lia	PROPN	_	_	5	nsubj	_	Anonymized=Yes|End=1738.668|KID=1114-5
 7	mara	Mara	PROPN	_	_	3	conj:reform	_	Anonymized=Yes|Begin=1738.873|KID=1116-0|OverlappingGroup=196|Prolonged=Yes
-8	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	7	conj:reform	_	KID=1116-1|Relation=conj:reform
+8	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	7	conj:reform	_	KID=1116-1
 9	lì	lì	ADV	_	_	8	advmod	_	End=1740.031|KID=1116-2
 
 # sent_id = BOA3017_1115
@@ -8646,9 +8646,9 @@
 4	mangio	mangiare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=1806.518|KID=1160-3
 
 # sent_id = BOA3017_1163_1164_1165_1166_1167_1168
-# text = visto che mi sta per si s~ eh ah ho visto che mi si sta per scaricare il telefono quindi interrompo qua ah mh le comunicazioni
-# text_conversationanalysis = >visto che mi sta per si s~ eh< | AH | ho visto che mi si sta per scaricare il telefono quindi in[terrom]po qua | [ah] | mh | le comunicazion[i]
-# speaker_id = BO139 BO145 BO145 BO139
+# text = visto che mi sta per si s~ eh ah ho visto che mi si sta per scaricare il telefono quindi interrompo qua le comunicazioni
+# text_conversationanalysis = >visto che mi sta per si s~ eh< | AH | ho visto che mi si sta per scaricare il telefono quindi in[terrom]po qua | le comunicazion[i]
+# speaker_id = BO139
 # conversation_id = BOA3017
 1	visto	vedere	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	2	flat	_	Begin=1809.18|KID=1163-0|PaceFast=Yes
 2	che	che	SCONJ	_	_	4	mark	_	KID=1163-1|PaceFast=Yes
@@ -8672,10 +8672,8 @@
 20	quindi	quindi	CCONJ	_	_	21	cc	_	KID=1165-10
 21	interrompo	interrompere	NOUN	_	_	11	conj	_	KID=1165-11|OverlappingGroup=202
 22	qua	qua	ADV	_	_	21	advmod	_	End=1815.021|KID=1165-12
-23	ah	ah	INTJ	_	_	21	discourse	_	Begin=1814.296|End=1814.646|KID=1166-0|OverlappingGroup=202
-24	mh	mh	INTJ	_	_	21	discourse:filler	_	Begin=1815.404|End=1815.621|KID=1167-0
-25	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	26	det	_	Begin=1815.8|KID=1168-0
-26	comunicazioni	comunicazione	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	End=1816.758|KID=1168-1|OverlappingGroup=203
+23	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	Begin=1815.8|KID=1168-0
+24	comunicazioni	comunicazione	NOUN	_	Gender=Fem|Number=Plur	21	obj	_	End=1816.758|KID=1168-1|OverlappingGroup=203
 
 # sent_id = BOA3017_1169
 # text = a quanti minuti siamo

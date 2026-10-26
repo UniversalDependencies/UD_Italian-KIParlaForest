@@ -765,7 +765,7 @@
 # text = sì cioè per me sì
 # text_conversationanalysis = >cioè< per me sì
 # speaker_id = BOI013
-1	sì	sì	ADV	_	_	0	root	_	Begin=161.92|KID=87-0|PaceFast=Yes
+1	sì	sì	ADV	_	_	0	root	_	Begin=161.92|KID=87-4|PaceFast=Yes
 2	cioè	cioè	CCONJ	_	_	4	cc	_	Begin=161.92|KID=87-0|PaceFast=Yes
 3	per	per	ADP	_	_	4	case	_	KID=87-1
 4	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	1	conj:reform	_	KID=87-2
@@ -2233,10 +2233,10 @@
 
 # sent_id = PBB004_247_248_PBB004_249_PBB004_250
 # text = ma a mh un'idea in generale che potreste avere che potrebbe venirvi in mente pensando un po' in generale ai giovani
-# text_conversationanalysis = ma | al mh | un' idea in generale che potreste ave:re che potrebbe venirvi in mente? | pensando un po' in generale ai giovani
+# text_conversationanalysis = ma | a mh | un' idea in generale che potreste ave:re che potrebbe venirvi in mente? | pensando un po' in generale ai giovani
 # speaker_id = BOR005
 1	ma	ma	CCONJ	_	_	5	cc	_	Begin=443.365|End=443.725|KID=247-0
-2	a	a	INTJ	_	_	5	discourse:filler	_	KID=248-0a
+2	a	a	INTJ	_	_	5	discourse:filler	_	KID=248-0
 3	mh	mh	INTJ	_	_	2	conj	_	End=444.555|KID=248-1
 4	un'	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	Begin=445.055|KID=249-0|SpaceAfter=No
 5	idea	idea	NOUN	_	Gender=Fem|Number=Sing	0	root	_	KID=249-1
@@ -2579,8 +2579,8 @@
 16	portici	portico	NOUN	_	Gender=Masc|Number=Plur	0	root	_	End=533.195|KID=281-14
 
 # sent_id = PBB004_282_283_284_285
-# text = e voi avete in mente un qualche aneddoto particolare di un qualcosa un'esperienza che vi ricordate che vi è accaduta legata a i portici
-# text_conversationanalysis = e | voi avete in mente un qualche aneddoto particolare: di un | qualcosa un' esperienza:: | che vi ricordate, che vi è accaduta legata i portici::
+# text = e voi avete in mente un qualche aneddoto particolare di un qualcosa un'esperienza che vi ricordate che vi è accaduta legata ai portici
+# text_conversationanalysis = e | voi avete in mente un qualche aneddoto particolare: di un | qualcosa un' esperienza:: | che vi ricordate, che vi è accaduta legata ai portici::
 # speaker_id = BOR005
 1	e	e	CCONJ	_	_	3	discourse:filler	_	Begin=533.825|End=534.155|KID=282-0
 2	voi	voi	PRON	_	Number=Plur|Person=2|PronType=Prs	3	nsubj	_	Begin=534.76|KID=283-0
@@ -2604,6 +2604,7 @@
 20	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	KID=285-5
 21	accaduta	accadere	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	17	conj	_	KID=285-6
 22	legata	legare	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	14	amod	_	KID=285-7
+23-24	ai	_	_	_	_	_	_	_	KID=285-8
 23	a	a	ADP	_	_	25	case	_	KID=285-8a
 24	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	25	det	_	KID=285-8b
 25	portici	portico	NOUN	_	Gender=Masc|Number=Plur	22	nmod	_	End=544.15|KID=285-9|Prolonged=Yes
@@ -4777,13 +4778,13 @@
 
 # sent_id = PBB004_528
 # text = sì sì sì eh eh
-# text_conversationanalysis = [sì:: sì sì °vabbè°] ((borbotta))
+# text_conversationanalysis = [sì:: sì sì °eh eh°] ((borbotta))
 # speaker_id = BOI012
 1	sì	sì	ADV	_	_	0	root	_	Begin=989.268|KID=528-0|OverlappingGroup=|Prolonged=Yes
 2	sì	sì	ADV	_	_	1	conj	_	KID=528-1|OverlappingGroup=
 3	sì	sì	ADV	_	_	1	conj	_	KID=528-2|OverlappingGroup=
 4	eh	eh	INTJ	_	_	1	discourse	_	End=990.809|KID=528-3|Volume=low
-5	eh	eh	INTJ	_	_	1	discourse	_	End=990.809|KID=528-3|Volume=low
+5	eh	eh	INTJ	_	_	1	discourse	_	End=990.809|KID=528-5|Volume=low
 
 # sent_id = PBB004_529
 # text = perché la madonna viene da ma~ quando a maggio
@@ -6067,7 +6068,7 @@
 # sent_id = PBB004_676_678
 # text = ma ma il mio lavoro dopo dopo i cinquant'anni non è più possibile farlo
 # text_conversationanalysis = [ma (.) ma i]l mio lav[oro dopo:] | dopo i cinquantanni non è più possibile farlo
-# speaker_id = BOI013 BOI012 BOI013
+# speaker_id = BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	Begin=1280.522|KID=676-0|OverlappingGroup=135|PauseAfter=Yes
 2	ma	ma	CCONJ	_	_	14	cc	_	KID=676-2|OverlappingGroup=135
 3	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=676-3|OverlappingGroup=135
@@ -6077,7 +6078,7 @@
 7	dopo	dopo	ADP	_	_	10	case	_	Begin=1283.224|KID=678-0
 8	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=678-1
 9	cinquant'	cinquanta	NOUN	_	_	10	nummod	_	KID=678-2|SpaceAfter=No
-10	anni	anno	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	KID=678-2
+10	anni	anno	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	KID=678-8
 11	non	non	ADV	_	PronType=Neg	14	advmod	_	KID=678-3
 12	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	cop	_	KID=678-4
 13	più	più	ADV	_	_	14	advmod	_	KID=678-5
@@ -6089,7 +6090,7 @@
 # sent_id = PBB004_677
 # text = ci vuol del ricambio
 # text_conversationanalysis = [<ci vuol del ri]cambio:>
-# speaker_id = BOI013 BOI012
+# speaker_id = BOI013
 1	ci	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	2	expl	_	Begin=1281.689|KID=677-0|OverlappingGroup=136|PaceSlow=Yes
 2	vuol	volere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=677-1|OverlappingGroup=136|PaceSlow=Yes
 3	del	del	DET	_	Definite=Ind|PronType=Art	4	det	_	KID=677-2|OverlappingGroup=136|PaceSlow=Yes
@@ -6113,28 +6114,27 @@
 6	testa	testa	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	End=1288.357|KID=680-5
 
 # sent_id = PBB004_681_682
-# text = mh quindi rispetto al passato provi tanta fatica in più nel fare il tuo lavoro
-# text_conversationanalysis = m::h | quindi rispetto al >passato< provi tanta fatica in più n[el fa]re il tuo lavo[ro]
-# speaker_id = BOI013 BOR005
-1	mh	mh	INTJ	_	_	7	discourse	_	Begin=1288.995|End=1289.814|KID=681-0|Prolonged=Yes
-2	quindi	quindi	ADV	_	_	7	cc	_	Begin=1290.46|KID=682-0
-3	rispetto	rispetto	ADV	_	ExtPos=ADP	6	case	_	KID=682-1
-4-5	al	_	_	_	_	_	_	_	KID=682-2
-4	a	a	ADP	_	_	3	fixed	_	KID=682-2a
-5	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=682-2b
-6	passato	passato	NOUN	_	Gender=Masc|Number=Sing	7	obl	_	KID=682-3|PaceFast=Yes
-7	provi	provare	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=682-4
-8	tanta	tanto	DET	_	PronType=Ind	9	det	_	KID=682-5
-9	fatica	fatica	NOUN	_	Gender=Fem|Number=Sing	7	obj	_	KID=682-6
-10	in	in	ADP	_	_	11	case	_	KID=682-7
-11	più	più	ADV	_	_	9	advmod	_	KID=682-8
-12-13	nel	_	_	_	_	_	_	_	KID=682-9|OverlappingGroup=138
-12	in	in	ADP	_	_	14	case	_	KID=682-9a
-13	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	KID=682-9b
-14	fare	fare	VERB	_	VerbForm=Inf	7	advcl	_	KID=682-10|OverlappingGroup=138
-15	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	KID=682-11
-16	tuo	tuo	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	17	det:poss	_	KID=682-12
-17	lavoro	lavoro	NOUN	_	Gender=Masc|Number=Sing	14	obj	_	End=1294.293|KID=682-13|OverlappingGroup=236
+# text = quindi rispetto al passato provi tanta fatica in più nel fare il tuo lavoro
+# text_conversationanalysis = quindi rispetto al >passato< provi tanta fatica in più n[el fa]re il tuo lavo[ro]
+# speaker_id = BOR005
+1	quindi	quindi	ADV	_	_	6	cc	_	Begin=1290.46|KID=682-0
+2	rispetto	rispetto	ADV	_	ExtPos=ADP	5	case	_	KID=682-1
+3-4	al	_	_	_	_	_	_	_	KID=682-2
+3	a	a	ADP	_	_	2	fixed	_	KID=682-2a
+4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=682-2b
+5	passato	passato	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	KID=682-3|PaceFast=Yes
+6	provi	provare	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=682-4
+7	tanta	tanto	DET	_	PronType=Ind	8	det	_	KID=682-5
+8	fatica	fatica	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	KID=682-6
+9	in	in	ADP	_	_	10	case	_	KID=682-7
+10	più	più	ADV	_	_	8	advmod	_	KID=682-8
+11-12	nel	_	_	_	_	_	_	_	KID=682-9|OverlappingGroup=138
+11	in	in	ADP	_	_	13	case	_	KID=682-9a
+12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=682-9b
+13	fare	fare	VERB	_	VerbForm=Inf	6	advcl	_	KID=682-10|OverlappingGroup=138
+14	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=682-11
+15	tuo	tuo	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	KID=682-12
+16	lavoro	lavoro	NOUN	_	Gender=Masc|Number=Sing	13	obj	_	End=1294.293|KID=682-13|OverlappingGroup=236
 
 # sent_id = PBB004_683
 # text = sì
@@ -6394,7 +6394,7 @@
 # text = eh vabbè ma i privati non sono lì per quello
 # text_conversationanalysis = beh ma i privati non sono lì per quello
 # speaker_id = BOI012
-1	eh	eh	INTJ	_	_	7	discourse	_	Begin=1362.28|KID=722-0
+1	eh	eh	INTJ	_	_	7	discourse	_	Begin=1362.28|KID=722-9
 2	vabbè	vabbè	INTJ	_	_	7	discourse	_	Begin=1362.28|KID=722-0
 3	ma	ma	CCONJ	_	_	7	cc	_	KID=722-1
 4	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	KID=722-2
@@ -6694,7 +6694,7 @@
 5	secondo	secondo	ADP	_	_	6	case	_	KID=759-3|PaceFast=Yes
 6	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	obl	_	KID=759-4|PaceFast=Yes|Prolonged=Yes
 7	in	in	ADP	_	_	8	case	_	KID=759-5
-8	stasi	stasi	NOUN	_	Gender=Fem	2	xcomp	_	KID=759-6a
+8	stasi	stasi	NOUN	_	Gender=Fem	2	xcomp	_	KID=759-6
 9	ultimamen~	ultimamen~	X	_	_	2	dep	_	ExtLemma=ultimamente|ExtUPOS=ADV|Interrupted=Yes|KID=759-7
 
 # sent_id = PBB004_759b_760_761_762_763_764
@@ -7950,7 +7950,7 @@
 4	tutti	tutto	DET	_	Gender=Masc|Number=Plur|PronType=Tot	7	det	_	KID=900-3
 5	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	reparandum	_	KID=900-4|Prolonged=Yes
 6	gli	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	KID=900-5
-7	urli	urlo	NOUN	_	_	3	obj	_	KID=900-6a
+7	urli	urlo	NOUN	_	_	3	obj	_	KID=900-6
 8-9	degli	_	_	_	_	_	_	_	KID=900-7
 8	di	di	ADP	_	_	10	case	_	KID=900-7a
 9	gli	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=900-7b
@@ -8677,23 +8677,27 @@
 17	andare	andare	VERB	_	VerbForm=Inf	10	advcl	_	End=1879.08|KID=983-1
 
 # sent_id = PBB004_984
-# text = mi ha telefonato lei vieni che c'era il compleanno di michela mi sembra
+# text = mi ha telefonato lei a dirmi vieni che c'era il compleanno di michela mi sembra
 # text_conversationanalysis = mi ha telefonato LEI (a dirmi) che c' era il compleanno di:: michela (.) mi [sembra]
 # speaker_id = BOI012
 1	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	3	iobj	_	Begin=1879.386|KID=984-0
 2	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	KID=984-1
 3	telefonato	telefonare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	KID=984-2
 4	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	KID=984-3|Volume=high
-5	vieni	venire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	3	ccomp	_	KID=984-5a|Reported=Yes
-6	che	che	PRON	_	PronType=Rel	8	nsubj	_	KID=984-6
-7	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	8	expl	_	KID=984-7|SpaceAfter=No
-8	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	5	ccomp	_	KID=984-8
-9	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=984-9
-10	compleanno	compleanno	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	KID=984-10
-11	di	di	ADP	_	_	12	case	_	KID=984-11|Prolonged=Yes
-12	michela	Michela	PROPN	_	_	10	nmod	_	KID=984-12|PauseAfter=Yes
-13	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	14	expl	_	KID=984-14
-14	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	parataxis:parenth	_	End=1884.333|KID=984-15|OverlappingGroup=190
+5	a	a	ADP	_	_	6	case	_	KID=984-4
+6-7	dirmi	_	_	_	_	_	_	_	KID=984-5
+6	dir	dire	VERB	_	VerbForm=Inf	3	advcl	_	KID=984-5a
+7	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	KID=984-5b
+8	vieni	venire	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	ccomp	_	KID=984-16|Reported=Yes
+9	che	che	PRON	_	PronType=Rel	11	nsubj	_	KID=984-6
+10	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	11	expl	_	KID=984-7|SpaceAfter=No
+11	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	8	ccomp	_	KID=984-8
+12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=984-9
+13	compleanno	compleanno	NOUN	_	Gender=Masc|Number=Sing	11	obj	_	KID=984-10
+14	di	di	ADP	_	_	15	case	_	KID=984-11|Prolonged=Yes
+15	michela	Michela	PROPN	_	_	13	nmod	_	KID=984-12|PauseAfter=Yes
+16	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	17	expl	_	KID=984-14
+17	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	11	parataxis:parenth	_	End=1884.333|KID=984-15|OverlappingGroup=190
 
 # sent_id = PBB004_986
 # text = veronica
@@ -8725,7 +8729,7 @@
 11	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	conj	_	KID=988-10|PaceFast=Yes|Prolonged=Yes
 12	non	non	ADV	_	PronType=Neg	15	advmod	_	KID=988-11
 13	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	15	iobj	_	KID=988-12
-14	han	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	KID=988-12
+14	han	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	15	aux	_	KID=988-15
 15	visto	vedere	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	11	parataxis:restart	_	KID=988-13
 16	neanche	neanche	ADV	_	PronType=Neg	15	advmod	_	End=1890.443|KID=988-14
 17-18	sul	_	_	_	_	_	_	_	Begin=1890.593|KID=989-0
@@ -8895,7 +8899,7 @@
 # speaker_id = BOI013
 1	poi	poi	ADV	_	_	2	advmod	_	Begin=1928.131|KID=1012-0
 2	lucio	Lucio	PROPN	_	_	0	root	_	KID=1012-1
-3	dalla	Dalla	PROPN	_	_	2	flat:name	_	KID=1012-2a
+3	dalla	Dalla	PROPN	_	_	2	flat:name	_	KID=1012-2
 4	gianni	Gianni	PROPN	_	_	2	conj	_	Begin=1930.307|KID=1014-0
 5	morandi	Morandi	PROPN	_	_	4	flat:name	_	End=1931.435|Intonation=WeaklyRising|KID=1014-1
 6	questi	questo	PRON	_	Gender=Masc|Number=Plur|PronType=Dem	2	conj:reform	_	Begin=1934.597|KID=1016-0
