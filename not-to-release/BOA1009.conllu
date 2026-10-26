@@ -81,7 +81,7 @@
 4-5	della	_	_	_	_	_	_	_	KID=5-3|OverlappingGroup=1|Prolonged=Yes
 4	di	di	ADP	_	_	6	case	_	Head=position|KID=5-3a
 5	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Head=position|KID=5-3b
-6	x	x	X	_	_	3	obj	_	End=22.76|KID=5-4|OverlappingGroup=1|Promotion=dep
+6	xx	x	X	_	_	3	obj	_	End=22.76|KID=5-4|OverlappingGroup=1|Promotion=dep
 
 # sent_id = BOA1009_7
 # text = italiano per stranieri
@@ -1142,7 +1142,7 @@
 8	stessa	stesso	ADJ	_	_	9	amod	_	KID=94-13
 9	scuola	scuola	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	KID=94-14
 10	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	reparandum	_	KID=94-15
-11	x	x	SYM	_	_	14	dep	_	KID=94-16|OverlappingGroup=53
+11	xxx	x	SYM	_	_	14	dep	_	KID=94-16|OverlappingGroup=53
 12-13	della	_	_	_	_	_	_	_	KID=94-17
 12	di	di	ADP	_	_	14	case	_	KID=94-17a
 13	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	KID=94-17b
@@ -1930,7 +1930,7 @@
 20	volterra	Volterra	PROPN	_	_	12	conj:reform	_	KID=154-17|OverlappingGroup=82
 21	e	e	CCONJ	_	_	23	cc	_	KID=154-18|OverlappingGroup=82
 22	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	End=389.531|KID=154-19|OverlappingGroup=82|Prolonged=Yes
-23	cnr	CNR	PROPN	_	_	12	conj	_	KID=157-0|OrigTranscription=cienneerre
+23	cnr	CNR	PROPN	_	_	12	conj	_	KID=157-2|OrigTranscription=cienneerre
 
 # sent_id = BOA1009_155
 # text = sì
@@ -1948,12 +1948,12 @@
 4-5	mettermi	_	_	_	_	_	_	_	KID=156-3
 4	metter	mettere	VERB	_	VerbForm=Inf	0	root	_	KID=156-3a|OverlappingGroup=82
 5	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	KID=156-3b|OverlappingGroup=82
-6	in	in	ADP	_	_	7	case	_	KID=156-4|OverlappingGroup=82,83
-7	contatto	contatto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	KID=156-4|OverlappingGroup=82,83
-8	sia	sia	CCONJ	_	_	11	cc	_	KID=156-5|OverlappingGroup=83
-9	con	con	ADP	_	_	11	case	_	KID=156-6|Prolonged=Yes
-10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=156-7
-11	cnr	CNR	NOUN	_	_	7	nmod	_	KID=156-8|OrigTranscription=cienneerre
+6	in	in	ADP	_	_	7	case	_	KID=156-5|OverlappingGroup=82,83
+7	contatto	contatto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	KID=156-6|OverlappingGroup=82,83
+8	sia	sia	CCONJ	_	_	11	cc	_	KID=156-7|OverlappingGroup=83
+9	con	con	ADP	_	_	11	case	_	KID=156-8|Prolonged=Yes
+10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=156-9
+11	cnr	CNR	NOUN	_	_	7	nmod	_	KID=156-10|OrigTranscription=cienneerre
 12	che	che	CCONJ	_	_	15	cc	_	KID=156-11
 13	con	con	ADP	_	_	15	case	_	KID=156-12
 14	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	KID=156-13|SpaceAfter=No

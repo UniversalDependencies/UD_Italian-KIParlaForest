@@ -649,7 +649,7 @@
 # text = x deve essere per forza adesso
 # text_conversationanalysis = °xx deve essere per forza [(adesso)].°
 # speaker_id = BO036
-1	x	x	X	_	_	3	dep	_	Begin=128.471|KID=65-0|Volume=low
+1	xx	x	X	_	_	3	dep	_	Begin=128.471|KID=65-0|Volume=low
 2	deve	dovere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	KID=65-1|Volume=low
 3	essere	essere	AUX	_	VerbForm=Inf	0	root	_	KID=65-2|Volume=low
 4	per	per	ADP	_	_	5	case	_	KID=65-3|Volume=low
@@ -712,8 +712,8 @@
 10	o	o	CCONJ	_	_	12	cc	_	KID=69-10
 11	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=69-11
 12	sette	sette	NUM	_	NumType=Card	9	conj	_	KID=69-12
-13	x	x	X	_	_	12	dep	_	KID=69-13
-14	x	x	X	_	_	12	dep	_	KID=69-14
+13	xx	x	X	_	_	12	dep	_	KID=69-13
+14	xx	x	X	_	_	12	dep	_	KID=69-14
 15	in	in	ADP	_	_	17	case	_	KID=69-15
 16	questi	questo	DET	_	Gender=Masc|Number=Plur|PronType=Dem	17	det	_	KID=69-16
 17	giorni	giorno	NOUN	_	Gender=Masc|Number=Plur	12	conj	_	End=143.716|Intonation=Falling|KID=69-17
