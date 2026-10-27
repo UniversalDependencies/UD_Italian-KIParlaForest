@@ -5028,7 +5028,7 @@
 2	nāqat	nāqat	X	_	_	7	nsubj	_	Begin=1524.168|End=1525.006|KID=578-0|Lang=ar
 3	e	e	CCONJ	_	_	4	cc	_	Begin=1525.218|KID=579-0
 4	bakr	bakr	X	_	_	2	conj	_	End=1525.837|KID=579-1|Lang=ar
-5	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	7	cop	_	Begin=1525.993|KID=580-0
+5	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	Begin=1525.993|KID=580-0
 6	due	due	NUM	_	NumType=Card	7	nummod	_	KID=580-1
 7	parole	parola	NOUN	_	Gender=Fem|Number=Plur	0	root	_	KID=580-2
 8	che	che	PRON	_	PronType=Rel	9	nsubj	_	KID=580-3
