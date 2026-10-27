@@ -635,7 +635,7 @@
 3	ringrazio	ringraziare	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	1	conj	_	End=102.9|Intonation=Falling|KID=59-1|OverlappingGroup=32
 
 # sent_id = BOA1003_60
-# text = sì sì no io x mi iscrivo regolarmente e oggi le mando l'email oggi stesso va bene
+# text = sì sì no io xx mi iscrivo regolarmente e oggi le mando l'email oggi stesso va bene
 # text_conversationanalysis = >sì. sì. no io xx mi iscrivo regolarmente e oggi le mando le mail ogg[i stesso] va bene,
 # speaker_id = BO032
 1	sì	sì	ADV	_	_	0	root	_	Begin=103.779|Intonation=Falling|KID=60-0
