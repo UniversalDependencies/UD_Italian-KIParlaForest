@@ -55,7 +55,7 @@
 1	sì	sì	ADV	_	_	0	root	_	Begin=7.1|End=7.3|KID=5-0
 
 # sent_id = BOA3017_6
-# text = già x mi sono emozionato
+# text = già xxxx mi sono emozionato
 # text_conversationanalysis = già xxxx (mi sono) emozio[nato]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -72,9 +72,9 @@
 # conversation_id = BOA3017
 1	ma	ma	CCONJ	_	_	8	cc	_	Begin=9.01|KID=7-0|OverlappingGroup=0
 2	già	già	ADV	_	_	8	advmod	_	KID=7-1|OverlappingGroup=0
-3	quattro	quattro	X	_	_	5	conj:reform	_	ExtUPOS=NUM|Interrupted=Yes|KID=7-2
+3	quattro	quattro	X	_	_	8	nsubj	_	ExtUPOS=NUM|Interrupted=Yes|KID=7-2
 4	cioè	cioè	CCONJ	_	_	5	cc	_	KID=7-3|PaceFast=Yes
-5	quattro	quattro	NUM	_	NumType=Card	8	nsubj	_	KID=7-4
+5	quattro	quattro	NUM	_	NumType=Card	3	conj:reform	_	KID=7-4
 6	poi	poi	ADV	_	_	8	advmod	_	KID=7-5|OverlappingGroup=1
 7	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	KID=7-6|OverlappingGroup=1
 8	tanti	tanto	ADJ	_	Gender=Masc|Number=Plur	0	root	_	End=11.24|KID=7-7|OverlappingGroup=1
@@ -199,7 +199,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_27::6|Begin=34.537|End=35.327|KID=28-0
 
 # sent_id = BOA3017_31
-# text = quindi col x cosa dobbiamo fare
+# text = quindi col xx cosa dobbiamo fare
 # text_conversationanalysis = quindi col xx (cosa dobbiamo cosa fare)?
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -243,7 +243,7 @@
 1	quando	quando	ADV	_	_	0	root	_	Begin=48.497|End=48.977|KID=36-0
 
 # sent_id = BOA3017_38
-# text = x ma io da pallotti ci piglio le paste cioè ci prendo mh le brio~
+# text = xx ma io da pallotti ci piglio le paste cioè ci prendo mh le brio~
 # text_conversationanalysis = (xx ma io da pallotti ci piglio le paste >cioè:< ci prend[o: mh le brio~])
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -279,7 +279,7 @@
 1	ah	ah	INTJ	_	_	0	root	_	Begin=53.337|End=53.62|KID=40-0|OverlappingGroup=5
 
 # sent_id = BOA3017_41_43
-# text = non ce l'ha le brioche x x mh ce n'ha poche
+# text = non ce l'ha le brioche xxxx x mh ce n'ha poche
 # text_conversationanalysis = ([n]on) xxx le brioche [xxxx] | x (.) [m]:h ce n' ha poche
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -547,7 +547,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_67_68_69_70::30|Begin=107.119|End=107.419|KID=71-0
 
 # sent_id = BOA3017_72_73_74_75
-# text = eh mh niente tipo ho schiacciato si vede tipo due volte velocemente alla fine dell'incontro avevo tipo registrato x tipo due secondi
+# text = eh mh niente tipo ho schiacciato si vede tipo due volte velocemente alla fine dell'incontro avevo tipo registrato xxx tipo due secondi
 # text_conversationanalysis = e:h m:h | niente tipo | ho schiacciato si vede tipo due volte velocemente | >alla fine< dell' incontro avevo tipo registrato xxx tipo due secondi ((ride))
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -1052,7 +1052,7 @@
 5	software	software	NOUN	_	Gender=Masc	2	conj:reform	_	End=200.508|KID=134-4|OverlappingGroup=18
 
 # sent_id = BOA3017_135
-# text = vabbè x fai con calma
+# text = vabbè xx fai con calma
 # text_conversationanalysis = [vabbè xx (fai con calma)]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -1088,7 +1088,7 @@
 # text_conversationanalysis = mh
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	0	discourse	_	Backchannel=BOA3017_137_138::7|Begin=209.178|End=209.668|KID=139-0
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_137_138::7|Begin=209.178|End=209.668|KID=139-0
 
 # sent_id = BOA3017_140_141
 # text = no infatti il software è lo stesso cioè nel senso che eh questo che uso io è usato anche per i sottotitoli
@@ -1308,7 +1308,7 @@
 1	mhmhmh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_159_160::16|Begin=248.511|End=249.201|KID=161-0|OverlappingGroup=25
 
 # sent_id = BOA3017_162
-# text = x
+# text = xxx
 # text_conversationanalysis = [xxx]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -1360,7 +1360,7 @@
 13	cioè	cioè	CCONJ	_	_	2	advcl	_	Begin=261.685|End=261.986|KID=169-0|OverlappingGroup=28|PaceFast=Yes
 
 # sent_id = BOA3017_168_170
-# text = mh infatti tra le lingue secondo me c'è un problema cioè non lo puoi rendere certi concetti x col tedesco non li puoi rendere in italiano e viceversa cioè
+# text = mh infatti tra le lingue secondo me c'è un problema cioè non lo puoi rendere certi concetti xx col tedesco non li puoi rendere in italiano e viceversa cioè
 # text_conversationanalysis = [mh in]fatti tra le lin[gue se]condo me c' è un problema | >cioè< non lo puoi (rendere) certi con[cetti xx col tedesco non li puoi (ren]dere) in italiano e viceversa >cioè<
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -1441,8 +1441,8 @@
 25	parola	parola	NOUN	_	Gender=Fem|Number=Sing	28	nsubj	_	KID=176-1
 26	inglese	inglese	ADJ	_	Number=Sing	25	amod	_	KID=176-2
 27	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	cop	_	KID=176-3
-28	fuck	fuck	VERB	_	Foreign=Yes	18	advcl	_	KID=176-4|Lang=en
-29	you	you	PRON	_	Foreign=Yes	28	flat:foreign	_	KID=176-5|Lang=en
+28	fuck	fuck	VERB	_	_	18	advcl	_	KID=176-4|Lang=en
+29	you	you	PRON	_	_	28	flat:foreign	_	KID=176-5|Lang=en
 30	e	e	CCONJ	_	_	37	cc	_	KID=176-6
 31	quindi	quindi	CCONJ	_	_	37	cc	_	KID=176-7|PaceFast=Yes
 32	se	se	SCONJ	_	_	34	mark	_	KID=176-8|PaceFast=Yes
@@ -1481,7 +1481,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_177::4|Begin=287.421|End=287.851|KID=178-0
 
 # sent_id = BOA3017_180_181_182_183_184
-# text = x è un po' difficile io temevo che ci volessero fare doppiare lì al film invece per fortuna anche per questione di budget e di tempo tutto in presa diretta
+# text = xx è un po' difficile io temevo che ci volessero fare doppiare lì al film invece per fortuna anche per questione di budget e di tempo tutto in presa diretta
 # text_conversationanalysis = xx è un po' difficile | io temevo che ci volessero fare doppiare lì al film | invece per fortuna: ((ride)) | anche per questione di budget e di tempo | tutto in presa diretta
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -1519,7 +1519,7 @@
 31	diretta	diretto	ADJ	_	Gender=Fem|Number=Sing	30	amod	_	End=303.455|KID=184-3
 
 # sent_id = BOA3017_185
-# text = x doppiare no ti prego
+# text = xx doppiare no ti prego
 # text_conversationanalysis = xx (doppiare) no (ti) prego
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -1552,7 +1552,7 @@
 5	fine	fine	NOUN	_	Number=Sing	7	reparandum	_	End=317.277|KID=190-1
 6	insomma	insomma	ADV	_	_	8	advmod	_	Begin=317.497|KID=191-0|PaceFast=Yes|Volume=Low
 7	fine	fine	NOUN	_	Number=Sing	2	conj:reform	_	KID=191-1|OverlappingGroup=30
-8	maggio	maggio	NOUN	_	Gender=Masc	_	_	_	End=318.827|KID=191-2|OverlappingGroup=30
+8	maggio	maggio	NOUN	_	Gender=Masc	7	nmod	_	End=318.827|KID=191-2|OverlappingGroup=30
 
 # sent_id = BOA3017_189
 # text = maggio
@@ -1808,12 +1808,12 @@
 # conversation_id = BOA3017
 1	eh	eh	INTJ	_	_	3	discourse	_	Begin=367.352|KID=225-0
 2	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	KID=225-1
-3	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	_	_	_	KID=225-2
+3	sedia	sedia	NOUN	_	Gender=Fem|Number=Sing	8	nsubj	_	KID=225-2
 4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=225-3
-5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	conj	_	KID=225-4
+5	cosa	cosa	NOUN	_	Gender=Fem|Number=Sing	3	conj:reform	_	KID=225-4
 6	come	come	ADV	_	_	8	advmod	_	KID=225-5
 7	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	8	expl	_	KID=225-6
-8	chiama	chiamare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	conj	_	End=369.17|Intonation=Rising|KID=225-7
+8	chiama	chiamare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=369.17|Intonation=Rising|KID=225-7
 
 # sent_id = BOA3017_226
 # text = sedia
@@ -1970,14 +1970,14 @@
 1	cioè	cioè	CCONJ	_	_	0	root	_	Begin=403.098|End=403.628|KID=256-0|OverlappingGroup=36|PaceFast=Yes
 
 # sent_id = BOA3017_257
-# text = x
+# text = xx
 # text_conversationanalysis = xx
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	xx	x	X	_	_	0	root	_	Begin=404.178|End=404.618|KID=257-0|Syllables=2|Unintelligible=Yes
 
 # sent_id = BOA3017_258
-# text = no infatti x
+# text = no infatti xx
 # text_conversationanalysis = no infatti [(xx)]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -2026,7 +2026,7 @@
 12	sputtanata	sputtanare	VERB	_	Gender=Fem|Number=Sing|Tense=Past|VerbForm=Part	6	conj	_	End=410.968|KID=263-3|OverlappingGroup=41
 
 # sent_id = BOA3017_262a
-# text = ma x ma ovvio che ti pare che non lo vado a dire in giro
+# text = ma xx ma ovvio che ti pare che non lo vado a dire in giro
 # text_conversationanalysis = [ma xx ma ovvio che (ti) pare che non lo (v]ado) a (dire) in giro?
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -2094,7 +2094,7 @@
 1	sì	sì	INTJ	_	_	0	root	_	Backchannel=BOA3017_262b::6|Begin=412.243|End=412.973|KID=264-0|OverlappingGroup=39
 
 # sent_id = BOA3017_266
-# text = no vabbè però prima x
+# text = no vabbè però prima xx
 # text_conversationanalysis = [no vabbè però] prima [xx]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -2105,7 +2105,7 @@
 5	xx	x	X	_	_	1	dep	_	End=415.36|KID=266-4|OverlappingGroup=42|Syllables=2|Unintelligible=Yes
 
 # sent_id = BOA3017_268_270
-# text = sì no no però capito x magari non così platealmente neanch'io x
+# text = sì no no però capito xx magari non così platealmente neanch'io xxxxx
 # text_conversationanalysis = sì °no° no però capito xx magari | non così platealmente neanch' io [xxxxx]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -2248,8 +2248,8 @@
 5	magari	magari	ADV	_	_	7	advmod	_	Begin=440.823|KID=286-0
 6	martina	Martina	PROPN	_	_	7	nsubj	_	Anonymized=Yes|KID=286-1
 7	sì	sì	ADV	_	_	2	conj	_	KID=286-2
-8	visto	vedere	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	9	flat	_	KID=286-3
-9	che	che	SCONJ	_	_	12	mark	_	KID=286-4
+8	visto	vedere	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	12	mark	_	KID=286-3
+9	che	che	SCONJ	_	_	8	fixed	_	KID=286-4
 10	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	12	obj	_	KID=286-5|SpaceAfter=No
 11	aveva	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	12	aux	_	KID=286-6
 12	detto	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	7	advcl	_	KID=286-7
@@ -2483,7 +2483,7 @@
 10	pizza	pizza	NOUN	_	Gender=Fem|Number=Sing	6	obj	_	End=503.809|KID=324-9
 
 # sent_id = BOA3017_325
-# text = oddio quindi abbiamo scoop solo per x
+# text = oddio quindi abbiamo scoop solo per xx
 # text_conversationanalysis = oddio quindi abbiamo scoop [solo per xx]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -2625,7 +2625,7 @@
 2	veramente	veramente	ADV	_	_	1	advmod	_	End=525.457|Intonation=Rising|KID=339-1|OverlappingGroup=56
 
 # sent_id = BOA3017_340_342_343_345_349
-# text = sì vabbè lì non è che tipo son criminali eh del tipo uno x ho scoperto chi è perché era un un x un'intervista in cui x ava~ era tipo un ricevimento
+# text = sì vabbè lì non è che tipo son criminali eh del tipo uno xx ho scoperto chi è perché era un un x un'intervista in cui x ava~ era tipo un ricevimento
 # text_conversationanalysis = [sì v]abbè lì non è che tipo son criminali eh del tipo u[no xx] | ho scoperto chi è perché era | un un | x un' in[tervista in cui x ava] | era tipo (un) ri[cevimento]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -3049,7 +3049,7 @@
 4	mammt	mammt	NOUN	_	_	2	nmod	_	Dialect=Yes|End=612.09|KID=405-3|Lang=und|Variation=Yes
 
 # sent_id = BOA3017_408
-# text = x
+# text = xx
 # text_conversationanalysis = xx
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -3094,7 +3094,7 @@
 14	no	no	INTJ	_	_	1	conj:reform	_	End=621.32|KID=414-10
 
 # sent_id = BOA3017_413
-# text = ah interessante x
+# text = ah interessante xx
 # text_conversationanalysis = ah interessa[nte xx]
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -3340,7 +3340,7 @@
 9	casa	casa	NOUN	_	Gender=Fem|Number=Sing	7	obl	_	End=666.36|KID=453-8|OverlappingGroup=211
 
 # sent_id = BOA3017_454
-# text = quello in cui x
+# text = quello in cui xxxx
 # text_conversationanalysis = [(quello in cui xxxx)]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -3470,7 +3470,7 @@
 3	ancora	ancora	ADV	_	_	2	advmod	_	End=691.43|KID=468-2|OverlappingGroup=78
 
 # sent_id = BOA3017_469
-# text = x
+# text = xx
 # text_conversationanalysis = [xx]
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -3486,7 +3486,7 @@
 3	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=693.015|Intonation=Rising|KID=470-2
 
 # sent_id = BOA3017_471_473_475_478
-# text = eh c'è il gelato c'è i wafer mh x c'è l'uovo
+# text = eh c'è il gelato c'è i wafer mh xx c'è l'uovo
 # text_conversationanalysis = e::h (c' è il gelato,) | c' è i wafer | [m:]:h xx | c' è (l' uovo)
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -3525,7 +3525,7 @@
 5	eh	eh	INTJ	_	_	1	discourse	_	End=699.642|KID=474-4
 
 # sent_id = BOA3017_477
-# text = x mh
+# text = xxxxx mh
 # text_conversationanalysis = xxxxx mh?
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -3548,7 +3548,7 @@
 2	okay	ok	INTJ	_	_	1	discourse	_	End=703.837|KID=480-1|OverlappingGroup=81
 
 # sent_id = BOA3017_481
-# text = vabbè però almeno finiamo la cioccolata x
+# text = vabbè però almeno finiamo la cioccolata xxxx
 # text_conversationanalysis = vabbè però almeno (finiamo) la cioccolata xxxx
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -3568,7 +3568,7 @@
 1	eh	eh	INTJ	_	_	0	root	_	Begin=707.282|End=707.592|Intonation=Rising|KID=482-0|OverlappingGroup=82
 
 # sent_id = BOA3017_483
-# text = la finiremo quando tornamo x
+# text = la finiremo quando tornamo xxxxxx
 # text_conversationanalysis = [l]a finiremo quando (torniamo) xxxxxx
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -3682,7 +3682,7 @@
 3	parola	parola	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	End=731.287|KID=495-2
 
 # sent_id = BOA3017_496_498
-# text = quasi quanto x
+# text = quasi quanto xxx
 # text_conversationanalysis = quasi quanto ((ride)) | xxx
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -3872,7 +3872,7 @@
 19	vanga	vanga	NOUN	_	_	16	obl	_	End=758.86|KID=521-5|OverlappingGroup=89,90
 
 # sent_id = BOA3017_520
-# text = no vanga x
+# text = no vanga xxx
 # text_conversationanalysis = [no: vanga xxx]
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -3893,7 +3893,7 @@
 # text_conversationanalysis = [p]ala
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	pala	pala	NOUN	_	Gender=Fem|Number=Sing	_	_	_	Begin=758.823|Coconstruct=conj:reform::BOA3017_522::2|End=759.433|KID=523-0|OverlappingGroup=90
+1	pala	pala	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Begin=758.823|Coconstruct=conj:reform::BOA3017_522::2|End=759.433|KID=523-0|OverlappingGroup=90
 
 # sent_id = BOA3017_525
 # text = vedi
@@ -3903,7 +3903,7 @@
 1	vedi	vedere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=760.743|End=761.263|Intonation=Rising|KID=525-0
 
 # sent_id = BOA3017_526
-# text = x
+# text = xxxx
 # text_conversationanalysis = xxxx
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -3987,7 +3987,7 @@
 6	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	3	conj	_	KID=532-5|OverlappingGroup=92
 7	cioè	cioè	CCONJ	_	_	11	cc	_	KID=532-6|OverlappingGroup=92|PaceFast=Yes
 8	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	KID=532-7|OverlappingGroup=92
-9	marchigiani	marchigiano	NOUN	_	Gender=Masc|Number=Plur	16	nsubj	_	KID=532-8|OverlappingGroup=92
+9	marchigiani	marchigiano	NOUN	_	Gender=Masc|Number=Plur	17	nsubj	_	KID=532-8|OverlappingGroup=92
 10	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	11	obj	_	KID=532-9
 11	sai	sapere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	parataxis:restart	_	KID=532-10
 12	che	che	SCONJ	_	_	14	mark	_	KID=532-11
@@ -4009,7 +4009,7 @@
 3	che	che	SCONJ	_	_	2	ccomp	_	End=776.788|KID=533-2
 
 # sent_id = BOA3017_535
-# text = che ne so x m'ha stupito non sapevo che fosse una parola x
+# text = che ne so xx m'ha stupito non sapevo che fosse una parola xxxxxxx
 # text_conversationanalysis = che ne so xx m' (ha stupito non sapevo che fosse una parola xxxxxxx
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -4094,7 +4094,7 @@
 19	anna	Anna	PROPN	_	_	17	nmod	_	Anonymized=Yes|End=811.969|KID=559-3
 
 # sent_id = BOA3017_549
-# text = x
+# text = xxxxx
 # text_conversationanalysis = xxxxx
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -4219,7 +4219,7 @@
 # conversation_id = BOA3017
 1	infatti	infatti	ADV	_	_	3	advmod	_	Begin=848.228|KID=582-0|PaceFast=Yes
 2	non	non	ADV	_	PronType=Neg	3	advmod	_	KID=582-1
-3	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	_	_	_	KID=582-2
+3	sembra	sembrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=582-2
 4	tedesca	tedesco	ADJ	_	Gender=Fem|Number=Sing	3	xcomp	_	End=849.398|KID=582-3
 
 # sent_id = BOA3017_583_584
@@ -4281,7 +4281,7 @@
 1	cioè	cioè	CCONJ	_	_	0	root	_	Begin=867.33|End=867.86|Intonation=Rising|KID=592-0
 
 # sent_id = BOA3017_594
-# text = è un brano che non mi ricordo x tipo di
+# text = è un brano che non mi ricordo xx tipo di
 # text_conversationanalysis = è un brano che non mi ricordo [xx tipo (di)]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -4397,7 +4397,7 @@
 # conversation_id = BOA3017
 1	mia	mio	DET	_	Gender=Fem|Number=Sing|Poss=Yes|PronType=Prs	2	det:poss	_	Begin=895.545|KID=604-0
 2	nonna	nonno	NOUN	_	Gender=Fem|Number=Sing	7	nsubj	_	End=896.115|KID=604-1
-3	tutti	tutto	DET	_	Gender=Masc_|Number=Plur|PronType=Tot	5	det:predet	_	Begin=896.635|KID=605-0
+3	tutti	tutto	DET	_	Gender=Masc|Number=Plur|PronType=Tot	5	det:predet	_	Begin=896.635|KID=605-0
 4	gli	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	5	det	_	KID=605-1
 5	anni	anno	NOUN	_	Gender=Masc|Number=Plur	7	obl	_	End=897.3|KID=605-2
 6	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	7	iobj	_	Begin=897.445|KID=606-0
@@ -4476,7 +4476,7 @@
 15	questa	questo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	13	obl	_	End=912.022|KID=611-14
 
 # sent_id = BOA3017_612_613
-# text = x oddio sono offeso
+# text = xx oddio sono offeso
 # text_conversationanalysis = xx | oddio sono offeso ((ride))
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -4561,11 +4561,11 @@
 # text_conversationanalysis = [io ti ho detto che]
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	io	io	X	_	_	4	nsubj	_	KID=620-0|OverlappingGroup=104
-2	ti	ti	X	_	_	4	obl	_	KID=620-1|OverlappingGroup=104
-3	ho	avere	X	_	_	4	aux	_	KID=620-2|OverlappingGroup=104
-4	detto	dire	X	_	_	0	root	_	KID=620-3|OverlappingGroup=104
-5	che	che	X	_	_	4	ccomp	_	End=928.04|KID=620-4|OverlappingGroup=104
+1	io	io	PRON	_	_	4	nsubj	_	KID=620-0|OverlappingGroup=104
+2	ti	ti	PRON	_	_	4	obl	_	KID=620-1|OverlappingGroup=104
+3	ho	avere	AUX	_	_	4	aux	_	KID=620-2|OverlappingGroup=104
+4	detto	dire	VERB	_	_	0	root	_	KID=620-3|OverlappingGroup=104
+5	che	che	SCONJ	_	_	4	ccomp	_	End=928.04|KID=620-4|OverlappingGroup=104
 
 # sent_id = BOA3017_622
 # text = nel sens~ no xxxx ti ringrazio del pensiero però
@@ -4717,7 +4717,7 @@
 1	no	no	INTJ	_	_	0	root	_	Begin=943.52|End=943.81|Intonation=Rising|KID=635-0|OverlappingGroup=114
 
 # sent_id = BOA3017_636
-# text = mi sa che è un braccialetto x
+# text = mi sa che è un braccialetto xx
 # text_conversationanalysis = (mi sa che è un bracciale[tto xx])
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -4840,7 +4840,7 @@
 28	fai	fare	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	23	ccomp	_	End=960.52|KID=643-26|OverlappingGroup=119
 
 # sent_id = BOA3017_644
-# text = x
+# text = xxx
 # text_conversationanalysis = [xxx]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -4912,7 +4912,7 @@
 13	non	non	ADV	_	PronType=Neg	12	advmod	_	End=972.32|KID=649-12|OverlappingGroup=122|Prolonged=Yes
 
 # sent_id = BOA3017_650
-# text = x male
+# text = xxx male
 # text_conversationanalysis = [xxx male]
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -5033,7 +5033,7 @@
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	no	no	ADV	_	PronType=Neg	0	root	_	KID=662-7
-2	grazie	grazie	INTJ	_	_	1	advmod	_	End=997.8|KID=662-8|OverlappingGroup=125
+2	grazie	grazie	INTJ	_	_	1	discourse	_	End=997.8|KID=662-8|OverlappingGroup=125
 
 # sent_id = BOA3017_663
 # text = vuoi il braccialetto g~ gold bunny
@@ -5070,7 +5070,7 @@
 1	eh	eh	INTJ	_	_	8	discourse	_	Begin=1009.587|End=1010.427|KID=666-0|Prolonged=Yes
 2	ma	ma	CCONJ	_	_	3	cc	_	Begin=1010.682|KID=667-0
 3	te	te	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	8	reparandum	_	KID=667-1
-4	doma~	doma~	X	_	_	3	advmod	_	ExtLemma=domani|ExtUPOS=ADV|Interrupted=Yes|KID=667-2
+4	doma~	doma~	X	_	_	8	reparandum	_	ExtLemma=domani|ExtUPOS=ADV|Interrupted=Yes|KID=667-2
 5	no	no	ADV	_	PronType=Neg	8	discourse	_	KID=667-3
 6	mado~	mado~	X	_	_	8	discourse	_	Interrupted=Yes|KID=667-4
 7	domani	domani	ADV	_	_	8	advmod	_	KID=667-5
@@ -5140,7 +5140,7 @@
 2	no	no	ADV	_	PronType=Neg	0	root	_	End=1025.432|KID=674-1|OverlappingGroup=126
 
 # sent_id = BOA3017_675
-# text = x x disperata
+# text = xx xx disperata
 # text_conversationanalysis = [xx] xx (disperata)
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -5595,7 +5595,7 @@
 11	prendi	prendere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	conj	_	End=1159.057|KID=738-4
 
 # sent_id = BOA3017_739_741
-# text = cioè cioè se non me lo prendi x
+# text = cioè cioè se non me lo prendi xxxxx
 # text_conversationanalysis = >cioè< ((ride)) | >cioè< se non me lo prendi xxxxx
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -5622,7 +5622,7 @@
 6	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	4	obj	_	End=1163.159|KID=743-3c
 
 # sent_id = BOA3017_749
-# text = x guarda che è tutti scemi quelli che vanno da natura sì a parte me
+# text = xxx guarda che è tutti scemi quelli che vanno da natura sì a parte me
 # text_conversationanalysis = xxx guarda che è tutti scemi quelli che vanno (da) natura sì a parte me
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -5729,7 +5729,7 @@
 18	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	obj	_	KID=763-8
 19	fa	fare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	reparandum	_	KID=763-9|OverlappingGroup=135|Prolonged=Yes
 20	fa	fare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	conj	_	KID=763-10|OverlappingGroup=135
-21	spesa	spesa	NOUN	_	Gender=Fem|Number=Sing	20	obj	_	End=1188.844|KID=763-11|OverlappingGroup=135|Prolonged=Yes
+21	spesa	spesa	NOUN	_	Gender=Fem|Number=Sing	20	dislocated	_	End=1188.844|KID=763-11|OverlappingGroup=135|Prolonged=Yes
 
 # sent_id = BOA3017_761
 # text = però
@@ -5836,7 +5836,7 @@
 4	esse	essere	AUX	_	_	6	cop	_	KID=773-2|OverlappingGroup=138|Truncated=Yes
 5	un'	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	6	det	_	KID=773-3|SpaceAfter=No
 6	intolleranza	intolleranza	NOUN	_	Gender=Fem|Number=Sing	1	conj	_	End=1203.13|KID=773-4|Prolonged=Yes
-7	abbastanz~	abbastanz~	X	_	_	6	advmod	_	Begin=1203.764|Interrupted=Yes|KID=774-0
+7	abbastanz~	abbastanz~	X	_	_	6	dep	_	Begin=1203.764|Interrupted=Yes|KID=774-0
 8	cioè	cioè	CCONJ	_	_	12	cc	_	KID=774-1|PaceFast=Yes
 9	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	KID=774-2
 10	percentuale	percentuale	NOUN	_	Gender=Fem|Number=Sing	12	nsubj	_	KID=774-3
@@ -5893,7 +5893,7 @@
 5	dai	dare	VERB	_	Mood=Imp|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	1	discourse	_	End=1215.516|KID=780-4|OverlappingGroup=140
 
 # sent_id = BOA3017_781
-# text = x che infatti
+# text = xxx che infatti
 # text_conversationanalysis = [xxx che ((ride)) (>in<)fa]tti
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -6388,7 +6388,7 @@
 17	persona	persona	NOUN	_	Gender=Fem|Number=Sing	14	nmod	_	End=1377.758|KID=889-6
 
 # sent_id = BOA3017_887
-# text = e quelle sono molto x
+# text = e quelle sono molto xxx
 # text_conversationanalysis = [e quelle (sono molto xxx)]
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -6844,7 +6844,7 @@
 12	permetti	permettere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	8	conj	_	End=1464.923|KID=939-11
 
 # sent_id = BOA3017_940
-# text = ma poi con un dil~ x
+# text = ma poi con un dil~ xx
 # text_conversationanalysis = ma [poi con un dil~ xx]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -6981,7 +6981,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_947_949::17|Begin=1480.148|End=1480.515|KID=948-0|OverlappingGroup=160
 
 # sent_id = BOA3017_950
-# text = non è che le han detto guarda abbiam visto questi libri x solo l'informazione
+# text = non è che le han detto guarda abbiam visto questi libri xxxxx solo l'informazione
 # text_conversationanalysis = non è che le han detto guarda abbiam visto questi libri xxxxx solo l' infor[mazione]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -7057,7 +7057,7 @@
 4	palle	palla	NOUN	_	Gender=Fem|Number=Plur	2	obj	_	End=1508.591|KID=957-3
 
 # sent_id = BOA3017_962
-# text = x hai iniziato a studiare per l'esame della gialli
+# text = xx hai iniziato a studiare per l'esame della gialli
 # text_conversationanalysis = xx hai iniziato a (studiare) (per) l' esame della gialli?
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -7207,7 +7207,7 @@
 8	magni	mangiare	VERB	_	_	3	conj	_	End=1544.449|KID=977-7|OverlappingGroup=165|Prolonged=Yes|Variation=Yes
 
 # sent_id = BOA3017_978
-# text = perché x l'insalata
+# text = perché xx l'insalata
 # text_conversationanalysis = [perch]é xx l' insal[ata]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -7237,7 +7237,7 @@
 # text_conversationanalysis = [eh ma vole]vo mangiare la carne
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	eh	eh	INTJ	_	_	2	discourse	_	Begin=1547.446|KID=980-0|OverlappingGroup=167
+1	eh	eh	INTJ	_	_	4	discourse	_	Begin=1547.446|KID=980-0|OverlappingGroup=167
 2	ma	ma	CCONJ	_	_	4	cc	_	KID=980-1|OverlappingGroup=167
 3	volevo	volere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	4	aux	_	KID=980-2|OverlappingGroup=167
 4	mangiare	mangiare	VERB	_	VerbForm=Inf	0	root	_	KID=980-3
@@ -7272,7 +7272,7 @@
 7	tiro~	tiro~	X	_	_	5	obl	_	End=1568.138|Interrupted=Yes|KID=984-6|OverlappingGroup=168
 
 # sent_id = BOA3017_985
-# text = e vai lì oh gialli senti questo pezzo x
+# text = e vai lì oh gialli senti questo pezzo xxxxxx
 # text_conversationanalysis = [e vai lì oh] gialli senti questo pezzo [xxxxxx]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -7387,7 +7387,7 @@
 1	mh	mh	INTJ	_	_	0	root	_	Begin=1586.449|End=1586.853|KID=1001-0
 
 # sent_id = BOA3017_1003_1004
-# text = ma sì poi lo sentiranno tra un po' x la x cioè adesso sto lavorando ad altre trascrizioni prima quindi
+# text = ma sì poi lo sentiranno tra un po' xx la xx cioè adesso sto lavorando ad altre trascrizioni prima quindi
 # text_conversationanalysis = ma sì poi lo sentiranno tra un po' xx la xx | >cioè< adesso sto lavorande ad altre trascrizioni prima quindi
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -7460,7 +7460,7 @@
 # speaker_id = BO145
 # conversation_id = BOA3017
 1	e	e	CCONJ	_	_	2	discourse	_	Begin=1604.483|KID=1010-0
-2	je	je	INTJ	_	_	_	_	_	End=1605.024|KID=1010-1
+2	je	je	INTJ	_	_	0	root	_	End=1605.024|KID=1010-1
 
 # sent_id = BOA3017_1011_1015
 # text = sì no sono così son tipo quattro righe così lo trascrivo a tempo
@@ -7689,7 +7689,7 @@
 4	così	così	ADV	_	_	3	advmod	_	End=1637.966|KID=1042-3|OverlappingGroup=183
 
 # sent_id = BOA3017_1043
-# text = x c'ha i polipi nel naso secondo me perché parla tutta così alalalalalalal
+# text = xxx c'ha i polipi nel naso secondo me perché parla tutta così alalalalalalal
 # text_conversationanalysis = [xxx c' ha i polipi nel naso s]econdo [me perché parla t]utta così xxxxxxxxxs
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -7795,11 +7795,11 @@
 # text_conversationanalysis = [no (.) era]
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	no	no	ADV	_	PronType=Neg	_	_	_	Begin=1653.229|End=1653.28|KID=1056-0|OverlappingGroup=213|PauseAfter=Yes
-2	era	essere	INTJ	_	_	_	_	_	Begin=1653.229|End=1654.471|KID=1056-2|OverlappingGroup=213
+1	no	no	ADV	_	PronType=Neg	2	discourse	_	Begin=1653.229|End=1653.28|KID=1056-0|OverlappingGroup=213|PauseAfter=Yes
+2	era	essere	INTJ	_	_	0	root	_	Begin=1653.229|End=1654.471|KID=1056-2|OverlappingGroup=213
 
 # sent_id = BOA3017_1057
-# text = una cagata la deve spara' sempre e comunque x
+# text = una cagata la deve spara' sempre e comunque xxx
 # text_conversationanalysis = [una ca]gata l deve (sparare) sempre e comun[que xxx]
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -7848,7 +7848,7 @@
 9	battute	battuta	NOUN	_	Gender=Fem|Number=Plur	6	obj	_	End=1659.687|KID=1062-8
 
 # sent_id = BOA3017_1065
-# text = no x
+# text = no xx
 # text_conversationanalysis = no [xx]
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -7856,7 +7856,7 @@
 2	xx	x	X	_	_	1	dep	_	End=1662.774|KID=1065-1|OverlappingGroup=187|Syllables=2|Unintelligible=Yes
 
 # sent_id = BOA3017_1066
-# text = ah certo se le fo io x
+# text = ah certo se le fo io xxxxxx
 # text_conversationanalysis = [ah] certo se le fo io xxxxxx
 # speaker_id = BO147
 # conversation_id = BOA3017
@@ -8056,12 +8056,12 @@
 # text_conversationanalysis = e poi daniela non devi avere pregiudizi su di me io <io>
 # speaker_id = BO145
 # conversation_id = BOA3017
-1	e	e	CCONJ	_	_	2	cc	_	Begin=1697.119|KID=1091-0
-2	poi	poi	ADV	_	_	_	_	_	KID=1091-1
+1	e	e	CCONJ	_	_	6	cc	_	Begin=1697.119|KID=1091-0
+2	poi	poi	ADV	_	_	6	advmod	_	KID=1091-1
 3	daniela	Daniela	PROPN	_	_	6	vocative	_	Anonymized=Yes|KID=1091-2|Reported=Yes
 4	non	non	ADV	_	PronType=Neg	6	advmod	_	KID=1091-3|Reported=Yes
 5	devi	dovere	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	6	aux	_	KID=1091-4|Reported=Yes
-6	avere	avere	VERB	_	VerbForm=Inf	2	ccomp:reported	_	KID=1091-5|Reported=Yes
+6	avere	avere	VERB	_	VerbForm=Inf	0	root	_	KID=1091-5|Reported=Yes
 7	pregiudizi	pregiudizio	NOUN	_	Gender=Masc|Number=Plur	6	obj	_	KID=1091-6|Reported=Yes
 8	su	su	ADP	_	_	10	case	_	KID=1091-7|Reported=Yes
 9	di	di	ADP	_	_	8	fixed	_	KID=1091-8|Reported=Yes
@@ -8182,7 +8182,7 @@
 5	troie	troia	NOUN	_	Gender=Fem|Number=Plur	2	nmod	_	KID=1106-3|OverlappingGroup=214
 6	di	di	ADP	_	_	7	case	_	KID=1106-4|OverlappingGroup=214
 7	jesi	Jesi	PROPN	_	_	5	nmod	_	End=1724.999|KID=1106-5|OverlappingGroup=214
-8	uno	uno	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	0	root	_	Begin=1727.835|KID=1108-0
+8	uno	uno	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	2	parataxis:restart	_	Begin=1727.835|KID=1108-0
 9-10	delle	_	_	_	_	_	_	_	KID=1108-1
 9	di	di	ADP	_	_	11	case	_	KID=1108-1a
 10	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	11	det	_	KID=1108-1b
@@ -8211,7 +8211,7 @@
 2	vedere	vedere	VERB	_	VerbForm=Inf	1	ccomp	_	End=1726.692|KID=1107-1
 
 # sent_id = BOA3017_1109
-# text = x sì
+# text = xx sì
 # text_conversationanalysis = xx sì
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -8279,7 +8279,7 @@
 2	chi	chi	PRON	_	PronType=Int	1	appos	_	End=1742.823|Intonation=Rising|KID=1118-1
 
 # sent_id = BOA3017_1120
-# text = come x come fa di cognome
+# text = come xxxx come fa di cognome
 # text_conversationanalysis = come xxxx come fa (di) cognome
 # speaker_id = BO145
 # conversation_id = BOA3017
@@ -8336,7 +8336,7 @@
 1	perché	perché	SCONJ	_	_	0	root	_	Begin=1749.86|End=1750.16|Intonation=Rising|KID=1126-0
 
 # sent_id = BOA3017_1127
-# text = x come si chiama x
+# text = xxxx come si chiama xxxxx
 # text_conversationanalysis = xxxx (come si chia[ma) xxxxx]
 # speaker_id = BO146
 # conversation_id = BOA3017
@@ -8519,7 +8519,7 @@
 1	no	no	ADV	_	PronType=Neg	0	root	_	Begin=1782.728|End=1783.228|Intonation=Rising|KID=1144-0
 
 # sent_id = BOA3017_1146
-# text = volevo fare una battuta cattiva x
+# text = volevo fare una battuta cattiva xxxxx
 # text_conversationanalysis = >volevo fare una battuta cattiva< xxxxx
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -8531,7 +8531,7 @@
 6	xxxxx	x	X	_	_	2	dep	_	End=1786.848|KID=1146-5|Syllables=5|Unintelligible=Yes
 
 # sent_id = BOA3017_1147
-# text = è salatissima x
+# text = è salatissima xx
 # text_conversationanalysis = è salatissima xx
 # speaker_id = BO139
 # conversation_id = BOA3017
@@ -8650,10 +8650,10 @@
 # text_conversationanalysis = >visto che mi sta per si s~ eh< | AH | ho visto che mi si sta per scaricare il telefono quindi in[terrom]po qua | le comunicazion[i]
 # speaker_id = BO139
 # conversation_id = BOA3017
-1	visto	vedere	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	2	flat	_	Begin=1809.18|KID=1163-0|PaceFast=Yes
+1	visto	vedere	VERB	_	Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Begin=1809.18|KID=1163-0|PaceFast=Yes
 2	che	che	SCONJ	_	_	4	mark	_	KID=1163-1|PaceFast=Yes
 3	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	KID=1163-2|PaceFast=Yes
-4	sta	stare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=1163-3|PaceFast=Yes
+4	sta	stare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	ccomp	_	KID=1163-3|PaceFast=Yes
 5	per	per	ADP	_	_	7	mark	_	KID=1163-4|PaceFast=Yes
 6	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	7	expl	_	KID=1163-5|PaceFast=Yes
 7	s~	s~	X	_	_	4	ccomp	_	Interrupted=Yes|KID=1163-6|PaceFast=Yes
