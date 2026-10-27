@@ -739,7 +739,7 @@
 6	molto	molto	ADV	_	_	7	advmod	_	KID=61-4
 7	poco	poco	ADV	_	_	4	advmod	_	KID=61-5
 8	tendenzialmente	tendenzialmente	ADV	_	_	11	advmod	_	KID=61-6|OverlappingGroup=31
-9	tutti	tutto	DET	_	Gender=Masc<OR>_|Number=Plur<OR>_|PronType=Ind<OR>Tot	11	det	_	KID=61-7|OverlappingGroup=31
+9	tutti	tutto	DET	_	Gender=Masc|Number=Plur|PronType=Tot	11	det	_	KID=61-7|OverlappingGroup=31
 10	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	KID=61-8|OverlappingGroup=31
 11	lav~	lav~	X	_	_	4	conj	_	End=142.668|Interrupted=Yes|KID=61-9|OverlappingGroup=31
 
@@ -1739,7 +1739,7 @@
 10	che	che	PRON	_	PronType=Rel	13	obj	_	KID=143-8
 11	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-9|ProsodicLink=Yes
 12	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-10|ProsodicLink=Yes
-13	presi	prendere	VERB	_	_ |Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin<OR>Part	9	acl:relcl	_	KID=143-11
+13	presi	prendere	VERB	_	_ Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	KID=143-11
 14	erroneamente	erroneamente	ADV	_	_	13	advmod	_	KID=143-12
 15	perché	perché	SCONJ	_	_	17	mark	_	KID=143-13
 16	avevo	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	KID=143-14
@@ -1876,7 +1876,7 @@
 6	vista	vista	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	KID=152-5|OverlappingGroup=79
 7	comunque	comunque	ADV	_	_	8	advmod	_	KID=152-6
 8	ho	avere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=152-7
-9	tutto	tutto	DET	_	Gender=Masc<OR>_|Number=Sing<OR>_|PronType=Ind<OR>Tot	11	det	_	KID=152-8
+9	tutto	tutto	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	KID=152-8
 10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=152-9
 11	materiale	materiale	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	KID=152-10
 12-13	della	_	_	_	_	_	_	_	KID=152-11
@@ -2011,7 +2011,7 @@
 # text_conversationanalysis = mi aggiorna poi via via [un po' d]el lavor[o no],
 # speaker_id = BO026
 1	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	KID=162-2
-2	aggiorna	aggiornare	VERB	_	Mood=Imp<OR>Ind|Number=Sing|Person=2<OR>3|Tense=Pres|VerbForm=Fin	0	root	_	KID=162-3
+2	aggiorna	aggiornare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=162-3
 3	poi	poi	ADV	_	_	2	advmod	_	KID=162-4
 4	via	via	ADV	_	_	2	advmod	_	KID=162-5
 5	via	via	ADV	_	_	4	fixed	_	KID=162-6
