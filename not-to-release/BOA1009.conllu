@@ -11,7 +11,7 @@
 # text = ha dimentica~ ah non l'ho neanche visto meno male
 # text_conversationanalysis = ha dimentica~ ah non l' ho neanche visto meno male.
 # speaker_id = BO026
-1	ha	avere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	Begin=3.17|KID=0-0
+1	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	aux	_	Begin=3.17|KID=0-0
 2	dimentica~	dimentica~	X	_	_	0	root	_	ExtUPOS=PROPN|Interrupted=Yes|KID=0-1
 3	ah	ah	INTJ	_	_	8	discourse	_	KID=0-2
 4	non	non	ADV	_	PronType=Neg	8	advmod	_	KID=0-3
@@ -72,7 +72,7 @@
 11	però	però	ADV	_	_	4	conj	_	Begin=20.22|End=20.805|Intonation=WeaklyRising|KID=6-0|OverlappingGroup=0
 
 # sent_id = BOA1009_5
-# text = lei lei è della x
+# text = lei lei è della xx
 # text_conversationanalysis = [lei l]ei è: del[la: xx]
 # speaker_id = BO026
 1	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	2	reparandum	_	Begin=20.22|KID=5-0|OverlappingGroup=0
@@ -276,7 +276,7 @@
 13	congedo	congedo	NOUN	_	Gender=Masc|Number=Sing	11	obl	_	KID=21-12
 14	malattia	malattia	NOUN	_	Gender=Fem|Number=Sing	13	conj:reform	_	KID=21-13
 15	per	per	ADP	_	_	16	case	_	KID=21-14
-16	cui	cui	PRON	_	PronType=Rel	18	mark	_	End=61.968|Intonation=WeaklyRising|KID=21-15
+16	cui	cui	PRON	_	_	18	obl	_	End=61.968|Intonation=WeaklyRising|KID=21-15
 17	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	aux	_	Begin=62.11|KID=23-0
 18	detto	dire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	9	conj	_	KID=23-1
 19	che	che	SCONJ	_	_	21	mark	_	KID=23-2
@@ -358,7 +358,7 @@
 # text = mh
 # text_conversationanalysis = [°mh°]
 # speaker_id = BO026
-1	mh	mh	INTJ	_	_	0	discourse	_	Backchannel=BOA1009_24_27_29::2|Begin=65.529|End=65.75|KID=25-0|OverlappingGroup=10|Volume=low
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA1009_24_27_29::2|Begin=65.529|End=65.75|KID=25-0|OverlappingGroup=10|Volume=low
 
 # sent_id = BOA1009_26
 # text = sì
@@ -1121,14 +1121,14 @@
 2	perché	perché	SCONJ	_	_	5	mark	_	KID=94-1|OverlappingGroup=51
 3	ha	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	KID=94-2|OverlappingGroup=51
 4	già	già	ADV	_	_	5	advmod	_	KID=94-3|OverlappingGroup=51
-5	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	advcl	_	Coconstruct=advcl::BOA1009_92::10|KID=94-4|OverlappingGroup=51
+5	fatto	fare	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	0	root	_	Coconstruct=advcl::BOA1009_92::10|KID=94-4|OverlappingGroup=51
 6-7	dei	_	_	_	_	_	_	_	KID=94-5
 6	di	di	ADP	_	_	8	case	_	KID=94-5a
 7	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	8	det	_	KID=94-5b
 8	progett~	progett~	X	_	_	5	dep	_	ExtUPOS=PROPN|Interrupted=Yes|KID=94-6
 
 # sent_id = BOA1009_94b
-# text = lei la seguirebbe in quanto della stessa scuola la x della scuola interpreti
+# text = lei la seguirebbe in quanto della stessa scuola la xxx della scuola interpreti
 # text_conversationanalysis = lei la seguirebbe in quanto della stessa scuola la [xxx] della scuola in[terpreti].
 # speaker_id = BO026
 1	lei	lei	PRON	_	Gender=Fem|Number=Sing|Person=3|PronType=Prs	3	nsubj	_	KID=94-7
@@ -1412,12 +1412,12 @@
 12	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	KID=116-10b
 13	segni	segno	NOUN	_	Gender=Masc|Number=Plur	10	nmod	_	KID=116-11
 14	qua	qua	ADV	_	_	8	advmod	_	KID=116-12
-15	che	che	PRON	_	PronType=Rel	18	mark	_	KID=116-13
+15	che	che	PRON	_	PronType=Rel	18	nsubj	_	KID=116-13
 16	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	cop	_	KID=116-14
 17	un'	uno	DET	_	Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	det	_	KID=116-15|SpaceAfter=No
 18	interprete	interprete	NOUN	_	Number=Sing	8	acl:relcl	_	KID=116-16
 19	per	per	ADP	_	_	20	case	_	KID=116-17
-20	cui	cui	PRON	_	PronType=Rel	23	cc	_	KID=116-18
+20	cui	cui	PRON	_	_	23	obl	_	KID=116-18
 21	comunque	comunque	ADV	_	_	23	advmod	_	KID=116-19
 22	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	23	iobj	_	KID=116-20
 23	fa	fare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	conj	_	KID=116-21|PauseAfter=Yes
@@ -1739,7 +1739,7 @@
 10	che	che	PRON	_	PronType=Rel	13	obj	_	KID=143-8
 11	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-9|ProsodicLink=Yes
 12	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-10|ProsodicLink=Yes
-13	presi	prendere	VERB	_	_ Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	KID=143-11
+13	presi	prendere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	KID=143-11
 14	erroneamente	erroneamente	ADV	_	_	13	advmod	_	KID=143-12
 15	perché	perché	SCONJ	_	_	17	mark	_	KID=143-13
 16	avevo	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	KID=143-14
@@ -1795,7 +1795,7 @@
 6	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	KID=147-8
 7	stati	essere	AUX	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	8	aux:pass	_	KID=147-9
 8	scritti	scrivere	VERB	_	Gender=Masc|Number=Plur|Tense=Past|VerbForm=Part	2	ccomp	_	KID=147-10
-9	dei	dei	DET	_	_	10	det	_	KID=147-11
+9	dei	del	DET	_	Definite=Ind|Gender=Masc|Number=Plur|PronType=Art	10	det	_	KID=147-11
 10	libri	libro	NOUN	_	Gender=Masc|Number=Plur	8	nsubj:pass	_	KID=147-12
 11	proprio	proprio	ADV	_	_	13	advmod	_	KID=147-13
 12	quasi	quasi	ADV	_	_	13	advmod	_	KID=147-14
@@ -1926,7 +1926,7 @@
 16	di	di	ADP	_	_	18	case	_	KID=154-14a
 17	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	18	det	_	KID=154-14b
 18	segni	segno	NOUN	_	Gender=Masc|Number=Plur	15	nmod	_	KID=154-15|OverlappingGroup=81
-19	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	case	_	KID=154-16
+19	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	20	det	_	KID=154-16
 20	volterra	Volterra	PROPN	_	_	12	conj:reform	_	KID=154-17|OverlappingGroup=82
 21	e	e	CCONJ	_	_	23	cc	_	KID=154-18|OverlappingGroup=82
 22	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	End=389.531|KID=154-19|OverlappingGroup=82|Prolonged=Yes
@@ -2038,7 +2038,7 @@
 3	sto	stare	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	aux	_	KID=164-2|OverlappingGroup=88
 4	lavorando	lavorare	VERB	_	VerbForm=Ger	0	root	_	KID=164-3
 5	ho	avere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	KID=164-4
-6	degli	del	DET	_	_	7	det	_	KID=164-5
+6	degli	del	DET	_	PronType=Art	7	det	_	KID=164-5
 7	esami	esame	NOUN	_	Gender=Masc|Number=Plur	5	obj	_	KID=164-6
 8	per	per	ADP	_	_	9	case	_	KID=164-7
 9	cui	cui	PRON	_	PronType=Rel	11	obl	_	KID=164-8
@@ -2055,7 +2055,7 @@
 20	chiuse	chiuso	ADJ	_	Gender=Fem|Number=Plur	18	conj:reform	_	KID=167-1
 21	tutto	tutto	PRON	_	Gender=Masc|Number=Sing|PronType=Ind	18	conj:reform	_	KID=167-2
 22	per	per	ADP	_	_	23	case	_	KID=167-3
-23	cui	cui	PRON	_	PronType=Rel	29	cc	_	KID=167-4
+23	cui	cui	PRON	_	PronType=Rel	29	obl	_	KID=167-4
 24	comunque	comunque	ADV	_	_	29	advmod	_	End=416.826|Intonation=WeaklyRising|KID=167-5
 25	cioè	cioè	ADV	_	_	29	discourse	_	Begin=417.138|KID=168-0
 26	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	KID=168-1
@@ -2133,7 +2133,7 @@
 14-15	glielo	_	_	_	_	_	_	_	KID=172-14
 14	glie	gli	PRON	_	Clitic=Yes|Person=3|PronType=Prs	16	expl	_	KID=172-14a
 15	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	16	obj	_	KID=172-14b
-16	inoltro	inoltro	PRON	_	_	0	root	_	KID=172-15
+16	inoltro	inoltrare	VERB	_	_	0	root	_	KID=172-15
 17-18	glielo	_	_	_	_	_	_	_	KID=172-16|OverlappingGroup=93
 17	glie	gli	PRON	_	Clitic=Yes|Person=3|PronType=Prs	19	expl	_	KID=172-16a
 18	lo	lo	PRON	_	Clitic=Yes|Gender=Masc|Number=Sing|Person=3|PronType=Prs	19	obj	_	KID=172-16b
