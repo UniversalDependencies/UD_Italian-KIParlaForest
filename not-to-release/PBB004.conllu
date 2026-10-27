@@ -1073,7 +1073,7 @@
 8	centrale	centrale	ADJ	_	Number=Sing	7	amod	_	End=212.995|Intonation=WeaklyRising|KID=118-4
 
 # sent_id = PBB004_119_121
-# text = x traffico magari c'è più traffico però cioè mh
+# text = xxx traffico magari c'è più traffico però cioè mh
 # text_conversationanalysis = xxx (.) traffico, magari c' è più [traffico], | però: cioè::: [mh]
 # speaker_id = BOI012
 1	xxx	x	X	_	_	2	dep	_	Begin=213.0|KID=119-0|PauseAfter=Yes|Unintelligible=Yes
@@ -1971,7 +1971,7 @@
 8	magari	magari	ADV	_	_	6	advmod	_	End=389.33|KID=216-7|OverlappingGroup=51
 
 # sent_id = PBB004_217
-# text = x
+# text = xxx
 # text_conversationanalysis = [xxx]
 # speaker_id = BOR005
 1	xxx	X	X	_	_	0	root	_	Begin=387.785|End=388.575|KID=217-0|OverlappingGroup=50|Unintelligible=Yes
@@ -2226,7 +2226,7 @@
 9	adesso	adesso	ADV	_	_	6	advmod	_	End=442.555|KID=245-9
 
 # sent_id = PBB004_246
-# text = x
+# text = xx
 # text_conversationanalysis = xx]
 # speaker_id = BOI013
 1	xx	X	X	_	_	0	root	_	Begin=440.635|End=441.185|KID=246-0|Unintelligible=Yes
@@ -4152,7 +4152,7 @@
 3	gina	Gina	PROPN	_	_	0	root	_	End=861.96|KID=465-2|OverlappingGroup=100
 
 # sent_id = PBB004_467
-# text = tanto x non è che
+# text = tanto xxx non è che
 # text_conversationanalysis = >tanto< xxx >non è che<
 # speaker_id = BOI013
 1	tanto	tanto	ADV	_	_	4	advmod	_	Begin=864.78|KID=467-0|PaceFast=Yes
@@ -5170,7 +5170,7 @@
 12	emilia	Emilia	PROPN	_	_	9	nmod	_	End=1072.936|KID=570-10|OverlappingGroup=121
 
 # sent_id = PBB004_566
-# text = x
+# text = xxx
 # text_conversationanalysis = [xxx]
 # speaker_id = BOI013
 1	xxx	x	X	_	_	0	root	_	Begin=1059.832|End=1060.928|KID=566-0|OverlappingGroup=120|Unintelligible=Yes
@@ -6970,7 +6970,7 @@
 11	lavoratori	lavoratore	NOUN	_	Gender=Masc|Number=Plur	8	nmod	_	End=1498.264|KID=791-8|OverlappingGroup=157
 
 # sent_id = PBB004_792_793
-# text = e allora non è perché se x
+# text = e allora non è perché se xxx
 # text_conversationanalysis = [e allora] | [non] è perché s[e xxx]
 # speaker_id = BOI012
 1	e	e	CCONJ	_	_	4	cc	_	Begin=1496.713|KID=792-0|OverlappingGroup=157
@@ -7884,7 +7884,7 @@
 1	sì	sì	ADV	_	_	0	root	_	Backchannel=PBB004_893::14|Begin=1714.584|End=1715.138|KID=894-0|Volume=high
 
 # sent_id = PBB004_895
-# text = sei sempre dalla tata a x
+# text = sei sempre dalla tata a xx
 # text_conversationanalysis = sei sempre dalla (tata a [xx)]
 # speaker_id = BOI012
 1	sei	essere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=1715.633|KID=895-0
@@ -9526,7 +9526,7 @@
 1	risparmi	risparmio	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Begin=2058.056|End=2058.95|Intonation=WeaklyRising|KID=1090-0|OverlappingGroup=215
 
 # sent_id = PBB004_1091_1092
-# text = e e là non c'andiamo x cioè
+# text = e e là non c'andiamo xx cioè
 # text_conversationanalysis = [e::] | e:: là non c' andiamo xx >cioè<
 # speaker_id = BOI012
 1	e	e	CCONJ	_	_	2	reparandum	_	Begin=2058.361|End=2058.85|KID=1091-0|OverlappingGroup=215|Prolonged=Yes
