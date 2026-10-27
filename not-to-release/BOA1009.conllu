@@ -81,7 +81,7 @@
 4-5	della	_	_	_	_	_	_	_	KID=5-3|OverlappingGroup=1|Prolonged=Yes
 4	di	di	ADP	_	_	6	case	_	Head=position|KID=5-3a
 5	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	Head=position|KID=5-3b
-6	x	x	X	_	_	3	obj	_	End=22.76|KID=5-4|OverlappingGroup=1|Promotion=dep
+6	xx	x	X	_	_	3	obj	_	End=22.76|KID=5-4|OverlappingGroup=1|Promotion=dep
 
 # sent_id = BOA1009_7
 # text = italiano per stranieri
@@ -739,7 +739,7 @@
 6	molto	molto	ADV	_	_	7	advmod	_	KID=61-4
 7	poco	poco	ADV	_	_	4	advmod	_	KID=61-5
 8	tendenzialmente	tendenzialmente	ADV	_	_	11	advmod	_	KID=61-6|OverlappingGroup=31
-9	tutti	tutto	DET	_	Gender=Masc<OR>_|Number=Plur<OR>_|PronType=Ind<OR>Tot	11	det	_	KID=61-7|OverlappingGroup=31
+9	tutti	tutto	DET	_	Gender=Masc|Number=Plur|PronType=Tot	11	det	_	KID=61-7|OverlappingGroup=31
 10	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	11	det	_	KID=61-8|OverlappingGroup=31
 11	lav~	lav~	X	_	_	4	conj	_	End=142.668|Interrupted=Yes|KID=61-9|OverlappingGroup=31
 
@@ -1142,7 +1142,7 @@
 8	stessa	stesso	ADJ	_	_	9	amod	_	KID=94-13
 9	scuola	scuola	NOUN	_	Gender=Fem|Number=Sing	3	obl	_	KID=94-14
 10	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	13	reparandum	_	KID=94-15
-11	x	x	SYM	_	_	14	dep	_	KID=94-16|OverlappingGroup=53
+11	xxx	x	SYM	_	_	14	dep	_	KID=94-16|OverlappingGroup=53
 12-13	della	_	_	_	_	_	_	_	KID=94-17
 12	di	di	ADP	_	_	14	case	_	KID=94-17a
 13	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	det	_	KID=94-17b
@@ -1739,7 +1739,7 @@
 10	che	che	PRON	_	PronType=Rel	13	obj	_	KID=143-8
 11	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-9|ProsodicLink=Yes
 12	pre~	pre~	X	_	_	13	reparandum	_	Interrupted=Yes|KID=143-10|ProsodicLink=Yes
-13	presi	prendere	VERB	_	_ |Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin<OR>Part	9	acl:relcl	_	KID=143-11
+13	presi	prendere	VERB	_	_ Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	acl:relcl	_	KID=143-11
 14	erroneamente	erroneamente	ADV	_	_	13	advmod	_	KID=143-12
 15	perché	perché	SCONJ	_	_	17	mark	_	KID=143-13
 16	avevo	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Imp|VerbForm=Fin	17	aux	_	KID=143-14
@@ -1876,7 +1876,7 @@
 6	vista	vista	NOUN	_	Gender=Fem|Number=Sing	4	nmod	_	KID=152-5|OverlappingGroup=79
 7	comunque	comunque	ADV	_	_	8	advmod	_	KID=152-6
 8	ho	avere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=152-7
-9	tutto	tutto	DET	_	Gender=Masc<OR>_|Number=Sing<OR>_|PronType=Ind<OR>Tot	11	det	_	KID=152-8
+9	tutto	tutto	DET	_	Gender=Masc|Number=Sing|PronType=Tot	11	det	_	KID=152-8
 10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=152-9
 11	materiale	materiale	NOUN	_	Gender=Masc|Number=Sing	8	obj	_	KID=152-10
 12-13	della	_	_	_	_	_	_	_	KID=152-11
@@ -1930,7 +1930,7 @@
 20	volterra	Volterra	PROPN	_	_	12	conj:reform	_	KID=154-17|OverlappingGroup=82
 21	e	e	CCONJ	_	_	23	cc	_	KID=154-18|OverlappingGroup=82
 22	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	23	det	_	End=389.531|KID=154-19|OverlappingGroup=82|Prolonged=Yes
-23	cnr	CNR	PROPN	_	_	12	conj	_	KID=157-0|OrigTranscription=cienneerre
+23	cnr	CNR	PROPN	_	_	12	conj	_	KID=157-2|OrigTranscription=cienneerre
 
 # sent_id = BOA1009_155
 # text = sì
@@ -1948,12 +1948,12 @@
 4-5	mettermi	_	_	_	_	_	_	_	KID=156-3
 4	metter	mettere	VERB	_	VerbForm=Inf	0	root	_	KID=156-3a|OverlappingGroup=82
 5	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	expl	_	KID=156-3b|OverlappingGroup=82
-6	in	in	ADP	_	_	7	case	_	KID=156-4|OverlappingGroup=82,83
-7	contatto	contatto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	KID=156-4|OverlappingGroup=82,83
-8	sia	sia	CCONJ	_	_	11	cc	_	KID=156-5|OverlappingGroup=83
-9	con	con	ADP	_	_	11	case	_	KID=156-6|Prolonged=Yes
-10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=156-7
-11	cnr	CNR	NOUN	_	_	7	nmod	_	KID=156-8|OrigTranscription=cienneerre
+6	in	in	ADP	_	_	7	case	_	KID=156-5|OverlappingGroup=82,83
+7	contatto	contatto	NOUN	_	Gender=Masc|Number=Sing	4	obl	_	KID=156-6|OverlappingGroup=82,83
+8	sia	sia	CCONJ	_	_	11	cc	_	KID=156-7|OverlappingGroup=83
+9	con	con	ADP	_	_	11	case	_	KID=156-8|Prolonged=Yes
+10	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	11	det	_	KID=156-9
+11	cnr	CNR	NOUN	_	_	7	nmod	_	KID=156-10|OrigTranscription=cienneerre
 12	che	che	CCONJ	_	_	15	cc	_	KID=156-11
 13	con	con	ADP	_	_	15	case	_	KID=156-12
 14	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	15	det	_	KID=156-13|SpaceAfter=No
@@ -2011,7 +2011,7 @@
 # text_conversationanalysis = mi aggiorna poi via via [un po' d]el lavor[o no],
 # speaker_id = BO026
 1	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	2	iobj	_	KID=162-2
-2	aggiorna	aggiornare	VERB	_	Mood=Imp<OR>Ind|Number=Sing|Person=2<OR>3|Tense=Pres|VerbForm=Fin	0	root	_	KID=162-3
+2	aggiorna	aggiornare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=162-3
 3	poi	poi	ADV	_	_	2	advmod	_	KID=162-4
 4	via	via	ADV	_	_	2	advmod	_	KID=162-5
 5	via	via	ADV	_	_	4	fixed	_	KID=162-6

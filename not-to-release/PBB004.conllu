@@ -1076,7 +1076,7 @@
 # text = x traffico magari c'è più traffico però cioè mh
 # text_conversationanalysis = xxx (.) traffico, magari c' è più [traffico], | però: cioè::: [mh]
 # speaker_id = BOI012
-1	x	x	X	_	_	2	dep	_	Begin=213.0|KID=119-0|PauseAfter=Yes|Unintelligible=Yes
+1	xxx	x	X	_	_	2	dep	_	Begin=213.0|KID=119-0|PauseAfter=Yes|Unintelligible=Yes
 2	traffico	traffico	NOUN	_	Gender=Masc|Number=Sing	0	root	_	Intonation=WeaklyRising|KID=119-2
 3	magari	magari	ADV	_	_	5	advmod	_	KID=119-3
 4	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	5	expl	_	KID=119-4|SpaceAfter=No
@@ -1352,7 +1352,7 @@
 # speaker_id = BOI013
 1	ma	ma	CCONJ	_	_	2	reparandum	_	KID=150-2|PaceFast=Yes|Variety=Unsure
 2	ma	ma	CCONJ	_	_	4	cc	_	KID=150-3|PaceFast=Yes|Variety=Unsure
-3	sa	sa	PRON	_	Foreign=Yes	4	obj	_	Dialect=YesExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=und|Variety=Unsure
+3	sa	sa	PRON	_	Foreign=Yes	4	obj	_	Dialect=Yes|ExtLemma=sa|ExtUPOS=PRON|KID=150-4|Lang=und|Variety=Unsure
 4	vut	vlair	VERB	_	Foreign=Yes	0	root	_	Dialect=Yes|KID=150-5|Lang=und|PauseAfter=Yes|Variety=Unsure
 5-6	dalla	_	_	_	_	_	_	_	KID=150-7|Variety=Unsure
 5	da	da	ADP	_	_	7	case	_	KID=150-7a|Variety=Unsure
@@ -1974,7 +1974,7 @@
 # text = x
 # text_conversationanalysis = [xxx]
 # speaker_id = BOR005
-1	x	X	X	_	_	0	root	_	Begin=387.785|End=388.575|KID=217-0|OverlappingGroup=50|Unintelligible=Yes
+1	xxx	X	X	_	_	0	root	_	Begin=387.785|End=388.575|KID=217-0|OverlappingGroup=50|Unintelligible=Yes
 
 # sent_id = PBB004_218
 # text = x
@@ -2229,7 +2229,7 @@
 # text = x
 # text_conversationanalysis = xx]
 # speaker_id = BOI013
-1	x	X	X	_	_	0	root	_	Begin=440.635|End=441.185|KID=246-0|Unintelligible=Yes
+1	xx	X	X	_	_	0	root	_	Begin=440.635|End=441.185|KID=246-0|Unintelligible=Yes
 
 # sent_id = PBB004_247_248_PBB004_249_PBB004_250
 # text = ma a mh un'idea in generale che potreste avere che potrebbe venirvi in mente pensando un po' in generale ai giovani
@@ -3809,7 +3809,7 @@
 1	eh	eh	INTJ	_	_	2	discourse	_	Begin=796.205|KID=428-0|Variety=Unsure
 2	beh	beh	INTJ	_	_	0	root	_	KID=428-1|Variety=Unsure
 3	che	che	SCONJ	_	_	4	mark	_	KID=428-2|Variety=Unsure
-4	bo'	bo'	VERB	_	_	2	conj	_	End=796.905|Italian=volere|KID=428-3|Lang=dia|Truncated=Yes|Variety=Unsure
+4	bo'	bo'	VERB	_	_	2	conj	_	Dialect=Yes|End=796.905|Italian=volere|KID=428-3|Lang=und|Truncated=Yes|Variety=Unsure
 
 # sent_id = PBB004_429
 # text = tu hai visto
@@ -3825,7 +3825,7 @@
 # speaker_id = BOR005
 # tags = chiedere Eleonora
 1	che	che	SCONJ	_	_	2	mark	_	Begin=798.61|KID=430-0|Variety=Unsure
-2	bo'	bo'	VERB	_	_	0	root	_	End=799.06|Italian=volere|KID=430-1|Lang=dia|Truncated=Yes|Variety=Unsure
+2	bo'	bo'	VERB	_	_	0	root	_	Dialect=Yes|End=799.06|Italian=volere|KID=430-1|Lang=und|Truncated=Yes|Variety=Unsure
 
 # sent_id = PBB004_431
 # text = che bo'
@@ -3833,7 +3833,7 @@
 # speaker_id = BOI013
 # tags = chiedere Eleonora
 1	che	che	SCONJ	_	_	2	mark	_	Begin=799.185|KID=431-0|OverlappingGroup=91|PaceFast=Yes|Variety=Unsure
-2	bo'	bo'	VERB	_	_	0	root	_	End=799.625|Italian=volere|KID=431-1|Lang=dia|OverlappingGroup=91|PaceFast=Yes|Truncated=Yes|Variety=Unsure
+2	bo'	bo'	VERB	_	_	0	root	_	Dialect=Yes|End=799.625|Italian=volere|KID=431-1|Lang=und|OverlappingGroup=91|PaceFast=Yes|Truncated=Yes|Variety=Unsure
 
 # sent_id = PBB004_432
 # text = sto sto ridendo
@@ -4156,7 +4156,7 @@
 # text_conversationanalysis = >tanto< xxx >non è che<
 # speaker_id = BOI013
 1	tanto	tanto	ADV	_	_	4	advmod	_	Begin=864.78|KID=467-0|PaceFast=Yes
-2	x	x	X	_	_	4	dep	_	KID=467-1|Unintelligible=Yes
+2	xxx	x	X	_	_	4	dep	_	KID=467-1|Unintelligible=Yes
 3	non	non	ADV	_	PronType=Neg	4	advmod	_	KID=467-2|PaceFast=Yes
 4	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=467-3|PaceFast=Yes
 5	che	che	SCONJ	_	_	4	mark	_	End=866.06|KID=467-4|PaceFast=Yes
@@ -5173,7 +5173,7 @@
 # text = x
 # text_conversationanalysis = [xxx]
 # speaker_id = BOI013
-1	x	x	X	_	_	0	root	_	Begin=1059.832|End=1060.928|KID=566-0|OverlappingGroup=120|Unintelligible=Yes
+1	xxx	x	X	_	_	0	root	_	Begin=1059.832|End=1060.928|KID=566-0|OverlappingGroup=120|Unintelligible=Yes
 
 # sent_id = PBB004_571
 # text = mh
@@ -6979,7 +6979,7 @@
 4	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=793-1
 5	perché	perché	SCONJ	_	_	4	ccomp	_	KID=793-2
 6	se	se	SCONJ	_	_	5	advcl	_	KID=793-3|OverlappingGroup=159
-7	x	x	X	_	_	6	dep	_	End=1499.612|KID=793-4|OverlappingGroup=159|Unintelligible=Yes
+7	xxx	x	X	_	_	6	dep	_	End=1499.612|KID=793-4|OverlappingGroup=159|Unintelligible=Yes
 
 # sent_id = PBB004_794_795
 # text = se vuoi lavorare se vuoi lavorare
@@ -7894,7 +7894,7 @@
 4	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	KID=895-2b
 5	tata	tata	NOUN	_	Gender=Fem|Number=Sing	1	obl	_	KID=895-3
 6	a	a	ADP	_	_	7	case	_	KID=895-4
-7	x	x	X	_	_	1	dep	_	End=1716.845|KID=895-5|OverlappingGroup=171|Unintelligible=Yes
+7	xx	x	X	_	_	1	dep	_	End=1716.845|KID=895-5|OverlappingGroup=171|Unintelligible=Yes
 
 # sent_id = PBB004_896
 # text = sì vabbè poi vado anche da mia sorella io eh
@@ -9442,7 +9442,7 @@
 # text = bel
 # text_conversationanalysis = [bel]
 # speaker_id = BOI013
-1	bel	bello	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Begin=2041.95|End=2042.312|KID=1080-0|OverlappingGroup=211
+1	bel	bello	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Begin=2041.95|End=2042.312|KID=1080-1|OverlappingGroup=211
 
 # sent_id = PBB004_1083
 # text = living
@@ -9535,7 +9535,7 @@
 4	non	non	ADV	_	PronType=Neg	6	advmod	_	KID=1092-2
 5	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	6	expl	_	KID=1092-3|SpaceAfter=No
 6	andiamo	andare	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	KID=1092-4
-7	x	x	X	_	_	6	dep	_	KID=1092-5|Unintelligible=Yes
+7	xx	x	X	_	_	6	dep	_	KID=1092-5|Unintelligible=Yes
 8	cioè	cioè	CCONJ	_	_	6	discourse	_	End=2061.303|KID=1092-6|PaceFast=Yes
 
 # sent_id = PBB004_1093
@@ -9978,7 +9978,7 @@
 # text = evitiamo
 # text_conversationanalysis = evitiamo
 # speaker_id = BOI013
-1	evitiamo	evitare	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Begin=2135.949|End=2136.757|KID=1139-0
+1	evitiamo	evitare	VERB	_	Mood=Imp|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	Begin=2135.949|End=2136.757|KID=1139-1
 
 # sent_id = PBB004_1142
 # text = prevenire era poi

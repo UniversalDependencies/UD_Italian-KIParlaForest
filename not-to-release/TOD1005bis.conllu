@@ -674,7 +674,7 @@
 # text = x
 # text_conversationanalysis = xxx
 # speaker_id = ???
-1	x	x	X	_	_	0	root	_	Begin=177.635|End=178.658|KID=74-0|Unintelligible=Yes
+1	xxx	x	X	_	_	0	root	_	Begin=177.635|End=178.658|KID=74-0|Unintelligible=Yes
 
 # sent_id = TOD1005bis_75
 # text = okay
@@ -725,14 +725,14 @@
 # text = x
 # text_conversationanalysis = xxxxxxx
 # speaker_id = ???
-1	x	x	X	_	_	0	root	_	Begin=189.293|End=190.343|KID=80-0|Unintelligible=Yes
+1	xxxxxxx	x	X	_	_	0	root	_	Begin=189.293|End=190.343|KID=80-0|Unintelligible=Yes
 
 # sent_id = TOD1005bis_81_82
 # text = okay x okay
 # text_conversationanalysis = o:kay xxxxxx | okay
 # speaker_id = TO017
 1	okay	okay	INTJ	_	_	0	root	_	Begin=190.343|KID=81-0|Prolonged=Yes
-2	x	x	X	_	_	1	conj	_	End=191.98|KID=81-1|Unintelligible=Yes
+2	xxxxxx	x	X	_	_	1	conj	_	End=191.98|KID=81-1|Unintelligible=Yes
 3	okay	okay	INTJ	_	_	1	conj	_	Begin=192.035|End=192.51|KID=82-0
 
 # sent_id = TOD1005bis_83_84_85_86_87_88_89_90_91_92
@@ -760,15 +760,15 @@
 19	in	in	ADP	_	_	20	case	_	KID=85-4
 20	arabia	Arabia	PROPN	_	_	18	obl	_	KID=85-5
 21	saudita	Saudita	PROPN	_	_	20	amod	_	End=199.729|Intonation=WeaklyRising|KID=85-6|Prolonged=Yes
-22	x	x	X	_	_	20	parataxis	_	Begin=199.776|End=201.247|KID=86-0|Unintelligible=Yes
+22	xxxxx	x	X	_	_	20	parataxis	_	Begin=199.776|End=201.247|KID=86-0|Unintelligible=Yes
 23	mh	mh	INTJ	_	_	22	discourse	_	Begin=201.494|End=201.676|Intonation=Rising|KID=87-0
 24	a	a	ADP	_	_	25	case	_	Begin=202.531|KID=88-0
 25	damasco	Damasco	PROPN	_	_	20	conj	_	End=203.235|KID=88-1
-26	x	x	X	_	_	25	parataxis	_	Begin=203.558|End=204.27|KID=89-0|Unintelligible=Yes
+26	xxxxx	x	X	_	_	25	parataxis	_	Begin=203.558|End=204.27|KID=89-0|Unintelligible=Yes
 27	e	e	CCONJ	_	_	29	cc	_	Begin=204.764|KID=90-0|PauseAfter=Yes
 28	a	a	ADP	_	_	29	case	_	KID=90-2
 29	baghdad	Baghdad	PROPN	_	_	20	conj	_	End=205.941|Intonation=WeaklyRising|KID=90-3
-30	x	x	X	_	_	29	parataxis	_	Begin=206.294|End=207.376|KID=91-0|Unintelligible=Yes
+30	xxxx	x	X	_	_	29	parataxis	_	Begin=206.294|End=207.376|KID=91-0|Unintelligible=Yes
 31	okay	okay	INTJ	_	_	18	discourse	_	Begin=207.405|End=207.677|Intonation=WeaklyRising|KID=92-0
 
 # sent_id = TOD1005bis_93_94
@@ -935,8 +935,8 @@
 14	di	di	ADP	_	_	16	case	_	KID=114-0a
 15	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=114-0b
 16	verbo	verbo	NOUN	_	Gender=Masc|Number=Sing	11	nmod	_	Intonation=WeaklyRising|KID=114-1|Prolonged=Yes
-17	'aarada	x	X	_	_	16	nmod	_	KID=114-2|Lang=ara
-18	yurid	yurid	X	_	_	17	conj:reform	_	End=248.97|KID=114-3|Lang=ara
+17	'aarada	x	X	_	_	16	nmod	_	KID=114-2|Lang=ar
+18	yurid	yurid	X	_	_	17	conj:reform	_	End=248.97|KID=114-3|Lang=ar
 19	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	20	det	_	Begin=249.246|KID=115-0
 20	volere	volere	VERB	_	VerbForm=Inf	16	conj:reform	_	KID=115-1|PauseAfter=Yes
 21-22	del	_	_	_	_	_	_	_	KID=115-3
@@ -1233,9 +1233,9 @@
 9	possono	potere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	aux	_	KID=152-5
 10	ricordare	ricordare	VERB	_	VerbForm=Inf	6	acl:relcl	_	KID=152-6
 11	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=152-7
-12	x	x	X	_	_	14	reparandum	_	KID=152-8|Unintelligible=Yes
+12	xx	x	X	_	_	14	reparandum	_	KID=152-8|Unintelligible=Yes
 13	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	KID=152-9
-14	x	x	X	_	_	10	obj	_	End=338.517|KID=152-10|Unintelligible=Yes
+14	xx	x	X	_	_	10	obj	_	End=338.517|KID=152-10|Unintelligible=Yes
 15-16	dell'	_	_	_	_	_	_	_	Begin=338.658|KID=153-0|SpaceAfter=No
 15	di	di	ADP	_	_	17	case	_	KID=153-0a
 16	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	17	det	_	KID=153-0b
@@ -1289,11 +1289,11 @@
 25	che	che	PRON	_	PronType=Rel	29	nsubj	_	KID=157-5
 26	invece	invece	ADV	_	_	28	case	_	KID=157-6
 27	di	di	ADP	_	_	26	fixed	_	KID=157-7
-28	x	x	X	_	_	29	obl	_	End=351.352|KID=157-8|Unintelligible=Yes
+28	xx	x	X	_	_	29	obl	_	End=351.352|KID=157-8|Unintelligible=Yes
 29	dice	dire	X	_	_	24	acl:relcl	_	KID=158-1
-30	x	x	X	_	_	29	obj	_	Begin=351.62|End=351.977|KID=158-0|Unintelligible=Yes
+30	xx	x	X	_	_	29	obj	_	Begin=351.62|End=351.977|KID=158-0|Unintelligible=Yes
 31	e	e	CCONJ	_	_	32	cc	_	Begin=352.188|KID=159-0
-32	x	x	X	_	_	30	conj	_	End=352.812|Intonation=WeaklyRising|KID=159-1
+32	xx	x	X	_	_	30	conj	_	End=352.812|Intonation=WeaklyRising|KID=159-1
 33	okay	okay	INTJ	_	_	29	discourse:tag	_	Begin=353.235|End=353.851|Intonation=WeaklyRising|KID=160-0
 
 # sent_id = TOD1005bis_161_162_163
@@ -1304,7 +1304,7 @@
 2	in	in	ADP	_	_	3	case	_	KID=161-1
 3	turchia	Turchia	PROPN	_	_	5	obl	_	KID=161-2
 4	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	KID=161-3
-5	x	x	X	_	_	0	root	_	End=356.196|KID=161-4|Unintelligible=Yes
+5	xx	x	X	_	_	0	root	_	End=356.196|KID=161-4|Unintelligible=Yes
 6	e	e	CCONJ	_	_	9	cc	_	Begin=356.29|KID=162-0
 7	in	in	ADP	_	_	8	case	_	KID=162-1
 8	turchia	Turchia	PROPN	_	_	9	obl	_	KID=162-2
@@ -1318,13 +1318,13 @@
 16	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	KID=162-10
 17	femminile	femminile	NOUN	_	_	12	conj	_	End=358.476|Intonation=WeaklyRising|KID=162-11
 18	avete	avere	AUX	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	9	conj:reform	_	Begin=358.555|KID=163-0
-19	x	x	X	_	_	18	obj	_	KID=163-1|Unintelligible=Yes
+19	xxx	x	X	_	_	18	obj	_	KID=163-1|Unintelligible=Yes
 20-21	al	_	_	_	_	_	_	_	KID=163-2
 20	a	a	ADP	_	_	22	case	_	KID=163-2a
 21	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	22	det	_	KID=163-2b
 22	maschile	maschile	NOUN	_	_	19	nmod	_	KID=163-3
 23	ma	ma	CCONJ	_	_	24	cc	_	KID=163-4
-24	x	x	X	_	_	19	conj	_	KID=163-5|Unintelligible=Yes
+24	xxx	x	X	_	_	19	conj	_	KID=163-5|Unintelligible=Yes
 25-26	al	_	_	_	_	_	_	_	KID=163-6
 25	a	a	ADP	_	_	27	case	_	KID=163-6a
 26	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	27	det	_	KID=163-6b
@@ -1337,12 +1337,12 @@
 1	in	in	ADP	_	_	2	case	_	Begin=361.561|KID=164-0
 2	najd	Najd	PROPN	_	_	3	obl	_	KID=164-1
 3	avete	avere	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	KID=164-2
-4	x	x	X	_	_	3	obj	_	KID=164-3|Unintelligible=Yes
+4	xxx	x	X	_	_	3	obj	_	KID=164-3|Unintelligible=Yes
 5	per	per	ADP	_	_	7	case	_	KID=164-4
 6	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	7	det	_	KID=164-5
 7	maschile	maschile	NOUN	_	_	4	nmod	_	KID=164-6
 8	e	e	CCONJ	_	_	9	cc	_	KID=164-7
-9	x	x	X	_	_	4	conj	_	End=364.258|Intonation=WeaklyRising|KID=164-8
+9	xxx	x	X	_	_	4	conj	_	End=364.258|Intonation=WeaklyRising|KID=164-8
 10	per	per	ADP	_	_	12	case	_	Begin=364.541|KID=165-0
 11	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=165-1|PauseAfter=Yes
 12	femminile	femminile	NOUN	_	_	9	nmod	_	End=365.87|Intonation=WeaklyRising|KID=165-3
@@ -1375,7 +1375,7 @@
 11	e	e	CCONJ	_	_	13	cc	_	KID=169-3
 12	molto	molto	ADV	_	_	13	advmod	_	KID=169-4
 13	siriano	siriano	ADJ	_	Gender=Masc|Number=Sing	10	conj	_	KID=169-5
-14	x	x	X	_	_	8	obj	_	End=376.829|Intonation=WeaklyRising|KID=169-6
+14	xxx	x	X	_	_	8	obj	_	End=376.829|Intonation=WeaklyRising|KID=169-6
 15	con	con	ADP	_	_	17	case	_	Begin=376.884|KID=170-0
 16	questa	questo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	17	det	_	KID=170-1
 17	enne	enne	NOUN	_	_	14	nmod	_	KID=170-2
@@ -1397,15 +1397,15 @@
 1	avete	avere	VERB	_	Mood=Ind|Number=Plur|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	Begin=380.152|KID=171-0
 2	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	4	det	_	KID=171-1
 3	stranissimo	strano	ADJ	_	Degree=Abs|Gender=Masc|Number=Sing	4	amod	_	KID=171-2|Prolonged=Yes
-4	x	x	X	_	_	1	obj	_	End=382.287|Intonation=WeaklyRising|KID=171-3
+4	xxx	x	X	_	_	1	obj	_	End=382.287|Intonation=WeaklyRising|KID=171-3
 5	a	a	ADP	_	_	6	case	_	Begin=383.072|KID=172-0
 6	palmira	Palmira	PROPN	_	_	1	obl	_	KID=172-1|PauseAfter=Yes
 7	per	per	ADP	_	_	8	mark	_	KID=172-3
 8	dire	dire	VERB	_	VerbForm=Inf	1	xcomp	_	KID=172-4|PauseAfter=Yes
-9	x	x	X	_	_	8	obj	_	End=384.944|KID=172-6|Unintelligible=Yes
+9	xxx	x	X	_	_	8	obj	_	End=384.944|KID=172-6|Unintelligible=Yes
 10	eh	eh	INTJ	_	_	9	discourse:tag	_	Begin=385.724|End=386.077|Intonation=WeaklyRising|KID=173-0|Prolonged=Yes
-11	x	x	X	_	_	9	conj:reform	_	Begin=386.385|KID=174-0|Unintelligible=Yes
-12	x	x	X	_	_	11	conj	_	End=387.317|KID=174-1|Unintelligible=Yes
+11	xxx	x	X	_	_	9	conj:reform	_	Begin=386.385|KID=174-0|Unintelligible=Yes
+12	xxx	x	X	_	_	11	conj	_	End=387.317|KID=174-1|Unintelligible=Yes
 
 # sent_id = TOD1005bis_175_176_177_178_179_180
 # text = eh e poi altrettanto strani in questo questo dialetto dialetto uzbeko di bukhara invece di x e x dicono x e x okay per dire loro uomini e loro donne
@@ -1417,8 +1417,8 @@
 4	altrettanto	altrettanto	ADV	_	_	5	advmod	_	KID=175-3
 5	strani	strano	ADJ	_	Gender=Masc|Number=Plur	10	parataxis:parenth	_	KID=175-4
 6	in	in	ADP	_	_	10	case	_	KID=175-5
-7	questo	questo	X	_	_	8	reparandum	_	ExtUPOS=DET|Interrupted=Yes|KID=175-6
-8	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	KID=175-7
+7	questo	questo	X	_	_	8	reparandum	_	ExtUPOS=DET|Interrupted=Yes|KID=175-7
+8	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	10	det	_	KID=175-19
 9	dialetto	dialetto	NOUN	_	Gender=Masc|Number=Sing	10	reparandum	_	KID=175-8
 10	dialetto	dialetto	NOUN	_	Gender=Masc|Number=Sing	19	obl	_	KID=175-9
 11	uzbeko	uzbeko	ADJ	_	_	10	amod	_	KID=175-10
@@ -1430,7 +1430,7 @@
 17	e	e	CCONJ	_	_	18	cc	_	KID=175-16
 18	x	x	X	_	_	16	conj	_	KID=175-17|Unintelligible=Yes
 19	dicono	dire	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=394.443|Intonation=WeaklyRising|KID=175-18
-20	x	x	X	_	_	19	obj	_	Begin=394.863|End=395.668|Intonation=WeaklyRising|KID=176-0
+20	xxx	x	X	_	_	19	obj	_	Begin=394.863|End=395.668|Intonation=WeaklyRising|KID=176-0
 21	e	e	CCONJ	_	_	22	cc	_	Begin=395.893|KID=177-0
 22	x	x	X	_	_	20	conj	_	End=396.692|Intonation=Falling|KID=177-1
 23	okay	okay	INTJ	_	_	19	discourse:tag	_	Begin=396.811|End=397.273|KID=178-0
@@ -1455,9 +1455,9 @@
 7	mauritania	Mauritania	PROPN	_	_	3	obl	_	KID=181-6
 8	che	che	PRON	_	PronType=Rel	9	nsubj	_	KID=181-7
 9	ha	avere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	acl:relcl	_	End=404.101|Intonation=WeaklyRising|KID=181-8
-10	x	x	X	_	_	9	obj	_	Begin=404.769|Intonation=WeaklyRising|KID=182-0
+10	xxx	x	X	_	_	9	obj	_	Begin=404.769|Intonation=WeaklyRising|KID=182-0
 11	e	e	CCONJ	_	_	12	cc	_	KID=182-1
-12	x	x	X	_	_	10	conj	_	End=406.331|Intonation=Falling|KID=182-2
+12	xxx	x	X	_	_	10	conj	_	End=406.331|Intonation=Falling|KID=182-2
 13	okay	okay	INTJ	_	_	3	discourse	_	Begin=406.45|End=406.975|KID=183-0
 
 # sent_id = TOD1005bis_184_185_186_187_188_189
@@ -1829,7 +1829,7 @@
 43	tris	tris	PART	_	_	46	amod	_	KID=223-2
 44	tris	tris	PART	_	_	46	amod	_	KID=223-3
 45	tris	tris	PART	_	_	46	amod	_	KID=223-4
-46	trisnonna	trisnonno	NOUN	_	_	42	nmod	_	KID=223-6
+46	trisnonna	trisnonno	NOUN	_	_	42	nmod	_	KID=223-5
 47	di	di	ADP	_	_	50	case	_	Begin=521.693|KID=224-0
 48	tutte	tutto	DET	_	Gender=Fem|Number=Plur|PronType=Tot	50	det:predet	_	KID=224-1
 49	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	50	det	_	KID=224-2
@@ -1983,7 +1983,7 @@
 4	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	End=569.163|KID=240-13
 5	esiste	esistere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	Begin=569.46|End=570.37|Intonation=WeaklyRising|KID=241-0
 6	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	7	det	_	Begin=571.068|KID=242-0
-7	protoarabo	protoarabo	NOUN	_	_	5	nsubj	_	End=572.443|Intonation=Rising|KID=242-2|Prolonged=Yes
+7	protoarabo	protoarabo	NOUN	_	_	5	nsubj	_	End=572.443|Intonation=Rising|KID=242-1|Prolonged=Yes
 8	eh	eh	INTJ	_	_	5	discourse:tag	_	Begin=572.527|KID=243-0
 
 # sent_id = TOD1005bis_243b_244
@@ -2054,7 +2054,7 @@
 14-15	dal	_	_	_	_	_	_	_	KID=246-19
 14	da	da	ADP	_	_	16	case	_	KID=246-19a
 15	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=246-19b
-16	protoarabo	protoarabo	NOUN	_	_	13	obl	_	End=586.58|Intonation=Falling|KID=246-21
+16	protoarabo	protoarabo	NOUN	_	_	13	obl	_	End=586.58|Intonation=Falling|KID=246-20
 
 # sent_id = TOD1005bis_247_248_249
 # text = okay finito facile
@@ -2218,7 +2218,7 @@
 2	nabatei	Nabateo	PROPN	_	_	0	root	_	KID=275-1|PauseAfter=Yes
 3	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	KID=275-3
 4	poesia	poesia	NOUN	_	Gender=Fem|Number=Sing	2	conj:reform	_	KID=275-4
-5	preislamica	preislamico	ADJ	_	_	4	amod	_	End=654.788|Intonation=WeaklyRising|KID=275-6
+5	preislamica	preislamico	ADJ	_	_	4	amod	_	End=654.788|Intonation=WeaklyRising|KID=275-5
 
 # sent_id = TOD1005bis_276
 # text = l'iscrizione del re imru al qays
@@ -2303,7 +2303,7 @@
 # speaker_id = TO017
 1	allora	allora	ADV	_	_	2	discourse	_	Begin=670.07|End=670.669|KID=283-0
 2	poesia	poesia	NOUN	_	Gender=Fem|Number=Sing	0	root	_	Begin=671.229|KID=284-0
-3	preislamica	preislamico	ADJ	_	_	2	amod	_	End=672.847|Intonation=WeaklyRising|KID=284-2
+3	preislamica	preislamico	ADJ	_	_	2	amod	_	End=672.847|Intonation=WeaklyRising|KID=284-1
 4-5	nel	_	_	_	_	_	_	_	Begin=674.231|KID=285-0
 4	in	in	ADP	_	_	6	case	_	KID=285-0a
 5	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	6	det	_	KID=285-0b
@@ -2400,7 +2400,7 @@
 # text = x
 # text_conversationanalysis = xxx
 # speaker_id = ???
-1	x	x	X	_	_	0	root	_	Begin=698.87|End=699.5|KID=292-0|Unintelligible=Yes
+1	xxx	x	X	_	_	0	root	_	Begin=698.87|End=699.5|KID=292-0|Unintelligible=Yes
 
 # sent_id = TOD1005bis_293_294
 # text = lui ci colpisce con l'amorreo che è un'altra lingua semitica estinta dai tempi che furono
@@ -2644,8 +2644,8 @@
 7	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	6	iobj	_	KID=319-5b
 8	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	9	det	_	KID=319-6|PauseAfter=Yes|Prolonged=Yes
 9	periodo	periodo	NOUN	_	Gender=Masc|Number=Sing	6	obj	_	KID=319-8
-10	in	in	X	_	_	11	reparandum	_	ExtUPOS=ADP|Interrupted=Yes|KID=319-9
-11	in	in	ADP	_	_	12	case	_	KID=319-10
+10	in	in	X	_	_	11	reparandum	_	ExtUPOS=ADP|Interrupted=Yes|KID=319-10
+11	in	in	ADP	_	_	12	case	_	KID=319-12
 12	anni	anno	NOUN	_	Gender=Masc|Number=Plur	9	nmod	_	End=772.561|KID=319-11
 
 # sent_id = TOD1005bis_320
@@ -2715,7 +2715,7 @@
 2	da	da	ADP	_	_	4	case	_	KID=326-1a
 3	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	4	det	_	KID=326-1b
 4	periodo	periodo	NOUN	_	Gender=Masc|Number=Sing	1	obl	_	KID=326-2
-5	preislamico	preislamico	ADJ	_	_	4	amod	_	End=801.141|Intonation=WeaklyRising|KID=326-4
+5	preislamico	preislamico	ADJ	_	_	4	amod	_	End=801.141|Intonation=WeaklyRising|KID=326-3
 
 # sent_id = TOD1005bis_327
 # text = quando finisce il periodo preislamico
@@ -2738,7 +2738,7 @@
 # text_conversationanalysis = e:::h xxx
 # speaker_id = ???
 1	eh	eh	INTJ	_	_	2	discourse:filler	_	Begin=807.253|KID=329-0|Prolonged=Yes
-2	x	x	X	_	_	0	root	_	End=808.781|KID=329-1|Unintelligible=Yes
+2	xxx	x	X	_	_	0	root	_	End=808.781|KID=329-1|Unintelligible=Yes
 
 # sent_id = TOD1005bis_330
 # text = o esattamente quindi
@@ -2910,7 +2910,7 @@
 6-7	del	_	_	_	_	_	_	_	Begin=858.172|KID=351-0
 6	di	di	ADP	_	_	8	case	_	KID=351-0a
 7	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	KID=351-0b
-8	x	x	X	_	_	5	nmod	_	KID=351-1|Unintelligible=Yes
+8	xxx	x	X	_	_	5	nmod	_	KID=351-1|Unintelligible=Yes
 9-10	dei	_	_	_	_	_	_	_	KID=351-2
 9	di	di	ADP	_	_	13	case	_	KID=351-2a
 10	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	13	det	_	KID=351-2b
@@ -2993,7 +2993,7 @@
 12	che	che	SCONJ	_	_	14	mark	_	KID=359-13
 13	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	KID=359-14
 14	periodo	periodo	NOUN	_	Gender=Masc|Number=Sing	11	ccomp	_	KID=359-15
-15	protoislamico	protoislamico	ADJ	_	_	14	amod	_	KID=359-17
+15	protoislamico	protoislamico	ADJ	_	_	14	amod	_	KID=359-16
 16	no	no	ADV	_	PronType=Neg	2	conj	_	End=878.454|Intonation=Falling|KID=359-18
 
 # sent_id = TOD1005bis_360
@@ -3098,7 +3098,7 @@
 # text = x
 # text_conversationanalysis = xxx
 # speaker_id = TO017
-1	x	x	X	_	_	0	root	_	Begin=910.112|End=910.862|KID=372-0|Unintelligible=Yes
+1	xxx	x	X	_	_	0	root	_	Begin=910.112|End=910.862|KID=372-0|Unintelligible=Yes
 
 # sent_id = TOD1005bis_373_374_375_376
 # text = la iscrizione di namara è datata al trecentoventotto mi sembra avanti eh dopo cristo
@@ -3228,7 +3228,7 @@
 13	a	a	ADP	_	_	16	case	_	KID=390-5a
 14	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	16	det	_	KID=390-5b
 15	nostro	nostro	DET	_	Gender=Masc|Number=Sing|Poss=Yes|PronType=Prs	16	det:poss	_	KID=390-6
-16	protoarabo	protoarabo	NOUN	_	_	12	obl	_	Intonation=WeaklyRising|KID=390-8
+16	protoarabo	protoarabo	NOUN	_	_	12	obl	_	Intonation=WeaklyRising|KID=390-7
 17	per	per	ADP	_	_	18	mark	_	KID=390-9
 18	capire	capire	VERB	_	VerbForm=Inf	12	xcomp	_	KID=390-10
 19	da	da	ADP	_	_	21	mark	_	KID=390-11
@@ -3563,8 +3563,8 @@
 32	miau	miau	INTJ	_	_	31	conj	_	KID=416-2|PaceFast=Yes
 33	miau	miau	INTJ	_	_	31	conj	_	KID=416-3|PaceFast=Yes
 34	miau	miau	INTJ	_	_	31	conj	_	KID=416-4|PaceFast=Yes
-35	tvb	tvb	NOUN	_	_	31	conj	_	KID=416-5|PaceFast=Yes
-36	xxx	xxx	NOUN	_	_	31	conj	_	KID=416-8|OrigTranscription=icsicsics|PaceFast=Yes
+35	tvb	tvb	NOUN	_	_	31	conj	_	KID=416-11|PaceFast=Yes
+36	xxx	xxx	NOUN	_	_	31	conj	_	KID=416-10|OrigTranscription=icsicsics|PaceFast=Yes
 37	cose	cosa	NOUN	_	Gender=Fem|Number=Plur	28	conj	_	Begin=1066.392|KID=417-0
 38	di	di	ADP	_	_	40	case	_	KID=417-1
 39	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	40	det	_	KID=417-2
@@ -3632,7 +3632,7 @@
 # text = x
 # text_conversationanalysis = xxx
 # speaker_id = ???
-1	x	x	X	_	_	0	root	_	Begin=1081.705|End=1083.64|KID=422-0|Unintelligible=Yes
+1	xxx	x	X	_	_	0	root	_	Begin=1081.705|End=1083.64|KID=422-0|Unintelligible=Yes
 
 # sent_id = TOD1005bis_423_424_425_426a
 # text = la la la poesia okay la poesia e l'altro testo direi piuttosto importante del passato della lingua araba corano
@@ -3698,7 +3698,7 @@
 4	di	di	ADP	_	_	6	case	_	KID=429-3a
 5	le	il	DET	_	Definite=Def|Gender=Fem|Number=Plur|PronType=Art	6	det	_	KID=429-3b
 6	scritture	scrittura	NOUN	_	Gender=Fem|Number=Plur	3	obl	_	KID=429-4|Volume=low
-7	x	x	X	_	_	6	nmod	_	End=1106.329|KID=429-5|PaceFast=Yes|Unintelligible=Yes|Volume=low
+7	xxx	x	X	_	_	6	nmod	_	End=1106.329|KID=429-5|PaceFast=Yes|Unintelligible=Yes|Volume=low
 
 # sent_id = TOD1005bis_430a
 # text = sì sì okay sempre stiamo nel materiale epigrafico
@@ -3753,13 +3753,13 @@
 4	proprio	proprio	ADV	_	_	5	advmod	_	KID=432-3
 5	fortuna	fortuna	NOUN	_	Gender=Fem|Number=Sing	3	obj	_	KID=432-4
 6	ma	ma	CCONJ	_	_	13	cc	_	KID=432-5
-7	non	non	X	_	_	10	reparandum	_	ExtUPOS=ADV|Interrupted=Yes|KID=432-6
-8	non	non	ADV	_	PronType=Neg	10	reparandum	_	KID=432-7
-9	insomma	insomma	ADV	_	_	13	advmod	_	KID=432-8
-10	non	non	ADV	_	PronType=Neg	13	advmod	_	KID=432-9
-11	le	le	PRON	_	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	13	obj	_	KID=432-10
-12	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	KID=432-11|Prolonged=Yes
-13	citate	citare	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	End=1119.774|KID=432-12
+7	non	non	X	_	_	10	reparandum	_	ExtUPOS=ADV|Interrupted=Yes|KID=432-13
+8	non	non	ADV	_	PronType=Neg	10	reparandum	_	KID=432-6
+9	insomma	insomma	ADV	_	_	13	advmod	_	KID=432-7
+10	non	non	ADV	_	PronType=Neg	13	advmod	_	KID=432-8
+11	le	le	PRON	_	Clitic=Yes|Gender=Fem|Person=3|PronType=Prs	13	obj	_	KID=432-9
+12	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	aux	_	KID=432-10|Prolonged=Yes
+13	citate	citare	VERB	_	Gender=Fem|Number=Plur|Tense=Past|VerbForm=Part	0	root	_	End=1119.774|KID=432-11
 
 # sent_id = TOD1005bis_433_434
 # text = ehm poi abbiamo dell'altro materiale che possiamo usare
@@ -4210,12 +4210,12 @@
 8	che	che	PRON	_	PronType=Rel	9	nsubj	_	Begin=1279.299|KID=485-0
 9	celebra	celebrare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl:relcl	_	KID=485-1
 10	il	il	X	_	_	12	reparandum	_	ExtUPOS=DET|Interrupted=Yes|KID=485-2
-11	il	il	X	_	_	12	reparandum	_	ExtUPOS=DET|Interrupted=Yes|KID=485-3
-12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=485-4
-13	re	re	NOUN	_	Gender=Masc	9	obj	_	KID=485-5
+11	il	il	X	_	_	12	reparandum	_	ExtUPOS=DET|Interrupted=Yes|KID=485-4
+12	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	13	det	_	KID=485-5
+13	re	re	NOUN	_	Gender=Masc	9	obj	_	KID=485-6
 14	neoassiro	neoassiro	ADJ	_	_	13	amod	_	KID=485-7
-15	salmanassar	Salmanassar	PROPN	_	_	13	appos	_	KID=485-9
-16	terzo	terzo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	15	nmod	_	Intonation=Falling|KID=485-8
+15	salmanassar	Salmanassar	PROPN	_	_	13	appos	_	KID=485-8
+16	terzo	terzo	ADJ	_	Gender=Masc|Number=Sing|NumType=Ord	15	nmod	_	Intonation=Falling|KID=485-9
 
 # sent_id = TOD1005bis_485b_486
 # text = non so se lo pronuncio bene ma io non so il neoassiro e comunque sono tutti morti quello che quelli che parlavano assiro quindi non mi possono contraddire
@@ -4232,7 +4232,7 @@
 9	non	non	ADV	_	PronType=Neg	10	advmod	_	KID=485-18
 10	so	sapere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	2	conj	_	KID=485-19
 11	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=485-20
-12	neoassiro	neoassiro	NOUN	_	_	10	obj	_	End=1286.331|KID=485-22
+12	neoassiro	neoassiro	NOUN	_	_	10	obj	_	End=1286.331|KID=485-21
 13	e	e	CCONJ	_	_	17	cc	_	Begin=1286.45|KID=486-0
 14	comunque	comunque	CCONJ	_	_	17	cc	_	KID=486-1
 15	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	aux	_	KID=486-2
@@ -4343,7 +4343,7 @@
 8	terra	terra	NOUN	_	Gender=Fem|Number=Sing	5	nmod	_	KID=499-4
 9	di	di	ADP	_	_	10	case	_	KID=499-5
 10	arab	Arab	PROPN	_	_	8	nmod	_	End=1321.705|KID=499-6
-11	arbâi	arbâi	X	_	_	10	conj:reform	_	Begin=1321.993|KID=500-0|Lang=ara
+11	arbâi	arbâi	X	_	_	10	conj:reform	_	Begin=1321.993|KID=500-0|Lang=ar
 12	non	non	ADV	_	PronType=Neg	14	advmod	_	KID=500-1
 13	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	14	expl:impers	_	KID=500-2
 14	sa	sapere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	parataxis:parenth	_	KID=500-3
@@ -4358,7 +4358,7 @@
 
 # sent_id = TOD1005bis_501_502
 # text = comunque questo monolito è stato mh trovato eh eh a kurkh nel sud della turchia per questo si chiama monolito di kurkh
-# text_conversationanalysis = comunque, | questo monolito è stato mh trovato eh~ eh a (kurk) nel sud della turchia a xxx per questo si chiama monolito di (kurk)
+# text_conversationanalysis = comunque, | questo monolito è stato mh trovato eh~ eh a (kurk) nel sud della turchia per questo si chiama monolito di (kurk)
 # speaker_id = TO017
 1	comunque	comunque	CCONJ	_	_	7	cc	_	Begin=1326.362|End=1327.206|Intonation=WeaklyRising|KID=501-0
 2	questo	questo	DET	_	Gender=Masc|Number=Sing|PronType=Dem	3	det	_	Begin=1328.118|KID=502-0
@@ -4815,8 +4815,8 @@
 23-24	della	_	_	_	_	_	_	_	Begin=1454.187|End=1454.843|KID=553-0
 23	di	di	ADP	_	_	24	case	_	KID=553-0a
 24	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	21	case	_	KID=553-0b
-25	un	un	X	_	_	26	reparandum	_	Begin=1455.006|ExtUPOS=DET|Interrupted=Yes|KID=554-0
-26	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	KID=554-1
+25	un	un	X	_	_	26	reparandum	_	Begin=1455.006|ExtUPOS=DET|Interrupted=Yes|KID=554-1
+26	un	uno	DET	_	Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	27	det	_	KID=554-20
 27	migliaio	migliaio	NOUN	_	Gender=Masc|Number=Sing	21	conj:reform	_	KID=554-2
 28	di	di	ADP	_	_	29	case	_	KID=554-3
 29	anni	anno	NOUN	_	Gender=Masc|Number=Plur	27	nmod	_	KID=554-4
@@ -4850,8 +4850,8 @@
 # text = il il documento dopo che abbiamo nella storia sono gli annali di un altro assiro con un nome impronunciabile che è tiglath-pileser terzo anche qua dove lui se la canta se la suona dice come sono bravo è venu~ son venuti un sacco di sovrani stranieri a portarmi doni offerte perché io sono bellissimo e grande conquistatore
 # text_conversationanalysis = i~ il documento dopo che abbiamo nella storia sono gli annali di un altro ass:iro con un nome impronunciabile che è xxx terzo, | anche qua dove lui se la canta se la suona dice come sono bravo | è venu~ son venuti un sacco di sovrani stranieri a portarmi <doni offerte> perché io sono bellissimo | e grande conquistatore
 # speaker_id = TO017
-1	il	il	X	_	_	2	reparandum	_	Begin=1466.458|ExtUPOS=DET|Interrupted=Yes|KID=558-0
-2	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	KID=558-1
+1	il	il	X	_	_	2	reparandum	_	Begin=1466.458|ExtUPOS=DET|Interrupted=Yes|KID=558-1
+2	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	KID=558-23
 3	documento	documento	NOUN	_	Gender=Masc|Number=Sing	12	nsubj	_	KID=558-2
 4	dopo	dopo	ADV	_	_	3	advmod	_	KID=558-3
 5	che	che	PRON	_	PronType=Rel	6	obj	_	KID=558-4
@@ -4873,8 +4873,8 @@
 20	impronunciabile	impronunciabile	ADJ	_	_	19	amod	_	KID=558-18
 21	che	che	PRON	_	PronType=Rel	23	nsubj	_	KID=558-19
 22	è	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	cop	_	KID=558-20
-23	tiglath-pileser	Tiglath-Pileser	PROPN	_	_	19	acl:relcl	_	KID=558-22
-24	terzo	terzo	NUM	_	_	23	nummod	_	End=1473.637|Intonation=WeaklyRising|KID=558-21
+23	tiglath-pileser	Tiglath-Pileser	PROPN	_	_	19	acl:relcl	_	KID=558-21
+24	terzo	terzo	NUM	_	_	23	nummod	_	End=1473.637|Intonation=WeaklyRising|KID=558-22
 25	anche	anche	ADV	_	_	31	advmod	_	Begin=1474.315|KID=559-0
 26	qua	qua	ADV	_	_	31	advmod	_	KID=559-1
 27	dove	dove	ADV	_	_	31	advmod	_	KID=559-2
@@ -5025,10 +5025,10 @@
 # text_conversationanalysis = ora | xxx | e xxx | sono due parole che avete ancora oggi in arabo | okay,
 # speaker_id = TO017
 1	ora	ora	ADV	_	_	7	discourse	_	Begin=1523.262|End=1523.818|KID=577-0
-2	nāqat	nāqat	X	_	_	7	nsubj	_	Begin=1524.168|End=1525.006|KID=578-0|Lang=ara
+2	nāqat	nāqat	X	_	_	7	nsubj	_	Begin=1524.168|End=1525.006|KID=578-0|Lang=ar
 3	e	e	CCONJ	_	_	4	cc	_	Begin=1525.218|KID=579-0
-4	bakr	bakr	X	_	_	2	conj	_	End=1525.837|KID=579-1|Lang=ara
-5	sono	essere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	Begin=1525.993|KID=580-0
+4	bakr	bakr	X	_	_	2	conj	_	End=1525.837|KID=579-1|Lang=ar
+5	sono	essere	AUX	_	Mood=Ind|Number=Plur<OR>Sing|Person=1<OR>3|Tense=Pres|VerbForm=Fin	7	cop	_	Begin=1525.993|KID=580-0
 6	due	due	NUM	_	NumType=Card	7	nummod	_	KID=580-1
 7	parole	parola	NOUN	_	Gender=Fem|Number=Plur	0	root	_	KID=580-2
 8	che	che	PRON	_	PronType=Rel	9	nsubj	_	KID=580-3
@@ -5043,10 +5043,10 @@
 # text = nāqat cammello femmina bakr vitello di cammello giovane cammello okay
 # text_conversationanalysis = xxx | cammello femmina | xxx | vitello di cammello giovane cammello. | okay,
 # speaker_id = TO017
-1	nāqat	nāqat	X	_	_	0	root	_	Begin=1528.356|End=1529.024|KID=582-0|Lang=ara
+1	nāqat	nāqat	X	_	_	0	root	_	Begin=1528.356|End=1529.024|KID=582-0|Lang=ar
 2	cammello	cammello	NOUN	_	Gender=Masc|Number=Sing	1	xcomp	_	Begin=1529.181|KID=583-0
 3	femmina	femmina	ADJ	_	_	2	amod	_	End=1530.043|KID=583-1
-4	bakr	bakr	X	_	_	1	conj	_	Begin=1530.312|End=1530.887|KID=584-0|Lang=ara
+4	bakr	bakr	X	_	_	1	conj	_	Begin=1530.312|End=1530.887|KID=584-0|Lang=ar
 5	vitello	vitello	NOUN	_	Gender=Masc|Number=Sing	4	xcomp	_	Begin=1531.187|KID=585-0
 6	di	di	ADP	_	_	7	case	_	KID=585-1
 7	cammello	cammello	NOUN	_	Gender=Masc|Number=Sing	5	nmod	_	KID=585-2
@@ -5357,7 +5357,7 @@
 19	moderna	moderno	ADJ	_	Gender=Fem|Number=Sing	18	amod	_	KID=629-4
 20	eh	eh	INTJ	_	_	18	discourse	_	KID=629-5
 21	ragazzi	ragazzo	NOUN	_	Gender=Masc|Number=Plur	18	vocative	_	End=1642.124|Intonation=Falling|KID=629-6
-22	x	x	X	_	_	23	dep	_	Begin=1642.628|End=1643.578|KID=630-0|Unintelligible=Yes
+22	xxx	x	X	_	_	23	dep	_	Begin=1642.628|End=1643.578|KID=630-0|Unintelligible=Yes
 23	stati	stato	NOUN	_	Gender=Masc|Number=Plur	18	conj:reform	_	Begin=1643.974|KID=631-0|PaceFast=Yes
 24	moderni	moderno	ADJ	_	Gender=Masc|Number=Plur	23	amod	_	End=1644.564|KID=631-1|PaceFast=Yes
 25	okay	okay	INTJ	_	_	18	discourse	_	Begin=1645.431|End=1645.65|KID=632-0
@@ -5943,7 +5943,7 @@
 4	questo	questo	PRON	_	Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	KID=718-2
 5	si	si	PRON	_	Clitic=Yes|Person=3|PronType=Prs	6	expl	_	KID=718-3
 6	chiama	chiamare	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=718-4
-7	luban	luban	NOUN	_	_	6	xcomp	_	End=1834.336|Intonation=Falling|KID=718-5|Lang=ara
+7	luban	luban	NOUN	_	_	6	xcomp	_	End=1834.336|Intonation=Falling|KID=718-5|Lang=ar
 8	in	in	ADP	_	_	9	case	_	Begin=1834.521|KID=719-0
 9	arabo	arabo	NOUN	_	Gender=Masc|Number=Sing	6	obl	_	End=1835.176|KID=719-1
 10	che	che	PRON	_	PronType=Rel	13	nsubj	_	Begin=1836.782|KID=720-0
@@ -5988,8 +5988,8 @@
 # text = il il bianco in in generale okay
 # text_conversationanalysis = i~ il bianco. in~ in generale. | okay,
 # speaker_id = TO017
-1	il	il	X	_	_	2	reparandum	_	Begin=1848.807|ExtUPOS=DET|Interrupted=Yes|KID=725-0
-2	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	KID=725-1
+1	il	il	X	_	_	2	reparandum	_	Begin=1848.807|ExtUPOS=DET|Interrupted=Yes|KID=725-1
+2	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	3	det	_	KID=725-6
 3	bianco	bianco	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Intonation=Falling|KID=725-2
 4	in	in	X	_	_	5	reparandum	_	ExtUPOS=ADP|Interrupted=Yes|KID=725-3
 5	in	in	ADP	_	_	6	case	_	KID=725-4
@@ -6003,13 +6003,13 @@
 1	quindi	quindi	CCONJ	_	_	3	cc	_	Begin=1851.509|KID=727-0
 2	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	3	expl	_	KID=727-1|SpaceAfter=No
 3	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	KID=727-2
-4	x	x	X	_	_	3	nsubj	_	KID=727-3|Unintelligible=Yes
+4	xxx	x	X	_	_	3	nsubj	_	KID=727-3|Unintelligible=Yes
 5	quindi	quindi	CCONJ	_	_	7	cc	_	KID=727-4
 6	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	7	expl	_	KID=727-5|SpaceAfter=No
 7	è	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	KID=727-6|Prolonged=Yes
 8	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	reparandum	_	KID=727-7|Prolonged=Yes
 9	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	10	det	_	KID=727-8
-10	x	x	X	_	_	7	nsubj	_	KID=727-9|Unintelligible=Yes
+10	xxx	x	X	_	_	7	nsubj	_	KID=727-9|Unintelligible=Yes
 11	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	12	det	_	KID=727-10
 12	latte	latte	NOUN	_	Gender=Masc|Number=Sing	10	conj:reform	_	End=1856.161|KID=727-11
 13	lo	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	14	det	_	Begin=1856.387|KID=728-0
@@ -8378,7 +8378,7 @@
 22	sirhan	Sirhan	PROPN	_	_	21	flat:name	_	End=2544.425|KID=994-20
 23	credo	credere	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	parataxis:parenth	_	Begin=2549.793|KID=995-0|PauseAfter=Yes
 24	con	con	ADP	_	_	25	case	_	KID=995-2
-25	ḥā	ḥā	X	_	_	23	obl	_	End=2551.828|KID=995-3|Lang=ara
+25	ḥā	ḥā	X	_	_	23	obl	_	End=2551.828|KID=995-3|Lang=ar
 26	in	in	ADP	_	_	27	case	_	Begin=2552.324|KID=996-0
 27	giordania	Giordania	PROPN	_	_	21	nmod	_	End=2553.407|Intonation=WeaklyRising|KID=996-1
 28-29	al	_	_	_	_	_	_	_	Begin=2554.209|KID=997-0
@@ -8450,7 +8450,7 @@
 13	edom	Edom	PROPN	_	_	11	nmod	_	Intonation=WeaklyRising|KID=1005-3
 14	regno	regno	NOUN	_	Gender=Masc|Number=Sing	11	conj	_	KID=1005-5
 15	di	di	ADP	_	_	16	case	_	KID=1005-6
-16	moab	Moab	PROPN	_	_	14	nmod	_	End=2580.951|Intonation=Falling|KID=1005-8
+16	moab	Moab	PROPN	_	_	14	nmod	_	End=2580.951|Intonation=Falling|KID=1005-7
 17	eh	eh	INTJ	_	_	19	discourse:filler	_	Begin=2581.383|End=2581.852|Intonation=WeaklyRising|KID=1006-0|Prolonged=Yes
 18	che	che	PRON	_	PronType=Rel	19	nsubj	_	Begin=2582.531|KID=1007-0
 19	esistevano	esistere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	9	acl:relcl	_	KID=1007-1
@@ -8751,7 +8751,7 @@
 21	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	22	det	_	KID=1043-3b
 22	arabo	arabo	NOUN	_	Gender=Masc|Number=Sing	18	nmod	_	End=2697.779|Intonation=WeaklyRising|KID=1043-4
 23	mh	mh	INTJ	_	_	14	discourse:tag	_	Begin=2698.047|End=2698.426|Intonation=WeaklyRising|KID=1044-0|Prolonged=Yes
-24	al	al	DET	_	_	18	appos	_	KID=1045-0|Lang=ara
+24	al	al	DET	_	_	18	appos	_	KID=1045-0|Lang=ar
 
 # sent_id = TOD1005bis_1046
 # text = le altre lingue che venivano scritte avevano altri articoli
@@ -8776,10 +8776,10 @@
 3	qua	qua	ADV	_	_	2	advmod	_	KID=1047-2
 4	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	KID=1047-3
 5	safaitico	safaitico	NOUN	_	_	2	conj:reform	_	KID=1047-4
-6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	KID=1047-5|SpaceAfter=No
-7	ismaico	ismaico	NOUN	_	_	5	conj	_	KID=1047-6
-8	avevano	avere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	KID=1047-7
-9	aq	aq	NOUN	_	_	8	obj	_	End=2706.109|KID=1047-8
+6	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	7	det	_	KID=1047-8|SpaceAfter=No
+7	ismaico	ismaico	NOUN	_	_	5	conj	_	KID=1047-5
+8	avevano	avere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	KID=1047-6
+9	aq	aq	NOUN	_	_	8	obj	_	End=2706.109|KID=1047-7
 10	avevano	avere	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Imp|VerbForm=Fin	8	conj	_	Begin=2706.251|KID=1048-0
 11	n	n	NOUN	_	_	10	obj	_	End=2707.257|KID=1048-1
 12	non	non	ADV	_	PronType=Neg	13	advmod	_	Begin=2707.474|KID=1049-0
@@ -9305,8 +9305,8 @@
 6	tutta	tutto	DET	_	Gender=Fem|Number=Sing|PronType=Tot	8	det:predet	_	KID=1114-5
 7	questa	questo	DET	_	Gender=Fem|Number=Sing|PronType=Dem	8	det	_	KID=1114-6
 8	storia	storia	NOUN	_	Gender=Fem|Number=Sing	3	conj:reform	_	KID=1114-7
-9	meganoiosa	meganoioso	ADJ	_	_	8	amod	_	KID=1114-10
-10	per	per	ADP	_	_	11	mark	_	KID=1114-8
+9	meganoiosa	meganoioso	ADJ	_	_	8	amod	_	KID=1114-8
+10	per	per	ADP	_	_	11	mark	_	KID=1114-10
 11	dire	dire	VERB	_	VerbForm=Inf	8	advcl	_	KID=1114-11
 12	che	che	SCONJ	_	_	28	mark	_	KID=1114-12
 13	a	a	ADP	_	_	14	case	_	KID=1114-13
