@@ -247,7 +247,7 @@
 1	lei	lei	PRON	_	Number=Sing|Person=3|PronType=Prs	4	nsubj	_	KID=24-7|OverlappingGroup=8
 2	mi	mi	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	4	iobj	_	KID=24-8|OverlappingGroup=8
 3	aveva	avere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	4	aux	_	KID=24-9|OverlappingGroup=8
-4	mandato	mandato	VERB	_	_	_	_	_	KID=24-10|OverlappingGroup=8
+4	mandato	mandato	VERB	_	_	0	root	_	KID=24-10|OverlappingGroup=8
 5	anche	anche	ADV	_	_	4	advmod	_	End=46.346|KID=24-11|Prolonged=Yes
 6	eh	eh	INTJ	_	_	8	discourse:filler	_	Begin=46.806|KID=26-0|Prolonged=Yes|ProsodicLink=Yes
 7	mh	mh	INTJ	_	_	8	discourse:filler	_	End=47.771|KID=26-1
@@ -288,7 +288,7 @@
 2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=29-1|SpaceAfter=No
 3	indice	indice	NOUN	_	Gender=Masc|Number=Sing	1	conj:reform	_	KID=29-2
 4	in	in	ADP	_	_	5	case	_	KID=29-3
-5	realtà	realtà	NOUN	_	Gender=Fem	3	advmod	_	KID=29-4|OverlappingGroup=11
+5	realtà	realtà	NOUN	_	Gender=Fem	3	obl	_	KID=29-4|OverlappingGroup=11
 6	no	no	ADV	_	PronType=Neg	3	advmod	_	Intonation=Falling|KID=29-5|OverlappingGroup=11
 7	però	però	ADV	_	_	3	advmod	_	End=52.395|KID=29-6|Prolonged=Yes
 
@@ -646,7 +646,7 @@
 1	okay	okay	INTJ	_	_	0	root	_	Backchannel=BOA1008_63::10|Begin=127.56|End=127.943|Intonation=Falling|KID=64-0|OverlappingGroup=23|PaceFast=Yes|Volume=low
 
 # sent_id = BOA1008_65
-# text = x deve essere per forza adesso
+# text = xx deve essere per forza adesso
 # text_conversationanalysis = °xx deve essere per forza [(adesso)].°
 # speaker_id = BO036
 1	xx	x	X	_	_	3	dep	_	Begin=128.471|KID=65-0|Volume=low
@@ -697,7 +697,7 @@
 2	mh	mh	INTJ	_	_	1	discourse	_	End=135.968|Intonation=Falling|KID=68-1|OverlappingGroup=26
 
 # sent_id = BOA1008_69
-# text = se il riescono a inserire la tesi il sei o il sette x x in questi giorni
+# text = se il riescono a inserire la tesi il sei o il sette xx xx in questi giorni
 # text_conversationanalysis = se il (.) riescono a inserire la tesi: il sei o il sette xx xx in questi giorni.
 # speaker_id = BO026
 1	se	se	SCONJ	_	_	3	mark	_	Begin=137.796|KID=69-0
