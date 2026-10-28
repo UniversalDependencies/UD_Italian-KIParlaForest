@@ -9498,7 +9498,7 @@
 21	sesto	sesto	DET	_	_	22	amod	_	KID=1140-1
 22	secolo	secolo	NOUN	_	_	28	reparandum	_	End=2940.491|Intonation=WeaklyRising|KID=1140-2
 23-24	nel	_	_	_	_	_	_	_	KID=1141-0
-23	in	in	DET	_	_	28	det	_	Begin=2940.669|KID=1141-0a
+23	in	in	ADP	_	_	28	case	_	Begin=2940.669|KID=1141-0a
 24	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	28	det	_	Begin=2940.669|KID=1141-0b
 25	settimo	settimo	X	_	_	26	reparandum	_	ExtUPOS=DET|Interrupted=Yes|KID=1141-1
 26	sesto	sesto	DET	_	_	28	amod	_	KID=1141-2
