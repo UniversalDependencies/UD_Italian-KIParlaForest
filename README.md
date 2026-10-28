@@ -80,9 +80,11 @@ Other attributes that can be found in MISC:
 
 * `Coconstruct` appears on tokens that attach with a specific syntactic relations to other tokens in the treebank. The value is composed by the syntactic relation, followed by double colons (`::`), followed by the token identifier (again in `[sent_id]::[tok_id]` format) that should act as head for the current token.
 
+For the annotation guidelines on dependencies across speaker turns (coconstructions, wh-question answers, backchannels) see Pannitto, Dobrovoljc Zor, Kahane, Battaglia, Guillaume, Mauri and Zucchini (2026), [Coconstructions in Spoken Data: UD Annotation Guidelines and First Results](https://aclanthology.org/2026.udw-1.4/), in *Proceedings of the Ninth Workshop on Universal Dependencies (UDW 2026)*, pp. 60–75.
+
 ## Morphology
 
-Lemmas and UPOS are manually annotated. Morphological features are assigned automatically by looking up form, lemma and UPOS in a morphological lexicon built from Morph-it! and from the Italian UD treebanks (ISDT, ParlaMint, PoSTWITA); when the lexicon allows more than one analysis, the choice is made with rules based on the syntactic context. Tokens with UPOS `PUNCT`, `INTJ` or `X`, and interrupted words, have no features. `Foreign=Yes` is not used. Following the other Italian treebanks, the lemma of all articles is `il` and the lemma of clitic pronouns is their form (`l'` is `lo`).
+Lemmas and UPOS are manually annotated. Morphological features are assigned automatically by looking up form, lemma and UPOS in a morphological lexicon built from Morph-it! and from the Italian UD treebanks (ISDT, ParlaMint, PoSTWITA), available [here](https://github.com/ellepannitto/morph-it-ud); when the lexicon allows more than one analysis, the choice is made with rules based on the syntactic context. Tokens with UPOS `PUNCT`, `INTJ` or `X`, and interrupted words, have no features. `Foreign=Yes` is not used. Following the other Italian treebanks, the lemma of all articles is `il` and the lemma of clitic pronouns is their form (`l'` is `lo`).
 
 ## Relations
 
@@ -120,7 +122,13 @@ For each **participant**, besides its code, we also provide:
 
 # How to contribute
 
-Data is developed in the `not-to-release` folder, where we keep a file for each conversation. These are then converted into the train/dev/test split through command line, e.g. `cat BOD2018.conllu BOA3017.conllu > ../it_kiparlaforest-ud-test.conllu`
+Data is developed in the `not-to-release` folder, where we keep a file for each conversation. These are then converted into the train/dev/test split through command line. Conversations are never split across files, following the UD guidelines for treebanks with 20K to 110K words (at least 10K words of test, 10% of the remainder as dev, the rest as train):
+
+```
+cat BOA3017.conllu BOD2018.conllu BOA1003.conllu BOA1008.conllu > ../it_kiparlaforest-ud-test.conllu
+cat BOA1009.conllu > ../it_kiparlaforest-ud-dev.conllu
+cat PBB004.conllu TOD1005bis.conllu > ../it_kiparlaforest-ud-train.conllu
+```
 
 You are welcome to contribute through issues or pull requests. In both cases, please do so by linking the files present in the `not-to-release` folder.
 
@@ -159,6 +167,13 @@ You are encouraged to cite this paper if you use the KIParla Forest treebank in 
 
 This work was supported by COST Action CA21167 —Universality, diversity and idiosyncrasy in language technology ([UniDive](https://unidive.lisn.upsaclay.fr/)).
 
+Contributors besides authors:
+
+* Esther Cocco
+* Chiara Felicioni
+* Alessandro Mongardini
+* Teresa Mancini
+
 # Changelog
 
 * 2026-11-15 v2.19
@@ -186,9 +201,9 @@ Genre: spoken
 Lemmas: manual native
 UPOS: manual native
 XPOS: not available
-Features: automatic with corrections
+Features: manual native
 Relations: manual native
-Contributors: Pannitto, Ludovica; Zucchini, Eleonora; Bosco, Cristina; Mauri, Caterina; Sanguinetti, Manuela; Cocco, Esther
+Contributors: Pannitto, Ludovica; Zucchini, Eleonora; Bosco, Cristina; Mauri, Caterina; Sanguinetti, Manuela;
 Contributing: here source
 Contact: ellepannitto@gmail.com
 ===============================================================================
