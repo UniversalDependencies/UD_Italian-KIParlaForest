@@ -309,7 +309,7 @@
 16	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	17	expl	_	Begin=73.436|KID=24-0|SpaceAfter=No
 17	era	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	reparandum	_	KID=24-1|Prolonged=Yes
 18	era	essere	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	21	reparandum	_	KID=24-2
-19	so~	so~	X	_	_	18	advmod	_	ExtLemma=solo|ExtUPOS=ADV|Interrupted=Yes|KID=24-3
+19	so~	so~	X	_	_	18	dep	_	ExtLemma=solo|ExtUPOS=ADV|Interrupted=Yes|KID=24-3
 20	c'	ci	PRON	_	Clitic=Yes|Number=Plur|Person=1|PronType=Prs	21	expl	_	KID=24-4|SpaceAfter=No
 21	era	essere	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Imp|VerbForm=Fin	0	root	_	KID=24-5
 22	solo	solo	ADV	_	_	21	advmod	_	KID=24-6
@@ -606,7 +606,7 @@
 17	e	e	CCONJ	_	_	16	discourse:filler	_	End=164.897|Intonation=WeaklyRising|KID=40-8|Prolonged=Yes
 
 # sent_id = BOD2018_41_42
-# text = okay però comunque è cioè un'atmosfera familiare x
+# text = okay però comunque è cioè un'atmosfera familiare xxxx
 # text_conversationanalysis = okay però comunque: è::, | cioè un' atmosfera familiare [xxxx]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -1913,7 +1913,7 @@
 2	sì	sì	ADV	_	_	0	root	_	End=499.7|Intonation=Falling|KID=127-1
 
 # sent_id = BOD2018_128_129_130_132
-# text = che poi in quella via son tutti uguali cioè io pure tipo x avevo visto una casa quando cercavo casa l'anno scorso e e fuori più o meno son tutti uguali gli edifici in quella via x in quella via
+# text = che poi in quella via son tutti uguali cioè io pure tipo xxx avevo visto una casa quando cercavo casa l'anno scorso e e fuori più o meno son tutti uguali gli edifici in quella via xx in quella via
 # text_conversationanalysis = che poi in quella via son tutti uguali. cioè io pure tipo, | xxx avevo visto una casa: quando cercavo casa:: l' anno scorso, | e:: e fuori più o meno son tutti uguali gli edifici. | [in quella via xx] in quella [via]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -2049,7 +2049,7 @@
 6	diciamo	dire	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	12	discourse	_	KID=138-5
 7	da	da	ADP	_	_	5	fixed	_	KID=138-6|Prolonged=Yes
 8	cioè	cioè	CCONJ	_	_	9	cc	_	KID=138-7
-9	fuori	fuori	ADV	_	_	5	parataxis:parenth	_	KID=138-8
+9	fuori	fuori	ADV	_	_	5	conj:reform	_	KID=138-8
 10	proprio	proprio	ADV	_	_	9	advmod	_	KID=138-9
 11	no	no	ADV	_	PronType=Neg	9	advmod	_	KID=138-10
 12	via	via	ADV	_	_	4	obl	_	KID=138-11
@@ -2235,7 +2235,7 @@
 25	zona	zona	NOUN	_	Gender=Fem|Number=Sing	22	conj	_	End=590.5|Intonation=Falling|KID=152-4
 
 # sent_id = BOD2018_151
-# text = e x
+# text = e xx
 # text_conversationanalysis = e::::: xx
 # speaker_id = BO140
 # conversation_id = BOD2018
@@ -2283,7 +2283,7 @@
 34	centro	centro	NOUN	_	Gender=Masc|Number=Sing	32	obl	_	KID=154-11|Prolonged=Yes
 35	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	36	expl	_	KID=154-12
 36	muovi	muovere	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	41	reparandum	_	KID=154-13
-37	generalmen~	generalmen~	X	_	_	36	advmod	_	ExtLemma=generalmente|ExtUPOS=ADV|Interrupted=Yes|KID=154-14
+37	generalmen~	generalmen~	X	_	_	36	dep	_	ExtLemma=generalmente|ExtUPOS=ADV|Interrupted=Yes|KID=154-14
 38	cioè	cioè	CCONJ	_	_	41	discourse	_	KID=154-15
 39	ti	ti	PRON	_	Clitic=Yes|Number=Sing|Person=2|PronType=Prs	41	expl	_	KID=154-16
 40	devi	dovere	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	41	aux	_	KID=154-17
@@ -2745,7 +2745,7 @@
 16	fase	fase	NOUN	_	Gender=Fem|Number=Sing	8	conj:reform	_	KID=178-14
 17-18	del	_	_	_	_	_	_	_	End=738.77|Intonation=WeaklyRising|KID=178-15
 17	di	di	ADP	_	_	21	case	_	KID=178-15a
-18	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	17	det	_	KID=178-15b
+18	il	il	DET	_	Definite=Def|Gender=Masc|Number=Sing|PronType=Art	21	det	_	KID=178-15b
 19	siamo	essere	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	20	cop	_	Begin=739.211|KID=180-0
 20	tutti	tutto	DET	_	Gender=Masc|Number=Plur|PronType=Tot	21	nsubj	_	KID=180-1
 21	amici	amico	NOUN	_	Gender=Masc|Number=Plur	16	acl	_	End=740.89|Intonation=WeaklyRising|KID=180-2|OverlappingGroup=26|Prolonged=Yes
@@ -3710,7 +3710,7 @@
 1	no	no	ADV	_	PronType=Neg	0	root	_	Begin=944.9|KID=247-0
 2	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	5	nsubj	_	KID=247-1
 3	in	in	ADP	_	_	4	case	_	KID=247-2
-4	realtà	realtà	NOUN	_	Gender=Fem	2	obl	_	KID=247-3
+4	realtà	realtà	NOUN	_	Gender=Fem	1	obl	_	KID=247-3
 5	no	no	ADV	_	PronType=Neg	1	conj:reform	_	End=945.9|Intonation=Falling|KID=247-4
 
 # sent_id = BOD2018_248_249_250a
@@ -4168,7 +4168,7 @@
 33	io	io	PRON	_	Number=Sing|Person=1|PronType=Prs	25	conj	_	End=1070.25|KID=271-31|OverlappingGroup=51|Prolonged=Yes
 
 # sent_id = BOD2018_272
-# text = sì x
+# text = sì xx
 # text_conversationanalysis = [sì xx]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -4523,7 +4523,7 @@
 24	non	non	ADV	_	PronType=Neg	23	advmod	_	End=1156.7|KID=291-5|OverlappingGroup=57|Prolonged=Yes
 
 # sent_id = BOD2018_292_293_294
-# text = ma in realtà anch'io a [TOWN_NAME] cioè non ho ricordi che uscissi a [TOWN_NAME] o a [TOWN_NAME] con i miei forse x più nel paesino nostro ma sempre solite cose
+# text = ma in realtà anch'io a [TOWN_NAME] cioè non ho ricordi che uscissi a [TOWN_NAME] o a [TOWN_NAME] con i miei forse xx più nel paesino nostro ma sempre solite cose
 # text_conversationanalysis = [ma] in realtà anch' io a @nomepaese. | cioè non ho ricordi che uscissi a @nomepaese o a @nomepaese con i miei | forse xx più nel paesi:no nostro::, [ma sem]pre solite co::se:,
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -4641,7 +4641,7 @@
 14	nulla	nulla	NOUN	_	_	13	obj	_	End=1191.7|Intonation=Falling|KID=297-13
 
 # sent_id = BOD2018_298_300
-# text = eh ma infatti è strano cioè comunque è un polo universitario grosso cioè ci viene gente dal sud veramente x x
+# text = eh ma infatti è strano cioè comunque è un polo universitario grosso cioè ci viene gente dal sud veramente xx xxx
 # text_conversationanalysis = eh ma infatti è stra:no cioè comunque è un polo universitario grosso | cioè ci viene gente dal su:d veramente: [xx xxx]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -4797,7 +4797,7 @@
 1	sì	sì	ADV	_	_	0	root	_	Begin=1232.73|End=1233.328|Intonation=Rising|KID=307-0|OverlappingGroup=60
 
 # sent_id = BOD2018_308_310_311
-# text = sì l'università organizzava dei concerti e lasciavano molto più liberi gli universitari di esprimersi e anche a livello proprio organizzativo mentre adesso gli stanno tagliando le gambe ovunque a chiunque e non c'è più niente quindi x
+# text = sì l'università organizzava dei concerti e lasciavano molto più liberi gli universitari di esprimersi e anche a livello proprio organizzativo mentre adesso gli stanno tagliando le gambe ovunque a chiunque e non c'è più niente quindi xx
 # text_conversationanalysis = sì [l' uni]versità organizzava dei concerti e lasciavano mo:lto più liberi gli universitari di esprimersi e anche a livello proprio organizzativo | mentre adesso gli stanno tagliando le gambe ovu:nque: a chiu:nque e: non c' è più niente. | quindi: [xx]
 # speaker_id = BO140
 # conversation_id = BOD2018
@@ -4932,7 +4932,7 @@
 56	forza	forza	NOUN	_	Gender=Fem|Number=Sing	54	obl	_	End=1268.36|Intonation=Falling|KID=315-5|Prolonged=Yes
 
 # sent_id = BOD2018_316_318
-# text = e non è una città vic~ che è vicino a tante possibilità cioè la vi~ cioè la città più gran~ più grande x diciamo più vicina che è leggermente più grande è pesaro ma comunque sia prendi la macchina per andare a pesaro ci metti tre quarti d'ora
+# text = e non è una città vic~ che è vicino a tante possibilità cioè la vi~ cioè la città più gran~ più grande xxx diciamo più vicina che è leggermente più grande è pesaro ma comunque sia prendi la macchina per andare a pesaro ci metti tre quarti d'ora
 # text_conversationanalysis = e non è una città: vic~ che è vicino a tante possibilità: cioè la vi~ cioè la città più gran~ più grande xxx diciamo più vicina che è leggermente più grande è pe:saro. | ma comunque si:a prendi la macchina per andare a pesaro ci metti tre quarti d' o:ra.
 # speaker_id = BO140
 # conversation_id = BOD2018
@@ -5454,7 +5454,7 @@
 7	siano	essere	VERB	_	Mood=Sub|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	3	ccomp	_	KID=354-6|Prolonged=Yes
 8	però	però	CCONJ	_	_	9	cc	_	End=1399.72|Intonation=WeaklyRising|KID=354-7
 9	centomila	centomila	NUM	_	NumType=Card	7	conj	_	Begin=1401.315|KID=356-0|OverlappingGroup=68|Prolonged=Yes
-10	perlom~	perlom~	X	_	_	9	advmod	_	End=1402.57|ExtUPOS=ADV|Interrupted=Yes|KID=356-1|OverlappingGroup=68
+10	perlom~	perlom~	X	_	_	9	dep	_	End=1402.57|ExtUPOS=ADV|Interrupted=Yes|KID=356-1|OverlappingGroup=68
 
 # sent_id = BOD2018_355a
 # text = non lo so no~
@@ -5602,7 +5602,7 @@
 26	niente	niente	PRON	_	PronType=Ind	24	obj	_	KID=365-29
 
 # sent_id = BOD2018_365c_366_367
-# text = invece pesaro x la gente continua a anzi torna perché è una città in cui stai bene
+# text = invece pesaro xx la gente continua a anzi torna perché è una città in cui stai bene
 # text_conversationanalysis = invece:, | pe:saro xx la gente continua a: anzi to:rna | perché è una città in cui stai bene.
 # speaker_id = BO140
 # conversation_id = BOD2018
@@ -5936,7 +5936,7 @@
 6	fermo	Fermo	PROPN	_	_	4	nmod	_	End=1498.59|Intonation=Falling|KID=387-5
 
 # sent_id = BOD2018_388_389
-# text = però a fermo non c'è niente cioè x x
+# text = però a fermo non c'è niente cioè xxx xxxxx
 # text_conversationanalysis = però: a fermo non c' è niente. | cioè::: [xxx xxxxx]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -6198,7 +6198,7 @@
 2	ancona	Ancona	PROPN	_	_	11	dislocated	_	KID=408-1|OverlappingGroup=79|Prolonged=Yes
 3	pure	pure	ADV	_	_	5	advmod	_	KID=408-2
 4	a	a	ADP	_	_	5	case	_	KID=408-3
-5	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	_	_	_	KID=408-4
+5	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	dislocated	_	KID=408-4
 6	me	me	PRON	_	Clitic=Yes|Number=Sing|Person=1|PronType=Prs	11	iobj	_	KID=408-5
 7	l'	lo	PRON	_	Clitic=Yes|Number=Sing|Person=3|PronType=Prs	11	obj	_	KID=408-6|SpaceAfter=No
 8	hanno	avere	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	aux	_	KID=408-7
@@ -6550,7 +6550,7 @@
 18	architettura	architettura	NOUN	_	Gender=Fem|Number=Sing	15	parataxis	_	End=1617.81|KID=425-17|OverlappingGroup=86|Prolonged=Yes
 
 # sent_id = BOD2018_426
-# text = cioè x
+# text = cioè xx
 # text_conversationanalysis = [cioè xx]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -6668,7 +6668,7 @@
 23	cavallo	cavallo	NOUN	_	Gender=Masc|Number=Sing	21	nmod	_	End=1644.22|Intonation=WeaklyRising|KID=432-22
 
 # sent_id = BOD2018_433a
-# text = e x quella è un po' più particolare rispetto alle altr~ altri edifici
+# text = e xx quella è un po' più particolare rispetto alle altr~ altri edifici
 # text_conversationanalysis = e xx quella è un po' più particolare rispetto a::lle altr~ altri edifici
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -6702,7 +6702,7 @@
 7	molto	molto	ADV	_	_	6	advmod	_	End=1650.6|Intonation=WeaklyRising|KID=433-19|Prolonged=Yes
 
 # sent_id = BOD2018_434
-# text = penso sia anni settanta x
+# text = penso sia anni settanta xx
 # text_conversationanalysis = penso sia anni settanta [xx]
 # speaker_id = BO118
 # conversation_id = BOD2018
@@ -6755,7 +6755,7 @@
 5	comunque	comunque	ADV	_	_	4	advmod	_	End=1661.72|Intonation=Falling|KID=438-4
 
 # sent_id = BOD2018_439
-# text = x devo andare a
+# text = xx devo andare a
 # text_conversationanalysis = xx devo andare: a,
 # speaker_id = BO140
 # conversation_id = BOD2018
