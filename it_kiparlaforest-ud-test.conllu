@@ -11754,7 +11754,7 @@
 # text_conversationanalysis = [esatto].
 # speaker_id = BO118
 # conversation_id = BOD2018
-1	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Begin=797.76|End=798.57|Intonation=Falling|KID=196-0|OverlappingGroup=32
+1	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Backchannel=BOD2018_195::11|Begin=797.76|End=798.57|Intonation=Falling|KID=196-0|OverlappingGroup=32
 
 # sent_id = BOD2018_198
 # text = sì sì no per quello sì
