@@ -1328,7 +1328,7 @@
 # text = mh
 # text_conversationanalysis = [mh]
 # speaker_id = BOI012
-1	mh	mh	INTJ	_	_	0	root	_	Backchannel=PBB004_144_PBB004_146_147_PBB004_148::4|Begin=258.105|End=258.505|KID=145-0|OverlappingGroup=34
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=PBB004_144_146_147_148::4|Begin=258.105|End=258.505|KID=145-0|OverlappingGroup=34
 
 # sent_id = PBB004_149
 # text = uh vuole qualcosa signora

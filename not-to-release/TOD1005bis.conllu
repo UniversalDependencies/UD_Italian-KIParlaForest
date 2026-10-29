@@ -2790,7 +2790,7 @@
 # text = dieci
 # text_conversationanalysis = dieci.
 # speaker_id = ???
-1	dieci	dieci	NUM	_	NumType=Card	0	root	_	Backchannel=TOD1005bis_333_334_336_337_338_339::4|Begin=816.974|End=817.459|Intonation=Falling|KID=335-0
+1	dieci	dieci	NUM	_	NumType=Card	0	root	_	Coconstruct=conj:reform::TOD1005bis_333_336_337_338_339::4|Begin=816.974|End=817.459|Intonation=Falling|KID=335-0
 
 # sent_id = TOD1005bis_340_341
 # text = cioè la corrispondenza col calendario islamico okay

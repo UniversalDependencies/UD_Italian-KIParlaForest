@@ -1165,7 +1165,7 @@
 20	bocca	bocca	NOUN	_	Gender=Fem|Number=Sing	17	nmod	_	KID=145-3|OverlappingGroup=21|Prolonged=Yes|ProsodicLink=Yes
 21	mh	mh	INTJ	_	_	6	discourse	_	End=223.403|KID=145-4
 
-# sent_id = BOA3017_144_147_148_149_150_153_
+# sent_id = BOA3017_144_147_148_149_150_153
 # text = quindi il problema è che a volte cioè più che altro per la mh lì devi anche tipo x devi anche vedere la parte video quando farli comparire se farli scorrere quando cambiare nelle frasi lunghe
 # text_conversationanalysis = quelli il problema è che a volte | >cioè< più che altro per la mh | lì devi anche tipo x devi anche vedere la parte video | quando [farli compa]rire | [se] farli scorrere, quando cambiare nelle frasi lunghe
 # speaker_id = BO139
@@ -1225,7 +1225,7 @@
 # text_conversationanalysis = [mh]
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_144_147_148_149_150_153_::31|Begin=232.973|End=233.383|KID=151-0|OverlappingGroup=22
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_144_147_148_149_150_153::31|Begin=232.973|End=233.383|KID=151-0|OverlappingGroup=22
 
 # sent_id = BOA3017_152
 # text = eh esatto
@@ -3511,7 +3511,7 @@
 # text_conversationanalysis = mh
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017::BOA3017_471_473_475_478::5|Begin=697.542|End=697.872|KID=472-0
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_471_473_475_478::5|Begin=697.542|End=697.872|KID=472-0
 
 # sent_id = BOA3017_474
 # text = mangiato un bel po' eh
@@ -3537,7 +3537,7 @@
 # text_conversationanalysis = ([m:h)]
 # speaker_id = BO147
 # conversation_id = BOA3017
-1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017::BOA3017_471_473_475_478::15|Begin=702.782|End=703.522|KID=479-0|OverlappingGroup=80|Prolonged=Yes
+1	mh	mh	INTJ	_	_	0	root	_	Backchannel=BOA3017_471_473_475_478::15|Begin=702.782|End=703.522|KID=479-0|OverlappingGroup=80|Prolonged=Yes
 
 # sent_id = BOA3017_480
 # text = da' okay

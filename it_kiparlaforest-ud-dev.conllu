@@ -215,7 +215,7 @@
 1-2	dei	_	_	_	_	_	_	_	Begin=49.55|KID=15-0|OverlappingGroup=3
 1	di	di	ADP	_	_	3	case	_	KID=15-0a
 2	i	il	DET	_	Definite=Def|Gender=Masc|Number=Plur|PronType=Art	3	det	_	KID=15-0b
-3	bambini	bambino	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Coconstruct=conj:reform:14-6|KID=15-1|OverlappingGroup=3
+3	bambini	bambino	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Coconstruct=conj:reform::BOA1009_14_16::8|KID=15-1|OverlappingGroup=3
 4	udenti	udente	ADJ	_	_	3	amod	_	End=50.984|Intonation=WeaklyRising|KID=15-2|OverlappingGroup=4
 
 # sent_id = BOA1009_17
@@ -548,7 +548,7 @@
 3	x	x	X	_	_	6	dep	_	KID=45-2
 4	non	non	ADV	_	PronType=Neg	6	advmod	_	KID=45-3
 5	la	il	DET	_	Definite=Def|Gender=Fem|Number=Sing|PronType=Art	6	det	_	KID=45-4|Prolonged=Yes
-6	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_37::7|End=104.299|Intonation=Falling|KID=45-5
+6	sì	sì	ADV	_	_	0	root	_	End=104.299|Intonation=Falling|KID=45-5
 
 # sent_id = BOA1009_46_48_50
 # text = diciamo che come materiali sulla lingua dei segni eccetera sono coperta perché comunque sia la professoressa rossi che la professoressa verdi sia la mia scuola della lingua dei segni qua a bologna mi possono dare una mano quindi comunque materliali bibliografie cose
@@ -698,7 +698,7 @@
 # text = sì
 # text_conversationanalysis = [sì].
 # speaker_id = BO026
-1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_55_57::3|Begin=131.253|End=131.576|Intonation=Falling|KID=56-0|OverlappingGroup=28
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_52_55_57::21|Begin=131.253|End=131.576|Intonation=Falling|KID=56-0|OverlappingGroup=28
 
 # sent_id = BOA1009_58_60
 # text = ci sono dei lavori sui bambini sulla mediazione dei bambini da parte dei bambini
@@ -928,7 +928,7 @@
 6	ho	avere	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	KID=78-1
 7	sentito	sentire	VERB	_	Gender=Masc|Number=Sing|Tense=Past|VerbForm=Part	3	conj:reform	_	KID=78-2|OverlappingGroup=41
 8	parlare	parlare	VERB	_	VerbForm=Inf	7	csubj	_	KID=78-3|OverlappingGroup=41
-9	sì	sì	ADV	_	_	7	advmod	_	Backchannel=BOA1009_46::5|End=181.942|Intonation=Falling|KID=78-4|OverlappingGroup=41
+9	sì	sì	ADV	_	_	7	advmod	_	End=181.942|Intonation=Falling|KID=78-4|OverlappingGroup=41
 
 # sent_id = BOA1009_79
 # text = cioè i bambini compagni dei bambini non udenti che hanno imparato e ora comunicano mh
@@ -1936,7 +1936,7 @@
 # text = sì
 # text_conversationanalysis = [sì].
 # speaker_id = BO037
-1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_154_156::2|Begin=387.255|End=387.683|Intonation=Falling|KID=155-0|OverlappingGroup=81
+1	sì	sì	ADV	_	_	0	root	_	Backchannel=BOA1009_154_157::2|Begin=387.255|End=387.683|Intonation=Falling|KID=155-0|OverlappingGroup=81
 
 # sent_id = BOA1009_156_158
 # text = e volevo anche mettermi in contatto sia con il cnr che con l'istituto statale sordi che se non lo chiudono a breve perché purtroppo sono un po' così ehm

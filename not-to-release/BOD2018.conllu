@@ -3005,8 +3005,8 @@
 17	momenti	momento	NOUN	_	Gender=Masc|Number=Plur	14	obl	_	End=795.63|KID=194-16|OverlappingGroup=31
 
 # sent_id = BOD2018_195
-# text = sì di stare da sola di non parla~ di non vedere in faccia nessuno di di stare per
-# text_conversationanalysis = [sì di stare da so:la di non] parla~ di non vedere in faccia [nessuno] di:: di stare per::,
+# text = sì di stare da sola di non parla~ di non vedere in faccia nessuno di di stare per fatti suoi
+# text_conversationanalysis = [sì di stare da so:la di non] parla~ di non vedere in faccia [nessuno] di:: di stare per::, | fatti suoi.
 # speaker_id = BO140
 # conversation_id = BOD2018
 1	sì	sì	ADV	_	_	0	root	_	Begin=794.208|KID=195-0|OverlappingGroup=31
@@ -3026,7 +3026,9 @@
 15	di	di	ADP	_	_	16	reparandum	_	KID=195-14|Prolonged=Yes
 16	di	di	ADP	_	_	17	mark	_	KID=195-15
 17	stare	stare	VERB	_	VerbForm=Inf	1	conj	_	KID=195-16
-18	per	per	ADP	_	_	17	case	_	Coconstruct=BOD2018_197::1|End=799.55|Intonation=WeaklyRising|KID=195-17|Prolonged=Yes
+18	per	per	ADP	_	_	19	case	_	End=799.55|Intonation=WeaklyRising|KID=195-17|Prolonged=Yes
+19	fatti	fatto	NOUN	_	Gender=Masc|Number=Plur	17	obl	_	Begin=799.709|Coconstruct=obl::BOD2018_195::17|KID=197-0
+20	suoi	suo	ADJ	_	_	19	amod	_	End=800.459|Intonation=Falling|KID=197-1
 
 # sent_id = BOD2018_196
 # text = esatto
@@ -3034,14 +3036,6 @@
 # speaker_id = BO118
 # conversation_id = BOD2018
 1	esatto	esatto	ADJ	_	Gender=Masc|Number=Sing	0	root	_	Begin=797.76|End=798.57|Intonation=Falling|KID=196-0|OverlappingGroup=32
-
-# sent_id = BOD2018_197
-# text = fatti suoi
-# text_conversationanalysis = fatti suoi.
-# speaker_id = BO140
-# conversation_id = BOD2018
-1	fatti	fatto	NOUN	_	Gender=Masc|Number=Plur	0	root	_	Begin=799.709|Coconstruct=obl::BOD2018_195::17|KID=197-0
-2	suoi	suo	ADJ	_	_	1	amod	_	End=800.459|Intonation=Falling|KID=197-1
 
 # sent_id = BOD2018_198
 # text = sì sì no per quello sì

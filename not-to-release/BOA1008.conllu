@@ -284,7 +284,7 @@
 # text = no l'indice in realtà no però
 # text_conversationanalysis = no l' indice in realt[à no]. però:
 # speaker_id = BO036
-1	no	no	ADV	_	PronType=Neg	0	root	_	Backchannel=BOA1008_28::1|Begin=50.686|KID=29-0
+1	no	no	ADV	_	PronType=Neg	0	root	_	Begin=50.686|KID=29-0
 2	l'	il	DET	_	Definite=Def|Number=Sing|PronType=Art	3	det	_	KID=29-1|SpaceAfter=No
 3	indice	indice	NOUN	_	Gender=Masc|Number=Sing	1	conj:reform	_	KID=29-2
 4	in	in	ADP	_	_	5	case	_	KID=29-3
