@@ -60,6 +60,24 @@
       "speaker_occupation": "0-Students",
       "speaker_region": "marche"
     },
+    "BOI012": {
+      "speaker_sex": "male",
+      "speaker_age_range": "56-60",
+      "speaker_occupation": "7-Plant-Operators",
+      "speaker_region": "emilia-romagna"
+    },
+    "BOI013": {
+      "speaker_sex": "female",
+      "speaker_age_range": "56-60",
+      "speaker_occupation": "3-Technicians",
+      "speaker_region": "calabria"
+    },
+    "BOR005": {
+      "speaker_sex": "male",
+      "speaker_age_range": "21-25",
+      "speaker_occupation": "0-Students",
+      "speaker_region": "marche"
+    },
     "TO017": {
       "speaker_sex": "male",
       "speaker_age_range": "31-35",
@@ -138,6 +156,21 @@
       "moderator": true,
       "topic": "fixed",
       "year": 2018,
+      "collection_point": "BO"
+    },
+    "PBB004": {
+      "type": "semistructured-interview",
+      "duration": "00:35:54",
+      "participants_number": 3,
+      "participants": [
+        "BOR005",
+        "BOI012",
+        "BOI013"
+      ],
+      "participants_relationship": "asymmetric",
+      "moderator": true,
+      "topic": "fixed",
+      "year": 2021,
       "collection_point": "BO"
     },
     "TOD1005bis": {
