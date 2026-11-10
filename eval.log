@@ -1,62 +1,98 @@
 Running the following version of UD tools:
-commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
+commit 59781c63b5b1c2ba74cd2b965d93f371e1c9d36a
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 5 17:01:41 2026 +0200
+Date:   Tue Nov 10 13:08:27 2026 +0100
 Evaluating the following revision of UD_Italian-KIParlaForest:
-commit b9485cf990e3ccf4c370a131d29054ad669c9c01
-Merge: 02e6be2 a7f890b
+commit 6b50d2c63776630e6c96922fcea708b5e5ab84d8
+Merge: a903b39 5ec004b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'it_kiparlaforest'
 Language code (from CoNLL-U file name) = 'it'
-Found the following data files: it_kiparlaforest-ud-test.conllu
-Size: counted 18680 of 18680 words (nodes).
-Size: min(0, log((N/1000)**2)) = 5.85490686560139.
+Found the following data files: it_kiparlaforest-ud-dev.conllu, it_kiparlaforest-ud-test.conllu, it_kiparlaforest-ud-train.conllu
+Size: counted 24704 of 24704 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.41393034768473.
 Size: maximum value 13.815511 is for 1000000 words or more.
-Split: Did not find more than 10000 training words.
+Split: Found more than 10000 training words.
 Split: Did not find at least 10000 development words.
 Split: Found at least 10000 test words.
 Lemmas: source of annotation (from README) factor is 1.
 Universal POS tags: 16 out of 17 found in the corpus.
 Universal POS tags: source of annotation (from README) factor is 1.
-Features: 11741 out of 18680 total words have one or more features.
-Features: source of annotation (from README) factor is 0.5.
+Features: 14761 out of 24704 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
+/net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-KIParlaForest/it_kiparlaforest-ud-dev.conllu
+[Line 279 Sent BOA1009_21_23]: [L3 WARNING pron-det-without-prontype] The word 'cui' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1137 Sent BOA1009_94b]: [L3 WARNING fixed-without-extpos] Fixed expression 'in quanto di' does not have the 'ExtPos' feature
+[Line 1420 Sent BOA1009_116a]: [L3 WARNING pron-det-without-prontype] The word 'cui' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1475 Sent BOA1009_119]: [L3 WARNING fixed-without-extpos] Fixed expression 'a patto che' does not have the 'ExtPos' feature
+[Line 1828 Sent BOA1009_148b]: [L3 WARNING fixed-without-extpos] Fixed expression 'a confronto con' does not have the 'ExtPos' feature
+[Line 2016 Sent BOA1009_162b]: [L3 WARNING fixed-without-extpos] Fixed expression 'via via' does not have the 'ExtPos' feature
+[Line 2146 Sent BOA1009_173]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie mille' does not have the 'ExtPos' feature
+[Line 2173 Sent BOA1009_177]: [L3 WARNING fixed-without-extpos] Fixed expression 'grazie mille' does not have the 'ExtPos' feature
+Warnings: 8
+*** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-KIParlaForest/it_kiparlaforest-ud-test.conllu
-[Line 2051 Sent BOD2018_138_139]: [L3 WARNING fixed-gap] Gaps in fixed expression [5, 7] 'fuori * da'
-[Line 7282 Sent BOA3017_46]: [L3 WARNING fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
-[Line 8051 Sent BOA3017_139_140_141]: [L3 WARNING fixed-without-extpos] Fixed expression 'in il senso che' does not have the 'ExtPos' feature
-[Line 9121 Sent BOA3017_276]: [L3 WARNING fixed-without-extpos] Fixed expression 'a parte che' does not have the 'ExtPos' feature
-[Line 10556 Sent BOA3017_488]: [L3 WARNING fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
-[Line 12182 Sent BOA3017_691]: [L3 WARNING fixed-without-extpos] Fixed expression 'solo che' does not have the 'ExtPos' feature
-[Line 12191 Sent BOA3017_691]: [L3 WARNING fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
-[Line 12560 Sent BOA3017_754_756_757]: [L3 WARNING fixed-without-extpos] Fixed expression 'a parte' does not have the 'ExtPos' feature
-[Line 13445 Sent BOA3017_911]: [L3 WARNING fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
-[Line 14916 Sent BOA3017_1087_1091]: [L3 WARNING fixed-without-extpos] Fixed expression 'da quando' does not have the 'ExtPos' feature
-...suppressing further messages regarding WARNING/SYNTAX
-[Line 18903 Sent BOA1009_147_148]: [L3 WARNING pron-det-without-prontype] The word 'dei' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 19014 Sent BOA1009_154_157]: [L3 WARNING pron-det-without-prontype] The word 'delle' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 21214 Sent TOD1005bis_190_191_192]: [L3 WARNING pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 21822 Sent TOD1005bis_246a]: [L3 WARNING pron-det-without-prontype] The word 'che' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 22120 Sent TOD1005bis_279]: [L3 WARNING pron-det-without-prontype] The word 'che' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 22780 Sent TOD1005bis_342b]: [L3 WARNING pron-det-without-prontype] The word 'prima' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 22838 Sent TOD1005bis_346_347]: [L3 WARNING pron-det-without-prontype] The word 'primi' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 23068 Sent TOD1005bis_368]: [L3 WARNING pron-det-without-prontype] The word 'primo' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 23096 Sent TOD1005bis_369_370]: [L3 WARNING pron-det-without-prontype] The word 'prima' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 23211 Sent TOD1005bis_384_385_386]: [L3 WARNING pron-det-without-prontype] The word 'prima' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 332 Sent BOA3017_46]: [L3 WARNING fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
+[Line 729 Sent BOA3017_94_95]: [L3 WARNING pron-det-without-prontype] The word 'una' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1107 Sent BOA3017_140_141]: [L3 WARNING fixed-without-extpos] Fixed expression 'in il senso che' does not have the 'ExtPos' feature
+[Line 1445 Sent BOA3017_172_173_174_175_176]: [L3 WARNING pron-det-without-prontype] The word 'you' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 1445 Sent BOA3017_172_173_174_175_176]: [L3 WARNING flat-foreign-upos-feats] The child of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 1444 Sent BOA3017_172_173_174_175_176]: [L3 WARNING flat-foreign-upos-feats] The parent of a flat:foreign relation should have UPOS X and Foreign=Yes (but no other features).
+[Line 2199 Sent BOA3017_276]: [L3 WARNING fixed-without-extpos] Fixed expression 'a parte che' does not have the 'ExtPos' feature
+[Line 2251 Sent BOA3017_285_286_287]: [L3 WARNING fixed-without-extpos] Fixed expression 'visto che' does not have the 'ExtPos' feature
+[Line 2747 Sent BOA3017_357_358_359_360]: [L3 WARNING pron-det-without-prontype] The word ''sta' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 3046 Sent BOA3017_405]: [L3 WARNING pron-det-without-prontype] The word 'u' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 3630 Sent BOA3017_488]: [L3 WARNING fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
+[Line 4564 Sent BOA3017_620]: [L3 WARNING pron-det-without-prontype] The word 'io' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4565 Sent BOA3017_620]: [L3 WARNING pron-det-without-prontype] The word 'ti' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 4605 Sent BOA3017_623]: [L3 WARNING pron-det-without-prontype] The word 'glie' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 5292 Sent BOA3017_691]: [L3 WARNING fixed-without-extpos] Fixed expression 'fino a' does not have the 'ExtPos' feature
+[Line 5621 Sent BOA3017_743]: [L3 WARNING pron-det-without-prontype] The word 'glie' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 5667 Sent BOA3017_754_756_757]: [L3 WARNING fixed-without-extpos] Fixed expression 'a parte' does not have the 'ExtPos' feature
 ...suppressing further messages regarding WARNING/MORPHO
-Warnings: 73
+[Line 6558 Sent BOA3017_911]: [L3 WARNING fixed-without-extpos] Fixed expression 'se no' does not have the 'ExtPos' feature
+[Line 8041 Sent BOA3017_1087]: [L3 WARNING fixed-without-extpos] Fixed expression 'da quando' does not have the 'ExtPos' feature
+[Line 8066 Sent BOA3017_1091]: [L3 WARNING fixed-without-extpos] Fixed expression 'su di' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 43
+*** PASSED ***
+/net/work/people/zeman/unidep/tools/validate.py --lang it --max-err=10 UD_Italian-KIParlaForest/it_kiparlaforest-ud-train.conllu
+[Line 21 Sent PBB004_1]: [L4 WARNING unknown-lang] Language [und] is unknown in Universal Dependencies.
+[Line 22 Sent PBB004_1]: [L4 WARNING unknown-lang] Language [und] is unknown in Universal Dependencies.
+[Line 23 Sent PBB004_1]: [L4 WARNING unknown-lang] Language [und] is unknown in Universal Dependencies.
+[Line 1355 Sent PBB004_150b]: [L4 WARNING unknown-lang] Language [und] is unknown in Universal Dependencies.
+[Line 1356 Sent PBB004_150b]: [L4 WARNING unknown-lang] Language [und] is unknown in Universal Dependencies.
+[Line 1355 Sent PBB004_150b]: [L3 WARNING pron-det-without-prontype] The word 'sa' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 10298 Sent TOD1005bis_30]: [L3 WARNING pron-det-without-prontype] The word 'lui' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 10741 Sent TOD1005bis_76_77_78]: [L3 WARNING pron-det-without-prontype] The word 'l' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11197 Sent TOD1005bis_144_145]: [L3 WARNING fixed-without-extpos] Fixed expression 'posto che' does not have the 'ExtPos' feature
+[Line 11337 Sent TOD1005bis_156_157_158_159_160]: [L3 WARNING fixed-without-extpos] Fixed expression 'invece di' does not have the 'ExtPos' feature
+[Line 11474 Sent TOD1005bis_175_176_177_178_179_180]: [L3 WARNING fixed-without-extpos] Fixed expression 'invece di' does not have the 'ExtPos' feature
+[Line 11742 Sent TOD1005bis_208_209_210_211_212_213]: [L3 WARNING pron-det-without-prontype] The word 'de' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 11788 Sent TOD1005bis_215_216_217_218]: [L3 WARNING fixed-without-extpos] Fixed expression 'come mai' does not have the 'ExtPos' feature
+[Line 12247 Sent TOD1005bis_272_273]: [L3 WARNING pron-det-without-prontype] The word 'lui' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 12363 Sent TOD1005bis_283_284_285_286]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 13280 Sent TOD1005bis_389_390]: [L3 WARNING fixed-without-extpos] Fixed expression 'da dove' does not have the 'ExtPos' feature
+[Line 13645 Sent TOD1005bis_419c]: [L3 WARNING fixed-without-extpos] Fixed expression 'anche se' does not have the 'ExtPos' feature
+[Line 13965 Sent TOD1005bis_445_446_447_448_449_450_451_452_453_454]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima che' does not have the 'ExtPos' feature
+[Line 14712 Sent TOD1005bis_530]: [L3 WARNING fixed-without-extpos] Fixed expression 'a che' does not have the 'ExtPos' feature
+[Line 14869 Sent TOD1005bis_547_548_549_550_551_552_553_554_555_556_557]: [L3 WARNING fixed-without-extpos] Fixed expression 'prima di' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+Warnings: 81
 *** PASSED ***
 Validity: 1
-(weight=0.111111111111111) * (score{features}=0.5) = 0.0555555555555556
+(weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
 (weight=0.111111111111111) * (score{genres}=0.0555555555555556) = 0.00617283950617284
 (weight=0.111111111111111) * (score{lemmas}=1) = 0.111111111111111
-(weight=0.37037037037037) * (score{size}=0.423792290631358) = 0.156960107641244
-(weight=0.0740740740740741) * (score{split}=0.34) = 0.0251851851851852
+(weight=0.37037037037037) * (score{size}=0.464255759551881) = 0.171946577611808
+(weight=0.0740740740740741) * (score{split}=0.67) = 0.0496296296296296
 (weight=0.111111111111111) * (score{tags}=0.941176470588235) = 0.104575163398693
 (weight=0.111111111111111) * (score{udeprels}=0.891891891891892) = 0.0990990990990991
-(TOTAL score=0.55865906149706) * (availability=1) * (validity=1) = 0.55865906149706
-STARS = 3
-UD_Italian-KIParlaForest	0.55865906149706	3
+(TOTAL score=0.653645531467624) * (availability=1) * (validity=1) = 0.653645531467624
+STARS = 3.5
+UD_Italian-KIParlaForest	0.653645531467624	3.5
